@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220">
-  <path d="M 80.000 10.000 L 0.000 220.000 L 320.000 150.000 L 210.000 0.000 L 140.000 30.000 L 80.000 10.000 Z" fill="#303030" stroke="#808080" stroke-width="1" vector-effect="non-scaling-stroke"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="370" viewBox="0 0 540 370">
+  <polygon points="170.000,0.000 0.000,310.000 500.000,370.000 540.000,230.000" fill="#303030" stroke="#808080" stroke-width="1" vector-effect="non-scaling-stroke"/>
 </svg>

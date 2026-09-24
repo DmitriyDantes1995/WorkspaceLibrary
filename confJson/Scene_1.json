@@ -1,0 +1,413 @@
+{
+    "EngineRpmIndicator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/EngineRpmIndicator/EngineRpmIndicator.qml",
+            "customProperties": {
+                "n1InputMax": 360,
+                "n1InputMin": 0,
+                "n1MappingMode": "Linear",
+                "n1MappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 360
+                    }
+                ],
+                "n1OutputMaxAngle": 360,
+                "n1OutputMinAngle": 0,
+                "n1Value": 0,
+                "n1_rotation": 0,
+                "n2InputMax": 360,
+                "n2InputMin": 0,
+                "n2MappingMode": "Linear",
+                "n2MappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 360
+                    }
+                ],
+                "n2OutputMaxAngle": 360,
+                "n2OutputMinAngle": 0,
+                "n2Value": 0,
+                "n2_rotation": 0
+            },
+            "gaugeInstanceOverride": false,
+            "height": 261.2107367218732,
+            "locked": false,
+            "name": "EngineRpmIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "EngineRpmIndicator",
+            "type": "EngineRpmIndicator",
+            "width": 270,
+            "x": 310,
+            "y": 170,
+            "z": 0
+        }
+    ],
+    "ExternalWindowScreen": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/ExternalWindowScreen/ExternalWindowScreen.qml",
+            "customProperties": {
+                "fitMode": "fit",
+                "targetWindowTitle": ""
+            },
+            "height": 280,
+            "locked": false,
+            "name": "ExternalWindowScreen_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ExternalWindowScreen",
+            "type": "ExternalWindowScreen",
+            "width": 497.77777777777777,
+            "x": 570,
+            "y": 140,
+            "z": 0
+        }
+    ],
+    "FaultAnnunciator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "VOR/LS",
+                "m_value": 0
+            },
+            "height": 36.971796140524496,
+            "locked": false,
+            "name": "FaultAnnunciator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 80,
+            "x": 790,
+            "y": 500,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "RH ENG START",
+                "m_value": 0
+            },
+            "height": 40,
+            "locked": false,
+            "name": "FaultAnnunciator_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 86.55246252676659,
+            "x": 610,
+            "y": 590,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "RH REHEAT",
+                "m_value": 0
+            },
+            "height": 41.59327065809006,
+            "locked": false,
+            "name": "FaultAnnunciator_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 90,
+            "x": 610,
+            "y": 500,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "LH REHEAT",
+                "m_value": 0
+            },
+            "height": 46.21474517565562,
+            "locked": false,
+            "name": "FaultAnnunciator_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 100,
+            "x": 290,
+            "y": 500,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "LH ENG START ",
+                "m_value": 0
+            },
+            "height": 50,
+            "locked": false,
+            "name": "FaultAnnunciator_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 108.19057815845822,
+            "x": 290,
+            "y": 580,
+            "z": 0
+        }
+    ],
+    "RadarAltimeterIndicator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RadarAltimeterIndicator/RadarAltimeterIndicator.qml",
+            "customProperties": {
+                "bolshaya_rotation": 0,
+                "inputMax": 360,
+                "inputMin": 0,
+                "outputMaxAngle": 360,
+                "outputMinAngle": 0,
+                "value": 0,
+                "valueMappingMode": "ByPoints",
+                "valueMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 20,
+                        "output": 16.245633045474307
+                    },
+                    {
+                        "input": 40,
+                        "output": 31.621
+                    },
+                    {
+                        "input": 100,
+                        "output": 88.726
+                    },
+                    {
+                        "input": 150,
+                        "output": 144.83
+                    },
+                    {
+                        "input": 200,
+                        "output": 179.836
+                    },
+                    {
+                        "input": 300,
+                        "output": 215.597
+                    },
+                    {
+                        "input": 400,
+                        "output": 249.869
+                    },
+                    {
+                        "input": 500,
+                        "output": 265.21
+                    },
+                    {
+                        "input": 600,
+                        "output": 280.76099999999997
+                    },
+                    {
+                        "input": 800,
+                        "output": 295.249
+                    },
+                    {
+                        "input": 1000,
+                        "output": 309.078
+                    },
+                    {
+                        "input": 1250,
+                        "output": 316.202
+                    },
+                    {
+                        "input": 1500,
+                        "output": 320.814
+                    }
+                ]
+            },
+            "gaugeInstanceOverride": false,
+            "height": 311.25,
+            "locked": false,
+            "name": "RadarAltimeterIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RadarAltimeterIndicator",
+            "type": "RadarAltimeterIndicator",
+            "width": 300,
+            "x": 720,
+            "y": 550,
+            "z": 0
+        }
+    ],
+    "RightEngineTemperatureIndicator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RightEngineTemperatureIndicator/RightEngineTemperatureIndicator.qml",
+            "customProperties": {
+                "bolshaya_rotation": 600,
+                "largeNeedleInputMax": 1200,
+                "largeNeedleInputMin": 0,
+                "largeNeedleMappingMode": "Linear",
+                "largeNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "largeNeedleOutputMaxAngle": 270,
+                "largeNeedleOutputMinAngle": 0,
+                "largeNeedleValue": 600,
+                "malaya_rotation": 0,
+                "smallNeedleInputMax": 360,
+                "smallNeedleInputMin": 0,
+                "smallNeedleMappingMode": "Linear",
+                "smallNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "smallNeedleOutputMaxAngle": 360,
+                "smallNeedleOutputMinAngle": 0,
+                "smallNeedleValue": 0
+            },
+            "gaugeInstanceOverride": true,
+            "height": 186.75,
+            "locked": false,
+            "name": "RightEngineTemperatureIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RightEngineTemperatureIndicator",
+            "type": "RightEngineTemperatureIndicator",
+            "width": 180,
+            "x": 300,
+            "y": 650,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RightEngineTemperatureIndicator/RightEngineTemperatureIndicator.qml",
+            "customProperties": {
+                "bolshaya_rotation": 0,
+                "largeNeedleInputMax": 360,
+                "largeNeedleInputMin": 0,
+                "largeNeedleMappingMode": "Linear",
+                "largeNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "largeNeedleOutputMaxAngle": 360,
+                "largeNeedleOutputMinAngle": 0,
+                "largeNeedleValue": 0,
+                "malaya_rotation": 0,
+                "smallNeedleInputMax": 360,
+                "smallNeedleInputMin": 0,
+                "smallNeedleMappingMode": "Linear",
+                "smallNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "smallNeedleOutputMaxAngle": 360,
+                "smallNeedleOutputMinAngle": 0,
+                "smallNeedleValue": 0
+            },
+            "gaugeInstanceOverride": false,
+            "height": 190,
+            "locked": false,
+            "name": "RightEngineTemperatureIndicator_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RightEngineTemperatureIndicator",
+            "type": "RightEngineTemperatureIndicator",
+            "width": 183.13253012048193,
+            "x": 510,
+            "y": 650,
+            "z": 0
+        }
+    ],
+    "Substrate": [
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/PodlozhkaText29/PodlozhkaText29.qml",
+            "customProperties": {
+            },
+            "height": 890,
+            "locked": false,
+            "name": "ContourPanel_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 750,
+            "x": 280,
+            "y": 50,
+            "z": 0
+        }
+    ],
+    "__sceneSettings": [
+        {
+            "componentPath": "",
+            "customProperties": {
+                "backgroundOpacity": 1,
+                "backgroundPath": "ЦП ПД 1 каб.png",
+                "gridSize": 10,
+                "showGrid": true,
+                "snapToGrid": true
+            },
+            "height": 0,
+            "name": "__sceneSettings",
+            "rotation": 0,
+            "subtype": "background",
+            "type": "__sceneSettings",
+            "width": 0,
+            "x": 0,
+            "y": 0,
+            "z": -1000
+        }
+    ],
+    "clin": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RampPositionIndicator/RampPositionIndicator.qml",
+            "customProperties": {
+                "m_value": 0
+            },
+            "height": 216.92913385826773,
+            "locked": false,
+            "name": "clin_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "clin",
+            "type": "clin",
+            "width": 190,
+            "x": 400,
+            "y": 440,
+            "z": 0
+        }
+    ]
+}

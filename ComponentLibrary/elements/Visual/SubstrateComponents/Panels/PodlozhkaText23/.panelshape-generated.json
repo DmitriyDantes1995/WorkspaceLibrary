@@ -1,9 +1,9 @@
 {
     "assets": [
-        "PodlozhkaText17.qml",
+        "PodlozhkaText23.qml",
         "panel.svg"
     ],
-    "component": "PodlozhkaText17.qml",
+    "component": "PodlozhkaText23.qml",
     "kind": "PanelShapeEditorPlate",
     "version": 1
 }

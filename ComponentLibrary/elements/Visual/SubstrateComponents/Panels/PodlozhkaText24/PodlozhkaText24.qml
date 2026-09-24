@@ -8,8 +8,8 @@ BaseSceneComponent {
     my_subtype: "ContourPanel"
     previewSource: "panel.svg"
 
-    width: 570
-    height: 460
+    width: 190
+    height: 90
 
     customProperties: ({})
 

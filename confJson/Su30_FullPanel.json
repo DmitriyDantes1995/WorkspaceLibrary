@@ -1,0 +1,2505 @@
+{
+    "EngineRpmIndicator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/EngineRpmIndicator/EngineRpmIndicator.qml",
+            "customProperties": {
+                "n1InputMax": 360,
+                "n1InputMin": 0,
+                "n1MappingMode": "Linear",
+                "n1MappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 360
+                    }
+                ],
+                "n1OutputMaxAngle": 360,
+                "n1OutputMinAngle": 0,
+                "n1Value": 0,
+                "n1_rotation": 0,
+                "n2InputMax": 360,
+                "n2InputMin": 0,
+                "n2MappingMode": "Linear",
+                "n2MappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 360
+                    }
+                ],
+                "n2OutputMaxAngle": 360,
+                "n2OutputMinAngle": 0,
+                "n2Value": 0,
+                "n2_rotation": 0
+            },
+            "gaugeInstanceOverride": false,
+            "height": 261.2107367218732,
+            "locked": false,
+            "name": "EngineRpmIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "EngineRpmIndicator",
+            "type": "EngineRpmIndicator",
+            "width": 270,
+            "x": 995.0735294117648,
+            "y": 613.5661764705883,
+            "z": 0
+        }
+    ],
+    "ExternalWindowScreen": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/ExternalWindowScreen/ExternalWindowScreen.qml",
+            "customProperties": {
+                "fitMode": "fit",
+                "targetWindowTitle": ""
+            },
+            "height": 168.75,
+            "locked": false,
+            "name": "ExternalWindowScreen_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ExternalWindowScreen",
+            "type": "ExternalWindowScreen",
+            "width": 300,
+            "x": 1335.0735294117649,
+            "y": 643.5661764705883,
+            "z": 0
+        }
+    ],
+    "FaultAnnunciator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "VOR/LS",
+                "m_value": 0
+            },
+            "height": 36.971796140524496,
+            "locked": false,
+            "name": "FaultAnnunciator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 80,
+            "x": 1475.0735294117649,
+            "y": 943.5661764705883,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "RH ENG START",
+                "m_value": 0
+            },
+            "height": 40,
+            "locked": false,
+            "name": "FaultAnnunciator_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 86.55246252676659,
+            "x": 1295.0735294117649,
+            "y": 1033.5661764705883,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "RH REHEAT",
+                "m_value": 0
+            },
+            "height": 41.59327065809006,
+            "locked": false,
+            "name": "FaultAnnunciator_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 90,
+            "x": 1295.0735294117649,
+            "y": 943.5661764705883,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "LH REHEAT",
+                "m_value": 0
+            },
+            "height": 46.21474517565562,
+            "locked": false,
+            "name": "FaultAnnunciator_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 100,
+            "x": 975.0735294117648,
+            "y": 943.5661764705883,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "LH ENG START ",
+                "m_value": 0
+            },
+            "height": 50,
+            "locked": false,
+            "name": "FaultAnnunciator_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 108.19057815845822,
+            "x": 975.0735294117648,
+            "y": 1023.5661764705883,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "DR CH LOCK OPEN",
+                "m_value": 0
+            },
+            "height": 37.224264705882355,
+            "locked": false,
+            "name": "LeftGearLock",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 79.96323529411765,
+            "x": 202.66544117647058,
+            "y": 854.7794117647059,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "SPECIAL",
+                "m_value": 0
+            },
+            "height": 37.224264705882355,
+            "locked": false,
+            "name": "LeftWarning",
+            "opacity": 1,
+            "rotation": 270,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 79.96323529411765,
+            "x": 250.2297794117647,
+            "y": 685.8915441176471,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "TURN",
+                "m_value": 0
+            },
+            "height": 37.224264705882355,
+            "locked": false,
+            "name": "RightTurn",
+            "opacity": 1,
+            "rotation": 270,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 79.96323529411765,
+            "x": 2354.0900735294117,
+            "y": 792.7389705882352,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "LANDING",
+                "m_value": 0
+            },
+            "height": 37.224264705882355,
+            "locked": false,
+            "name": "RightLanding",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 79.96323529411765,
+            "x": 2400.2757352941176,
+            "y": 915.4411764705882,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "PROBE EXTEND",
+                "m_value": 0
+            },
+            "height": 37.224264705882355,
+            "locked": false,
+            "name": "ProbeExtend",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 79.96323529411765,
+            "x": 2556.0661764705883,
+            "y": 1018.8419117647059,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "TANKS FUEL",
+                "m_value": 0
+            },
+            "height": 37.224264705882355,
+            "locked": false,
+            "name": "TankFuel",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 79.96323529411765,
+            "x": 2556.0661764705883,
+            "y": 1068.4742647058824,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "PROBE RETRACT",
+                "m_value": 0
+            },
+            "height": 37.224264705882355,
+            "locked": false,
+            "name": "ProbeRetract",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 79.96323529411765,
+            "x": 2556.0661764705883,
+            "y": 1119.485294117647,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "MARKER",
+                "m_value": 0
+            },
+            "height": 37.224264705882355,
+            "locked": false,
+            "name": "Marker",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 79.96323529411765,
+            "x": 2230.698529411765,
+            "y": 1355.2389705882354,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "INNER ON",
+                "m_value": 0
+            },
+            "height": 37.224264705882355,
+            "locked": false,
+            "name": "InnerOn",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 79.96323529411765,
+            "x": 2230.698529411765,
+            "y": 1404.8713235294117,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "RADAR",
+                "m_value": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "UpperRight_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 78.5845588235294,
+            "x": 2314.797794117647,
+            "y": 159.9264705882353,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "RDR LOCK ON",
+                "m_value": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "UpperRight_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 78.5845588235294,
+            "x": 2314.797794117647,
+            "y": 209.55882352941177,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "RANGE MEAS",
+                "m_value": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "UpperRight_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 78.5845588235294,
+            "x": 2314.797794117647,
+            "y": 259.19117647058823,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "OLS LOCK ON",
+                "m_value": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "UpperRight_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 78.5845588235294,
+            "x": 2314.797794117647,
+            "y": 308.8235294117647,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "FNS CTL CAB 2",
+                "m_value": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "UpperRight_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 78.5845588235294,
+            "x": 2314.797794117647,
+            "y": 358.45588235294116,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "LIVING",
+                "m_value": 0
+            },
+            "height": 35.845588235294116,
+            "locked": false,
+            "name": "Living",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 77.20588235294117,
+            "x": 2109.375,
+            "y": 77.20588235294117,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "STAB TRIM NEUTR",
+                "m_value": 0
+            },
+            "height": 39.981617647058826,
+            "locked": false,
+            "name": "Trim_0",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 86.85661764705883,
+            "x": 1275.2757352941176,
+            "y": 1363.5110294117646,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "AIL TRIM NEUTR",
+                "m_value": 0
+            },
+            "height": 39.981617647058826,
+            "locked": false,
+            "name": "Trim_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 86.85661764705883,
+            "x": 1275.2757352941176,
+            "y": 1413.1433823529412,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "RUD TRIM NEUTR",
+                "m_value": 0
+            },
+            "height": 39.981617647058826,
+            "locked": false,
+            "name": "Trim_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 86.85661764705883,
+            "x": 1275.2757352941176,
+            "y": 1462.7757352941176,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "FIRE",
+                "m_value": 1
+            },
+            "height": 34.466911764705884,
+            "locked": false,
+            "name": "MasterWarning_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 74.44852941176471,
+            "x": 1592.3713235294117,
+            "y": 336.3970588235294,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "RES",
+                "m_value": 1
+            },
+            "height": 34.466911764705884,
+            "locked": false,
+            "name": "MasterWarning_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 74.44852941176471,
+            "x": 1673.7132352941176,
+            "y": 336.3970588235294,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "CONTROL",
+                "m_value": 1
+            },
+            "height": 34.466911764705884,
+            "locked": false,
+            "name": "MasterWarning_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 74.44852941176471,
+            "x": 1592.3713235294117,
+            "y": 377.75735294117646,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "HYD",
+                "m_value": 1
+            },
+            "height": 34.466911764705884,
+            "locked": false,
+            "name": "MasterWarning_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 74.44852941176471,
+            "x": 1673.7132352941176,
+            "y": 377.75735294117646,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "OIL",
+                "m_value": 1
+            },
+            "height": 34.466911764705884,
+            "locked": false,
+            "name": "MasterWarning_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 74.44852941176471,
+            "x": 1592.3713235294117,
+            "y": 419.11764705882354,
+            "z": 3
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "m_text": "ELEC",
+                "m_value": 1
+            },
+            "height": 34.466911764705884,
+            "locked": false,
+            "name": "MasterWarning_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 74.44852941176471,
+            "x": 1673.7132352941176,
+            "y": 419.11764705882354,
+            "z": 3
+        }
+    ],
+    "RadarAltimeterIndicator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RadarAltimeterIndicator/RadarAltimeterIndicator.qml",
+            "customProperties": {
+                "bolshaya_rotation": 0,
+                "inputMax": 360,
+                "inputMin": 0,
+                "outputMaxAngle": 360,
+                "outputMinAngle": 0,
+                "value": 0,
+                "valueMappingMode": "ByPoints",
+                "valueMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 20,
+                        "output": 16.245633045474307
+                    },
+                    {
+                        "input": 40,
+                        "output": 31.621
+                    },
+                    {
+                        "input": 100,
+                        "output": 88.726
+                    },
+                    {
+                        "input": 150,
+                        "output": 144.83
+                    },
+                    {
+                        "input": 200,
+                        "output": 179.836
+                    },
+                    {
+                        "input": 300,
+                        "output": 215.597
+                    },
+                    {
+                        "input": 400,
+                        "output": 249.869
+                    },
+                    {
+                        "input": 500,
+                        "output": 265.21
+                    },
+                    {
+                        "input": 600,
+                        "output": 280.76099999999997
+                    },
+                    {
+                        "input": 800,
+                        "output": 295.249
+                    },
+                    {
+                        "input": 1000,
+                        "output": 309.078
+                    },
+                    {
+                        "input": 1250,
+                        "output": 316.202
+                    },
+                    {
+                        "input": 1500,
+                        "output": 320.814
+                    }
+                ]
+            },
+            "gaugeInstanceOverride": false,
+            "height": 311.25,
+            "locked": false,
+            "name": "RadarAltimeterIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RadarAltimeterIndicator",
+            "type": "RadarAltimeterIndicator",
+            "width": 300,
+            "x": 1405.0735294117649,
+            "y": 993.5661764705883,
+            "z": 0
+        }
+    ],
+    "RightEngineTemperatureIndicator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RightEngineTemperatureIndicator/RightEngineTemperatureIndicator.qml",
+            "customProperties": {
+                "bolshaya_rotation": 0,
+                "largeNeedleInputMax": 360,
+                "largeNeedleInputMin": 0,
+                "largeNeedleMappingMode": "Linear",
+                "largeNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "largeNeedleOutputMaxAngle": 360,
+                "largeNeedleOutputMinAngle": 0,
+                "largeNeedleValue": 0,
+                "malaya_rotation": 0,
+                "smallNeedleInputMax": 360,
+                "smallNeedleInputMin": 0,
+                "smallNeedleMappingMode": "Linear",
+                "smallNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "smallNeedleOutputMaxAngle": 360,
+                "smallNeedleOutputMinAngle": 0,
+                "smallNeedleValue": 0
+            },
+            "gaugeInstanceOverride": false,
+            "height": 186.75,
+            "locked": false,
+            "name": "RightEngineTemperatureIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RightEngineTemperatureIndicator",
+            "type": "RightEngineTemperatureIndicator",
+            "width": 180,
+            "x": 985.0735294117648,
+            "y": 1093.5661764705883,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RightEngineTemperatureIndicator/RightEngineTemperatureIndicator.qml",
+            "customProperties": {
+                "bolshaya_rotation": 0,
+                "largeNeedleInputMax": 360,
+                "largeNeedleInputMin": 0,
+                "largeNeedleMappingMode": "Linear",
+                "largeNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "largeNeedleOutputMaxAngle": 360,
+                "largeNeedleOutputMinAngle": 0,
+                "largeNeedleValue": 0,
+                "malaya_rotation": 0,
+                "smallNeedleInputMax": 360,
+                "smallNeedleInputMin": 0,
+                "smallNeedleMappingMode": "Linear",
+                "smallNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "smallNeedleOutputMaxAngle": 360,
+                "smallNeedleOutputMinAngle": 0,
+                "smallNeedleValue": 0
+            },
+            "gaugeInstanceOverride": false,
+            "height": 190,
+            "locked": false,
+            "name": "RightEngineTemperatureIndicator_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RightEngineTemperatureIndicator",
+            "type": "RightEngineTemperatureIndicator",
+            "width": 183.13253012048193,
+            "x": 1195.0735294117649,
+            "y": 1093.5661764705883,
+            "z": 0
+        }
+    ],
+    "Substrate": [
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30LeftConsole/Su30LeftConsole.qml",
+            "customProperties": {},
+            "height": 1071.2316176470588,
+            "locked": false,
+            "name": "Su30LeftConsole",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 1013.3272058823529,
+            "x": 9.650735294117647,
+            "y": 474.2647058823529,
+            "z": -1
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30RightConsole/Su30RightConsole.qml",
+            "customProperties": {},
+            "height": 1071.2316176470588,
+            "locked": false,
+            "name": "Su30RightConsole",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 959.5588235294117,
+            "x": 1719.2095588235295,
+            "y": 474.2647058823529,
+            "z": -1
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30UpperLeft/Su30UpperLeft.qml",
+            "customProperties": {},
+            "height": 464.6139705882353,
+            "locked": false,
+            "name": "Su30UpperLeft",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 766.5441176470588,
+            "x": 257.8125,
+            "y": 11.029411764705882,
+            "z": -1
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30UpperRight/Su30UpperRight.qml",
+            "customProperties": {},
+            "height": 453.5845588235294,
+            "locked": false,
+            "name": "Su30UpperRight",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 642.4632352941177,
+            "x": 1801.9301470588234,
+            "y": 22.058823529411764,
+            "z": -1
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30CenterPanel/Su30CenterPanel.qml",
+            "customProperties": {},
+            "height": 889.9999999999999,
+            "locked": false,
+            "name": "Su30CenterPanel",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 750.0,
+            "x": 965.0735294117648,
+            "y": 493.56617647058823,
+            "z": -1
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30MfdFrame/Su30MfdFrame.qml",
+            "customProperties": {},
+            "height": 774.8161764705882,
+            "locked": false,
+            "name": "LeftMfdFrame",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 643.8419117647059,
+            "x": 323.9889705882353,
+            "y": 511.4889705882353,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30MfdFrame/Su30MfdFrame.qml",
+            "customProperties": {},
+            "height": 774.8161764705882,
+            "locked": false,
+            "name": "RightMfdFrame",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 643.8419117647059,
+            "x": 1720.5882352941176,
+            "y": 511.4889705882353,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30OpticalIndicator/Su30OpticalIndicator.qml",
+            "customProperties": {},
+            "height": 310.2022058823529,
+            "locked": false,
+            "name": "Su30OpticalIndicator",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 230.2389705882353,
+            "x": 2063.8786764705883,
+            "y": 142.00367647058823,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30UpperDisplay/Su30UpperDisplay.qml",
+            "customProperties": {},
+            "height": 373.62132352941177,
+            "locked": false,
+            "name": "Su30UpperDisplay",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 194.3933823529412,
+            "x": 1855.6985294117646,
+            "y": 75.82720588235294,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30WingIndicator/Su30WingIndicator.qml",
+            "customProperties": {},
+            "height": 186.12132352941177,
+            "locked": false,
+            "name": "Su30WingIndicator",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 186.12132352941177,
+            "x": 118.56617647058823,
+            "y": 923.7132352941177,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30FuelIndicator/Su30FuelIndicator.qml",
+            "customProperties": {},
+            "height": 430.1470588235294,
+            "locked": false,
+            "name": "Su30FuelIndicator",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 157.1691176470588,
+            "x": 2376.8382352941176,
+            "y": 981.6176470588235,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30HydraulicIndicator/Su30HydraulicIndicator.qml",
+            "customProperties": {},
+            "height": 153.03308823529412,
+            "locked": false,
+            "name": "Su30HydraulicIndicator",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 108.9154411764706,
+            "x": 2547.794117647059,
+            "y": 1253.2169117647059,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30LowerCenter/Su30LowerCenter.qml",
+            "customProperties": {},
+            "height": 432.90441176470586,
+            "locked": false,
+            "name": "Su30LowerCenter",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 606.6176470588235,
+            "x": 1039.5220588235295,
+            "y": 1306.985294117647,
+            "z": -1
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30Clock/Su30Clock.qml",
+            "customProperties": {},
+            "height": 187.5,
+            "locked": false,
+            "name": "Su30Clock",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 187.5,
+            "x": 1075.3676470588234,
+            "y": 1331.8014705882354,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30BrakeIndicator/Su30BrakeIndicator.qml",
+            "customProperties": {},
+            "height": 165.44117647058823,
+            "locked": false,
+            "name": "Su30BrakeIndicator",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 219.20955882352942,
+            "x": 1385.5698529411764,
+            "y": 1355.2389705882354,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30MasterWarning/Su30MasterWarning.qml",
+            "customProperties": {},
+            "height": 255.05514705882354,
+            "locked": false,
+            "name": "Su30MasterWarning",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 204.0441176470588,
+            "x": 1557.9044117647059,
+            "y": 223.34558823529412,
+            "z": 0
+        }
+    ],
+    "__sceneSettings": [
+        {
+            "componentPath": "",
+            "customProperties": {
+                "backgroundOpacity": 1,
+                "backgroundPath": "",
+                "gridSize": 10,
+                "showGrid": false,
+                "snapToGrid": false
+            },
+            "height": 0,
+            "name": "__sceneSettings",
+            "rotation": 0,
+            "subtype": "background",
+            "type": "__sceneSettings",
+            "width": 0,
+            "x": 0,
+            "y": 0,
+            "z": -1000
+        }
+    ],
+    "clin": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RampPositionIndicator/RampPositionIndicator.qml",
+            "customProperties": {
+                "m_value": 0
+            },
+            "height": 216.92913385826773,
+            "locked": false,
+            "name": "clin_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "clin",
+            "type": "clin",
+            "width": 190,
+            "x": 1085.0735294117649,
+            "y": 883.5661764705883,
+            "z": 0
+        }
+    ],
+    "Simple_btn": [
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 397.05882352941177,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 463.2352941176471,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 529.4117647058823,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 595.5882352941177,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 661.7647058823529,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 727.9411764705882,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 794.1176470588235,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 860.2941176470588,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 397.05882352941177,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 463.2352941176471,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 529.4117647058823,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 595.5882352941177,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 661.7647058823529,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 727.9411764705882,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 794.1176470588235,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 860.2941176470588,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 663.1433823529412,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 729.3198529411765,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 795.4963235294117,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 861.6727941176471,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 927.8492647058823,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 994.0257352941177,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 1060.202205882353,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 1126.3786764705883,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 663.1433823529412,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 729.3198529411765,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 795.4963235294117,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 861.6727941176471,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 927.8492647058823,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 994.0257352941177,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 1060.202205882353,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 1126.3786764705883,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1793.6580882352941,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1859.8345588235295,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1926.0110294117646,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1992.1875,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2058.363970588235,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2124.5404411764707,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2190.716911764706,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2256.893382352941,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1793.6580882352941,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1859.8345588235295,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1926.0110294117646,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1992.1875,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2058.363970588235,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2124.5404411764707,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2190.716911764706,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2256.893382352941,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 663.1433823529412,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 729.3198529411765,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 795.4963235294117,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 861.6727941176471,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 927.8492647058823,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 994.0257352941177,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 1060.202205882353,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 1126.3786764705883,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 663.1433823529412,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 729.3198529411765,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 795.4963235294117,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 861.6727941176471,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 927.8492647058823,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 994.0257352941177,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 1060.202205882353,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 1126.3786764705883,
+            "z": 2
+        }
+    ],
+    "StandardTumbler2Position": [
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "Cutoff",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 934.7426470588235,
+            "y": 339.15441176470586,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "LpAuto",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 642.4632352941177,
+            "y": 395.68014705882354,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "AirGround",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 698.9889705882352,
+            "y": 395.68014705882354,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "Retrd",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 799.6323529411765,
+            "y": 395.68014705882354,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "Armed",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 871.3235294117648,
+            "y": 395.68014705882354,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "WingMode",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 249.54044117647058,
+            "y": 1174.6323529411764,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "Coolant",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 35.845588235294116,
+            "y": 1359.375,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "VisualCorrection",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 1509.6507352941176,
+            "y": 1681.985294117647,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "LowerProbe",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 1089.1544117647059,
+            "y": 1602.0220588235295,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "LowerRefuel",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 1166.360294117647,
+            "y": 1602.0220588235295,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "LowerLights",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 1380.0551470588234,
+            "y": 1602.0220588235295,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "LowerEmergencyProbe",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 1461.3970588235295,
+            "y": 1602.0220588235295,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 42.7389705882353,
+            "locked": false,
+            "name": "LowerStopFuel",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 23.4375,
+            "x": 1539.9816176470588,
+            "y": 1602.0220588235295,
+            "z": 4
+        }
+    ],
+    "Red_btn": [
+        {
+            "componentPath": "elements/Controls/simple/Buttons/red_btn/Red_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 39.981617647058826,
+            "locked": false,
+            "name": "UnguidedLaunch",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Red_btn",
+            "type": "Red_btn",
+            "width": 39.981617647058826,
+            "x": 807.9044117647059,
+            "y": 290.9007352941176,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/red_btn/Red_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 39.981617647058826,
+            "locked": false,
+            "name": "EmergencyJettison",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Red_btn",
+            "type": "Red_btn",
+            "width": 39.981617647058826,
+            "x": 938.8786764705882,
+            "y": 397.05882352941177,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/red_btn/Red_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 39.981617647058826,
+            "locked": false,
+            "name": "MasterArm",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Red_btn",
+            "type": "Red_btn",
+            "width": 39.981617647058826,
+            "x": 579.0441176470588,
+            "y": 391.54411764705884,
+            "z": 4
+        }
+    ],
+    "Toggle_1": [
+        {
+            "componentPath": "elements/Controls/simple/Toggles/Toggle_1/CustomRoundSwitch.qml",
+            "customProperties": {
+                "thinNeedlAngle": 0
+            },
+            "height": 60.661764705882355,
+            "locked": false,
+            "name": "WeaponTrain",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Toggle_1",
+            "type": "Toggle_1",
+            "width": 60.661764705882355,
+            "x": 683.8235294117648,
+            "y": 303.30882352941177,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Toggles/Toggle_1/CustomRoundSwitch.qml",
+            "customProperties": {
+                "thinNeedlAngle": 0
+            },
+            "height": 63.419117647058826,
+            "locked": false,
+            "name": "Hmi",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Toggle_1",
+            "type": "Toggle_1",
+            "width": 63.419117647058826,
+            "x": 155.79044117647058,
+            "y": 1397.9779411764705,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Toggles/Toggle_1/CustomRoundSwitch.qml",
+            "customProperties": {
+                "thinNeedlAngle": 0
+            },
+            "height": 73.06985294117646,
+            "locked": false,
+            "name": "TargetType",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Toggle_1",
+            "type": "Toggle_1",
+            "width": 73.06985294117646,
+            "x": 261.9485294117647,
+            "y": 1409.0073529411764,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Toggles/Toggle_1/CustomRoundSwitch.qml",
+            "customProperties": {
+                "thinNeedlAngle": 0
+            },
+            "height": 67.55514705882352,
+            "locked": false,
+            "name": "Amplification",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "Toggle_1",
+            "type": "Toggle_1",
+            "width": 67.55514705882352,
+            "x": 372.24264705882354,
+            "y": 1364.889705882353,
+            "z": 4
+        }
+    ]
+}

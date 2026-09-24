@@ -9,8 +9,8 @@ BaseSceneComponent {
     sceneLayer: "background"
     previewSource: "panel.svg"
 
-    width: 460
-    height: 220
+    width: 500
+    height: 230
 
     customProperties: ({})
 

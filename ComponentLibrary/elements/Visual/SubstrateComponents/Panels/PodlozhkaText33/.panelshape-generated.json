@@ -1,0 +1,53 @@
+{
+    "assets": [
+        "PodlozhkaText33.qml",
+        "panel.svg"
+    ],
+    "closed": true,
+    "component": "PodlozhkaText33.qml",
+    "formatVersion": 2,
+    "holes": [
+    ],
+    "kind": "PanelShapeEditorPlate",
+    "originX": 141.1,
+    "originY": 679.975,
+    "points": [
+        {
+            "cornerRadius": 0,
+            "x": 147.1,
+            "y": 732.975
+        },
+        {
+            "cornerRadius": 0,
+            "x": 203.6,
+            "y": 752.975
+        },
+        {
+            "cornerRadius": 0,
+            "x": 303.6,
+            "y": 777.475
+        },
+        {
+            "cornerRadius": 0,
+            "x": 354.1,
+            "y": 707.975
+        },
+        {
+            "cornerRadius": 0,
+            "x": 366.1,
+            "y": 684.975
+        },
+        {
+            "cornerRadius": 0,
+            "x": 263.6,
+            "y": 679.975
+        },
+        {
+            "cornerRadius": 0,
+            "x": 141.1,
+            "y": 681.475
+        }
+    ],
+    "sceneLayer": "background",
+    "version": 3
+}

@@ -1,0 +1,39 @@
+{
+    "channels": {
+        "large": {
+            "inputMax": 360,
+            "inputMin": 0,
+            "mappingMode": "Linear",
+            "mappingPoints": [
+                {
+                    "input": 0,
+                    "output": 0
+                },
+                {
+                    "input": 360,
+                    "output": 0
+                }
+            ],
+            "outputMaxAngle": 360,
+            "outputMinAngle": 0
+        },
+        "small": {
+            "inputMax": 360,
+            "inputMin": 0,
+            "mappingMode": "Linear",
+            "mappingPoints": [
+                {
+                    "input": 0,
+                    "output": 0
+                },
+                {
+                    "input": 360,
+                    "output": 0
+                }
+            ],
+            "outputMaxAngle": 360,
+            "outputMinAngle": 0
+        }
+    },
+    "version": 1
+}

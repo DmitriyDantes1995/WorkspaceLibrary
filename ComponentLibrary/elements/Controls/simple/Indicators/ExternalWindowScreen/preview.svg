@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270"
+     viewBox="0 0 480 270">
+  <rect x="0.5" y="0.5" width="479" height="269"
+        fill="#050505" stroke="#555555"/>
+  <text x="240" y="145" fill="#d8d8d8"
+        font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        text-anchor="middle">ВНЕШНИЙ ЭКРАН</text>
+</svg>

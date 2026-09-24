@@ -3,41 +3,7 @@
         "PodlozhkaText18.qml",
         "panel.svg"
     ],
-    "closed": true,
     "component": "PodlozhkaText18.qml",
-    "formatVersion": 2,
-    "holes": [
-    ],
     "kind": "PanelShapeEditorPlate",
-    "originX": 370,
-    "originY": 130,
-    "points": [
-        {
-            "cornerRadius": 0,
-            "x": 450,
-            "y": 140
-        },
-        {
-            "cornerRadius": 0,
-            "x": 370,
-            "y": 350
-        },
-        {
-            "cornerRadius": 0,
-            "x": 690,
-            "y": 280
-        },
-        {
-            "cornerRadius": 0,
-            "x": 580,
-            "y": 130
-        },
-        {
-            "cornerRadius": 0,
-            "x": 510,
-            "y": 160
-        }
-    ],
-    "sceneLayer": "background",
-    "version": 3
+    "version": 1
 }

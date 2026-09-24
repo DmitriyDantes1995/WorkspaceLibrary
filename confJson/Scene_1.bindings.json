@@ -1,0 +1,12 @@
+[
+    {
+        "objectId": "RightEngineTemperatureIndicator_1",
+        "property": "largeNeedleValue",
+        "source": "KAB1__control_rst_arkvolume"
+    },
+    {
+        "objectId": "RightEngineTemperatureIndicator_2",
+        "property": "smallNeedleValue",
+        "source": "KAB1__control_rst_arkvolume"
+    }
+]

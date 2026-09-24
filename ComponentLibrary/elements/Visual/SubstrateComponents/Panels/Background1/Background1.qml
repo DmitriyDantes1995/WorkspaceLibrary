@@ -4,19 +4,19 @@ import common_qml 1.0
 BaseSceneComponent {
     id: root
 
-    my_type: "Substrate"
-    my_subtype: "ContourPanel"
+    my_type: "Background1"
+    my_subtype: "Background1"
     previewSource: "panel.svg"
 
-    width: 570
-    height: 460
+    width: 200
+    height: 240
 
     customProperties: ({})
 
-    AdaptiveSvgImage {
+    Image {
         anchors.fill: parent
-        source: Qt.resolvedUrl("panel.svg")
-        fillMode: Image.Stretch
+        source: "panel.svg"
+        fillMode: Image.PreserveAspectFit
         smooth: true
     }
 }
