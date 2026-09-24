@@ -1,0 +1,70 @@
+{
+    "channels": {
+        "value": {
+            "inputMax": 360,
+            "inputMin": 0,
+            "mappingMode": "ByPoints",
+            "mappingPoints": [
+                {
+                    "input": 0,
+                    "output": 0
+                },
+                {
+                    "input": 20,
+                    "output": 16.245633045474307
+                },
+                {
+                    "input": 40,
+                    "output": 31.621
+                },
+                {
+                    "input": 100,
+                    "output": 88.726
+                },
+                {
+                    "input": 150,
+                    "output": 144.83
+                },
+                {
+                    "input": 200,
+                    "output": 179.836
+                },
+                {
+                    "input": 300,
+                    "output": 215.597
+                },
+                {
+                    "input": 400,
+                    "output": 249.869
+                },
+                {
+                    "input": 500,
+                    "output": 265.21
+                },
+                {
+                    "input": 600,
+                    "output": 280.76099999999997
+                },
+                {
+                    "input": 800,
+                    "output": 295.249
+                },
+                {
+                    "input": 1000,
+                    "output": 309.078
+                },
+                {
+                    "input": 1250,
+                    "output": 316.202
+                },
+                {
+                    "input": 1500,
+                    "output": 320.814
+                }
+            ],
+            "outputMaxAngle": 360,
+            "outputMinAngle": 0
+        }
+    },
+    "version": 1
+}

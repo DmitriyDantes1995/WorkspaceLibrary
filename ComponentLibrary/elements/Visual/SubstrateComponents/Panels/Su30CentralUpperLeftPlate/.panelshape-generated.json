@@ -1,0 +1,46 @@
+{
+    "assets": [
+        "Su30CentralUpperLeftPlate.qml",
+        "panel.svg"
+    ],
+    "closed": true,
+    "component": "Su30CentralUpperLeftPlate.qml",
+    "formatVersion": 2,
+    "kind": "PanelShapeEditorPlate",
+    "originX": 274.2965,
+    "originY": 190.9037,
+    "points": [
+        {
+            "cornerRadius": 3.566,
+            "x": 275.2965,
+            "y": 343.1028
+        },
+        {
+            "cornerRadius": 3.566,
+            "x": 290.987,
+            "y": 316.0011
+        },
+        {
+            "cornerRadius": 3.566,
+            "x": 464.2955,
+            "y": 191.9037
+        },
+        {
+            "cornerRadius": 3.566,
+            "x": 535.6158,
+            "y": 191.9037
+        },
+        {
+            "cornerRadius": 3.566,
+            "x": 537.0422,
+            "y": 367.3517
+        },
+        {
+            "cornerRadius": 3.566,
+            "x": 275.2965,
+            "y": 367.3517
+        }
+    ],
+    "sceneLayer": "background",
+    "version": 3
+}

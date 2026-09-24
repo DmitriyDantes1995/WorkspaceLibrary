@@ -1,0 +1,116 @@
+{
+    "assets": [
+        "Su30CentralLowerPlate.qml",
+        "panel.svg"
+    ],
+    "closed": true,
+    "component": "Su30CentralLowerPlate.qml",
+    "formatVersion": 2,
+    "kind": "PanelShapeEditorPlate",
+    "originX": 543.1742,
+    "originY": 694.4253,
+    "points": [
+        {
+            "cornerRadius": 7.132,
+            "x": 554.8723,
+            "y": 695.4253
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 770.2597,
+            "y": 695.4253
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 782.3842,
+            "y": 707.5498
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 779.5314,
+            "y": 783.1494
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 769.5465,
+            "y": 882.2846
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 682.5357,
+            "y": 882.2846
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 677.5433,
+            "y": 873.7262
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 677.5433,
+            "y": 858.0357
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 673.9773,
+            "y": 843.0584
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 664.7056,
+            "y": 833.7868
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 650.4416,
+            "y": 829.5076
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 636.1775,
+            "y": 833.7868
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 627.619,
+            "y": 843.0584
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 624.053,
+            "y": 858.0357
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 624.053,
+            "y": 874.4394
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 620.487,
+            "y": 882.2846
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 562.7175,
+            "y": 882.2846
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 555.5855,
+            "y": 874.4394
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 544.1742,
+            "y": 781.7229
+        },
+        {
+            "cornerRadius": 7.132,
+            "x": 544.1742,
+            "y": 707.5498
+        }
+    ],
+    "sceneLayer": "background",
+    "version": 3
+}

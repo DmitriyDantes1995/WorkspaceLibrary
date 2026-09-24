@@ -1,0 +1,10 @@
+{
+    "assets": [
+        "PodlozhkaText15.qml",
+        "panel.svg"
+    ],
+    "component": "PodlozhkaText15.qml",
+    "kind": "PanelShapeEditorPlate",
+    "sceneLayer": "background",
+    "version": 2
+}

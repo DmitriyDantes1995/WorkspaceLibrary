@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:ffdec="https://www.free-decompiler.com/flash" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 202.1 93.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_3);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#_Безымянный_градиент_2);
+      }
+
+      .cls-3 {
+        fill: #999;
+      }
+
+      .cls-4 {
+        fill: #3c3c3c;
+      }
+
+      .cls-5 {
+        fill: #444;
+      }
+
+      .cls-6 {
+        fill: #666;
+      }
+
+      .cls-7 {
+        fill: #2b2b2b;
+      }
+
+      .cls-9 {
+        display: none;
+      }
+
+      .cls-8 {
+        fill: url(#_Безымянный_градиент);
+      }
+    </style>
+    <radialGradient id="_Безымянный_градиент" data-name="Безымянный градиент" cx="110960.2" cy="5432.7" fx="110960.2" fy="5432.7" r="819.2" gradientTransform="translate(-888.2 -479.5) rotate(90) scale(0 -.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#404040"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="_Безымянный_градиент_2" data-name="Безымянный градиент 2" cx="-226647.5" cy="8348.3" fx="-226647.5" fy="8348.3" r="819.2" gradientTransform="translate(-854.3 -482.4) scale(0 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#404040"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="_Безымянный_градиент_3" data-name="Безымянный градиент 3" cx="5813.9" cy="-4278.5" fx="5813.9" fy="-4278.5" r="819.2" gradientTransform="translate(-646.7 -391.1) scale(.1 -.1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#444"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="_Слой_1" data-name="Слой_1">
+      <g>
+        <g ffdec:characterId="318">
+          <g id="shape0">
+            <path class="cls-4" d="M192,0C198.7,0,202,3.3,202,10v73.4c0,6.7-3.3,10-10,10H10c-6.7,0-10-3.3-10-10V10C0,3.3,3.3,0,10,0h182"/>
+            <path class="cls-6" d="M189.2,2.4c6.5,0,9.7,3.2,9.7,9.5v69.8c0,6.3-3.2,9.5-9.7,9.5H12.8c-6.5,0-9.7-3.2-9.7-9.5V11.9C3.1,5.5,6.3,2.4,12.8,2.4h176.4"/>
+            <path class="cls-8" d="M181.2,5.3c10.1,0,15.1,5,15.1,15.1v52.5c0,10.1-5,15.1-15.1,15.1H20.8c-10.1,0-15.2-5-15.2-15.1V20.5c0-10.1,5.1-15.1,15.2-15.1h160.3"/>
+            <path class="cls-2" d="M195.5,14.3c.5,1.8.8,3.9.8,6.1v52.5c0,10.1-5,15.1-15.1,15.1H20.8c-10.1,0-15.2-5-15.2-15.1V20.5c0-2.3.3-4.4.8-6.1h189"/>
+            <path class="cls-1" d="M174.2,12.8c9.2,0,13.8,4.2,13.8,12.4v43.1c0,8.3-4.6,12.4-13.8,12.4H27.8c-9.2,0-13.8-4.1-13.8-12.4V25.2c0-8.3,4.6-12.4,13.8-12.4h146.5"/>
+            <path class="cls-5" d="M175,13.1c9.3,0,14,4.1,14,12.4v42.6c0,8.2-4.7,12.3-14,12.3H26.9c-9.3,0-14-4.1-14-12.3V25.4c0-8.2,4.7-12.4,14-12.4h148.1"/>
+            <path class="cls-7" d="M173.8,12.9c9.3,0,13.9,4.1,13.9,12.3v42.1c0,8.2-4.6,12.2-13.9,12.2H27.1c-9.2,0-13.8-4.1-13.8-12.2V25.2c0-8.2,4.6-12.3,13.8-12.3h146.7"/>
+          </g>
+        </g>
+        <g class="cls-9" ffdec:characterId="346">
+          <g id="text0">
+            <g>
+              <g id="font_Arial_35pt_st__0">
+                <path class="cls-3" d="M81.6,40.3h-2v-1h-5v1h-2v1h-1v2h-1v9h1v2h1v1h2v1h5v-1h1v-1h1v-1h1v-2h1v1h3v1h1v1h-1v2h-1v1h-1v1h-1v1h-3v1h-7v-1h-2v-1h-2v-1h-1v-1h-1v-2h-1v-2h-1v-9h1v-2h1v-2h1v-1h1v-1h2v-1h2v-1h8v1h2v1h1v1h1v1h1v2h1v1h-2v1h-3v-1h-1v-2"/>
+              </g>
+              <g id="font_Arial_35pt_st__1">
+                <path class="cls-3" d="M98.6,47.3v5h-1v3h-1v1h10v-17h-7v8h-1M94.6,48.3v-13h17v21h2v9h-4v-5h-16v5h-4v-9h2v-1h1v-2h1v-5h1"/>
+              </g>
+              <g id="font_Arial_35pt_st__2">
+                <path class="cls-3" d="M130.6,36.3h1v-1h5v2h-1v2h-1v2h-1v2h-1v2h-1v2h-1v3h-1v2h-1v2h-1v2h-1v1h-1v1h-1v1h-1v1h-6v-4h4v-1h1v-2h1v-2h-1v-2h-1v-1h-1v-2h-1v-2h-1v-2h-1v-2h-1v-1h-1v-2h-1v-2h5v1h1v2h1v1h1v2h1v2h1v2h1v1h2v-3h1v-2h1v-2h1v-3"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

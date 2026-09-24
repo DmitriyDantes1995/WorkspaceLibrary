@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 99.6 153.2" style="enable-background:new 0 0 99.6 153.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#CA1517;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#E52521;}
+</style>
+<g id="Слой_2">
+	
+		<radialGradient id="SVGID_1_" cx="-4893.8076" cy="-2684.5498" r="819.2" gradientTransform="matrix(0 -3.710000e-02 -3.710000e-02 0 -30.2071 -58.5434)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.2078" style="stop-color:#D6D6D6"/>
+		<stop  offset="0.3216" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.3529" style="stop-color:#636363"/>
+		<stop  offset="0.4078" style="stop-color:#858585"/>
+		<stop  offset="0.5098" style="stop-color:#676767"/>
+		<stop  offset="0.7569" style="stop-color:#777778"/>
+	</radialGradient>
+	<path class="st0" d="M81.9,95.4h-25H81.9c2.8,1.3,5.4,3,7.8,5.3l1.1,1c5.9,5.9,8.8,13,8.8,21.4s-2.9,15.4-8.8,21.3l-1.1,1
+		c-2.5,2.3-5.2,4.1-8,5.4c-3.7,1.7-7.8,2.5-12.3,2.5s-8.5-0.8-12.3-2.5c-3.3-1.5-6.3-3.6-9.1-6.4c-5.9-5.9-8.9-13-8.9-21.3
+		s3-15.5,8.9-21.4c2.7-2.7,5.7-4.8,8.9-6.3c3.8-1.7,7.9-2.6,12.5-2.6C73.9,92.8,78.1,93.7,81.9,95.4 M89.7,100.7v44.7V100.7"/>
+	<polygon class="st1" points="0,76.2 11,95 21.8,76 	"/>
+</g>
+<g id="Слой_3">
+	<path class="st1" d="M15.8,45.1c5.4-9.9,13-17.8,22.8-23.6c9.8-5.8,20.3-8.7,31.7-8.8v5.7c-10.3,0-19.9,2.6-28.8,7.9
+		c-8.9,5.3-15.8,12.5-20.7,21.5s-7.2,18.7-6.8,29L8.2,77C7.8,65.7,10.3,55.1,15.8,45.1"/>
+</g>
+<g id="Слой_1">
+	<g transform="matrix(1.0, 0.0, 0.0, 1.0, -14.7, 0.0)">
+		<path class="st2" d="M87.5,0.1c1.9,0,3.5,0.7,4.9,2c1.4,1.3,2,3,2,4.9v118.5c0,1.9-0.7,3.5-2,4.9c-1.4,1.3-3,2-4.9,2h-6.2
+			c-1.9,0-3.5-0.7-4.8-2c-1.3-1.4-2-3-2-4.9V7c0-1.9,0.7-3.5,2-4.9c1.4-1.4,3-2,4.9-2H87.5"/>
+		<path class="st3" d="M92.2,0c1.9,0,3.5,0.6,4.8,2c1.4,1.3,2.1,3,2.1,4.9l0,118.5c0,1.9-0.7,3.5-2,4.9c-1.3,1.3-3,2-4.9,2.1h-6.2
+			c-1.9,0-3.5-0.7-4.9-2c-1.3-1.4-2-3-2-4.9l0-118.5c0-1.9,0.7-3.5,2-4.9c1.4-1.4,3-2,4.9-2H92.2"/>
+	</g>
+</g>
+</svg>

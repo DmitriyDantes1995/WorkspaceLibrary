@@ -1,0 +1,33 @@
+{
+    "assets": [
+        "PodlozhkaText20.qml",
+        "panel.svg"
+    ],
+    "closed": true,
+    "component": "PodlozhkaText20.qml",
+    "formatVersion": 2,
+    "holes": [
+    ],
+    "kind": "PanelShapeEditorPlate",
+    "originX": 310,
+    "originY": 180,
+    "points": [
+        {
+            "cornerRadius": 0,
+            "x": 540,
+            "y": 180
+        },
+        {
+            "cornerRadius": 0,
+            "x": 310,
+            "y": 420
+        },
+        {
+            "cornerRadius": 0,
+            "x": 790,
+            "y": 380
+        }
+    ],
+    "sceneLayer": "background",
+    "version": 3
+}
