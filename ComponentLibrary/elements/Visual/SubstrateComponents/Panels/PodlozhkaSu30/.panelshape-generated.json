@@ -1,0 +1,280 @@
+{
+    "assets": [
+        "PodlozhkaSu30.qml",
+        "panel.svg"
+    ],
+    "closed": true,
+    "component": "PodlozhkaSu30.qml",
+    "componentHeight": 850,
+    "componentWidth": 1300,
+    "formatVersion": 2,
+    "holes": [
+    ],
+    "kind": "PanelShapeEditorPlate",
+    "originX": 10,
+    "originY": 70,
+    "points": [
+        {
+            "cornerRadius": 0,
+            "x": 470,
+            "y": 710
+        },
+        {
+            "cornerRadius": 0,
+            "x": 280,
+            "y": 710
+        },
+        {
+            "cornerRadius": 0,
+            "x": 280,
+            "y": 720
+        },
+        {
+            "cornerRadius": 0,
+            "x": 270,
+            "y": 740
+        },
+        {
+            "cornerRadius": 0,
+            "x": 210,
+            "y": 820
+        },
+        {
+            "cornerRadius": 0,
+            "x": 190,
+            "y": 820
+        },
+        {
+            "cornerRadius": 0,
+            "x": 10,
+            "y": 770
+        },
+        {
+            "cornerRadius": 0,
+            "x": 10,
+            "y": 560
+        },
+        {
+            "cornerRadius": 0,
+            "x": 120,
+            "y": 450
+        },
+        {
+            "cornerRadius": 0,
+            "x": 130,
+            "y": 440
+        },
+        {
+            "cornerRadius": 0,
+            "x": 130,
+            "y": 270
+        },
+        {
+            "cornerRadius": 0,
+            "x": 410,
+            "y": 70
+        },
+        {
+            "cornerRadius": 0,
+            "x": 500,
+            "y": 70
+        },
+        {
+            "cornerRadius": 0,
+            "x": 500,
+            "y": 300
+        },
+        {
+            "cornerRadius": 0,
+            "x": 880,
+            "y": 300
+        },
+        {
+            "cornerRadius": 0,
+            "x": 880,
+            "y": 90
+        },
+        {
+            "cornerRadius": 0,
+            "x": 900,
+            "y": 90
+        },
+        {
+            "cornerRadius": 0,
+            "x": 900,
+            "y": 80
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1080,
+            "y": 80
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1190,
+            "y": 140
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1200,
+            "y": 350
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1190,
+            "y": 360
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1190,
+            "y": 480
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1310,
+            "y": 560
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1310,
+            "y": 770
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1110,
+            "y": 820
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1100,
+            "y": 820
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1030,
+            "y": 720
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1030,
+            "y": 700
+        },
+        {
+            "cornerRadius": 0,
+            "x": 850,
+            "y": 700
+        },
+        {
+            "cornerRadius": 0,
+            "x": 820,
+            "y": 750
+        },
+        {
+            "cornerRadius": 0,
+            "x": 810,
+            "y": 750
+        },
+        {
+            "cornerRadius": 0,
+            "x": 790,
+            "y": 900
+        },
+        {
+            "cornerRadius": 0,
+            "x": 790,
+            "y": 910
+        },
+        {
+            "cornerRadius": 0,
+            "x": 780,
+            "y": 920
+        },
+        {
+            "cornerRadius": 0,
+            "x": 750,
+            "y": 920
+        },
+        {
+            "cornerRadius": 0,
+            "x": 720,
+            "y": 920
+        },
+        {
+            "cornerRadius": 0,
+            "x": 680,
+            "y": 920
+        },
+        {
+            "cornerRadius": 0,
+            "x": 680,
+            "y": 900
+        },
+        {
+            "cornerRadius": 0,
+            "x": 670,
+            "y": 890
+        },
+        {
+            "cornerRadius": 0,
+            "x": 640,
+            "y": 890
+        },
+        {
+            "cornerRadius": 0,
+            "x": 630,
+            "y": 890
+        },
+        {
+            "cornerRadius": 0,
+            "x": 610,
+            "y": 890
+        },
+        {
+            "cornerRadius": 0,
+            "x": 610,
+            "y": 900
+        },
+        {
+            "cornerRadius": 0,
+            "x": 610,
+            "y": 910
+        },
+        {
+            "cornerRadius": 0,
+            "x": 600,
+            "y": 920
+        },
+        {
+            "cornerRadius": 0,
+            "x": 570,
+            "y": 920
+        },
+        {
+            "cornerRadius": 0,
+            "x": 540,
+            "y": 920
+        },
+        {
+            "cornerRadius": 0,
+            "x": 530,
+            "y": 910
+        },
+        {
+            "cornerRadius": 0,
+            "x": 520,
+            "y": 900
+        },
+        {
+            "cornerRadius": 0,
+            "x": 510,
+            "y": 750
+        },
+        {
+            "cornerRadius": 0,
+            "x": 500,
+            "y": 750
+        }
+    ],
+    "sceneLayer": "background",
+    "version": 3
+}

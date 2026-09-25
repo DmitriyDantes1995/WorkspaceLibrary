@@ -6,10 +6,11 @@ BaseSceneComponent {
 
     my_type: "Substrate"
     my_subtype: "ContourPanel"
+    sceneLayer: "background"
     previewSource: "panel.svg"
 
-    width: 370
-    height: 240
+    width: 1300
+    height: 850
 
     customProperties: ({})
 

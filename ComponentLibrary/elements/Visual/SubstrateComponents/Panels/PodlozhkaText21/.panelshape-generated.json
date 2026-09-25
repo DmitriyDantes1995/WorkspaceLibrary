@@ -1,9 +1,0 @@
-{
-    "assets": [
-        "PodlozhkaText21.qml",
-        "panel.svg"
-    ],
-    "component": "PodlozhkaText21.qml",
-    "kind": "PanelShapeEditorPlate",
-    "version": 1
-}

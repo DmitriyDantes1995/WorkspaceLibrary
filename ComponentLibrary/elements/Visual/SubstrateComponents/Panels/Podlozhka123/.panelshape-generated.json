@@ -1,0 +1,85 @@
+{
+    "assets": [
+        "Podlozhka123.qml",
+        "panel.svg"
+    ],
+    "closed": true,
+    "component": "Podlozhka123.qml",
+    "componentHeight": 380,
+    "componentWidth": 690,
+    "formatVersion": 2,
+    "holes": [
+    ],
+    "kind": "PanelShapeEditorPlate",
+    "originX": 510,
+    "originY": 80,
+    "points": [
+        {
+            "cornerRadius": 0,
+            "x": 510,
+            "y": 290
+        },
+        {
+            "cornerRadius": 0,
+            "x": 570,
+            "y": 290
+        },
+        {
+            "cornerRadius": 0,
+            "x": 710,
+            "y": 290
+        },
+        {
+            "cornerRadius": 0,
+            "x": 850,
+            "y": 290
+        },
+        {
+            "cornerRadius": 0,
+            "x": 870,
+            "y": 290
+        },
+        {
+            "cornerRadius": 0,
+            "x": 870,
+            "y": 180
+        },
+        {
+            "cornerRadius": 0,
+            "x": 880,
+            "y": 100
+        },
+        {
+            "cornerRadius": 0,
+            "x": 890,
+            "y": 80
+        },
+        {
+            "cornerRadius": 0,
+            "x": 970,
+            "y": 80
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1080,
+            "y": 80
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1190,
+            "y": 130
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1200,
+            "y": 350
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1190,
+            "y": 460
+        }
+    ],
+    "sceneLayer": "background",
+    "version": 3
+}
