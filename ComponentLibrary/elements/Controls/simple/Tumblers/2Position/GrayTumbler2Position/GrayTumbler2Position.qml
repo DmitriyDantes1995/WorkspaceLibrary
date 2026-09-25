@@ -1,15 +1,15 @@
 import QtQuick 2.15
 import common_qml 1.0
 
-BaseSceneComponent {
+Toggle2Position {
     id: root
     preserveAspectRatio: true
 
-    property real oN: 0
-    property bool runtimeMode: false
+    property alias oN: root.value
+    valuePropertyName: "oN"
 
     readonly property int currentPosition:
-        Math.max(0, Math.min(1, Math.round(oN)))
+        currentState
     readonly property var positionSources: ["position_0.svg", "position_1.svg"]
 
     my_type: "GrayTumbler2Position"
@@ -33,21 +33,11 @@ BaseSceneComponent {
         }
     })
 
-    function toggleFromUser() {
-        root.oN = root.currentPosition === 0 ? 1 : 0
-        root.userPropertyChanged("oN", root.oN)
-    }
-
     AdaptiveSvgImage {
         anchors.fill: parent
         source: Qt.resolvedUrl(root.positionSources[root.currentPosition])
         fillMode: Image.Stretch
         smooth: true
 
-        MouseArea {
-            anchors.fill: parent
-            enabled: root.runtimeMode
-            onClicked: root.toggleFromUser()
-        }
     }
 }

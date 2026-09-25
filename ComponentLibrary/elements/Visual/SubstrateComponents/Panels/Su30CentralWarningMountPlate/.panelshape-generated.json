@@ -1,0 +1,46 @@
+{
+    "assets": [
+        "Su30CentralWarningMountPlate.qml",
+        "panel.svg"
+    ],
+    "closed": true,
+    "component": "Su30CentralWarningMountPlate.qml",
+    "formatVersion": 2,
+    "kind": "PanelShapeEditorPlate",
+    "originX": 745.0108,
+    "originY": 305.7294,
+    "points": [
+        {
+            "cornerRadius": 3.566,
+            "x": 746.0108,
+            "y": 306.7294
+        },
+        {
+            "cornerRadius": 3.566,
+            "x": 840.8669,
+            "y": 306.7294
+        },
+        {
+            "cornerRadius": 3.566,
+            "x": 840.8669,
+            "y": 398.7327
+        },
+        {
+            "cornerRadius": 3.566,
+            "x": 800.9275,
+            "y": 398.7327
+        },
+        {
+            "cornerRadius": 3.566,
+            "x": 800.9275,
+            "y": 377.3366
+        },
+        {
+            "cornerRadius": 3.566,
+            "x": 746.0108,
+            "y": 377.3366
+        }
+    ],
+    "sceneLayer": "background",
+    "version": 3
+}

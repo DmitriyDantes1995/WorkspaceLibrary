@@ -1,3 +1,10 @@
 module common_qml
 BaseSceneComponent 1.0 BaseSceneComponent.qml
 AdaptiveSvgImage 1.0 AdaptiveSvgImage.qml
+ControlState 1.0 ControlState.qml
+MomentaryButton 1.0 MomentaryButton.qml
+Toggle2Position 1.0 Toggle2Position.qml
+Toggle3Position 1.0 Toggle3Position.qml
+RotaryDiscrete 1.0 RotaryDiscrete.qml
+RotaryAnalog 1.0 RotaryAnalog.qml
+Indicator 1.0 Indicator.qml

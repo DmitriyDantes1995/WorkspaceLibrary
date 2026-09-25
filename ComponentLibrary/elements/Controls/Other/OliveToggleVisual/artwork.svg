@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="72" viewBox="0 0 64 72">
+<!-- Approximation drawn from Su30.jpg; visual only. -->
+<defs><linearGradient id="metal" x2="1" y2="0"><stop stop-color="#738589"/><stop offset=".45" stop-color="#f3f3da"/><stop offset="1" stop-color="#7b8987"/></linearGradient></defs>
+<circle cx="32" cy="32" r="29" fill="#38494c" stroke="#1e292b" stroke-width="2"/>
+<path d="M18 6 L46 6 60 30 46 55 18 55 4 30Z" fill="#71868a" stroke="#33464a"/>
+<circle cx="32" cy="31" r="23" fill="#58695d" stroke="#b1c4ba"/>
+<circle cx="32" cy="31" r="19" fill="#9fae24" stroke="#6d791c"/>
+<ellipse cx="32" cy="45" rx="8" ry="10" fill="#48534b"/>
+<rect x="26" y="42" width="12" height="23" rx="6" fill="url(#metal)" stroke="#617169"/>
+<ellipse cx="32" cy="64" rx="5" ry="5" fill="#d8e3c8" stroke="#778874"/>
+</svg>

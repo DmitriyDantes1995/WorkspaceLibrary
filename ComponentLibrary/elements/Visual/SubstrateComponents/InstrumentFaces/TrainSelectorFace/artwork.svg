@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="138" viewBox="0 0 106 138">
+<!-- Approximation drawn from Su30.jpg; visual only. -->
+<g fill="#e0e5df" font-family="Arial" font-size="12"><text x="24" y="13">TRAIN</text><text x="63" y="34" font-size="10">0,4</text><text x="30" y="46" font-size="10">0,2</text><text x="15" y="62" font-size="10">0,1</text><text x="0" y="83" font-size="10">PART</text><text x="12" y="128" font-size="10">SCL</text></g>
+<path d="M19 15H15V52M79 15H83V38" fill="none" stroke="#e0e5df" stroke-width="2"/>
+<g stroke="#e0e5df" stroke-width="5"><path d="M32 113l7-6M27 91l8-2M29 70l8 3M45 52l5 7M66 44l1 9"/></g>
+<circle cx="66" cy="91" r="36" fill="#3c240f" stroke="#201b14"/>
+<path d="M37 70A36 36 0 0 1 97 73L39 118A36 36 0 0 1 37 70" fill="#86490c"/>
+<path d="M39 118L97 73A36 36 0 0 1 39 118" fill="#673407"/>
+<path d="M39 115L94 75" stroke="#3e2816" stroke-width="15"/>
+<path d="M39 115L94 75" stroke="#e9e6c9" stroke-width="3"/>
+</svg>

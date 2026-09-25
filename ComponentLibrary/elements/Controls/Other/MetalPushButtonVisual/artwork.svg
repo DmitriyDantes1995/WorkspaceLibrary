@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<!-- Approximation drawn from Su30.jpg; visual only. -->
+<defs><radialGradient id="cap" cx=".38" cy=".3" r=".8"><stop stop-color="#c1d0c9"/><stop offset="1" stop-color="#6f8588"/></radialGradient></defs>
+<path d="M17 3H47L61 18V46L47 61H17L3 46V18Z" fill="#3d5559" stroke="#172d31" stroke-width="2"/>
+<path d="M19 7H45L56 19V44L44 56H20L8 44V20Z" fill="#91c9ba" stroke="#678e85" stroke-width="2"/>
+<circle cx="32" cy="32" r="23" fill="#5d7277" stroke="#c2ded0" stroke-width="2"/>
+<circle cx="32" cy="32" r="19" fill="url(#cap)" stroke="#3f5c60"/>
+<circle cx="32" cy="32" r="14" fill="none" stroke="#8b9f9e" stroke-width="2"/>
+</svg>
