@@ -1,17 +1,11 @@
 import QtQuick 2.15
-import common_qml 1.0
+import "../Su30Mfd/_parts"
 
-MomentaryButton {
-    id: root
+// Legacy entry point; the complete instrument owns the artwork.
+MfdButton {
     my_type: "Su30MfdButton"
     my_subtype: "Su30MfdButton"
     implicitWidth: 64
     implicitHeight: 64
-    previewSource: "state_0.svg"
-
-    AdaptiveSvgImage {
-        anchors.fill: parent
-        source: Qt.resolvedUrl("state_" + root.currentState + ".svg")
-        fillMode: Image.PreserveAspectFit
-    }
+    previewSource: "../Su30Mfd/_parts/state_0.svg"
 }

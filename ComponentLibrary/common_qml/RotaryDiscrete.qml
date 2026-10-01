@@ -3,10 +3,12 @@ import QtQuick 2.15
 ControlState {
     id: root
     property var angles: [-120, -90, -60, -30, 0]
+    property real inputCenterX: width / 2
+    property real inputCenterY: height / 2
     maximumValue: Math.max(0, angles.length - 1)
     readonly property real visualAngle: angles[currentState] || 0
     function selectAt(x, y) {
-        var dx = x - width / 2, dy = y - height / 2
+        var dx = x - inputCenterX, dy = y - inputCenterY
         if (Math.sqrt(dx * dx + dy * dy) < Math.min(width, height) * 0.1) return
         var angle = Math.atan2(dx, -dy) * 180 / Math.PI
         var best = 0, distance = Infinity
