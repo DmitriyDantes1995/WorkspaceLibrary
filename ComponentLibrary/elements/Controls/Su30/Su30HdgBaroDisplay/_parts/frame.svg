@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 500">
+<!-- Redrawn from the user-supplied reference; not an SWF export. -->
+<defs><linearGradient id="body" x2="0" y2="1"><stop stop-color="#2b393c"/><stop offset="1" stop-color="#2e3c3f"/></linearGradient><linearGradient id="metal"><stop stop-color="#85999a"/><stop offset=".45" stop-color="#fcfff5"/><stop offset="1" stop-color="#a1b5b1"/></linearGradient></defs>
+<path d="M70 3H463Q476 3 485 12L528 55Q537 64 537 77V419Q537 432 528 441L485 484Q477 493 463 493H70Q58 493 49 484L9 444Q2 437 2 425V78Q2 65 10 56L52 13Q60 3 70 3Z" fill="url(#body)" stroke="#14272e" stroke-width="2"/>
+<rect x="52" y="86" width="435" height="327" rx="12" fill="#2400df" stroke="#131922" stroke-width="2"/>
+<g fill="url(#metal)" stroke="#769095"><circle cx="19" cy="20" r="18"/><circle cx="519" cy="20" r="18"/><circle cx="19" cy="477" r="18"/><circle cx="519" cy="477" r="18"/></g>
+<g stroke="#7a8985" stroke-width="3"><path d="M8 32L30 8M508 32L530 8M8 489L30 465M508 489L530 465"/></g>
+<g fill="none" stroke="#dce2de" stroke-width="1"><path d="M174 18L207 8V18Z"/><path d="M195 48l8 5v9l-8 5-8-5v-9Z M195 39v6 M195 70v6 M178 57h6 M207 57h6 M183 45l4 5 M203 65l4 5 M183 70l4-5 M203 50l4-5"/></g>
+<text x="302" y="63" fill="#e0e6e0" font-family="Arial" font-size="19" text-anchor="middle">FE</text>
+<path d="M237 456H298Q307 456 307 467V471Q307 479 299 479H238Q231 479 231 471V465Q231 456 237 456Z" fill="url(#metal)" stroke="#52676a"/>
+<path d="M258 457V478M281 457V478" stroke="#26363a" stroke-width="2"/><circle cx="270" cy="464" r="5" fill="#304147" stroke="#667c80"/>
+</svg>
