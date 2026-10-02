@@ -7,7 +7,7 @@ BaseSceneComponent {
 
     my_type: "clin"
     my_subtype: "clin"
-    previewSource: "background.svg"
+    previewSource: "preview.png"
 
     readonly property real designWidth: 50.8
     readonly property real designHeight: 58
@@ -24,37 +24,51 @@ BaseSceneComponent {
     height: implicitHeight
     clip: true
 
-    // Значение, которое будет приходить из RaNET.
+    property bool runtimeMode: false
+    // Legacy input only. Explicit channel assignments replace these default bindings,
+    // so mixed old/new configurations work regardless of property restore order.
     property real m_value: 0
-
-    // Ограничиваем входное значение диапазоном 0–100.
-    readonly property real normalizedValue:
-        Math.max(0, Math.min(100, m_value))
-
-    // Рабочая область шкалы в координатах исходного background.svg.
+    property real leftValue: m_value
+    property real rightValue: m_value
     readonly property real scaleTop: 83
     readonly property real scaleBottom: 273
-
-    // 100 находится сверху, 0 — снизу.
-    readonly property real pointerCenterY:
-        scaleBottom
-        - (scaleBottom - scaleTop)
-        * normalizedValue / 100.0
-
-    customProperties: ({
-        "m_value": m_value
-    })
+    function pointerY(value) {
+        return scaleBottom - (scaleBottom-scaleTop)*Math.max(0,Math.min(100,value))/100
+    }
+    customProperties: ({m_value:0, leftValue:0, rightValue:0})
+    property bool synchronizingChannels:false
+    property bool channelsReady:false
+    Component.onCompleted:channelsReady=true
     propertySchema: ({
-        "m_value": {
-            label: "Ramp position",
-            type: "number",
-            bindable: true,
-            min: 0,
-            max: 100,
-            step: 1,
-            unit: "%"
-        }
+        m_value:{type:"number",hidden:true,bindable:false},
+        leftValue:{displayName:"Left ramp",type:"number",min:0,max:100,step:1,unit:"%",bindable:true,access:"readWrite"},
+        rightValue:{displayName:"Right ramp",type:"number",min:0,max:100,step:1,unit:"%",bindable:true,access:"readWrite"}
     })
+    function synchronizeChannels() {
+        if(synchronizingChannels) return
+        synchronizingChannels=true
+        var changed=false
+        if(customProperties.m_value !== m_value) {customProperties.m_value=m_value;changed=true}
+        if(customProperties.leftValue !== leftValue) {customProperties.leftValue=leftValue;changed=true}
+        if(customProperties.rightValue !== rightValue) {customProperties.rightValue=rightValue;changed=true}
+        if(changed) customPropertiesChanged()
+        synchronizingChannels=false
+    }
+    onLeftValueChanged:synchronizeChannels()
+    onRightValueChanged:synchronizeChannels()
+    // Qt_Cab replaces the property map after assigning the individual values.
+    onCustomPropertiesChanged: {
+        if(synchronizingChannels || !channelsReady) return
+        // Restore the complete incoming map after C++ assignments, which keep QML
+        // bindings alive. Cache both inputs before synchronizing either channel.
+        var left=customProperties.hasOwnProperty("leftValue") ? customProperties.leftValue : customProperties.m_value
+        var right=customProperties.hasOwnProperty("rightValue") ? customProperties.rightValue : customProperties.m_value
+        synchronizingChannels=true
+        if(left !== undefined) leftValue=left
+        if(right !== undefined) rightValue=right
+        synchronizingChannels=false
+        synchronizeChannels()
+    }
 
     // Вся графика живёт в одном design-space и масштабируется одним
     // равномерным коэффициентом, чтобы части прибора не расходились.
@@ -95,7 +109,7 @@ BaseSceneComponent {
             objectName: "rampLeftArrowImage"
 
             x: root.leftArrowX
-            y: root.pointerCenterY - height / 2
+            y: root.pointerY(root.leftValue) - height / 2
             width: root.designArrowWidth
             height: root.designArrowHeight
 
@@ -116,7 +130,7 @@ BaseSceneComponent {
             objectName: "rampRightArrowImage"
 
             x: root.rightArrowX
-            y: root.pointerCenterY - height / 2
+            y: root.pointerY(root.rightValue) - height / 2
             width: root.designArrowWidth
             height: root.designArrowHeight
 
@@ -130,6 +144,36 @@ BaseSceneComponent {
                     easing.type: Easing.OutCubic
                 }
             }
+        }
+        RotaryAnalog {
+            id:leftKnob; objectName:"leftKnob"
+            x:9; y:224; width:52; height:52
+            minimumValue:0; maximumValue:100; wheelStep:1
+            Binding {target:leftKnob;property:"value";value:root.leftValue}
+            function commitFromUser(next) {
+                var bounded=normalized(next)
+                if(root.leftValue === bounded) return
+                root.leftValue=bounded
+                userPropertyChanged("value",bounded)
+            }
+            runtimeMode:root.runtimeMode
+            onUserPropertyChanged:function(name,value) {root.userPropertyChanged("leftValue",value)}
+            AdaptiveSvgImage {anchors.fill:parent;source:Qt.resolvedUrl("_parts/knob.png");rotation:parent.visualAngle}
+        }
+        RotaryAnalog {
+            id:rightKnob; objectName:"rightKnob"
+            x:251; y:224; width:52; height:52
+            minimumValue:0; maximumValue:100; wheelStep:1
+            Binding {target:rightKnob;property:"value";value:root.rightValue}
+            function commitFromUser(next) {
+                var bounded=normalized(next)
+                if(root.rightValue === bounded) return
+                root.rightValue=bounded
+                userPropertyChanged("value",bounded)
+            }
+            runtimeMode:root.runtimeMode
+            onUserPropertyChanged:function(name,value) {root.userPropertyChanged("rightValue",value)}
+            AdaptiveSvgImage {anchors.fill:parent;source:Qt.resolvedUrl("_parts/knob.png");rotation:parent.visualAngle}
         }
     }
 }
