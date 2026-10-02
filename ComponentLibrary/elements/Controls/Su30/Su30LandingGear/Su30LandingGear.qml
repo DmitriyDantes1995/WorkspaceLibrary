@@ -6,9 +6,9 @@ Toggle2Position {
     my_type: "Su30LandingGear"
     my_subtype: "Su30LandingGear"
     componentPath: "elements/Controls/Su30/Su30LandingGear/Su30LandingGear.qml"
-    previewSource: "_parts/down.svg"
-    readonly property real designWidth: 187
-    readonly property real designHeight: 1085
+    previewSource: "preview.png"
+    readonly property real designWidth: 135
+    readonly property real designHeight: 270
     width: designWidth
     height: designHeight
     propertySchema: ({value:{displayName:"Gear lever",type:"enum",bindable:true,access:"readWrite",
@@ -16,7 +16,7 @@ Toggle2Position {
     AdaptiveSvgImage {
         objectName: "gearLeverImage"
         anchors.fill: parent
-        source: Qt.resolvedUrl(root.currentState === 0 ? "_parts/down.svg" : "_parts/up.svg")
+        source: Qt.resolvedUrl(root.currentState === 0 ? "_parts/drawn-down.svg" : "_parts/drawn-up.svg")
         fillMode: Image.PreserveAspectFit
     }
 }

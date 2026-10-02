@@ -1,8 +1,14 @@
 import QtQuick 2.15
-import "../../Su30/Su30LandingGear"
+import common_qml 1.0
 
 // Old configurations store visualVariant: keep its 0=down, 1=up meaning.
-Su30LandingGear {
+Toggle2Position {
+    width:187; height:1085
+    AdaptiveSvgImage {
+        anchors.fill:parent
+        source:Qt.resolvedUrl(root.value === 0 ? "../../Su30/Su30LandingGear/_parts/down.svg" : "../../Su30/Su30LandingGear/_parts/up.svg")
+        fillMode:Image.PreserveAspectFit
+    }
     id: root
     my_type: "LandingGearLeverVisual"
     my_subtype: "LandingGearLeverVisual"
