@@ -1,0 +1,1166 @@
+{
+    "AngleOfAttackLoadFactorIndicator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/AngleOfAttackLoadFactorIndicator/AngleOfAttackLoadFactorIndicator.qml",
+            "customProperties": {
+                "alphaInputMax": 360,
+                "alphaInputMin": 0,
+                "alphaMappingMode": "Linear",
+                "alphaMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 360
+                    }
+                ],
+                "alphaOutputMaxAngle": 360,
+                "alphaOutputMinAngle": 0,
+                "alphaValue": 0,
+                "loadFactorInputMax": 360,
+                "loadFactorInputMin": 0,
+                "loadFactorMappingMode": "Linear",
+                "loadFactorMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 360
+                    }
+                ],
+                "loadFactorOutputMaxAngle": 360,
+                "loadFactorOutputMinAngle": 0,
+                "loadFactorValue": 0,
+                "strelka_Alpha_Pribor": 0,
+                "strelka_NY_Pribor": 0
+            },
+            "gaugeInstanceOverride": false,
+            "height": 107.13690476190492,
+            "locked": true,
+            "name": "AngleOfAttackLoadFactorIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "AngleOfAttackLoadFactorIndicator",
+            "type": "AngleOfAttackLoadFactorIndicator",
+            "width": 103.26448651749871,
+            "x": 709.4761904761906,
+            "y": 475.642857142857,
+            "z": 0
+        }
+    ],
+    "EngineRpmIndicator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/EngineRpmIndicator/EngineRpmIndicator.qml",
+            "customProperties": {
+                "n1InputMax": 360,
+                "n1InputMin": 0,
+                "n1MappingMode": "Linear",
+                "n1MappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "n1OutputMaxAngle": 360,
+                "n1OutputMinAngle": 0,
+                "n1Value": 0,
+                "n1_rotation": 0,
+                "n2InputMax": 360,
+                "n2InputMin": 0,
+                "n2MappingMode": "Linear",
+                "n2MappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "n2OutputMaxAngle": 360,
+                "n2OutputMinAngle": 0,
+                "n2Value": 0,
+                "n2_rotation": 0
+            },
+            "gaugeInstanceOverride": false,
+            "height": 100.95197030268419,
+            "locked": true,
+            "name": "EngineRpmIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "EngineRpmIndicator",
+            "type": "EngineRpmIndicator",
+            "width": 104.34881936245573,
+            "x": 537.3666666666667,
+            "y": 318.5500000000002,
+            "z": 0
+        }
+    ],
+    "LeftEngineTemperatureIndicator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/LeftEngineTemperatureIndicator/LeftEngineTemperatureIndicator.qml",
+            "customProperties": {
+                "bolshaya_rotation": 0,
+                "largeNeedleInputMax": 360,
+                "largeNeedleInputMin": 0,
+                "largeNeedleMappingMode": "Linear",
+                "largeNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 360
+                    }
+                ],
+                "largeNeedleOutputMaxAngle": 360,
+                "largeNeedleOutputMinAngle": 0,
+                "largeNeedleValue": 0,
+                "malaya_rotation": 0,
+                "smallNeedleInputMax": 360,
+                "smallNeedleInputMin": 0,
+                "smallNeedleMappingMode": "Linear",
+                "smallNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 360
+                    }
+                ],
+                "smallNeedleOutputMaxAngle": 360,
+                "smallNeedleOutputMinAngle": 0,
+                "smallNeedleValue": 0
+            },
+            "gaugeInstanceOverride": false,
+            "height": 78.70796130952364,
+            "locked": true,
+            "name": "LeftEngineTemperatureIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "LeftEngineTemperatureIndicator",
+            "type": "LeftEngineTemperatureIndicator",
+            "width": 75.86309523809507,
+            "x": 613.6369047619046,
+            "y": 511.9285714285712,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/LeftEngineTemperatureIndicator/LeftEngineTemperatureIndicator.qml",
+            "customProperties": {
+                "bolshaya_rotation": 0,
+                "largeNeedleInputMax": 360,
+                "largeNeedleInputMin": 0,
+                "largeNeedleMappingMode": "Linear",
+                "largeNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 360
+                    }
+                ],
+                "largeNeedleOutputMaxAngle": 360,
+                "largeNeedleOutputMinAngle": 0,
+                "largeNeedleValue": 0,
+                "malaya_rotation": 0,
+                "smallNeedleInputMax": 360,
+                "smallNeedleInputMin": 0,
+                "smallNeedleMappingMode": "Linear",
+                "smallNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 360
+                    }
+                ],
+                "smallNeedleOutputMaxAngle": 360,
+                "smallNeedleOutputMinAngle": 0,
+                "smallNeedleValue": 0
+            },
+            "gaugeInstanceOverride": false,
+            "height": 74.66071428571423,
+            "locked": true,
+            "name": "LeftEngineTemperatureIndicator_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "LeftEngineTemperatureIndicator",
+            "type": "LeftEngineTemperatureIndicator",
+            "width": 71.96213425129083,
+            "x": 531.5595238095237,
+            "y": 513.2619047619046,
+            "z": 0
+        }
+    ],
+    "RedSafetySwitchVisual": [
+        {
+            "componentPath": "elements/Controls/Other/RedSafetySwitchVisual/RedSafetySwitchVisual.qml",
+            "customProperties": {
+                "visualVariant": 0
+            },
+            "height": 44.38809523809541,
+            "locked": false,
+            "name": "RedSafetySwitchVisual_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "RedSafetySwitchVisual",
+            "type": "RedSafetySwitchVisual",
+            "width": 37.1400924937746,
+            "x": 490.5999999999998,
+            "y": 207.47261904761893,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Other/RedSafetySwitchVisual/RedSafetySwitchVisual.qml",
+            "customProperties": {
+                "visualVariant": 0
+            },
+            "height": 44.77840136054419,
+            "locked": false,
+            "name": "RedSafetySwitchVisual_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "RedSafetySwitchVisual",
+            "type": "RedSafetySwitchVisual",
+            "width": 37.46666666666664,
+            "x": 414.26666666666665,
+            "y": 158.15778061224495,
+            "z": 0
+        }
+    ],
+    "StandardTumbler2Position": [
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 25.982912457912374,
+            "locked": false,
+            "name": "StandardTumbler2Position_1",
+            "opacity": 1,
+            "rotation": 1,
+            "scale": 1,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 14.605015377336123,
+            "x": 327.39999999999947,
+            "y": 228.17142255892244,
+            "z": 5
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 24.53251100751112,
+            "locked": false,
+            "name": "StandardTumbler2Position_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 13.78974358974365,
+            "x": 442.68205128205125,
+            "y": 229.94342538972455,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 25.262373737373643,
+            "locked": false,
+            "name": "StandardTumbler2Position_3",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 14.199999999999946,
+            "x": 490.3230769230768,
+            "y": 180.02409997409987,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 25.715656565656573,
+            "locked": false,
+            "name": "StandardTumbler2Position_4",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "StandardTumbler2Position",
+            "type": "StandardTumbler2Position",
+            "width": 14.454790631653658,
+            "x": 352.14102573680475,
+            "y": 227.4973684210526,
+            "z": 0
+        }
+    ],
+    "Su30BrakeIndicator": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30BrakeIndicator/Su30BrakeIndicator.qml",
+            "customProperties": {
+                "airPressure": 0,
+                "checkButton": 0,
+                "leftBrakePressure": 0,
+                "rightBrakePressure": 0
+            },
+            "height": 64.28188131313135,
+            "locked": true,
+            "name": "Su30BrakeIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30BrakeIndicator",
+            "type": "Su30BrakeIndicator",
+            "width": 62.97000618429193,
+            "x": 693.8538961038965,
+            "y": 619.9054608585861,
+            "z": 0
+        }
+    ],
+    "Su30Clock": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30Clock/Su30Clock.qml",
+            "customProperties": {
+                "flightButton": 0,
+                "flightSeconds": 0,
+                "stopwatchButton": 0,
+                "stopwatchSeconds": 0,
+                "timeSeconds": 0
+            },
+            "height": 83.17507002801104,
+            "locked": true,
+            "name": "Su30Clock_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30Clock",
+            "type": "Su30Clock",
+            "width": 79.21435240762955,
+            "x": 573.718614718615,
+            "y": 607.774891774892,
+            "z": 0
+        }
+    ],
+    "Su30FuelIndicator": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30FuelIndicator/Su30FuelIndicator.qml",
+            "customProperties": {
+                "leftQuantity": 4,
+                "reserve": 0,
+                "rightQuantity": 0,
+                "tank1": 0,
+                "tank3": 0,
+                "tank4": 0,
+                "tankLS": 0
+            },
+            "height": 173.25,
+            "locked": true,
+            "name": "Su30FuelIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30FuelIndicator",
+            "type": "Su30FuelIndicator",
+            "width": 63.30288461538461,
+            "x": 1093.5985576923076,
+            "y": 465.625,
+            "z": 0
+        }
+    ],
+    "Su30HdgBaroDisplay": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30HdgBaroDisplay/Su30HdgBaroDisplay.qml",
+            "customProperties": {
+                "baro": 0,
+                "brightnessMinus": 0,
+                "brightnessPlus": 0,
+                "feButton": 0,
+                "fitMode": "fit",
+                "hdg": 0,
+                "indicator": 0,
+                "targetWindowTitle": ""
+            },
+            "height": 145.7186270653217,
+            "locked": true,
+            "name": "Su30HdgBaroDisplay_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30HdgBaroDisplay",
+            "type": "Su30HdgBaroDisplay",
+            "width": 157.37611723054744,
+            "x": 658.8829736785437,
+            "y": 296.066287878788,
+            "z": 0
+        }
+    ],
+    "Su30HydraulicIndicator": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30HydraulicIndicator/Su30HydraulicIndicator.qml",
+            "customProperties": {
+                "system1Pressure": 0,
+                "system2Pressure": 0
+            },
+            "height": 76.27403846153847,
+            "locked": false,
+            "name": "Su30HydraulicIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30HydraulicIndicator",
+            "type": "Su30HydraulicIndicator",
+            "width": 42.194148936170215,
+            "x": 1164.3092222086798,
+            "y": 568.1754807692307,
+            "z": 0
+        }
+    ],
+    "Su30LandingGear": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30LandingGear/Su30LandingGear.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 118.18181818181813,
+            "locked": true,
+            "name": "Su30LandingGear_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30LandingGear",
+            "type": "Su30LandingGear",
+            "width": 59.090909090909065,
+            "x": 180.36363636363643,
+            "y": 501.0000000000001,
+            "z": 0
+        }
+    ],
+    "Su30Mfd": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30Mfd/Su30Mfd.qml",
+            "customProperties": {
+                "bottom1": 0,
+                "bottom2": 0,
+                "bottom3": 0,
+                "bottom4": 0,
+                "bottom5": 0,
+                "bottom6": 0,
+                "bottom7": 0,
+                "fitMode": "fit",
+                "left1": 0,
+                "left2": 0,
+                "left3": 0,
+                "left4": 0,
+                "left5": 0,
+                "left6": 0,
+                "left7": 0,
+                "right1": 0,
+                "right2": 0,
+                "right3": 0,
+                "right4": 0,
+                "right5": 0,
+                "right6": 0,
+                "right7": 0,
+                "targetWindowTitle": "",
+                "top1": 0,
+                "top2": 0,
+                "top3": 0,
+                "top4": 0,
+                "top5": 0,
+                "top6": 0,
+                "top7": 0
+            },
+            "height": 314.30683440399645,
+            "locked": true,
+            "name": "Su30Mfd_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30Mfd",
+            "type": "Su30Mfd",
+            "width": 261.1766755634633,
+            "x": 823.7350978647686,
+            "y": 273.7874732334051,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30/Su30Mfd/Su30Mfd.qml",
+            "customProperties": {
+                "bottom1": 0,
+                "bottom2": 0,
+                "bottom3": 0,
+                "bottom4": 0,
+                "bottom5": 0,
+                "bottom6": 0,
+                "bottom7": 0,
+                "fitMode": "fit",
+                "left1": 0,
+                "left2": 0,
+                "left3": 0,
+                "left4": 0,
+                "left5": 0,
+                "left6": 0,
+                "left7": 0,
+                "right1": 0,
+                "right2": 0,
+                "right3": 0,
+                "right4": 0,
+                "right5": 0,
+                "right6": 0,
+                "right7": 0,
+                "targetWindowTitle": "",
+                "top1": 0,
+                "top2": 0,
+                "top3": 0,
+                "top4": 0,
+                "top5": 0,
+                "top6": 0,
+                "top7": 0
+            },
+            "height": 314.4999999999999,
+            "locked": true,
+            "name": "Su30Mfd_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30Mfd",
+            "type": "Su30Mfd",
+            "width": 261.33718861209957,
+            "x": 263.06473902728385,
+            "y": 269.1666666666664,
+            "z": 0
+        }
+    ],
+    "Su30RedTipToggle": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30RedTipToggle/Su30RedTipToggle.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 31.604166666666668,
+            "locked": true,
+            "name": "Su30RedTipToggle_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30RedTipToggle",
+            "type": "Su30RedTipToggle",
+            "width": 18.5,
+            "x": 298.5,
+            "y": 219.50000000000003,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30/Su30RedTipToggle/Su30RedTipToggle.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 34.16666666666667,
+            "locked": true,
+            "name": "Su30RedTipToggle_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30RedTipToggle",
+            "type": "Su30RedTipToggle",
+            "width": 20,
+            "x": 466.9999999999999,
+            "y": 224.00000000000003,
+            "z": 0
+        }
+    ],
+    "Su30RingToggle": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30RingToggle/Su30RingToggle.qml",
+            "customProperties": {
+                "value": 1
+            },
+            "height": 33.977366255143956,
+            "locked": true,
+            "name": "Su30RingToggle_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30RingToggle",
+            "type": "Su30RingToggle",
+            "width": 24.962962962962905,
+            "x": 155.96296296296302,
+            "y": 610.3333333333337,
+            "z": 0
+        }
+    ],
+    "Su30TrainSelector": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30TrainSelector/Su30TrainSelector.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 59.235849056603776,
+            "locked": true,
+            "name": "Su30TrainSelector_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30TrainSelector",
+            "type": "Su30TrainSelector",
+            "width": 45.5,
+            "x": 367.0000000000001,
+            "y": 167.7452830188679,
+            "z": 0
+        }
+    ],
+    "Su30YellowToggle3": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30YellowToggle3/Su30YellowToggle3.qml",
+            "customProperties": {
+                "value": 2
+            },
+            "height": 44.97435897435918,
+            "locked": false,
+            "name": "Su30YellowToggle3_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30YellowToggle3",
+            "type": "Su30YellowToggle3",
+            "width": 24.21696252465494,
+            "x": 229.72658942874816,
+            "y": 534.4320973966499,
+            "z": 0
+        }
+    ],
+    "Substrate": [
+        {
+            "backgroundShape": {
+                "baseHeight": 706.2857142857142,
+                "baseWidth": 1104.2857142857142,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka",
+                "parameters": {
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 709.8521420019334,
+                        "y": 506.684497275879
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 709.9830482354754,
+                        "y": 518.3451496497559
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 691.518723994452,
+                        "y": 548.6628458218353
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 683.1799969178609,
+                        "y": 549.8289110592231
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 678.4150100169517,
+                        "y": 556.2422698648553
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 679.0106333795653,
+                        "y": 596.4715205547301
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 671.8631530282015,
+                        "y": 648.9444562371754
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 668.2894128525196,
+                        "y": 698.5022288261515
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 665.3112960394511,
+                        "y": 703.749522394396
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 656.3769456002465,
+                        "y": 706.0816528691713
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 575.9677916474033,
+                        "y": 704.9155876317836
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 571.7984281091076,
+                        "y": 699.0852614448454
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 571.7984281091076,
+                        "y": 665.8524021792966
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 568.2246879334258,
+                        "y": 653.6087171867259
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 558.6947141316073,
+                        "y": 645.4462605250123
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 545.5910001541068,
+                        "y": 642.5310974315432
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 535.4654029896747,
+                        "y": 643.1141300502369
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 521.1704422869472,
+                        "y": 653.6087171867259
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 517.5967021112651,
+                        "y": 665.8524021792966
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 515.8098320234242,
+                        "y": 698.5022288261515
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 513.4273385729696,
+                        "y": 704.9155876317836
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 452.6737555863769,
+                        "y": 705.4986202504776
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 445.5262752350131,
+                        "y": 701.4173919196207
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 441.9525350593311,
+                        "y": 695.5870657326823
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 441.9525350593311,
+                        "y": 677.5130545531733
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 440.1656649714903,
+                        "y": 644.8632279063185
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 436.5919247958082,
+                        "y": 618.6267600650958
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 432.4225612575126,
+                        "y": 600.552748885587
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 433.01818462012625,
+                        "y": 549.8289110592231
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 427.06195099398974,
+                        "y": 551.5780089153045
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 418.7232239173988,
+                        "y": 549.8289110592231
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 402.04576976421623,
+                        "y": 522.4263779806126
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 399.6632763137617,
+                        "y": 516.0130191749804
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 399.6632763137617,
+                        "y": 508.4335951319606
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 393.1114193250115,
+                        "y": 506.10146465718526
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 368.0952380952381,
+                        "y": 505.4018255147526
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 250.7574356603482,
+                        "y": 505.4018255147526
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 243.01433194637073,
+                        "y": 505.4018255147526
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 242.41870858375702,
+                        "y": 514.1473147951602
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 242.41870858375702,
+                        "y": 521.1437062194861
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 240.03621513330242,
+                        "y": 528.1400976438124
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 182.26074895977803,
+                        "y": 608.0155664048681
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 173.9220218831869,
+                        "y": 609.7646642609495
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 11.31684388965935,
+                        "y": 564.2881200028302
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 13.10371397750033,
+                        "y": 509.4830538456095
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 508.31698860822195
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1.1912467252272196,
+                        "y": 436.020943890186
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 13.10371397750033,
+                        "y": 434.85487865279845
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 12.50809061488669,
+                        "y": 400.455954149862
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 14.890584065341281,
+                        "y": 393.4595627255359
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 112.57281553398052,
+                        "y": 297.2591806410528
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 113.7640622592078,
+                        "y": 186.48298308922378
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 138.1846201263676,
+                        "y": 185.8999504705299
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 148.90584065341338,
+                        "y": 180.65265690228537
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 149.85883803359525,
+                        "y": 155.85490778778075
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 168.86463805881272,
+                        "y": 123.25574574014391
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 332.4259075798603,
+                        "y": 10.994329381083775
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 346.720868282588,
+                        "y": 0.9994844891894313
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 423.3010149043435,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 424.32208352596695,
+                        "y": 175.9092700973405
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 426.87475508002524,
+                        "y": 186.40385723382957
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 659.1678664993505,
+                        "y": 186.9035994784243
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 660.1889351209738,
+                        "y": 123.93607665948991
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 738.8112189859761,
+                        "y": 124.93556114867934
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 740.3428219184113,
+                        "y": 186.40385723382957
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 964.4673843647491,
+                        "y": 188.90256845680318
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 975.6991392026065,
+                        "y": 184.90463050004547
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1000.1026792594059,
+                        "y": 185.40437274464014
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1004.6974880567114,
+                        "y": 193.40024865815565
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1004.6974880567114,
+                        "y": 322.3337477635927
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1103.2306100433702,
+                        "y": 393.2971464960425
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1104.2516786649935,
+                        "y": 563.2095096582465
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 935.7753560971313,
+                        "y": 609.6855384055553
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 929.1384100565791,
+                        "y": 606.6870849379868
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 872.9796358672919,
+                        "y": 528.2275525366164
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 868.8953613807982,
+                        "y": 521.7309033568848
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 869.4058956916099,
+                        "y": 513.2352851987747
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 868.8953613807982,
+                        "y": 506.23889377444874
+                    }
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka/Podlozhka.qml",
+            "customProperties": {
+            },
+            "height": 706.2857142857142,
+            "instanceId": "3c24689d-b96e-4e7e-a95e-7c1eae8749d5",
+            "locked": true,
+            "name": "ContourPanel_Su27",
+            "opacity": 0.4,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 1104.2857142857142,
+            "x": 120.91006345990411,
+            "y": 82.75203427833367,
+            "z": 0
+        }
+    ],
+    "TpGain": [
+        {
+            "componentPath": "elements/Controls/Other/TpGain/TpGain.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 63.19198130168999,
+            "locked": false,
+            "name": "TpGain_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "TpGain",
+            "type": "TpGain",
+            "width": 63.055938284894104,
+            "x": 278.1129027134652,
+            "y": 599.0738582513354,
+            "z": 0
+        }
+    ],
+    "WingConfigurationFace": [
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/InstrumentFaces/WingConfigurationFace/WingConfigurationFace.qml",
+            "customProperties": {
+            },
+            "height": 68.90909090909082,
+            "locked": false,
+            "name": "WingConfigurationFace_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "WingConfigurationFace",
+            "type": "WingConfigurationFace",
+            "width": 68.69814471243035,
+            "x": 185.56001855287587,
+            "y": 444.7272727272726,
+            "z": 0
+        }
+    ],
+    "__sceneSettings": [
+        {
+            "componentPath": "",
+            "customProperties": {
+                "backgroundOpacity": 1,
+                "backgroundPath": "../Su27UBK_front_panel_clean.png",
+                "gridSize": 10,
+                "showGrid": false,
+                "snapToGrid": false
+            },
+            "height": 0,
+            "name": "__sceneSettings",
+            "rotation": 0,
+            "subtype": "background",
+            "type": "__sceneSettings",
+            "width": 0,
+            "x": 0,
+            "y": 0,
+            "z": -1000
+        }
+    ],
+    "clin": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RampPositionIndicator/RampPositionIndicator.qml",
+            "customProperties": {
+                "m_value": 0
+            },
+            "height": 90.6209223847019,
+            "locked": false,
+            "name": "clin_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "clin",
+            "type": "clin",
+            "width": 79.37142857142855,
+            "x": 569.7904761904762,
+            "y": 425.9276340457442,
+            "z": 0
+        }
+    ]
+}

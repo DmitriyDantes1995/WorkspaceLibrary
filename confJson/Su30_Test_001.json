@@ -1,4 +1,110 @@
 {
+    "RightEngineTemperatureIndicator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RightEngineTemperatureIndicator/RightEngineTemperatureIndicator.qml",
+            "customProperties": {
+                "bolshaya_rotation": 0,
+                "largeNeedleInputMax": 360,
+                "largeNeedleInputMin": 0,
+                "largeNeedleMappingMode": "Linear",
+                "largeNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "largeNeedleOutputMaxAngle": 360,
+                "largeNeedleOutputMinAngle": 0,
+                "largeNeedleValue": 0,
+                "malaya_rotation": 0,
+                "smallNeedleInputMax": 360,
+                "smallNeedleInputMin": 0,
+                "smallNeedleMappingMode": "Linear",
+                "smallNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "smallNeedleOutputMaxAngle": 360,
+                "smallNeedleOutputMinAngle": 0,
+                "smallNeedleValue": 0
+            },
+            "gaugeInstanceOverride": false,
+            "height": 93.375,
+            "locked": false,
+            "name": "RightEngineTemperatureIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "RightEngineTemperatureIndicator",
+            "type": "RightEngineTemperatureIndicator",
+            "width": 90,
+            "x": 640,
+            "y": 530,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RightEngineTemperatureIndicator/RightEngineTemperatureIndicator.qml",
+            "customProperties": {
+                "bolshaya_rotation": 0,
+                "largeNeedleInputMax": 360,
+                "largeNeedleInputMin": 0,
+                "largeNeedleMappingMode": "Linear",
+                "largeNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "largeNeedleOutputMaxAngle": 360,
+                "largeNeedleOutputMinAngle": 0,
+                "largeNeedleValue": 0,
+                "malaya_rotation": 0,
+                "smallNeedleInputMax": 360,
+                "smallNeedleInputMin": 0,
+                "smallNeedleMappingMode": "Linear",
+                "smallNeedleMappingPoints": [
+                    {
+                        "input": 0,
+                        "output": 0
+                    },
+                    {
+                        "input": 360,
+                        "output": 0
+                    }
+                ],
+                "smallNeedleOutputMaxAngle": 360,
+                "smallNeedleOutputMinAngle": 0,
+                "smallNeedleValue": 0
+            },
+            "gaugeInstanceOverride": false,
+            "height": 93.375,
+            "locked": false,
+            "name": "RightEngineTemperatureIndicator_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "RightEngineTemperatureIndicator",
+            "type": "RightEngineTemperatureIndicator",
+            "width": 90,
+            "x": 740,
+            "y": 530,
+            "z": 0
+        }
+    ],
     "Substrate": [
         {
             "backgroundShape": {
@@ -289,6 +395,76 @@
             "width": 1300,
             "x": 10,
             "y": 70,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30MfdFrame/Su30MfdFrame.qml",
+            "customProperties": {
+            },
+            "height": 380,
+            "locked": false,
+            "name": "ContourPanel_2",
+            "opacity": 1,
+            "rotation": -180,
+            "scale": 1,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 290,
+            "x": 180,
+            "y": 310,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30MfdFrame/Su30MfdFrame.qml",
+            "customProperties": {
+            },
+            "height": 380,
+            "locked": false,
+            "name": "ContourPanel_3",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 300,
+            "x": 840,
+            "y": 310,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Su30OpticalIndicator/Su30OpticalIndicator.qml",
+            "customProperties": {
+            },
+            "height": 160,
+            "locked": false,
+            "name": "ContourPanel_4",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 120,
+            "x": 1010,
+            "y": 130,
+            "z": 0
+        }
+    ],
+    "WingConfigurationFace": [
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/InstrumentFaces/WingConfigurationFace/WingConfigurationFace.qml",
+            "customProperties": {
+            },
+            "height": 98,
+            "locked": false,
+            "name": "WingConfigurationFace_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "WingConfigurationFace",
+            "type": "WingConfigurationFace",
+            "width": 97.7,
+            "x": 50,
+            "y": 510,
             "z": 0
         }
     ],
