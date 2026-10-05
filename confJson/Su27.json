@@ -107,6 +107,404 @@
             "z": 0
         }
     ],
+    "FaultAnnunciator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "MARKER",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 17.376744186046565,
+            "locked": false,
+            "name": "FaultAnnunciator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 37.60000000000011,
+            "x": 1034.7000000000003,
+            "y": 615.1048408378689,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "INNER ON",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 17.077882236516576,
+            "locked": false,
+            "name": "FaultAnnunciator_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 36.95331905781584,
+            "x": 1035.4500000000003,
+            "y": 634.9401121556984,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "INTERACT",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 17.341530595414774,
+            "locked": true,
+            "name": "FaultAnnunciator_3",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 37.52380442541033,
+            "x": 1166.6671408177826,
+            "y": 478.3736669729742,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "MANUAL PROTEST",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 18.12043542800599,
+            "locked": true,
+            "name": "FaultAnnunciator_4",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 39.20920770877955,
+            "x": 1166.228729478944,
+            "y": 498.9397822859971,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "RESERVE",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 18.20009896091049,
+            "locked": true,
+            "name": "FaultAnnunciator_5",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 39.38158458244122,
+            "x": 1165.5115886611597,
+            "y": 518.9093871492187,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "LANDING",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 17.22365596024352,
+            "locked": true,
+            "name": "FaultAnnunciator_6",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 34.80249511218695,
+            "x": 1104.6069913588708,
+            "y": 438.8952380952383,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "FAULT",
+                "m_value": false,
+                "verticalText": false
+            },
+            "height": 70,
+            "locked": false,
+            "name": "FaultAnnunciator_7",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 151,
+            "x": 899.2833333333333,
+            "y": 361.04999999999995,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "TURN",
+                "m_value": true,
+                "verticalText": true
+            },
+            "height": 19.521739130434753,
+            "locked": true,
+            "name": "FaultAnnunciator_8",
+            "opacity": 1,
+            "rotation": -90,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 38.173913043478194,
+            "x": 1082.6521739130435,
+            "y": 382.9565217391303,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "red",
+                "m_text": "RCS",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 18.95555555555555,
+            "locked": true,
+            "name": "FaultAnnunciator_9",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 40.988888888888795,
+            "x": 817.2528322440089,
+            "y": 207.25206971677557,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "red",
+                "m_text": "HYD",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 18.214814814814787,
+            "locked": true,
+            "name": "FaultAnnunciator_10",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 42.10000000000011,
+            "x": 816.599237472767,
+            "y": 226.31525054466218,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "red",
+                "m_text": "CONTROL MANUALLY",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 18.06666666666669,
+            "locked": true,
+            "name": "FaultAnnunciator_12",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 39.09999999999988,
+            "x": 778.2245098039216,
+            "y": 226.06470588235283,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "red",
+                "m_text": "FIRE",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 18.733333333333334,
+            "locked": true,
+            "name": "FaultAnnunciator_13",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 38.099999999999994,
+            "x": 778.7147058823527,
+            "y": 207.00588235294097,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "red",
+                "m_text": "LIMIT",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 19.06666666666669,
+            "locked": true,
+            "name": "FaultAnnunciator_14",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 41.43333333333314,
+            "x": 817.2833333333333,
+            "y": 245.9666666666667,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "RH REHEAT",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 17.74782608695662,
+            "locked": false,
+            "name": "FaultAnnunciator_11",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 39.0565217391306,
+            "x": 652.7326086956522,
+            "y": 450.16956521739115,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "LH REHEAT",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 17.747826086956508,
+            "locked": false,
+            "name": "FaultAnnunciator_15",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 39.49130434782617,
+            "x": 529.9173913043477,
+            "y": 450.5,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "RH ENG START",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 20.150000000000006,
+            "locked": false,
+            "name": "FaultAnnunciator_16",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 38.849999999999994,
+            "x": 652.3250000000002,
+            "y": 483.8000000000002,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "LH ENG START",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 19.900000000000006,
+            "locked": false,
+            "name": "FaultAnnunciator_17",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 40.099999999999994,
+            "x": 528.9500000000002,
+            "y": 484.3000000000002,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "VOR/ILS",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 18.400000000000006,
+            "locked": false,
+            "name": "FaultAnnunciator_18",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 37.099999999999994,
+            "x": 730.4500000000002,
+            "y": 449.80000000000007,
+            "z": 0
+        }
+    ],
     "LeftEngineTemperatureIndicator": [
         {
             "componentPath": "elements/Controls/simple/Indicators/LeftEngineTemperatureIndicator/LeftEngineTemperatureIndicator.qml",
@@ -251,6 +649,26 @@
             "z": 0
         }
     ],
+    "Simple_btn": [
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 19.57894736842104,
+            "locked": false,
+            "name": "Simple_btn_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 19.57894736842104,
+            "x": 436.3157894736839,
+            "y": 110.68421052631574,
+            "z": 0
+        }
+    ],
     "StandardTumbler2Position": [
         {
             "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
@@ -322,29 +740,6 @@
             "width": 14.454790631653658,
             "x": 352.14102573680475,
             "y": 227.4973684210526,
-            "z": 0
-        }
-    ],
-    "Su30BrakeIndicator": [
-        {
-            "componentPath": "elements/Controls/Su30/Su30BrakeIndicator/Su30BrakeIndicator.qml",
-            "customProperties": {
-                "airPressure": 0,
-                "checkButton": 0,
-                "leftBrakePressure": 0,
-                "rightBrakePressure": 0
-            },
-            "height": 64.28188131313135,
-            "locked": true,
-            "name": "Su30BrakeIndicator_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "subtype": "Su30BrakeIndicator",
-            "type": "Su30BrakeIndicator",
-            "width": 62.97000618429193,
-            "x": 693.8538961038965,
-            "y": 619.9054608585861,
             "z": 0
         }
     ],
@@ -617,6 +1012,26 @@
             "width": 24.962962962962905,
             "x": 155.96296296296302,
             "y": 610.3333333333337,
+            "z": 0
+        }
+    ],
+    "Su30RudderTrimToggle": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30RudderTrimToggle/Su30RudderTrimToggle.qml",
+            "customProperties": {
+                "value": 1
+            },
+            "height": 20.762820512820465,
+            "locked": false,
+            "name": "Su30RudderTrimToggle_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30RudderTrimToggle",
+            "type": "Su30RudderTrimToggle",
+            "width": 33.73958333333326,
+            "x": 580.3333333333335,
+            "y": 761.0833333333333,
             "z": 0
         }
     ],
@@ -1072,14 +1487,14 @@
             "instanceId": "3c24689d-b96e-4e7e-a95e-7c1eae8749d5",
             "locked": true,
             "name": "ContourPanel_Su27",
-            "opacity": 0.4,
+            "opacity": 0.39,
             "rotation": 0,
             "scale": 1,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 1104.2857142857142,
-            "x": 120.91006345990411,
-            "y": 82.75203427833367,
+            "x": 119.13929726957485,
+            "y": 82.3981311162787,
             "z": 0
         }
     ],
@@ -1089,7 +1504,7 @@
             "customProperties": {
                 "value": 0
             },
-            "height": 63.19198130168999,
+            "height": 56.51675002451701,
             "locked": false,
             "name": "TpGain_1",
             "opacity": 1,
@@ -1097,9 +1512,36 @@
             "scale": 1,
             "subtype": "TpGain",
             "type": "TpGain",
-            "width": 63.055938284894104,
-            "x": 278.1129027134652,
-            "y": 599.0738582513354,
+            "width": 56.39507779626186,
+            "x": 279.4388247382328,
+            "y": 601.8227272727272,
+            "z": 0
+        }
+    ],
+    "VerticalScaleIndicator": [
+        {
+            "componentPath": "elements/Controls/Su30/VerticalScaleIndicator/VerticalScaleIndicator.qml",
+            "customProperties": {
+                "majorDivisions": 3,
+                "maximumValue": 300,
+                "minimumValue": 0,
+                "minorDivisions": 5,
+                "multiplier": 100,
+                "showUnits": true,
+                "units": "kgf/cmВІ",
+                "value": 0
+            },
+            "height": 56.6666666666664,
+            "locked": false,
+            "name": "VerticalScaleIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "VerticalScaleIndicator",
+            "type": "VerticalScaleIndicator",
+            "width": 24.58333333333337,
+            "x": 692.7499999999998,
+            "y": 626.4166666666667,
             "z": 0
         }
     ],
@@ -1147,7 +1589,9 @@
         {
             "componentPath": "elements/Controls/simple/Indicators/RampPositionIndicator/RampPositionIndicator.qml",
             "customProperties": {
-                "m_value": 0
+                "leftValue": 0,
+                "m_value": 0,
+                "rightValue": 0
             },
             "height": 90.6209223847019,
             "locked": false,
