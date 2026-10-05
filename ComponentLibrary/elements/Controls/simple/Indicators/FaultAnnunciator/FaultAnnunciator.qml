@@ -123,9 +123,21 @@ BaseSceneComponent {
 
             readonly property real inset: Math.max(1, 3 * textWindow.fontScale)
 
+            // Vertical lettering follows the screen axes while the housing rotates.
+            readonly property real availableWidth: Math.max(0, parent.width - inset * 2)
+            readonly property real availableHeight: Math.max(0, parent.height - inset * 2)
+            readonly property real angleCos: Math.abs(Math.cos(rotation * Math.PI / 180))
+            readonly property real angleSin: Math.abs(Math.sin(rotation * Math.PI / 180))
+            readonly property real projectedWidth: availableWidth * angleCos + availableHeight * angleSin
+            readonly property real projectedHeight: availableWidth * angleSin + availableHeight * angleCos
+            readonly property real fitScale: Math.min(1,
+                availableWidth / Math.max(1, projectedWidth * angleCos + projectedHeight * angleSin),
+                availableHeight / Math.max(1, projectedWidth * angleSin + projectedHeight * angleCos))
+
             anchors.centerIn: parent
-            width: Math.max(0, parent.width - inset * 2)
-            height: Math.max(0, parent.height - inset * 2)
+            rotation: root.verticalText ? -root.rotation : 0
+            width: projectedWidth * fitScale
+            height: projectedHeight * fitScale
 
             text: root.verticalText
                   ? Array.from(root.m_text.replace(/[\r\n]/g, "")).join("\n")
