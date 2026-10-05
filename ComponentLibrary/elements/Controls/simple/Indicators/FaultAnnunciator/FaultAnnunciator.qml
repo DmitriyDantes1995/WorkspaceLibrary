@@ -3,7 +3,7 @@ import common_qml 1.0
 
 BaseSceneComponent {
     id: root
-    preserveAspectRatio: true
+    preserveAspectRatio: false
 
     readonly property real designWidth: 202.1
     readonly property real designHeight: 93.4
@@ -15,12 +15,14 @@ BaseSceneComponent {
     readonly property bool alarmState: normalizeAlarmState(m_value)
     property string lampColor: "green"
     property real fontSize: 28
+    property bool verticalText: false
     readonly property color signalColor: lampColor === "red" ? "#ff1610"
                                       : (lampColor === "yellow" ? "#fff020" : "#80ff18")
     onM_textChanged: synchronizeState("m_text",m_text)
     onM_valueChanged: synchronizeState("m_value",m_value)
     onLampColorChanged: synchronizeState("lampColor",lampColor)
     onFontSizeChanged: synchronizeState("fontSize",fontSize)
+    onVerticalTextChanged: synchronizeState("verticalText",verticalText)
     function synchronizeState(name,value) {
         if(customProperties[name] !== value) {customProperties[name]=value;customPropertiesChanged()}
     }
@@ -28,6 +30,7 @@ BaseSceneComponent {
         // Old scene maps contain only m_text/m_value; add the new defaults.
         if(!customProperties.hasOwnProperty("lampColor")) synchronizeState("lampColor",lampColor)
         if(!customProperties.hasOwnProperty("fontSize")) synchronizeState("fontSize",fontSize)
+        if(!customProperties.hasOwnProperty("verticalText")) synchronizeState("verticalText",verticalText)
     }
 
     my_type: "FaultAnnunciator"
@@ -42,9 +45,11 @@ BaseSceneComponent {
         "m_text": m_text,
         "m_value": m_value,
         "lampColor": lampColor,
-        "fontSize": fontSize
+        "fontSize": fontSize,
+        "verticalText": verticalText
     })
     propertySchema: ({
+        verticalText: {displayName:"Vertical text",type:"bool"},
         lampColor: {displayName:"Color",type:"enum",values:[{label:"Green",value:"green"},{label:"Red",value:"red"},{label:"Yellow",value:"yellow"}]},
         fontSize: {displayName:"Font size",type:"number",min:1,max:200,step:1,unit:"px"},
         "m_text": {
@@ -122,7 +127,9 @@ BaseSceneComponent {
             width: Math.max(0, parent.width - inset * 2)
             height: Math.max(0, parent.height - inset * 2)
 
-            text: root.m_text
+            text: root.verticalText
+                  ? Array.from(root.m_text.replace(/[\r\n]/g, "")).join("\n")
+                  : root.m_text
             color: "#000000"
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
