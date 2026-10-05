@@ -13,12 +13,26 @@ BaseSceneComponent {
     property var m_value: 0
 
     readonly property bool alarmState: normalizeAlarmState(m_value)
-    readonly property color normalTextColor: "#00D060"
-    readonly property color alarmTextColor: "#FF3030"
+    property string lampColor: "green"
+    property real fontSize: 28
+    readonly property color signalColor: lampColor === "red" ? "#ff1610"
+                                      : (lampColor === "yellow" ? "#fff020" : "#80ff18")
+    onM_textChanged: synchronizeState("m_text",m_text)
+    onM_valueChanged: synchronizeState("m_value",m_value)
+    onLampColorChanged: synchronizeState("lampColor",lampColor)
+    onFontSizeChanged: synchronizeState("fontSize",fontSize)
+    function synchronizeState(name,value) {
+        if(customProperties[name] !== value) {customProperties[name]=value;customPropertiesChanged()}
+    }
+    onCustomPropertiesChanged: {
+        // Old scene maps contain only m_text/m_value; add the new defaults.
+        if(!customProperties.hasOwnProperty("lampColor")) synchronizeState("lampColor",lampColor)
+        if(!customProperties.hasOwnProperty("fontSize")) synchronizeState("fontSize",fontSize)
+    }
 
     my_type: "FaultAnnunciator"
     my_subtype: "FaultAnnunciator"
-    previewSource: "annunciator_background.svg"
+    previewSource: "preview.png"
 
     width: designWidth
     height: designHeight
@@ -26,9 +40,13 @@ BaseSceneComponent {
 
     customProperties: ({
         "m_text": m_text,
-        "m_value": m_value
+        "m_value": m_value,
+        "lampColor": lampColor,
+        "fontSize": fontSize
     })
     propertySchema: ({
+        lampColor: {displayName:"Color",type:"enum",values:[{label:"Green",value:"green"},{label:"Red",value:"red"},{label:"Yellow",value:"yellow"}]},
+        fontSize: {displayName:"Font size",type:"number",min:1,max:200,step:1,unit:"px"},
         "m_text": {
             label: "Label",
             type: "string",
@@ -70,8 +88,17 @@ BaseSceneComponent {
         cache: true
     }
 
-    // The SVG light window occupies approximately x=13..189, y=13..80.
-    // This inset working area keeps the label clear of its rounded bevel.
+    // Cover the source's baked lettering with the colored signal window.
+    Rectangle {
+        objectName:"annunciatorColorArea"
+        x:14*root.width/root.designWidth
+        y:13*root.height/root.designHeight
+        width:174*root.width/root.designWidth
+        height:67*root.height/root.designHeight
+        radius:3*Math.min(root.width/root.designWidth,root.height/root.designHeight)
+        color:root.alarmState ? root.signalColor : Qt.darker(root.signalColor,5)
+    }
+
     Item {
         id: textWindow
 
@@ -96,18 +123,17 @@ BaseSceneComponent {
             height: Math.max(0, parent.height - inset * 2)
 
             text: root.m_text
-            color: root.alarmState ? root.alarmTextColor : root.normalTextColor
+            color: "#000000"
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
-            wrapMode: Text.WordWrap
-            maximumLineCount: 2
-            elide: Text.ElideRight
+            wrapMode: Text.Wrap
+            elide: Text.ElideNone
             clip: true
 
             font.bold: true
-            font.pixelSize: Math.max(1, textWindow.height * 0.72)
+            font.pixelSize: Math.max(1, root.fontSize * textWindow.fontScale)
             fontSizeMode: Text.Fit
-            minimumPixelSize: Math.max(1, 6 * textWindow.fontScale)
+            minimumPixelSize: 1
         }
     }
 }
