@@ -1,6 +1,5 @@
 import QtQuick 2.15
 import common_qml 1.0
-import "_parts"
 
 RotaryDiscrete {
     id: root
@@ -20,7 +19,7 @@ RotaryDiscrete {
     inputCenterY: visualRoot.y + dialCenterY * visualRoot.scale
 
     // Midpoints of the seven engraved strokes in the original plate SVG,
-    // ordered by their labels: 0, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0.
+    // ordered by their labels: 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0.
     // Use the artwork coordinates, not a uniform angular increment.
     function tickAngle(x, y) {
         return Math.atan2(x - dialCenterX, dialCenterY - y) * 180 / Math.PI
@@ -31,7 +30,7 @@ RotaryDiscrete {
              tickAngle(53.3, 80.1)]
     propertySchema: ({ "value": {
         displayName: "Position", type: "enum", bindable: true, access: "readWrite",
-        values: [{ label: "0", value: 0 }, { label: "0.5", value: 1 },
+        values: [{ label: "0.4", value: 0 }, { label: "0.5", value: 1 },
                  { label: "0.6", value: 2 }, { label: "0.7", value: 3 },
                  { label: "0.8", value: 4 }, { label: "0.9", value: 5 },
                  { label: "1.0", value: 6 }]

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.7 92.9">
+<defs><style>.cls-2{fill:#fc0;fill-rule:evenodd}.cls-5{fill:none;stroke:#9f0;stroke-width:1;stroke-linecap:round;stroke-linejoin:round}</style></defs>
+<path d="M0 0H92.7V81.3L81.1 92.9H0Z" fill="#000" />
+<path d="M31.9 78.5A29.35 29.35 0 1 1 60.8 78.5" fill="none" stroke="#fff" stroke-width="1" />
+<path d="M30.8 81.45L33.9 75.8M46.35 21V23.65M61.9 81.45L58.8 75.8" fill="none" stroke="#fff" stroke-width="1" />
+<g fill="#fff" font-family="Arial" font-weight="bold" text-anchor="middle"><text x="46.35" y="12" font-size="8">TARGET TYPE</text><text x="46.35" y="19" font-size="6.5">M</text><text x="24" y="90" font-size="6.5">S</text><text x="69" y="90" font-size="6.5">L</text></g>
+<g transform="translate(10.35 0)" /></svg>

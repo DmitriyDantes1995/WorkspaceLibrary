@@ -10,7 +10,7 @@ Item {
                                                  implicitHeight / 2 - 33.8) * 180 / Math.PI
     AdaptiveSvgImage {
         anchors.fill: parent
-        source: Qt.resolvedUrl("knob.svg")
+        source: Qt.resolvedUrl("_parts/GainKnob.svg")
         fillMode: Image.PreserveAspectFit
         smooth: true
     }

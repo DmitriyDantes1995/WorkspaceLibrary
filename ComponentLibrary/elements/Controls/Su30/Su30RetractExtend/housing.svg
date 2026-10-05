@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 300">
+<defs><pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><rect width="5" height="5" fill="#dbe7df"/><path d="M0 0V5" stroke="#758685" stroke-width="2"/></pattern></defs>
+<path d="M22 2H70L85 15V281L73 298H17L3 285V18Z" fill="#17282b"/>
+<path d="M20 1H68L80 14V279L70 295H17L1 282V20Z" fill="#d9f7f1" stroke="#668a90"/>
+<path d="M7 29H74V267H7Z" fill="#3b5052"/>
+<path d="M13 49H66V248H13Z" fill="#19282b" stroke="#d6e4df" stroke-width="2"/>
+<path d="M63 48Q79 143 64 249" fill="none" stroke="#e0eee4" stroke-width="7"/>
+<path d="M12 47H68V59H12Z M12 235H68V248H12Z" fill="url(#hatch)"/>
+<g fill="#e1eeeb" font-family="Arial" font-size="15" text-anchor="middle"><text x="41" y="44">УБР</text><text x="41" y="265">ВЫП</text></g>
+<g fill="#bded94" stroke="#7dbaa2"><circle cx="42" cy="17" r="9"/><circle cx="42" cy="282" r="9"/></g>
+<path d="M41 9V25M41 274V290" stroke="#f3ffe8" stroke-width="3"/>
+</svg>
