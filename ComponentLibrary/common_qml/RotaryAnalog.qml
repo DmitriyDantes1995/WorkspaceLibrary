@@ -6,6 +6,8 @@ ControlState {
     property real minimumAngle: 0
     property real maximumAngle: 360
     property real wheelStep: 0.05
+    property real inputCenterX: width / 2
+    property real inputCenterY: height / 2
     readonly property real visualAngle: minimumAngle + (value - minimumValue) / (maximumValue - minimumValue) * (maximumAngle - minimumAngle)
     MouseArea {
         anchors.fill: parent
@@ -13,7 +15,7 @@ ControlState {
         preventStealing: true
         cursorShape: Qt.SizeAllCursor
         property real previousAngle: 0
-        function pointerAngle(x, y) { return Math.atan2(x - width / 2, height / 2 - y) * 180 / Math.PI }
+        function pointerAngle(x, y) { return Math.atan2(x - root.inputCenterX, root.inputCenterY - y) * 180 / Math.PI }
         onPressed: function(mouse) { previousAngle = pointerAngle(mouse.x, mouse.y) }
         onPositionChanged: function(mouse) {
             if (!pressed) return
