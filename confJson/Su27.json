@@ -40,7 +40,7 @@
             },
             "gaugeInstanceOverride": false,
             "height": 107.13690476190492,
-            "locked": true,
+            "locked": false,
             "name": "AngleOfAttackLoadFactorIndicator_1",
             "opacity": 1,
             "rotation": 0,
@@ -48,8 +48,8 @@
             "subtype": "AngleOfAttackLoadFactorIndicator",
             "type": "AngleOfAttackLoadFactorIndicator",
             "width": 103.26448651749871,
-            "x": 709.4761904761906,
-            "y": 475.642857142857,
+            "x": 709.9667144449752,
+            "y": 450.07827679566793,
             "z": 0
         }
     ],
@@ -94,7 +94,7 @@
             },
             "gaugeInstanceOverride": false,
             "height": 100.95197030268419,
-            "locked": true,
+            "locked": false,
             "name": "EngineRpmIndicator_1",
             "opacity": 1,
             "rotation": 0,
@@ -102,8 +102,8 @@
             "subtype": "EngineRpmIndicator",
             "type": "EngineRpmIndicator",
             "width": 104.34881936245573,
-            "x": 537.3666666666667,
-            "y": 318.5500000000002,
+            "x": 537.987784679089,
+            "y": 292.46304347826106,
             "z": 0
         }
     ],
@@ -294,7 +294,7 @@
                 "verticalText": false
             },
             "height": 18.95555555555555,
-            "locked": true,
+            "locked": false,
             "name": "FaultAnnunciator_9",
             "opacity": 1,
             "rotation": 0,
@@ -302,8 +302,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 40.988888888888795,
-            "x": 817.2528322440089,
-            "y": 207.25206971677557,
+            "x": 816.1034069566526,
+            "y": 179.09115017654568,
             "z": 0
         },
         {
@@ -316,7 +316,7 @@
                 "verticalText": false
             },
             "height": 18.214814814814787,
-            "locked": true,
+            "locked": false,
             "name": "FaultAnnunciator_10",
             "opacity": 1,
             "rotation": 0,
@@ -324,8 +324,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 42.10000000000011,
-            "x": 816.599237472767,
-            "y": 226.31525054466218,
+            "x": 816.3118811509277,
+            "y": 200.74053790098398,
             "z": 0
         },
         {
@@ -337,17 +337,17 @@
                 "m_value": true,
                 "verticalText": false
             },
-            "height": 18.06666666666669,
-            "locked": true,
+            "height": 18.92873563218393,
+            "locked": false,
             "name": "FaultAnnunciator_12",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
-            "width": 39.09999999999988,
+            "width": 39.67471264367802,
             "x": 778.2245098039216,
-            "y": 226.06470588235283,
+            "y": 200.2026369168355,
             "z": 0
         },
         {
@@ -360,7 +360,7 @@
                 "verticalText": false
             },
             "height": 18.733333333333334,
-            "locked": true,
+            "locked": false,
             "name": "FaultAnnunciator_13",
             "opacity": 1,
             "rotation": 0,
@@ -368,8 +368,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 38.099999999999994,
-            "x": 778.7147058823527,
-            "y": 207.00588235294097,
+            "x": 776.9905679513182,
+            "y": 179.1323191345502,
             "z": 0
         },
         {
@@ -382,7 +382,7 @@
                 "verticalText": false
             },
             "height": 19.06666666666669,
-            "locked": true,
+            "locked": false,
             "name": "FaultAnnunciator_14",
             "opacity": 1,
             "rotation": 0,
@@ -390,8 +390,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 41.43333333333314,
-            "x": 817.2833333333333,
-            "y": 245.9666666666667,
+            "x": 815.2718390804598,
+            "y": 219.81724137931036,
             "z": 0
         },
         {
@@ -412,8 +412,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 39.0565217391306,
-            "x": 652.7326086956522,
-            "y": 450.16956521739115,
+            "x": 653.1545496239221,
+            "y": 425.2750504494586,
             "z": 0
         },
         {
@@ -434,8 +434,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 39.49130434782617,
-            "x": 529.9173913043477,
-            "y": 450.5,
+            "x": 528.4523914353854,
+            "y": 424.7878108866,
             "z": 0
         },
         {
@@ -456,8 +456,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 38.849999999999994,
-            "x": 652.3250000000002,
-            "y": 483.8000000000002,
+            "x": 655.2785864978903,
+            "y": 457.6396624472576,
             "z": 0
         },
         {
@@ -478,8 +478,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 40.099999999999994,
-            "x": 528.9500000000002,
-            "y": 484.3000000000002,
+            "x": 528.9499999999998,
+            "y": 458.98354430379766,
             "z": 0
         },
         {
@@ -491,7 +491,7 @@
                 "m_value": true,
                 "verticalText": false
             },
-            "height": 18.400000000000006,
+            "height": 21.50559006211185,
             "locked": false,
             "name": "FaultAnnunciator_18",
             "opacity": 1,
@@ -500,8 +500,140 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 37.099999999999994,
-            "x": 730.4500000000002,
-            "y": 449.80000000000007,
+            "x": 727.3444099378883,
+            "y": 424.33416149068336,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "STAB TRIM NEUTR",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 21.066666666666634,
+            "locked": false,
+            "name": "FaultAnnunciator_19",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 38.76666666666651,
+            "x": 653.9500000000002,
+            "y": 595.5405063291138,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "ALL TRIM NEUTR",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 20.066666666666748,
+            "locked": false,
+            "name": "FaultAnnunciator_20",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 38.099999999999994,
+            "x": 654.8824894514769,
+            "y": 618.4054852320673,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "RUD TRIM NEUTR",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 20.488607594936553,
+            "locked": false,
+            "name": "FaultAnnunciator_21",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 37.500843881856525,
+            "x": 653.9499999999995,
+            "y": 639.3379746835442,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "DR CH LOCK OPEN",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 19.24325484316668,
+            "locked": false,
+            "name": "FaultAnnunciator_22",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 33.250895140664994,
+            "x": 219.234798777082,
+            "y": 389.62571949319465,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "DR OH LOCK OPEN",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 17.399999999999892,
+            "locked": false,
+            "name": "FaultAnnunciator_23",
+            "opacity": 1,
+            "rotation": -90,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 32.10000000000005,
+            "x": 236.13655068398086,
+            "y": 318.06393493171913,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
+            "customProperties": {
+                "fontSize": 28,
+                "lampColor": "green",
+                "m_text": "",
+                "m_value": true,
+                "verticalText": false
+            },
+            "height": 18.74482758620732,
+            "locked": false,
+            "name": "FaultAnnunciator_24",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "FaultAnnunciator",
+            "type": "FaultAnnunciator",
+            "width": 35.849999999999994,
+            "x": 196.02958579423657,
+            "y": 571.4409786421036,
             "z": 0
         }
     ],
@@ -546,7 +678,7 @@
             },
             "gaugeInstanceOverride": false,
             "height": 78.70796130952364,
-            "locked": true,
+            "locked": false,
             "name": "LeftEngineTemperatureIndicator_1",
             "opacity": 1,
             "rotation": 0,
@@ -554,8 +686,8 @@
             "subtype": "LeftEngineTemperatureIndicator",
             "type": "LeftEngineTemperatureIndicator",
             "width": 75.86309523809507,
-            "x": 613.6369047619046,
-            "y": 511.9285714285712,
+            "x": 614.4807866184449,
+            "y": 485.3462929475586,
             "z": 0
         },
         {
@@ -606,8 +738,44 @@
             "subtype": "LeftEngineTemperatureIndicator",
             "type": "LeftEngineTemperatureIndicator",
             "width": 71.96213425129083,
-            "x": 531.5595238095237,
-            "y": 513.2619047619046,
+            "x": 531.094407530454,
+            "y": 487.2153931339976,
+            "z": 0
+        }
+    ],
+    "OvalSwitchBase": [
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 9.295195347356014,
+            "locked": false,
+            "name": "OvalSwitchBase_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 15.189554749048469,
+            "x": 161.622810532674,
+            "y": 446.9493006993007,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 8.071428571428555,
+            "locked": false,
+            "name": "OvalSwitchBase_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 8.342857142857227,
+            "x": 150.70984101503927,
+            "y": 472.56166860492453,
             "z": 0
         }
     ],
@@ -762,8 +930,8 @@
             "subtype": "Su30Clock",
             "type": "Su30Clock",
             "width": 79.21435240762955,
-            "x": 573.718614718615,
-            "y": 607.774891774892,
+            "x": 573.2057942057946,
+            "y": 582.1338661338663,
             "z": 0
         }
     ],
@@ -807,7 +975,7 @@
                 "targetWindowTitle": ""
             },
             "height": 145.7186270653217,
-            "locked": true,
+            "locked": false,
             "name": "Su30HdgBaroDisplay_1",
             "opacity": 1,
             "rotation": 0,
@@ -815,8 +983,28 @@
             "subtype": "Su30HdgBaroDisplay",
             "type": "Su30HdgBaroDisplay",
             "width": 157.37611723054744,
-            "x": 658.8829736785437,
-            "y": 296.066287878788,
+            "x": 659.8132062366832,
+            "y": 268.62442741367164,
+            "z": 0
+        }
+    ],
+    "Su30HmtdsBright": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30HmtdsBright/Su30HmtdsBright.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 43.73417721518979,
+            "locked": false,
+            "name": "Su30HmtdsBright_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30HmtdsBright",
+            "type": "Su30HmtdsBright",
+            "width": 43.73417721518979,
+            "x": 190.7784312528061,
+            "y": 596.3449319025112,
             "z": 0
         }
     ],
@@ -856,8 +1044,8 @@
             "subtype": "Su30LandingGear",
             "type": "Su30LandingGear",
             "width": 59.090909090909065,
-            "x": 180.36363636363643,
-            "y": 501.0000000000001,
+            "x": 180.0762800417973,
+            "y": 476.86206896551744,
             "z": 0
         }
     ],
@@ -953,7 +1141,7 @@
             "type": "Su30Mfd",
             "width": 261.33718861209957,
             "x": 263.06473902728385,
-            "y": 269.1666666666664,
+            "y": 248.66977225672855,
             "z": 0
         }
     ],
@@ -995,6 +1183,26 @@
             "z": 0
         }
     ],
+    "Su30RetractExtend": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30RetractExtend/Su30RetractExtend.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 78.71832358674408,
+            "locked": false,
+            "name": "Su30RetractExtend_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30RetractExtend",
+            "type": "Su30RetractExtend",
+            "width": 23.61549707602322,
+            "x": 147.28957471264374,
+            "y": 490.2290112253813,
+            "z": 0
+        }
+    ],
     "Su30RingToggle": [
         {
             "componentPath": "elements/Controls/Su30/Su30RingToggle/Su30RingToggle.qml",
@@ -1002,7 +1210,7 @@
                 "value": 1
             },
             "height": 33.977366255143956,
-            "locked": true,
+            "locked": false,
             "name": "Su30RingToggle_1",
             "opacity": 1,
             "rotation": 0,
@@ -1010,8 +1218,8 @@
             "subtype": "Su30RingToggle",
             "type": "Su30RingToggle",
             "width": 24.962962962962905,
-            "x": 155.96296296296302,
-            "y": 610.3333333333337,
+            "x": 156.25031928480203,
+            "y": 585.0459770114948,
             "z": 0
         }
     ],
@@ -1030,8 +1238,28 @@
             "subtype": "Su30RudderTrimToggle",
             "type": "Su30RudderTrimToggle",
             "width": 33.73958333333326,
-            "x": 580.3333333333335,
-            "y": 761.0833333333333,
+            "x": 581.3589743589747,
+            "y": 735.4423076923077,
+            "z": 0
+        }
+    ],
+    "Su30TargetType": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30TargetType/Su30TargetType.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 49.77049338556756,
+            "locked": false,
+            "name": "Su30TargetType_1",
+            "opacity": 0.94,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "Su30TargetType",
+            "type": "Su30TargetType",
+            "width": 49.66334485298292,
+            "x": 230.72570963142834,
+            "y": 596.6701159817999,
             "z": 0
         }
     ],
@@ -1062,7 +1290,7 @@
                 "value": 2
             },
             "height": 44.97435897435918,
-            "locked": false,
+            "locked": true,
             "name": "Su30YellowToggle3_1",
             "opacity": 1,
             "rotation": 0,
@@ -1070,8 +1298,8 @@
             "subtype": "Su30YellowToggle3",
             "type": "Su30YellowToggle3",
             "width": 24.21696252465494,
-            "x": 229.72658942874816,
-            "y": 534.4320973966499,
+            "x": 228.86452046323092,
+            "y": 510.006810040328,
             "z": 0
         }
     ],
@@ -1487,14 +1715,339 @@
             "instanceId": "3c24689d-b96e-4e7e-a95e-7c1eae8749d5",
             "locked": true,
             "name": "ContourPanel_Su27",
-            "opacity": 0.39,
+            "opacity": 0.3,
             "rotation": 0,
             "scale": 1,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 1104.2857142857142,
             "x": 119.13929726957485,
-            "y": 82.3981311162787,
+            "y": 57.281852046511176,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 42.999999999999886,
+                "baseWidth": 34.33986498478538,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                    {
+                        "cornerRadius": 0,
+                        "height": 10.319999999999997,
+                        "type": "circle",
+                        "width": 10,
+                        "x": 150.96993249239264,
+                        "y": -96.7672
+                    }
+                ],
+                "name": "PodlozhkaText2",
+                "parameters": {
+                    "fillColor": "#293030"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 40.28105054982462
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.006531651452121423,
+                        "y": 14.791999999999975
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 14.006531651452121,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 30.33986498478538,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 33.33986498478538,
+                        "y": 2.751999999999901
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 34.33986498478538,
+                        "y": 39.55999999999997
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 31.673198318118807,
+                        "y": 41.96799999999988
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 26.673198318118807,
+                        "y": 42.999999999999886
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 5.006531651452121,
+                        "y": 42.3120000000001
+                    }
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/PodlozhkaText2/PodlozhkaText2.qml",
+            "customProperties": {
+            },
+            "height": 42.999999999999886,
+            "instanceId": "d40ebe59-4c71-4c19-9527-42fa80d8c381",
+            "locked": true,
+            "name": "ContourPanel_1",
+            "opacity": 0.48,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 34.33986498478538,
+            "x": 144.53139938303065,
+            "y": 440.9373563218389,
+            "z": 1
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 71.87039405566736,
+                "baseWidth": 59.4689079724709,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                    {
+                        "points": [
+                            {
+                                "cornerRadius": 0,
+                                "x": 43.166620458782184,
+                                "y": 56.53114928119623
+                            },
+                            {
+                                "cornerRadius": 0,
+                                "x": 45.23310760840467,
+                                "y": 61.18462803300207
+                            },
+                            {
+                                "cornerRadius": 0,
+                                "x": 43.166620458782184,
+                                "y": 65.14870252528108
+                            },
+                            {
+                                "cornerRadius": 0,
+                                "x": 13.546971314192437,
+                                "y": 64.80400039551782
+                            },
+                            {
+                                "cornerRadius": 0,
+                                "x": 11.480484164569837,
+                                "y": 59.461117384185215
+                            },
+                            {
+                                "cornerRadius": 0,
+                                "x": 14.9246294139408,
+                                "y": 56.53114928119639
+                            }
+                        ],
+                        "type": "contour"
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "height": 2198.5618889503794,
+                        "type": "circle",
+                        "width": 2928.9700029700007,
+                        "x": 24.476392238862534,
+                        "y": 22.164346943786093
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "height": 8.92778516087186,
+                        "type": "circle",
+                        "width": 11.89378159449418,
+                        "x": 23.481659148907102,
+                        "y": 22.28651985053766
+                    }
+                ],
+                "name": "Podlozhka1010",
+                "parameters": {
+                    "fillColor": "#388F82"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 67.73396849850664
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.45921936658282425,
+                        "y": 2.929968102988825
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 3.444145249370962,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 55.79515303980853,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 59.00968860588808,
+                        "y": 2.929968102988825
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 59.4689079724709,
+                        "y": 68.2510216931517
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 56.94320145626559,
+                        "y": 71.18098979614044
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 5.9698517655762755,
+                        "y": 71.87039405566736
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 2.5257065162053136,
+                        "y": 70.49158553661368
+                    }
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka1010/Podlozhka1010.qml",
+            "customProperties": {
+            },
+            "height": 71.87039405566736,
+            "instanceId": "655e6130-fa34-4fe6-8aea-76bcc4aab2f4",
+            "locked": false,
+            "name": "ContourPanel_2",
+            "opacity": 0.82,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 59.4689079724709,
+            "x": 567.8223939384825,
+            "y": 687.1622718662616,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 423.0869703727301,
+                "baseWidth": 227.4418604651163,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka23432",
+                "parameters": {
+                    "fillColor": "#005658"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 125.11627906976742,
+                        "y": 6.920724706206061
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 122.32558139534888,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 103.25581395348834,
+                        "y": 1.3841449412411782
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 99.53488372093025,
+                        "y": 4.152434823723647
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 99.53488372093025,
+                        "y": 112.11574024053803
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.46511627906974695,
+                        "y": 214.0810842453073
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.46511627906974695,
+                        "y": 232.9977317756037
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 234.84325836392546
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.46511627906974695,
+                        "y": 376.94880566468987
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 164.18604651162775,
+                        "y": 423.0869703727301
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 226.51162790697674,
+                        "y": 339.57689225117707
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 226.04651162790697,
+                        "y": 328.9651143683277
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 226.51162790697674,
+                        "y": 323.8899162504433
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 227.4418604651163,
+                        "y": 318.8147181325589
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 130.23255813953472,
+                        "y": 319.2760997796392
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 124.65116279069753,
+                        "y": 316.50780989715696
+                    }
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka23432/Podlozhka23432.qml",
+            "customProperties": {
+            },
+            "height": 423.0869703727301,
+            "instanceId": "21bba102-0e6c-4750-acb2-13ef552cb250",
+            "locked": true,
+            "name": "ContourPanel_3",
+            "opacity": 0.7,
+            "rotation": 0,
+            "scale": 1,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 227.4418604651163,
+            "x": 137.48661264255733,
+            "y": 244.2051884304467,
             "z": 0
         }
     ],
@@ -1513,35 +2066,8 @@
             "subtype": "TpGain",
             "type": "TpGain",
             "width": 56.39507779626186,
-            "x": 279.4388247382328,
-            "y": 601.8227272727272,
-            "z": 0
-        }
-    ],
-    "VerticalScaleIndicator": [
-        {
-            "componentPath": "elements/Controls/Su30/VerticalScaleIndicator/VerticalScaleIndicator.qml",
-            "customProperties": {
-                "majorDivisions": 3,
-                "maximumValue": 300,
-                "minimumValue": 0,
-                "minorDivisions": 5,
-                "multiplier": 100,
-                "showUnits": true,
-                "units": "kgf/cmВІ",
-                "value": 0
-            },
-            "height": 56.6666666666664,
-            "locked": false,
-            "name": "VerticalScaleIndicator_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "subtype": "VerticalScaleIndicator",
-            "type": "VerticalScaleIndicator",
-            "width": 24.58333333333337,
-            "x": 692.7499999999998,
-            "y": 626.4166666666667,
+            "x": 279.9578051160065,
+            "y": 578.8482178283849,
             "z": 0
         }
     ],
@@ -1551,7 +2077,7 @@
             "customProperties": {
             },
             "height": 68.90909090909082,
-            "locked": false,
+            "locked": true,
             "name": "WingConfigurationFace_1",
             "opacity": 1,
             "rotation": 0,
@@ -1559,8 +2085,8 @@
             "subtype": "WingConfigurationFace",
             "type": "WingConfigurationFace",
             "width": 68.69814471243035,
-            "x": 185.56001855287587,
-            "y": 444.7272727272726,
+            "x": 185.93932889770332,
+            "y": 418.39393939393915,
             "z": 0
         }
     ],
@@ -1602,8 +2128,8 @@
             "subtype": "clin",
             "type": "clin",
             "width": 79.37142857142855,
-            "x": 569.7904761904762,
-            "y": 425.9276340457442,
+            "x": 571.6538302277432,
+            "y": 399.840677524005,
             "z": 0
         }
     ]
