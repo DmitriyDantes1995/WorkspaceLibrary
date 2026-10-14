@@ -1,4 +1,5 @@
 import QtQuick 2.15
+import QtQuick.Shapes
 import common_qml 1.0
 import "../../simple/Toggles/Toggle_1" as RoundControl
 
@@ -21,6 +22,20 @@ RotaryAnalog {
     wheelStep: 1
     inputCenterX: visual.x + dialCenterX * visual.scale
     inputCenterY: visual.y + dialCenterY * visual.scale
+    // A tapered brightness mark, concentric with the knob and its unchanged 0..300° travel.
+    readonly property string brightnessPath: {
+        var path="", innerRadius=22
+        for(var i=0;i<=40;++i) {
+            var fraction=i/40,angle=(minimumAngle+fraction*(maximumAngle-minimumAngle))*Math.PI/180
+            var radius=innerRadius+0.5+2.5*fraction
+            path+=(i===0?"M":"L")+(dialCenterX+Math.sin(angle)*radius)+" "+(dialCenterY-Math.cos(angle)*radius)+" "
+        }
+        for(var j=40;j>=0;--j) {
+            var radians=(minimumAngle+j/40*(maximumAngle-minimumAngle))*Math.PI/180
+            path+="L"+(dialCenterX+Math.sin(radians)*innerRadius)+" "+(dialCenterY-Math.cos(radians)*innerRadius)+" "
+        }
+        return path+"Z"
+    }
     propertySchema: ({value: {displayName: "Яркость HMTDS · %", type: "number",
         min: 0, max: 100, step: 1, bindable: true, access: "readWrite"}})
 
@@ -32,10 +47,7 @@ RotaryAnalog {
         transformOrigin: Item.TopLeft
         x: (root.width - width * scale) / 2
         y: (root.height - height * scale) / 2
-        AdaptiveSvgImage {
-            anchors.fill: parent
-            source: Qt.resolvedUrl("plate.svg")
-        }
+        Text {x:4;y:2;text:"HMTDS BRIGHT";color:"white";font.family:"Arial";font.bold:true;font.pixelSize:8}
         RoundControl.CustomRoundSwitch {
             objectName: "brightnessKnob"
             width: 40
@@ -44,11 +56,12 @@ RotaryAnalog {
             y: root.dialCenterY - height / 2
             rotation: root.visualAngle
         }
-        AdaptiveSvgImage {
+        Shape {
             objectName: "brightnessSymbol"
-            x: 49; y: 25
-            width: 16; height: 24
-            source: Qt.resolvedUrl("symbol.svg")
+            anchors.fill:parent
+            preferredRendererType:Shape.CurveRenderer
+            asynchronous:true
+            ShapePath {fillColor:"white";strokeColor:"transparent";PathSvg{path:root.brightnessPath}}
         }
     }
 }

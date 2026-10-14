@@ -1,4 +1,5 @@
 import QtQuick 2.15
+import QtQuick.Shapes
 import common_qml 1.0
 
 RotaryDiscrete {
@@ -18,16 +19,16 @@ RotaryDiscrete {
     inputCenterX: visualRoot.x + dialCenterX * visualRoot.scale
     inputCenterY: visualRoot.y + dialCenterY * visualRoot.scale
 
-    // Midpoints of the seven engraved strokes in the original plate SVG,
-    // ordered by their labels: 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0.
-    // Use the artwork coordinates, not a uniform angular increment.
-    function tickAngle(x, y) {
-        return Math.atan2(x - dialCenterX, dialCenterY - y) * 180 / Math.PI
+    // Preserve the existing detents exactly; the scale now follows these angles.
+    angles: [-143.88065915052024, -34.6079454105833, 33.66468171483053,
+             87.49099180556927, 106.52674504266514, 126.58007006028659, 147.4468004471465]
+    readonly property real scaleRadius: 28
+    readonly property real tickLength: 4
+    function scalePoint(angle, radius) {
+        var radians = angle * Math.PI / 180
+        return Qt.point(dialCenterX + Math.sin(radians) * radius,
+                        dialCenterY - Math.cos(radians) * radius)
     }
-    angles: [tickAngle(17.1, 78.9), tickAngle(18.3, 27.35),
-             tickAngle(53.35, 26.95), tickAngle(67.95, 51.6),
-             tickAngle(66.5, 62.05), tickAngle(61.4, 71.85),
-             tickAngle(53.3, 80.1)]
     propertySchema: ({ "value": {
         displayName: "Position", type: "enum", bindable: true, access: "readWrite",
         values: [{ label: "0.4", value: 0 }, { label: "0.5", value: 1 },
@@ -46,11 +47,56 @@ RotaryDiscrete {
         x: (root.width - width * scale) / 2
         y: (root.height - height * scale) / 2
 
-        AdaptiveSvgImage {
+        Text {
+            x: 4; y: 2; text: "AMPLFCN HDF"
+            color: "white"; font.family: "Arial"; font.bold: true; font.pixelSize: 8
+        }
+        Shape {
             objectName: "gainScale"
             anchors.fill: parent
-            source: Qt.resolvedUrl("_parts/scale.svg")
-            fillMode: Image.PreserveAspectFit
+            preferredRendererType: Shape.CurveRenderer
+            asynchronous: true
+            ShapePath {
+                fillColor: "transparent"; strokeColor: "white"; strokeWidth: 1
+                PathAngleArc {
+                    centerX: root.dialCenterX; centerY: root.dialCenterY
+                    radiusX: root.scaleRadius; radiusY: root.scaleRadius
+                    startAngle: root.angles[0] - 90
+                    sweepAngle: root.angles[root.angles.length - 1] - root.angles[0]
+                }
+            }
+        }
+        Repeater {
+            model: root.propertySchema.value.values
+            delegate: Item {
+                required property int index
+                required property var modelData
+                anchors.fill: parent
+                readonly property real angle: root.angles[index]
+                readonly property point innerPoint: root.scalePoint(angle, root.scaleRadius)
+                readonly property point outerPoint: root.scalePoint(angle, root.scaleRadius + root.tickLength)
+                Shape {
+                    anchors.fill: parent
+                    preferredRendererType: Shape.CurveRenderer
+                    asynchronous: true
+                    ShapePath {
+                        fillColor: "transparent"; strokeColor: "white"; strokeWidth: 1
+                        startX: innerPoint.x; startY: innerPoint.y
+                        PathLine {x: outerPoint.x; y: outerPoint.y}
+                    }
+                }
+                Text {
+                    objectName: "scaleLabel_" + index
+                    text: modelData.label
+                    color: "white"; font.family: "Arial"; font.bold: true; font.pixelSize: 7
+                    readonly property real radians: angle * Math.PI / 180
+                    // Constant clearance from the tick end to the text's bounding box.
+                    readonly property real labelRadius: root.scaleRadius + root.tickLength + 2
+                        + (implicitWidth * Math.abs(Math.sin(radians)) + implicitHeight * Math.abs(Math.cos(radians))) / 2
+                    x: root.scalePoint(angle, labelRadius).x - implicitWidth / 2
+                    y: root.scalePoint(angle, labelRadius).y - implicitHeight / 2
+                }
+            }
         }
         GainKnobVisual {
             id: knob
