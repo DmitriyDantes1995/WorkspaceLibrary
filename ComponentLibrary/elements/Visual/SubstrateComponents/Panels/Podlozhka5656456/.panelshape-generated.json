@@ -1,0 +1,82 @@
+{
+    "assets": [
+        "Podlozhka5656456.qml",
+        "panel.svg"
+    ],
+    "closed": true,
+    "component": "Podlozhka5656456.qml",
+    "componentHeight": 73,
+    "componentWidth": 151,
+    "fillColor": "#2D3030",
+    "formatVersion": 2,
+    "holes": [
+    ],
+    "kind": "PanelShapeEditorPlate",
+    "originX": 186.13953488372093,
+    "originY": 578.3953488372092,
+    "points": [
+        {
+            "cornerRadius": 0,
+            "x": 263.813953488372,
+            "y": 594.6744186046511
+        },
+        {
+            "cornerRadius": 0,
+            "x": 268.4651162790698,
+            "y": 590.953488372093
+        },
+        {
+            "cornerRadius": 0,
+            "x": 267.5348837209302,
+            "y": 582.5813953488372
+        },
+        {
+            "cornerRadius": 0,
+            "x": 272.18604651162786,
+            "y": 579.3255813953488
+        },
+        {
+            "cornerRadius": 0,
+            "x": 285.20930232558123,
+            "y": 578.3953488372092
+        },
+        {
+            "cornerRadius": 0,
+            "x": 314.9767441860465,
+            "y": 579.3255813953488
+        },
+        {
+            "cornerRadius": 0,
+            "x": 334.9767441860465,
+            "y": 579.7906976744184
+        },
+        {
+            "cornerRadius": 0,
+            "x": 336.8372093023256,
+            "y": 610.0232558139535
+        },
+        {
+            "cornerRadius": 0,
+            "x": 305.6744186046511,
+            "y": 650.0232558139535
+        },
+        {
+            "cornerRadius": 0,
+            "x": 249.3953488372093,
+            "y": 650.4883720930231
+        },
+        {
+            "cornerRadius": 0,
+            "x": 186.13953488372093,
+            "y": 633.2790697674418
+        },
+        {
+            "cornerRadius": 0,
+            "x": 186.6046511627907,
+            "y": 596.0697674418604
+        }
+    ],
+    "sceneLayer": "background",
+    "strokeColor": "#303030",
+    "version": 3
+}

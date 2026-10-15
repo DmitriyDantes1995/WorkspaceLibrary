@@ -45,11 +45,194 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 0,
             "subtype": "AngleOfAttackLoadFactorIndicator",
             "type": "AngleOfAttackLoadFactorIndicator",
             "width": 103.26448651749871,
-            "x": 709.9667144449752,
-            "y": 450.07827679566793,
+            "x": 708.4282529065138,
+            "y": 452.12955884695,
+            "z": 0
+        }
+    ],
+    "BoltHead": [
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 9.736342042755325,
+            "locked": true,
+            "name": "BoltHead_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 52,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 11.399049881235157,
+            "x": 160.27526141917173,
+            "y": 444.43577574972267,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 8.970501474926323,
+            "locked": false,
+            "name": "BoltHead_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 70,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 10.445427728613623,
+            "x": 171.437109510984,
+            "y": 572.7152659447773,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 8.970501474926323,
+            "locked": false,
+            "name": "BoltHead_3",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 71,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 16.891130288206114,
+            "x": 134.448524157643,
+            "y": 572.6841184338298,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 9.736342042755325,
+            "locked": true,
+            "name": "BoltHead_4",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 73,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 11.399049881235157,
+            "x": 139.3964015616895,
+            "y": 474.3882698114804,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 12.031358885017426,
+            "locked": false,
+            "name": "BoltHead_5",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 75,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 13.42508710801394,
+            "x": 342.6640255835044,
+            "y": 575.2960956517591,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 10.368651046537593,
+            "locked": false,
+            "name": "BoltHead_6",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 76,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 9.62461204863152,
+            "x": 213.01160067596075,
+            "y": 556.1952006559186,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 11.18747702847736,
+            "locked": false,
+            "name": "BoltHead_7",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 77,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 13.425087108014054,
+            "x": 184.0767760169711,
+            "y": 556.5306487050678,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 9.656061972903444,
+            "locked": false,
+            "name": "BoltHead_8",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 78,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 10.574730813477117,
+            "x": 185.23034848357162,
+            "y": 500.1489174443569,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 9.181002590480546,
+            "locked": false,
+            "name": "BoltHead_9",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 79,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 11.04979019589993,
+            "x": 244.17248945794432,
+            "y": 500.76298681906235,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 12.031358885017426,
+            "locked": false,
+            "name": "BoltHead_10",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 83,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 13.42508710801394,
+            "x": 233.18659090416952,
+            "y": 572.7070220175547,
             "z": 0
         }
     ],
@@ -99,6 +282,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 1,
             "subtype": "EngineRpmIndicator",
             "type": "EngineRpmIndicator",
             "width": 104.34881936245573,
@@ -117,17 +301,18 @@
                 "m_value": true,
                 "verticalText": false
             },
-            "height": 17.376744186046565,
-            "locked": false,
+            "height": 19.467336520541224,
+            "locked": true,
             "name": "FaultAnnunciator_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 2,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
-            "width": 37.60000000000011,
-            "x": 1034.7000000000003,
-            "y": 615.1048408378689,
+            "width": 38.296864111498024,
+            "x": 1038.7000000000005,
+            "y": 590.7564087821199,
             "z": 0
         },
         {
@@ -139,17 +324,18 @@
                 "m_value": true,
                 "verticalText": false
             },
-            "height": 17.077882236516576,
+            "height": 18.077882236516576,
             "locked": false,
             "name": "FaultAnnunciator_2",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 3,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 36.95331905781584,
-            "x": 1035.4500000000003,
-            "y": 634.9401121556984,
+            "x": 1038.9343205574914,
+            "y": 610.7310529222489,
             "z": 0
         },
         {
@@ -167,11 +353,12 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 4,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 37.52380442541033,
-            "x": 1166.6671408177826,
-            "y": 478.3736669729742,
+            "x": 1172.5904857655173,
+            "y": 456.77087951652817,
             "z": 0
         },
         {
@@ -183,17 +370,18 @@
                 "m_value": true,
                 "verticalText": false
             },
-            "height": 18.12043542800599,
+            "height": 17.423571316507733,
             "locked": true,
             "name": "FaultAnnunciator_4",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 5,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
-            "width": 39.20920770877955,
-            "x": 1166.228729478944,
-            "y": 498.9397822859971,
+            "width": 37.467047430033965,
+            "x": 1172.500506482428,
+            "y": 476.2916986623036,
             "z": 0
         },
         {
@@ -211,11 +399,12 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 6,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 39.38158458244122,
-            "x": 1165.5115886611597,
-            "y": 518.9093871492187,
+            "x": 1172.1317977203935,
+            "y": 494.86757530252873,
             "z": 0
         },
         {
@@ -233,33 +422,12 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 7,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 34.80249511218695,
-            "x": 1104.6069913588708,
-            "y": 438.8952380952383,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Indicators/FaultAnnunciator/FaultAnnunciator.qml",
-            "customProperties": {
-                "fontSize": 28,
-                "lampColor": "green",
-                "m_text": "FAULT",
-                "m_value": false,
-                "verticalText": false
-            },
-            "height": 70,
-            "locked": false,
-            "name": "FaultAnnunciator_7",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "subtype": "FaultAnnunciator",
-            "type": "FaultAnnunciator",
-            "width": 151,
-            "x": 899.2833333333333,
-            "y": 361.04999999999995,
+            "x": 1110.1819042508569,
+            "y": 416.595586527294,
             "z": 0
         },
         {
@@ -272,16 +440,17 @@
                 "verticalText": true
             },
             "height": 19.521739130434753,
-            "locked": true,
+            "locked": false,
             "name": "FaultAnnunciator_8",
             "opacity": 1,
             "rotation": -90,
             "scale": 1,
+            "stackingOrder": 8,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 38.173913043478194,
-            "x": 1082.6521739130435,
-            "y": 382.9565217391303,
+            "x": 1087.1719479243427,
+            "y": 368.2672562024073,
             "z": 0
         },
         {
@@ -299,6 +468,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 9,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 40.988888888888795,
@@ -321,6 +491,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 10,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 42.10000000000011,
@@ -343,6 +514,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 11,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 39.67471264367802,
@@ -365,6 +537,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 12,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 38.099999999999994,
@@ -387,6 +560,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 13,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 41.43333333333314,
@@ -409,6 +583,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 14,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 39.0565217391306,
@@ -431,11 +606,12 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 15,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 39.49130434782617,
-            "x": 528.4523914353854,
-            "y": 424.7878108866,
+            "x": 525.3754683584623,
+            "y": 427.8647339635231,
             "z": 0
         },
         {
@@ -453,6 +629,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 16,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 38.849999999999994,
@@ -475,11 +652,12 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 17,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 40.099999999999994,
-            "x": 528.9499999999998,
-            "y": 458.98354430379766,
+            "x": 525.3602564102563,
+            "y": 460.0091853294387,
             "z": 0
         },
         {
@@ -497,6 +675,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 18,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 37.099999999999994,
@@ -519,6 +698,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 19,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 38.76666666666651,
@@ -541,6 +721,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 20,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 38.099999999999994,
@@ -563,6 +744,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 21,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 37.500843881856525,
@@ -580,16 +762,17 @@
                 "verticalText": false
             },
             "height": 19.24325484316668,
-            "locked": false,
+            "locked": true,
             "name": "FaultAnnunciator_22",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 22,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 33.250895140664994,
-            "x": 219.234798777082,
-            "y": 389.62571949319465,
+            "x": 213.6598858850959,
+            "y": 390.671015660442,
             "z": 0
         },
         {
@@ -602,16 +785,17 @@
                 "verticalText": false
             },
             "height": 17.399999999999892,
-            "locked": false,
+            "locked": true,
             "name": "FaultAnnunciator_23",
             "opacity": 1,
             "rotation": -90,
             "scale": 1,
+            "stackingOrder": 23,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 32.10000000000005,
-            "x": 236.13655068398086,
-            "y": 318.06393493171913,
+            "x": 230.5616377919948,
+            "y": 319.10923109896646,
             "z": 0
         },
         {
@@ -624,16 +808,17 @@
                 "verticalText": false
             },
             "height": 18.74482758620732,
-            "locked": false,
+            "locked": true,
             "name": "FaultAnnunciator_24",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 24,
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 35.849999999999994,
-            "x": 196.02958579423657,
-            "y": 571.4409786421036,
+            "x": 183.4405121600323,
+            "y": 573.8162755542174,
             "z": 0
         }
     ],
@@ -683,11 +868,12 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 25,
             "subtype": "LeftEngineTemperatureIndicator",
             "type": "LeftEngineTemperatureIndicator",
             "width": 75.86309523809507,
-            "x": 614.4807866184449,
-            "y": 485.3462929475586,
+            "x": 611.4390597339079,
+            "y": 486.0981726468067,
             "z": 0
         },
         {
@@ -735,6 +921,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 26,
             "subtype": "LeftEngineTemperatureIndicator",
             "type": "LeftEngineTemperatureIndicator",
             "width": 71.96213425129083,
@@ -748,34 +935,72 @@
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
             "customProperties": {
             },
-            "height": 9.295195347356014,
+            "height": 10.54513064133016,
             "locked": false,
-            "name": "OvalSwitchBase_1",
+            "name": "OvalSwitchBase_3",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 61,
             "subtype": "OvalSwitchBase",
             "type": "OvalSwitchBase",
-            "width": 15.189554749048469,
-            "x": 161.622810532674,
-            "y": 446.9493006993007,
+            "width": 17.45890736342058,
+            "x": 609.7777122984254,
+            "y": 666.6854109664556,
             "z": 0
         },
         {
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
             "customProperties": {
             },
-            "height": 8.071428571428555,
+            "height": 10.54513064133016,
+            "locked": false,
+            "name": "OvalSwitchBase_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 62,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 17.45890736342058,
+            "x": 566.5710614670713,
+            "y": 666.234104553154,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.54513064133016,
             "locked": false,
             "name": "OvalSwitchBase_2",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 63,
             "subtype": "OvalSwitchBase",
             "type": "OvalSwitchBase",
-            "width": 8.342857142857227,
-            "x": 150.70984101503927,
-            "y": 472.56166860492453,
+            "width": 17.45890736342058,
+            "x": 609.5876885454561,
+            "y": 722.314864648166,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.54513064133016,
+            "locked": false,
+            "name": "OvalSwitchBase_4",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 64,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 17.45890736342058,
+            "x": 566.143508022891,
+            "y": 722.1010879260759,
             "z": 0
         }
     ],
@@ -786,16 +1011,17 @@
                 "visualVariant": 0
             },
             "height": 44.38809523809541,
-            "locked": false,
+            "locked": true,
             "name": "RedSafetySwitchVisual_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 27,
             "subtype": "RedSafetySwitchVisual",
             "type": "RedSafetySwitchVisual",
             "width": 37.1400924937746,
-            "x": 490.5999999999998,
-            "y": 207.47261904761893,
+            "x": 488.2247030878858,
+            "y": 184.19470930890162,
             "z": 0
         },
         {
@@ -804,16 +1030,17 @@
                 "visualVariant": 0
             },
             "height": 44.77840136054419,
-            "locked": false,
+            "locked": true,
             "name": "RedSafetySwitchVisual_2",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 28,
             "subtype": "RedSafetySwitchVisual",
             "type": "RedSafetySwitchVisual",
             "width": 37.46666666666664,
-            "x": 414.26666666666665,
-            "y": 158.15778061224495,
+            "x": 410.9412509897071,
+            "y": 134.87987087352758,
             "z": 0
         }
     ],
@@ -829,11 +1056,31 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 29,
             "subtype": "Simple_btn",
             "type": "Simple_btn",
             "width": 19.57894736842104,
-            "x": 436.3157894736839,
-            "y": 110.68421052631574,
+            "x": 432.2777847230901,
+            "y": 91.44430553819222,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 17.310344827586164,
+            "locked": true,
+            "name": "Simple_btn_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 59,
+            "subtype": "Simple_btn",
+            "type": "Simple_btn",
+            "width": 17.310344827586164,
+            "x": 587.0986164497263,
+            "y": 692.2382673227837,
             "z": 0
         }
     ],
@@ -844,16 +1091,17 @@
                 "oN": 0
             },
             "height": 25.982912457912374,
-            "locked": false,
+            "locked": true,
             "name": "StandardTumbler2Position_1",
             "opacity": 1,
             "rotation": 1,
             "scale": 1,
+            "stackingOrder": 30,
             "subtype": "StandardTumbler2Position",
             "type": "StandardTumbler2Position",
             "width": 14.605015377336123,
-            "x": 327.39999999999947,
-            "y": 228.17142255892244,
+            "x": 319.38606271776945,
+            "y": 210.74981977146598,
             "z": 5
         },
         {
@@ -862,16 +1110,17 @@
                 "oN": 0
             },
             "height": 24.53251100751112,
-            "locked": false,
+            "locked": true,
             "name": "StandardTumbler2Position_2",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 31,
             "subtype": "StandardTumbler2Position",
             "type": "StandardTumbler2Position",
             "width": 13.78974358974365,
-            "x": 442.68205128205125,
-            "y": 229.94342538972455,
+            "x": 436.0618422228178,
+            "y": 210.08279821202422,
             "z": 0
         },
         {
@@ -879,17 +1128,18 @@
             "customProperties": {
                 "oN": 0
             },
-            "height": 25.262373737373643,
-            "locked": false,
+            "height": 29.488122915616824,
+            "locked": true,
             "name": "StandardTumbler2Position_3",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 32,
             "subtype": "StandardTumbler2Position",
             "type": "StandardTumbler2Position",
-            "width": 14.199999999999946,
-            "x": 490.3230769230768,
-            "y": 180.02409997409987,
+            "width": 16.575296912113927,
+            "x": 484.85989402521466,
+            "y": 158.67132039685475,
             "z": 0
         },
         {
@@ -898,16 +1148,17 @@
                 "oN": 0
             },
             "height": 25.715656565656573,
-            "locked": false,
+            "locked": true,
             "name": "StandardTumbler2Position_4",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 33,
             "subtype": "StandardTumbler2Position",
             "type": "StandardTumbler2Position",
             "width": 14.454790631653658,
-            "x": 352.14102573680475,
-            "y": 227.4973684210526,
+            "x": 347.611409012066,
+            "y": 210.4241976893453,
             "z": 0
         }
     ],
@@ -927,6 +1178,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 34,
             "subtype": "Su30Clock",
             "type": "Su30Clock",
             "width": 79.21435240762955,
@@ -948,16 +1200,17 @@
                 "tankLS": 0
             },
             "height": 173.25,
-            "locked": true,
+            "locked": false,
             "name": "Su30FuelIndicator_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 35,
             "subtype": "Su30FuelIndicator",
             "type": "Su30FuelIndicator",
             "width": 63.30288461538461,
-            "x": 1093.5985576923076,
-            "y": 465.625,
+            "x": 1101.4157005494503,
+            "y": 444.71907665505216,
             "z": 0
         }
     ],
@@ -975,16 +1228,17 @@
                 "targetWindowTitle": ""
             },
             "height": 145.7186270653217,
-            "locked": false,
+            "locked": true,
             "name": "Su30HdgBaroDisplay_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 36,
             "subtype": "Su30HdgBaroDisplay",
             "type": "Su30HdgBaroDisplay",
             "width": 157.37611723054744,
-            "x": 659.8132062366832,
-            "y": 268.62442741367164,
+            "x": 657.2815606670628,
+            "y": 271.5780139115618,
             "z": 0
         }
     ],
@@ -994,17 +1248,18 @@
             "customProperties": {
                 "value": 0
             },
-            "height": 43.73417721518979,
-            "locked": false,
-            "name": "Su30HmtdsBright_1",
+            "height": 42.701149425287326,
+            "locked": true,
+            "name": "Su30HmtdsBright_2",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 55,
             "subtype": "Su30HmtdsBright",
             "type": "Su30HmtdsBright",
-            "width": 43.73417721518979,
-            "x": 190.7784312528061,
-            "y": 596.3449319025112,
+            "width": 42.701149425287326,
+            "x": 188.04607442041666,
+            "y": 592.4632307180514,
             "z": 0
         }
     ],
@@ -1015,17 +1270,18 @@
                 "system1Pressure": 0,
                 "system2Pressure": 0
             },
-            "height": 76.27403846153847,
+            "height": 70.27403846153847,
             "locked": false,
             "name": "Su30HydraulicIndicator_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 37,
             "subtype": "Su30HydraulicIndicator",
             "type": "Su30HydraulicIndicator",
-            "width": 42.194148936170215,
-            "x": 1164.3092222086798,
-            "y": 568.1754807692307,
+            "width": 38.87500000000001,
+            "x": 1174.6283711448498,
+            "y": 549.1754807692307,
             "z": 0
         }
     ],
@@ -1033,19 +1289,41 @@
         {
             "componentPath": "elements/Controls/Su30/Su30LandingGear/Su30LandingGear.qml",
             "customProperties": {
-                "value": 0
+                "value": 1
             },
             "height": 118.18181818181813,
-            "locked": true,
+            "locked": false,
             "name": "Su30LandingGear_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 38,
             "subtype": "Su30LandingGear",
             "type": "Su30LandingGear",
             "width": 59.090909090909065,
-            "x": 180.0762800417973,
-            "y": 476.86206896551744,
+            "x": 173.15322722724136,
+            "y": 481.411273012576,
+            "z": 1
+        }
+    ],
+    "Su30MasterArmSwitch": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30MasterArmSwitch/Su30MasterArmSwitch.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 34.21052631578959,
+            "locked": false,
+            "name": "Su30MasterArmSwitch_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 56,
+            "subtype": "Su30MasterArmSwitch",
+            "type": "Su30MasterArmSwitch",
+            "width": 27.368421052631675,
+            "x": 288.6942034785027,
+            "y": 194.9983925927962,
             "z": 0
         }
     ],
@@ -1084,17 +1362,18 @@
                 "top6": 0,
                 "top7": 0
             },
-            "height": 314.30683440399645,
-            "locked": true,
+            "height": 322.4721944478852,
+            "locked": false,
             "name": "Su30Mfd_1",
-            "opacity": 1,
+            "opacity": 0.87,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 39,
             "subtype": "Su30Mfd",
             "type": "Su30Mfd",
-            "width": 261.1766755634633,
-            "x": 823.7350978647686,
-            "y": 273.7874732334051,
+            "width": 267.96177011950607,
+            "x": 819.572710215412,
+            "y": 245.18877373902728,
             "z": 0
         },
         {
@@ -1137,33 +1416,16 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 40,
             "subtype": "Su30Mfd",
             "type": "Su30Mfd",
             "width": 261.33718861209957,
-            "x": 263.06473902728385,
-            "y": 248.66977225672855,
+            "x": 256.8396653321217,
+            "y": 246.19303680791052,
             "z": 0
         }
     ],
     "Su30RedTipToggle": [
-        {
-            "componentPath": "elements/Controls/Su30/Su30RedTipToggle/Su30RedTipToggle.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 31.604166666666668,
-            "locked": true,
-            "name": "Su30RedTipToggle_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "subtype": "Su30RedTipToggle",
-            "type": "Su30RedTipToggle",
-            "width": 18.5,
-            "x": 298.5,
-            "y": 219.50000000000003,
-            "z": 0
-        },
         {
             "componentPath": "elements/Controls/Su30/Su30RedTipToggle/Su30RedTipToggle.qml",
             "customProperties": {
@@ -1175,11 +1437,12 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 41,
             "subtype": "Su30RedTipToggle",
             "type": "Su30RedTipToggle",
             "width": 20,
-            "x": 466.9999999999999,
-            "y": 224.00000000000003,
+            "x": 460.5866983372921,
+            "y": 200.95961995249414,
             "z": 0
         }
     ],
@@ -1190,16 +1453,17 @@
                 "value": 0
             },
             "height": 78.71832358674408,
-            "locked": false,
+            "locked": true,
             "name": "Su30RetractExtend_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 42,
             "subtype": "Su30RetractExtend",
             "type": "Su30RetractExtend",
             "width": 23.61549707602322,
-            "x": 147.28957471264374,
-            "y": 490.2290112253813,
+            "x": 139.20295823457678,
+            "y": 489.0866128620204,
             "z": 0
         }
     ],
@@ -1210,16 +1474,17 @@
                 "value": 1
             },
             "height": 33.977366255143956,
-            "locked": false,
+            "locked": true,
             "name": "Su30RingToggle_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 43,
             "subtype": "Su30RingToggle",
             "type": "Su30RingToggle",
             "width": 24.962962962962905,
-            "x": 156.25031928480203,
-            "y": 585.0459770114948,
+            "x": 147.2107712622031,
+            "y": 586.7408922657321,
             "z": 0
         }
     ],
@@ -1230,16 +1495,17 @@
                 "value": 1
             },
             "height": 20.762820512820465,
-            "locked": false,
+            "locked": true,
             "name": "Su30RudderTrimToggle_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 44,
             "subtype": "Su30RudderTrimToggle",
             "type": "Su30RudderTrimToggle",
             "width": 33.73958333333326,
-            "x": 581.3589743589747,
-            "y": 735.4423076923077,
+            "x": 578.412067029329,
+            "y": 736.7485941541869,
             "z": 0
         }
     ],
@@ -1249,17 +1515,18 @@
             "customProperties": {
                 "value": 0
             },
-            "height": 49.77049338556756,
-            "locked": false,
-            "name": "Su30TargetType_1",
-            "opacity": 0.94,
+            "height": 71.82554981049559,
+            "locked": true,
+            "name": "Su30TargetType_2",
+            "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 57,
             "subtype": "Su30TargetType",
             "type": "Su30TargetType",
-            "width": 49.66334485298292,
-            "x": 230.72570963142834,
-            "y": 596.6701159817999,
+            "width": 71.67091999389602,
+            "x": 213.81138519243189,
+            "y": 585.3967172054397,
             "z": 0
         }
     ],
@@ -1269,17 +1536,18 @@
             "customProperties": {
                 "value": 0
             },
-            "height": 59.235849056603776,
+            "height": 60.423497512660795,
             "locked": true,
             "name": "Su30TrainSelector_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 45,
             "subtype": "Su30TrainSelector",
             "type": "Su30TrainSelector",
-            "width": 45.5,
-            "x": 367.0000000000001,
-            "y": 167.7452830188679,
+            "width": 46.41225171262351,
+            "x": 360.38703569830295,
+            "y": 147.55525926589877,
             "z": 0
         }
     ],
@@ -1290,16 +1558,17 @@
                 "value": 2
             },
             "height": 44.97435897435918,
-            "locked": true,
+            "locked": false,
             "name": "Su30YellowToggle3_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 46,
             "subtype": "Su30YellowToggle3",
             "type": "Su30YellowToggle3",
             "width": 24.21696252465494,
-            "x": 228.86452046323092,
-            "y": 510.006810040328,
+            "x": 219.8647786251389,
+            "y": 510.19763500528734,
             "z": 0
         }
     ],
@@ -1708,7 +1977,7 @@
                     }
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka/Podlozhka.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka/Podlozhka.qml",
             "customProperties": {
             },
             "height": 706.2857142857142,
@@ -1718,6 +1987,7 @@
             "opacity": 0.3,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 47,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 1104.2857142857142,
@@ -1793,150 +2063,23 @@
                     }
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/PodlozhkaText2/PodlozhkaText2.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/PodlozhkaText2/PodlozhkaText2.qml",
             "customProperties": {
             },
             "height": 42.999999999999886,
             "instanceId": "d40ebe59-4c71-4c19-9527-42fa80d8c381",
-            "locked": true,
+            "locked": false,
             "name": "ContourPanel_1",
-            "opacity": 0.48,
+            "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 48,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 34.33986498478538,
-            "x": 144.53139938303065,
-            "y": 440.9373563218389,
+            "x": 138.20228545898,
+            "y": 443.047060963189,
             "z": 1
-        },
-        {
-            "backgroundShape": {
-                "baseHeight": 71.87039405566736,
-                "baseWidth": 59.4689079724709,
-                "closed": true,
-                "cornerRadius": 0,
-                "holes": [
-                    {
-                        "points": [
-                            {
-                                "cornerRadius": 0,
-                                "x": 43.166620458782184,
-                                "y": 56.53114928119623
-                            },
-                            {
-                                "cornerRadius": 0,
-                                "x": 45.23310760840467,
-                                "y": 61.18462803300207
-                            },
-                            {
-                                "cornerRadius": 0,
-                                "x": 43.166620458782184,
-                                "y": 65.14870252528108
-                            },
-                            {
-                                "cornerRadius": 0,
-                                "x": 13.546971314192437,
-                                "y": 64.80400039551782
-                            },
-                            {
-                                "cornerRadius": 0,
-                                "x": 11.480484164569837,
-                                "y": 59.461117384185215
-                            },
-                            {
-                                "cornerRadius": 0,
-                                "x": 14.9246294139408,
-                                "y": 56.53114928119639
-                            }
-                        ],
-                        "type": "contour"
-                    },
-                    {
-                        "cornerRadius": 0,
-                        "height": 2198.5618889503794,
-                        "type": "circle",
-                        "width": 2928.9700029700007,
-                        "x": 24.476392238862534,
-                        "y": 22.164346943786093
-                    },
-                    {
-                        "cornerRadius": 0,
-                        "height": 8.92778516087186,
-                        "type": "circle",
-                        "width": 11.89378159449418,
-                        "x": 23.481659148907102,
-                        "y": 22.28651985053766
-                    }
-                ],
-                "name": "Podlozhka1010",
-                "parameters": {
-                    "fillColor": "#388F82"
-                },
-                "points": [
-                    {
-                        "cornerRadius": 0,
-                        "x": 0,
-                        "y": 67.73396849850664
-                    },
-                    {
-                        "cornerRadius": 0,
-                        "x": 0.45921936658282425,
-                        "y": 2.929968102988825
-                    },
-                    {
-                        "cornerRadius": 0,
-                        "x": 3.444145249370962,
-                        "y": 0
-                    },
-                    {
-                        "cornerRadius": 0,
-                        "x": 55.79515303980853,
-                        "y": 0
-                    },
-                    {
-                        "cornerRadius": 0,
-                        "x": 59.00968860588808,
-                        "y": 2.929968102988825
-                    },
-                    {
-                        "cornerRadius": 0,
-                        "x": 59.4689079724709,
-                        "y": 68.2510216931517
-                    },
-                    {
-                        "cornerRadius": 0,
-                        "x": 56.94320145626559,
-                        "y": 71.18098979614044
-                    },
-                    {
-                        "cornerRadius": 0,
-                        "x": 5.9698517655762755,
-                        "y": 71.87039405566736
-                    },
-                    {
-                        "cornerRadius": 0,
-                        "x": 2.5257065162053136,
-                        "y": 70.49158553661368
-                    }
-                ]
-            },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka1010/Podlozhka1010.qml",
-            "customProperties": {
-            },
-            "height": 71.87039405566736,
-            "instanceId": "655e6130-fa34-4fe6-8aea-76bcc4aab2f4",
-            "locked": false,
-            "name": "ContourPanel_2",
-            "opacity": 0.82,
-            "rotation": 0,
-            "scale": 1,
-            "subtype": "ContourPanel",
-            "type": "Substrate",
-            "width": 59.4689079724709,
-            "x": 567.8223939384825,
-            "y": 687.1622718662616,
-            "z": 0
         },
         {
             "backgroundShape": {
@@ -2033,22 +2176,743 @@
                     }
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka23432/Podlozhka23432.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka23432/Podlozhka23432.qml",
             "customProperties": {
             },
             "height": 423.0869703727301,
             "instanceId": "21bba102-0e6c-4750-acb2-13ef552cb250",
             "locked": true,
             "name": "ContourPanel_3",
-            "opacity": 0.7,
+            "opacity": 0.74,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 49,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 227.4418604651163,
-            "x": 137.48661264255733,
-            "y": 244.2051884304467,
+            "x": 132.8354498518596,
+            "y": 242.3447233141676,
             "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 98.10126582278485,
+                "baseWidth": 62.366250606448375,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                    {
+                        "cornerRadius": 0,
+                        "height": 16,
+                        "type": "circle",
+                        "width": 16,
+                        "x": 20.95261111119561,
+                        "y": 29.43920790894626
+                    },
+                    {
+                        "points": [
+                            {
+                                "cornerRadius": 0,
+                                "x": 15.847263264676258,
+                                "y": 77.2151898734179
+                            },
+                            {
+                                "cornerRadius": 0,
+                                "x": 16.49656002388474,
+                                "y": 77.66169111881197
+                            },
+                            {
+                                "cornerRadius": 0,
+                                "x": 44.96118731530919,
+                                "y": 77.2151898734179
+                            },
+                            {
+                                "cornerRadius": 0,
+                                "x": 48.44219997353707,
+                                "y": 82.59493670886093
+                            },
+                            {
+                                "cornerRadius": 0,
+                                "x": 44.96118731530919,
+                                "y": 89.24050632911406
+                            },
+                            {
+                                "cornerRadius": 0,
+                                "x": 15.530807568473733,
+                                "y": 90.18987341772151
+                            },
+                            {
+                                "cornerRadius": 0,
+                                "x": 10.467516429233228,
+                                "y": 83.22784810126598
+                            }
+                        ],
+                        "type": "contour"
+                    }
+                ],
+                "name": "PodlozhkaText3",
+                "parameters": {
+                    "fillColor": "#388E8F"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 92.39243814228382
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.02447845454958042,
+                        "y": 3.4810126582279963
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 3.821946808980101,
+                        "y": 0.6329113924050489
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 57.619415163410395,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 60.46751642923323,
+                        "y": 4.430379746835456
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 62.366250606448375,
+                        "y": 93.98734177215192
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 57.619415163410395,
+                        "y": 98.10126582278485
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 3.1890354165750523,
+                        "y": 98.10126582278485
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/PodlozhkaText3/PodlozhkaText3.qml",
+            "customProperties": {
+            },
+            "height": 98.10126582278485,
+            "instanceId": "ce660447-6a30-44bf-9ff0-553fdb099b60",
+            "locked": true,
+            "name": "ContourPanel_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 53,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 62.366250606448375,
+            "x": 565.3683355569673,
+            "y": 663.9865084425904,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 6,
+                "baseWidth": 14,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka1233434",
+                "parameters": {
+                    "strokeWidth": 1
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.09157509157512322,
+                        "y": 3.7545787545788016
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 1.9230769230770193
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 8.699633699633637,
+                        "y": 2.014652014652029
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 8.79120879120876,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 13.736263736263595,
+                        "y": 2.7472527472527872
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 9.523809523809518,
+                        "y": 5.677655677655707
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 9.432234432234395,
+                        "y": 4.029304029304058
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1.1904761904761472,
+                        "y": 3.846153846153925
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka1233434/Podlozhka1233434.qml",
+            "customProperties": {
+            },
+            "height": 6,
+            "instanceId": "9782fd08-f7f6-47ec-ae30-a08c97654ed5",
+            "locked": true,
+            "name": "ContourPanel_4",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 65,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 14,
+            "x": 598.6446886446885,
+            "y": 732.1932234432234,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 6,
+                "baseWidth": 14,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka1233434",
+                "parameters": {
+                    "strokeWidth": 1
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.09157509157512322,
+                        "y": 3.7545787545788016
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 1.9230769230770193
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 8.699633699633637,
+                        "y": 2.014652014652029
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 8.79120879120876,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 13.736263736263595,
+                        "y": 2.7472527472527872
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 9.523809523809518,
+                        "y": 5.677655677655707
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 9.432234432234395,
+                        "y": 4.029304029304058
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1.1904761904761472,
+                        "y": 3.846153846153925
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka1233434/Podlozhka1233434.qml",
+            "customProperties": {
+            },
+            "height": 6,
+            "instanceId": "ce42c0c4-6a0e-43da-b7be-90e391d0d900",
+            "locked": true,
+            "name": "ContourPanel_5",
+            "opacity": 1,
+            "rotation": -180,
+            "scale": 1,
+            "stackingOrder": 66,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 14,
+            "x": 593.4972355615785,
+            "y": 737.6355826925532,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 73,
+                "baseWidth": 151,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka5656456",
+                "parameters": {
+                    "fillColor": "#2D3030",
+                    "strokeColor": "#303030"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 77.6744186046511,
+                        "y": 16.27906976744191
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 82.32558139534885,
+                        "y": 12.558139534883821
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 81.3953488372093,
+                        "y": 4.186046511627978
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 86.04651162790694,
+                        "y": 0.9302325581395507
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 99.06976744186031,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 128.8372093023256,
+                        "y": 0.9302325581395507
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 148.8372093023256,
+                        "y": 1.3953488372092124
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 150.6976744186047,
+                        "y": 31.62790697674427
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 119.5348837209302,
+                        "y": 71.62790697674427
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 63.25581395348837,
+                        "y": 72.09302325581393
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 54.883720930232585
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.4651162790697754,
+                        "y": 17.674418604651237
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka5656456/Podlozhka5656456.qml",
+            "customProperties": {
+            },
+            "height": 73,
+            "instanceId": "f515cbff-cbd4-4e70-85e8-a341238fdd2b",
+            "locked": true,
+            "name": "ContourPanel_6",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 68,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 151,
+            "x": 186.13953488372093,
+            "y": 578.3953488372092,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 20,
+                "baseWidth": 47,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka8098098",
+                "parameters": {
+                    "strokeColor": "#303030"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 2.3369196328915223,
+                        "y": 19.06005221932128
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 15.143603133159331
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.26109660574411464,
+                        "y": 1.5665796344646878
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 3.655352480417662,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 42.81984334203656,
+                        "y": 0.5221932114882293
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 45.43080939947771,
+                        "y": 2.088772845953031
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 46.21409921671017,
+                        "y": 9.138381201044353
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 45.43080939947771,
+                        "y": 15.926892950391675
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 43.60313315926891,
+                        "y": 19.582245430809508
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka8098098/Podlozhka8098098.qml",
+            "customProperties": {
+            },
+            "height": 20,
+            "instanceId": "8bb11c37-62d7-48ad-b27a-3d0d11f221e7",
+            "locked": true,
+            "name": "ContourPanel_7",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 69,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 47,
+            "x": 136.0835509138381,
+            "y": 571.1618798955612,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 70.5463182897862,
+                "baseWidth": 44.89311163895488,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                    {
+                        "cornerRadius": 8,
+                        "height": 29.11,
+                        "type": "rectangle",
+                        "width": 13,
+                        "x": 15.308788598574822,
+                        "y": 20.142517814726737
+                    }
+                ],
+                "name": "Podlozhka677897",
+                "parameters": {
+                    "fillColor": "#606060",
+                    "strokeColor": "#606060"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.7125890736342058,
+                        "y": 67.45843230403796
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 3.087885985748244
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 2.612826603325402,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 40.61757719714964,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 44.89311163895488,
+                        "y": 2.850356294536823
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 44.418052256532064,
+                        "y": 67.45843230403796
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 40.855106888361036,
+                        "y": 69.83372921615194
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 3.562945368171029,
+                        "y": 70.5463182897862
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka677897/Podlozhka677897.qml",
+            "customProperties": {
+            },
+            "height": 70.5463182897862,
+            "instanceId": "82c27824-f44a-4898-9cde-bc1e677b018f",
+            "locked": false,
+            "name": "ContourPanel_8",
+            "opacity": 0.8,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 80,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 44.89311163895488,
+            "x": 210.7363420427554,
+            "y": 498.4679334916866,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 192,
+                "baseWidth": 248,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka34534544",
+                "parameters": {
+                    "fillColor": "#406BA4",
+                    "strokeColor": "#30A0FF"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 14.634146341463406,
+                        "y": 187.45644599303137
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 10.452961672473862,
+                        "y": 181.53310104529623
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 8.36236933797909,
+                        "y": 138.32752613240416
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.6968641114982574,
+                        "y": 85.01742160278752
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 8.36236933797909
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 4.5296167247386165,
+                        "y": 0.6968641114982574
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 9.059233449477347,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 239.0243902439023,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 243.55400696864115,
+                        "y": 1.045296167247443
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 247.03832752613232,
+                        "y": 7.665505226480832
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 246.68989547038314,
+                        "y": 80.83623693379798
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 241.81184668989533,
+                        "y": 119.51219512195121
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 240.06968641114975,
+                        "y": 127.52613240418123
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 237.6306620209058,
+                        "y": 164.80836236933806
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 236.58536585365857,
+                        "y": 184.32055749128926
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 233.10104529616717,
+                        "y": 187.1080139372823
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 228.57142857142856,
+                        "y": 190.5923344947737
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 143.20557491289196,
+                        "y": 190.2439024390244
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 141.1149825783972,
+                        "y": 186.41114982578415
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 140.41811846689893,
+                        "y": 182.2299651567946
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 140.06968641114975,
+                        "y": 154.006968641115
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 138.32752613240416,
+                        "y": 144.2508710801394
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 132.40418118466903,
+                        "y": 135.54006968641113
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 126.1324041811846,
+                        "y": 130.66202090592333
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 112.54355400696863,
+                        "y": 128.2229965156796
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 104.8780487804878,
+                        "y": 128.2229965156796
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 94.07665505226475,
+                        "y": 134.4947735191638
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 88.5017421602787,
+                        "y": 141.1149825783973
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 83.97212543554008,
+                        "y": 156.09756097560978
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 85.71428571428567,
+                        "y": 182.92682926829275
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 83.97212543554008,
+                        "y": 187.1080139372823
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 79.79094076655053,
+                        "y": 191.28919860627184
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 15.67944250871085,
+                        "y": 191.6376306620209
+                    }
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka34534544/Podlozhka34534544.qml",
+            "customProperties": {
+            },
+            "height": 192,
+            "instanceId": "1105caf8-6381-4bff-9fc7-603ceaada11d",
+            "locked": false,
+            "name": "ContourPanel_9",
+            "opacity": 0.8,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 84,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 248,
+            "x": 550.9407665505227,
+            "y": 572.1080139372821,
+            "z": -1
         }
     ],
     "TpGain": [
@@ -2057,17 +2921,244 @@
             "customProperties": {
                 "value": 0
             },
-            "height": 56.51675002451701,
-            "locked": false,
+            "height": 59.87871847966701,
+            "locked": true,
             "name": "TpGain_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 58,
             "subtype": "TpGain",
             "type": "TpGain",
-            "width": 56.39507779626186,
-            "x": 279.9578051160065,
-            "y": 578.8482178283849,
+            "width": 59.749808429118744,
+            "x": 273.24725385209786,
+            "y": 576.7791545257272,
+            "z": 0
+        }
+    ],
+    "Visual": [
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#0097A7",
+                "backgroundEnabled": false,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 7.5,
+                "horizontalAlignment": 1,
+                "labelText": " VISUAL\n  CORR",
+                "padding": 4,
+                "textColor": "#000000",
+                "verticalAlignment": 128
+            },
+            "height": 15.582278481012736,
+            "locked": false,
+            "name": "TextLabel_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 54,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 27.468354430379634,
+            "x": 581.8987341772149,
+            "y": 670.3892405063289,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#8BC34A",
+                "backgroundEnabled": false,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 7.5,
+                "horizontalAlignment": 1,
+                "labelText": "RUD  TRIM                            ",
+                "padding": 4,
+                "textColor": "#000000",
+                "verticalAlignment": 128
+            },
+            "height": 39.16233766233768,
+            "locked": false,
+            "name": "TextLabel_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 60,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 79.02597402597405,
+            "x": 578.3711672178958,
+            "y": 707.32272604668,
+            "z": -200
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": false,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 7.5,
+                "horizontalAlignment": 1,
+                "labelText": "RUD TRIM",
+                "padding": 4,
+                "textColor": "#000000",
+                "verticalAlignment": 128
+            },
+            "height": 24.95890410958907,
+            "locked": false,
+            "name": "TextLabel_3",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 67,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 40.27397260273972,
+            "x": 580.5521278223384,
+            "y": 714.7255388179955,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": false,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 9,
+                "horizontalAlignment": 1,
+                "labelText": "COOL\n  73",
+                "padding": 4,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 24.324483775811245,
+            "locked": false,
+            "name": "TextLabel_4",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 72,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 46.224188790560504,
+            "x": 147.49262536873155,
+            "y": 570.8834808259587,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": false,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 7.5,
+                "horizontalAlignment": 1,
+                "labelText": "WING LEAD\n     EDGES\n",
+                "padding": 4,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 25.28266033254158,
+            "locked": false,
+            "name": "TextLabel_5",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 74,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 44.608076009501175,
+            "x": 135.9382422802851,
+            "y": 455.77909738717346,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#303030",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 6.5,
+                "horizontalAlignment": 1,
+                "labelText": "INNER",
+                "padding": 4,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 9.368171021377691,
+            "locked": false,
+            "name": "TextLabel_6",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 81,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 22.51781472684101,
+            "x": 221.21140142517828,
+            "y": 507.3230403800475,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#303030",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 6,
+                "horizontalAlignment": 1,
+                "labelText": "AUTO",
+                "padding": 4,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 7.942992874109393,
+            "locked": false,
+            "name": "TextLabel_7",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 82,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 20.381908051822563,
+            "x": 240.40249809294068,
+            "y": 529.0326959930045,
             "z": 0
         }
     ],
@@ -2082,11 +3173,12 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 50,
             "subtype": "WingConfigurationFace",
             "type": "WingConfigurationFace",
             "width": 68.69814471243035,
-            "x": 185.93932889770332,
-            "y": 418.39393939393915,
+            "x": 177.74300511866454,
+            "y": 421.61427015682784,
             "z": 0
         }
     ],
@@ -2094,8 +3186,16 @@
         {
             "componentPath": "",
             "customProperties": {
+                "backgroundGeometry": {
+                    "height": 906.365631574076,
+                    "width": 1338.0753019932451,
+                    "x": -11.268675733457934,
+                    "y": 19.58547620615134
+                },
                 "backgroundOpacity": 1,
                 "backgroundPath": "../Su27UBK_front_panel_clean.png",
+                "documentHeight": 926,
+                "documentWidth": 1327,
                 "gridSize": 10,
                 "showGrid": false,
                 "snapToGrid": false
@@ -2125,6 +3225,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
+            "stackingOrder": 51,
             "subtype": "clin",
             "type": "clin",
             "width": 79.37142857142855,
