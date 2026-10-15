@@ -17,7 +17,7 @@ BaseSceneComponent {
     property string borderColor: "#ffffff"
     property real borderWidth: 0
     property real cornerRadius: 0
-    property real padding: 4
+    property real padding: 0
     property int horizontalAlignment: Text.AlignLeft
     property int verticalAlignment: Text.AlignVCenter
     property bool editing: false
@@ -26,9 +26,38 @@ BaseSceneComponent {
     // Use a stable glyph font and scale the entire text layout in scene units.
     // Tiny scene sizes must not depend on platform font rasterization limits.
     readonly property int glyphFontSize: 64
-    readonly property real textScale: effectiveFontSize / glyphFontSize
-    readonly property real renderedFontSize: fitText
-        ? Math.min(effectiveFontSize, label.fontInfo.pixelSize * textScale) : effectiveFontSize
+    readonly property var textEditor: label
+    readonly property rect textInkBounds: measureText(label.text, glyphMetrics.font)
+    readonly property real renderedFontSize: effectiveFontSize * (fitText
+        ? Math.min(1,
+                   textInkBounds.width > 0
+                   ? textViewport.width / (textInkBounds.width * effectiveFontSize / glyphFontSize) : 1,
+                   textInkBounds.height > 0
+                   ? textViewport.height / (textInkBounds.height * effectiveFontSize / glyphFontSize) : 1)
+        : 1)
+    readonly property real textScale: renderedFontSize / glyphFontSize
+
+    // Measure ink relative to the first baseline, including accents and bearings.
+    // The font argument keeps the binding current when the font family changes.
+    function measureText(text, font) {
+        var lines = text.split("\n")
+        var lineHeight = label.contentHeight / lines.length
+        var position = 0
+        var left = Infinity, top = Infinity, right = -Infinity, bottom = -Infinity
+        for (var i = 0; i < lines.length; ++i) {
+            var bounds = glyphMetrics.tightBoundingRect(lines[i])
+            var lineX = root.horizontalAlignment === Text.AlignLeft
+                    ? 0 : label.positionToRectangle(position).x
+            if (bounds.height === 0)
+                bounds = Qt.rect(0, -glyphMetrics.ascent, 0, glyphMetrics.height)
+            left = Math.min(left, lineX + bounds.x)
+            right = Math.max(right, lineX + bounds.x + bounds.width)
+            top = Math.min(top, bounds.y + i * lineHeight)
+            bottom = Math.max(bottom, bounds.y + bounds.height + i * lineHeight)
+            position += lines[i].length + 1
+        }
+        return Qt.rect(left, top, right - left, bottom - top)
+    }
 
     function migrateLegacyAppearance() {
         if (backgroundOpacity !== 1) {
@@ -62,8 +91,8 @@ BaseSceneComponent {
     my_type: "Visual"
     my_subtype: "TextLabel"
 
-    implicitWidth: Math.max(1, label.implicitWidth * textScale + 2 * (padding + borderWidth))
-    implicitHeight: Math.max(1, label.implicitHeight * textScale + 2 * (padding + borderWidth))
+    implicitWidth: Math.max(1, textInkBounds.width * effectiveFontSize / glyphFontSize + 2 * padding)
+    implicitHeight: Math.max(1, textInkBounds.height * effectiveFontSize / glyphFontSize + 2 * padding)
     width: 180
     height: 64
     clip: true
@@ -99,7 +128,8 @@ BaseSceneComponent {
         "backgroundOpacity": { hidden: true, bindable: false },
         "borderColor": { hidden: true, bindable: false },
         "borderWidth": { hidden: true, bindable: false },
-        "padding": { hidden: true, bindable: false },
+        "padding": { label: "Внутренний отступ", type: "number", bindable: false,
+                     min: 0, max: 200, step: 0.5 },
         "horizontalAlignment": {
             label: "Horizontal Align", type: "enum", bindable: false,
             options: [
@@ -134,27 +164,85 @@ BaseSceneComponent {
         border.width: root.borderWidth
     }
 
-    Text {
-        id: label
-        objectName: "generatedTextLabelText"
-        // Keep fitting/layout alive while the inline editor displays the text.
-        opacity: root.editing ? 0 : 1
-        x: root.padding + root.borderWidth
-        y: x
-        width: Math.max(0, root.width - 2 * x) / scale
-        height: Math.max(0, root.height - 2 * y) / scale
-        scale: root.textScale
-        transformOrigin: Item.TopLeft
-        text: root.labelText
-        textFormat: Text.PlainText
-        color: root.textColor
-        font.pixelSize: root.glyphFontSize
-        fontSizeMode: root.fitText ? Text.Fit : Text.FixedSize
-        minimumPixelSize: Math.ceil(1 / scale)
-        font.family: root.fontFamily
-        horizontalAlignment: root.horizontalAlignment
-        verticalAlignment: root.verticalAlignment
-        wrapMode: Text.Wrap
-        elide: Text.ElideNone
+    FontMetrics {
+        id: glyphMetrics
+        font: label.font
+    }
+
+    MouseArea {
+        anchors.fill: parent
+        enabled: root.editing
+        cursorShape: Qt.IBeamCursor
+        property int selectionAnchor: 0
+        onPressed: function(mouse) {
+            label.forceActiveFocus()
+            var point = label.mapFromItem(this, mouse.x, mouse.y)
+            selectionAnchor = label.positionAt(point.x, point.y)
+            label.cursorPosition = selectionAnchor
+        }
+        onPositionChanged: function(mouse) {
+            if (pressed) {
+                var point = label.mapFromItem(this, mouse.x, mouse.y)
+                label.select(selectionAnchor, label.positionAt(point.x, point.y))
+            }
+        }
+    }
+
+    Item {
+        id: textViewport
+        objectName: "generatedTextLabelViewport"
+        x: root.padding
+        y: root.padding
+        width: Math.max(0, root.width - 2 * root.padding)
+        height: Math.max(0, root.height - 2 * root.padding)
+        clip: true
+
+        TextEdit {
+            id: label
+            objectName: "generatedTextLabelText"
+            signal accepted()
+            signal cancelled()
+            readOnly: !root.editing
+            enabled: root.editing
+            selectByMouse: root.editing
+            focus: root.editing
+            cursorVisible: root.editing && activeFocus
+            x: (root.horizontalAlignment === Text.AlignRight ? 1
+                : root.horizontalAlignment === Text.AlignHCenter ? 0.5 : 0)
+               * (textViewport.width - root.textInkBounds.width * scale)
+               - root.textInkBounds.x * scale
+            y: (root.verticalAlignment === Text.AlignBottom ? 1
+                : root.verticalAlignment === Text.AlignVCenter ? 0.5 : 0)
+               * (textViewport.height - root.textInkBounds.height * scale)
+               - (baselineOffset + root.textInkBounds.y) * scale
+            width: implicitWidth
+            height: implicitHeight
+            scale: root.textScale
+            transformOrigin: Item.TopLeft
+            text: root.labelText
+            textFormat: TextEdit.PlainText
+            color: root.textColor
+            font.pixelSize: root.glyphFontSize
+            font.family: root.fontFamily
+            horizontalAlignment: root.horizontalAlignment
+            verticalAlignment: root.verticalAlignment
+            wrapMode: TextEdit.NoWrap
+            onTextChanged: {
+                if (root.editing && root.labelText !== text)
+                    root.setCustomProperty("labelText", text)
+            }
+            onActiveFocusChanged: if (!activeFocus) deselect()
+            Keys.onPressed: function(event) {
+                if ((event.key === Qt.Key_Return || event.key === Qt.Key_Enter)
+                        && (event.modifiers & Qt.ControlModifier)) {
+                    accepted()
+                    event.accepted = true
+                }
+            }
+            Keys.onEscapePressed: function(event) {
+                cancelled()
+                event.accepted = true
+            }
+        }
     }
 }
