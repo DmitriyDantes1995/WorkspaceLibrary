@@ -40,7 +40,7 @@
             },
             "gaugeInstanceOverride": false,
             "height": 107.13690476190492,
-            "locked": false,
+            "locked": true,
             "name": "AngleOfAttackLoadFactorIndicator_1",
             "opacity": 1,
             "rotation": 0,
@@ -49,8 +49,8 @@
             "subtype": "AngleOfAttackLoadFactorIndicator",
             "type": "AngleOfAttackLoadFactorIndicator",
             "width": 103.26448651749871,
-            "x": 708.4282529065138,
-            "y": 452.12955884695,
+            "x": 709.5528148689223,
+            "y": 452.2984024277083,
             "z": 0
         }
     ],
@@ -59,180 +59,270 @@
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
             "customProperties": {
             },
-            "height": 9.736342042755325,
-            "locked": true,
+            "height": 11.682926829268297,
+            "locked": false,
             "name": "BoltHead_1",
             "opacity": 1,
-            "rotation": 0,
+            "rotation": 17,
             "scale": 1,
-            "stackingOrder": 52,
+            "stackingOrder": 114,
             "subtype": "BoltHead",
             "type": "BoltHead",
-            "width": 11.399049881235157,
-            "x": 160.27526141917173,
-            "y": 444.43577574972267,
+            "width": 16.212543554006857,
+            "x": 609.3153310104528,
+            "y": 272.7299651567944,
             "z": 0
         },
         {
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
             "customProperties": {
             },
-            "height": 8.970501474926323,
+            "height": 11.812390713072238,
             "locked": false,
             "name": "BoltHead_2",
             "opacity": 1,
-            "rotation": 0,
+            "rotation": 17,
             "scale": 1,
-            "stackingOrder": 70,
+            "stackingOrder": 115,
             "subtype": "BoltHead",
             "type": "BoltHead",
-            "width": 10.445427728613623,
-            "x": 171.437109510984,
-            "y": 572.7152659447773,
+            "width": 16.980829692212108,
+            "x": 555.1681217392597,
+            "y": 271.34119140304574,
             "z": 0
         },
         {
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
             "customProperties": {
             },
-            "height": 8.970501474926323,
+            "height": 7.120950323974057,
             "locked": false,
             "name": "BoltHead_3",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 71,
+            "stackingOrder": 119,
             "subtype": "BoltHead",
             "type": "BoltHead",
-            "width": 16.891130288206114,
-            "x": 134.448524157643,
-            "y": 572.6841184338298,
+            "width": 9.928725701943904,
+            "x": 1167.8218142548594,
+            "y": 531.9686825053993,
             "z": 0
         },
         {
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
             "customProperties": {
             },
-            "height": 9.736342042755325,
-            "locked": true,
+            "height": 7.120950323974057,
+            "locked": false,
             "name": "BoltHead_4",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 73,
+            "stackingOrder": 120,
             "subtype": "BoltHead",
             "type": "BoltHead",
-            "width": 11.399049881235157,
-            "x": 139.3964015616895,
-            "y": 474.3882698114804,
+            "width": 9.928725701943904,
+            "x": 1206.763498920086,
+            "y": 532.033477321814,
             "z": 0
         },
         {
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
             "customProperties": {
             },
-            "height": 12.031358885017426,
+            "height": 13.636015325670428,
             "locked": false,
             "name": "BoltHead_5",
             "opacity": 1,
-            "rotation": 0,
+            "rotation": 43,
             "scale": 1,
-            "stackingOrder": 75,
+            "stackingOrder": 121,
             "subtype": "BoltHead",
             "type": "BoltHead",
-            "width": 13.42508710801394,
-            "x": 342.6640255835044,
-            "y": 575.2960956517591,
+            "width": 12.93741614482976,
+            "x": 802.5362219445312,
+            "y": 577.7850212992055,
             "z": 0
         },
         {
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
             "customProperties": {
             },
-            "height": 10.368651046537593,
+            "height": 12.162753466440062,
             "locked": false,
             "name": "BoltHead_6",
             "opacity": 1,
-            "rotation": 0,
+            "rotation": 43,
             "scale": 1,
-            "stackingOrder": 76,
+            "stackingOrder": 122,
             "subtype": "BoltHead",
             "type": "BoltHead",
-            "width": 9.62461204863152,
-            "x": 213.01160067596075,
-            "y": 556.1952006559186,
+            "width": 13.740232398371715,
+            "x": 533.6204213955169,
+            "y": 579.4444136194948,
             "z": 0
         },
         {
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
             "customProperties": {
             },
-            "height": 11.18747702847736,
+            "height": 13.883720930232471,
             "locked": false,
             "name": "BoltHead_7",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 77,
+            "stackingOrder": 126,
             "subtype": "BoltHead",
             "type": "BoltHead",
-            "width": 13.425087108014054,
-            "x": 184.0767760169711,
-            "y": 556.5306487050678,
+            "width": 13.883720930232698,
+            "x": 993.7790697674418,
+            "y": 573.7558139534887,
             "z": 0
         },
         {
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
             "customProperties": {
             },
-            "height": 9.656061972903444,
+            "height": 12.953488372093148,
             "locked": false,
             "name": "BoltHead_8",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 78,
+            "stackingOrder": 127,
             "subtype": "BoltHead",
             "type": "BoltHead",
-            "width": 10.574730813477117,
-            "x": 185.23034848357162,
-            "y": 500.1489174443569,
+            "width": 14.813953488372135,
+            "x": 1098.895348837209,
+            "y": 624.453488372093,
             "z": 0
         },
         {
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
             "customProperties": {
             },
-            "height": 9.181002590480546,
+            "height": 14.348837209302474,
             "locked": false,
             "name": "BoltHead_9",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 79,
+            "stackingOrder": 128,
             "subtype": "BoltHead",
             "type": "BoltHead",
-            "width": 11.04979019589993,
-            "x": 244.17248945794432,
-            "y": 500.76298681906235,
+            "width": 16.209302325581348,
+            "x": 1133.7790697674413,
+            "y": 625.3837209302326,
             "z": 0
         },
         {
             "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
             "customProperties": {
             },
-            "height": 12.031358885017426,
+            "height": 12.95348837209292,
             "locked": false,
             "name": "BoltHead_10",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 83,
+            "stackingOrder": 129,
             "subtype": "BoltHead",
             "type": "BoltHead",
-            "width": 13.42508710801394,
-            "x": 233.18659090416952,
-            "y": 572.7070220175547,
+            "width": 13.418604651162923,
+            "x": 1094.7093023255813,
+            "y": 602.5930232558139,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 12.95348837209309,
+            "locked": false,
+            "name": "BoltHead_11",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 130,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 13.883720930232585,
+            "x": 1149.1279069767436,
+            "y": 603.0581395348838,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 12.488372093023372,
+            "locked": false,
+            "name": "BoltHead_12",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 131,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 15.744186046511459,
+            "x": 1152.3837209302317,
+            "y": 439.8023255813954,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 12.488372093023372,
+            "locked": false,
+            "name": "BoltHead_13",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 132,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 15.744186046511459,
+            "x": 1094.0116279069762,
+            "y": 438.17441860465124,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 10.6279069767441,
+            "locked": false,
+            "name": "BoltHead_14",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 133,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 16.209302325581348,
+            "x": 1099.8255813953488,
+            "y": 340.26744186046506,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/BoltHead/BoltHead.qml",
+            "customProperties": {
+            },
+            "height": 10.6279069767441,
+            "locked": false,
+            "name": "BoltHead_15",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 134,
+            "subtype": "BoltHead",
+            "type": "BoltHead",
+            "width": 16.209302325581348,
+            "x": 1099.593023255814,
+            "y": 263.2906976744185,
             "z": 0
         }
     ],
@@ -277,7 +367,7 @@
             },
             "gaugeInstanceOverride": false,
             "height": 100.95197030268419,
-            "locked": false,
+            "locked": true,
             "name": "EngineRpmIndicator_1",
             "opacity": 1,
             "rotation": 0,
@@ -286,8 +376,8 @@
             "subtype": "EngineRpmIndicator",
             "type": "EngineRpmIndicator",
             "width": 104.34881936245573,
-            "x": 537.987784679089,
-            "y": 292.46304347826106,
+            "x": 535.6889341043764,
+            "y": 295.91131934033,
             "z": 0
         }
     ],
@@ -440,7 +530,7 @@
                 "verticalText": true
             },
             "height": 19.521739130434753,
-            "locked": false,
+            "locked": true,
             "name": "FaultAnnunciator_8",
             "opacity": 1,
             "rotation": -90,
@@ -449,8 +539,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 38.173913043478194,
-            "x": 1087.1719479243427,
-            "y": 368.2672562024073,
+            "x": 1088.567296761552,
+            "y": 364.54632596984914,
             "z": 0
         },
         {
@@ -578,7 +668,7 @@
                 "verticalText": false
             },
             "height": 17.74782608695662,
-            "locked": false,
+            "locked": true,
             "name": "FaultAnnunciator_11",
             "opacity": 1,
             "rotation": 0,
@@ -587,8 +677,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 39.0565217391306,
-            "x": 653.1545496239221,
-            "y": 425.2750504494586,
+            "x": 648.1664261084827,
+            "y": 427.887877052784,
             "z": 0
         },
         {
@@ -601,7 +691,7 @@
                 "verticalText": false
             },
             "height": 17.747826086956508,
-            "locked": false,
+            "locked": true,
             "name": "FaultAnnunciator_15",
             "opacity": 1,
             "rotation": 0,
@@ -610,8 +700,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 39.49130434782617,
-            "x": 525.3754683584623,
-            "y": 427.8647339635231,
+            "x": 524.1878199024052,
+            "y": 427.6272042723117,
             "z": 0
         },
         {
@@ -624,7 +714,7 @@
                 "verticalText": false
             },
             "height": 20.150000000000006,
-            "locked": false,
+            "locked": true,
             "name": "FaultAnnunciator_16",
             "opacity": 1,
             "rotation": 0,
@@ -633,8 +723,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 38.849999999999994,
-            "x": 655.2785864978903,
-            "y": 457.6396624472576,
+            "x": 651.7156411297193,
+            "y": 460.4900187417944,
             "z": 0
         },
         {
@@ -647,7 +737,7 @@
                 "verticalText": false
             },
             "height": 19.900000000000006,
-            "locked": false,
+            "locked": true,
             "name": "FaultAnnunciator_17",
             "opacity": 1,
             "rotation": 0,
@@ -656,8 +746,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 40.099999999999994,
-            "x": 525.3602564102563,
-            "y": 460.0091853294387,
+            "x": 523.9350782629879,
+            "y": 460.48424471186144,
             "z": 0
         },
         {
@@ -670,7 +760,7 @@
                 "verticalText": false
             },
             "height": 21.50559006211185,
-            "locked": false,
+            "locked": true,
             "name": "FaultAnnunciator_18",
             "opacity": 1,
             "rotation": 0,
@@ -794,8 +884,8 @@
             "subtype": "FaultAnnunciator",
             "type": "FaultAnnunciator",
             "width": 32.10000000000005,
-            "x": 230.5616377919948,
-            "y": 319.10923109896646,
+            "x": 228.97935931098223,
+            "y": 321.0079652761816,
             "z": 0
         },
         {
@@ -863,7 +953,7 @@
             },
             "gaugeInstanceOverride": false,
             "height": 78.70796130952364,
-            "locked": false,
+            "locked": true,
             "name": "LeftEngineTemperatureIndicator_1",
             "opacity": 1,
             "rotation": 0,
@@ -872,8 +962,8 @@
             "subtype": "LeftEngineTemperatureIndicator",
             "type": "LeftEngineTemperatureIndicator",
             "width": 75.86309523809507,
-            "x": 611.4390597339079,
-            "y": 486.0981726468067,
+            "x": 613.9930872388195,
+            "y": 487.6698818805984,
             "z": 0
         },
         {
@@ -941,7 +1031,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 61,
+            "stackingOrder": 60,
             "subtype": "OvalSwitchBase",
             "type": "OvalSwitchBase",
             "width": 17.45890736342058,
@@ -959,7 +1049,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 62,
+            "stackingOrder": 61,
             "subtype": "OvalSwitchBase",
             "type": "OvalSwitchBase",
             "width": 17.45890736342058,
@@ -977,7 +1067,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 63,
+            "stackingOrder": 62,
             "subtype": "OvalSwitchBase",
             "type": "OvalSwitchBase",
             "width": 17.45890736342058,
@@ -995,12 +1085,588 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 64,
+            "stackingOrder": 63,
             "subtype": "OvalSwitchBase",
             "type": "OvalSwitchBase",
             "width": 17.45890736342058,
             "x": 566.143508022891,
             "y": 722.1010879260759,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 13.740506329113941,
+            "locked": false,
+            "name": "OvalSwitchBase_5",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 79,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 14.237974683544351,
+            "x": 341.14050632911386,
+            "y": 574.3006329113922,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 16.588607594936775,
+            "locked": false,
+            "name": "OvalSwitchBase_6",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 80,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 12.339240506329176,
+            "x": 232.78607594936685,
+            "y": 571.0094936708861,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.892405063291221,
+            "locked": false,
+            "name": "OvalSwitchBase_7",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 81,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 9.174683544303818,
+            "x": 170.57088607594923,
+            "y": 572.401898734177,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.892405063291221,
+            "locked": false,
+            "name": "OvalSwitchBase_8",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 82,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 9.174683544303818,
+            "x": 138.16582278481,
+            "y": 572.2753164556959,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.892405063291221,
+            "locked": false,
+            "name": "OvalSwitchBase_9",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 83,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 12.33924050632912,
+            "x": 185.1278481012657,
+            "y": 556.2626582278481,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 11.841772151898681,
+            "locked": false,
+            "name": "OvalSwitchBase_10",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 84,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 12.022784810126652,
+            "x": 185.1278481012657,
+            "y": 498.9841772151899,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.57594936708864,
+            "locked": false,
+            "name": "OvalSwitchBase_11",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 85,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 10.12405063291142,
+            "x": 213.92531645569608,
+            "y": 555.6297468354429,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.57594936708864,
+            "locked": false,
+            "name": "OvalSwitchBase_12",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 86,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 10.12405063291142,
+            "x": 243.22911392405052,
+            "y": 499.80696202531624,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.57594936708864,
+            "locked": false,
+            "name": "OvalSwitchBase_13",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 87,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 10.12405063291142,
+            "x": 174.43164556962017,
+            "y": 483.2246835443036,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.57594936708864,
+            "locked": false,
+            "name": "OvalSwitchBase_14",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 88,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 10.12405063291142,
+            "x": 173.79873417721512,
+            "y": 417.40189873417705,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.57594936708864,
+            "locked": false,
+            "name": "OvalSwitchBase_15",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 89,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 10.12405063291142,
+            "x": 196.4569620253164,
+            "y": 396.7056962025315,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.57594936708864,
+            "locked": false,
+            "name": "OvalSwitchBase_16",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 90,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 10.12405063291142,
+            "x": 241.58354430379742,
+            "y": 416.51582278480987,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.57594936708864,
+            "locked": false,
+            "name": "OvalSwitchBase_17",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 91,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 10.12405063291142,
+            "x": 245.57088607594937,
+            "y": 351.51582278480987,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 14.37341772151899,
+            "locked": false,
+            "name": "OvalSwitchBase_18",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 92,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 15.820253164556945,
+            "x": 234.6848101265824,
+            "y": 245.69303797468328,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 11.208860759493632,
+            "locked": false,
+            "name": "OvalSwitchBase_19",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 93,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 18.35189873417714,
+            "x": 238.9886075949368,
+            "y": 483.54113924050614,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.57594936708864,
+            "locked": false,
+            "name": "OvalSwitchBase_20",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 94,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 10.12405063291142,
+            "x": 157.36195256801972,
+            "y": 444.3559217226828,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.57594936708864,
+            "locked": false,
+            "name": "OvalSwitchBase_21",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 95,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 10.12405063291142,
+            "x": 138.39643532664041,
+            "y": 473.95362287210816,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.824041811846655,
+            "locked": false,
+            "name": "OvalSwitchBase_22",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 96,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 16.58327526132412,
+            "x": 634.1898748878989,
+            "y": 676.0233133389198,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.47560975609781,
+            "locked": false,
+            "name": "OvalSwitchBase_23",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 97,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 13.44738675958213,
+            "x": 670.3884370543523,
+            "y": 662.9371168350023,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.47560975609781,
+            "locked": false,
+            "name": "OvalSwitchBase_24",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 98,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 13.44738675958213,
+            "x": 572.85818815331,
+            "y": 649.6054006968642,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.47560975609781,
+            "locked": false,
+            "name": "OvalSwitchBase_25",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 99,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 13.44738675958213,
+            "x": 557.0742160278744,
+            "y": 623.716898954704,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.47560975609781,
+            "locked": false,
+            "name": "OvalSwitchBase_26",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 100,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 13.44738675958213,
+            "x": 556.7682721004425,
+            "y": 578.1882966524062,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.47560975609781,
+            "locked": false,
+            "name": "OvalSwitchBase_27",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 101,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 13.44738675958213,
+            "x": 571.1508710801393,
+            "y": 583.0897212543556,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.47560975609781,
+            "locked": false,
+            "name": "OvalSwitchBase_28",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 102,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 13.44738675958213,
+            "x": 640.384320557491,
+            "y": 584.030487804878,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.47560975609781,
+            "locked": false,
+            "name": "OvalSwitchBase_29",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 103,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 13.44738675958213,
+            "x": 781.7432055749126,
+            "y": 577.30574912892,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.47560975609781,
+            "locked": false,
+            "name": "OvalSwitchBase_30",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 104,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 13.44738675958213,
+            "x": 781.9871080139369,
+            "y": 624.2395470383275,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 10.824041811846655,
+            "locked": false,
+            "name": "OvalSwitchBase_31",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 105,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 16.58327526132412,
+            "x": 636.1729972507682,
+            "y": 648.8925116511564,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 5.989165329854927,
+            "locked": false,
+            "name": "OvalSwitchBase_32",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 106,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 6.187032376203732,
+            "x": 705.1010807325129,
+            "y": 661.730220283278,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 5.989165329855041,
+            "locked": false,
+            "name": "OvalSwitchBase_33",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 107,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 6.8996214498378805,
+            "x": 726.307977284237,
+            "y": 662.2474616625882,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 5.751635638643506,
+            "locked": false,
+            "name": "OvalSwitchBase_34",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 108,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 5.2369136113582755,
+            "x": 745.2658498918761,
+            "y": 663.2397624243216,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 5.751635638643506,
+            "locked": false,
+            "name": "OvalSwitchBase_35",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 109,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 6.662091758626573,
+            "x": 760.1010807325129,
+            "y": 662.7072317775308,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Visual/SubstrateComponents/Hardware/OvalSwitchBase/OvalSwitchBase.qml",
+            "customProperties": {
+            },
+            "height": 6.701754403489076,
+            "locked": false,
+            "name": "OvalSwitchBase_36",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 110,
+            "subtype": "OvalSwitchBase",
+            "type": "OvalSwitchBase",
+            "width": 5.236913611358162,
+            "x": 771.8634418322482,
+            "y": 662.9869434656296,
             "z": 0
         }
     ],
@@ -1075,7 +1741,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 59,
+            "stackingOrder": 58,
             "subtype": "Simple_btn",
             "type": "Simple_btn",
             "width": 17.310344827586164,
@@ -1162,6 +1828,30 @@
             "z": 0
         }
     ],
+    "Su30BrakeIndicator": [
+        {
+            "componentPath": "elements/Controls/Su30/Su30BrakeIndicator/Su30BrakeIndicator.qml",
+            "customProperties": {
+                "airPressure": 0,
+                "checkButton": 0,
+                "leftBrakePressure": 0,
+                "rightBrakePressure": 0
+            },
+            "height": 85.59659748157448,
+            "locked": true,
+            "name": "Su30BrakeIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 78,
+            "subtype": "Su30BrakeIndicator",
+            "type": "Su30BrakeIndicator",
+            "width": 83.8497281452158,
+            "x": 696.5868852746503,
+            "y": 575.4629025239336,
+            "z": 0
+        }
+    ],
     "Su30Clock": [
         {
             "componentPath": "elements/Controls/Su30/Su30Clock/Su30Clock.qml",
@@ -1209,8 +1899,8 @@
             "subtype": "Su30FuelIndicator",
             "type": "Su30FuelIndicator",
             "width": 63.30288461538461,
-            "x": 1101.4157005494503,
-            "y": 444.71907665505216,
+            "x": 1098.88405497983,
+            "y": 439.65578551581166,
             "z": 0
         }
     ],
@@ -1254,7 +1944,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 55,
+            "stackingOrder": 54,
             "subtype": "Su30HmtdsBright",
             "type": "Su30HmtdsBright",
             "width": 42.701149425287326,
@@ -1270,8 +1960,8 @@
                 "system1Pressure": 0,
                 "system2Pressure": 0
             },
-            "height": 70.27403846153847,
-            "locked": false,
+            "height": 62.36264605647513,
+            "locked": true,
             "name": "Su30HydraulicIndicator_1",
             "opacity": 1,
             "rotation": 0,
@@ -1279,9 +1969,9 @@
             "stackingOrder": 37,
             "subtype": "Su30HydraulicIndicator",
             "type": "Su30HydraulicIndicator",
-            "width": 38.87500000000001,
-            "x": 1174.6283711448498,
-            "y": 549.1754807692307,
+            "width": 34.498485052518156,
+            "x": 1175.118840391016,
+            "y": 550.5568133006029,
             "z": 0
         }
     ],
@@ -1289,7 +1979,7 @@
         {
             "componentPath": "elements/Controls/Su30/Su30LandingGear/Su30LandingGear.qml",
             "customProperties": {
-                "value": 1
+                "value": 0
             },
             "height": 118.18181818181813,
             "locked": false,
@@ -1301,8 +1991,8 @@
             "subtype": "Su30LandingGear",
             "type": "Su30LandingGear",
             "width": 59.090909090909065,
-            "x": 173.15322722724136,
-            "y": 481.411273012576,
+            "x": 173.27446674721511,
+            "y": 476.59046091328287,
             "z": 1
         }
     ],
@@ -1312,18 +2002,18 @@
             "customProperties": {
                 "value": 0
             },
-            "height": 34.21052631578959,
+            "height": 36.41359144988914,
             "locked": false,
             "name": "Su30MasterArmSwitch_1",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 56,
+            "stackingOrder": 55,
             "subtype": "Su30MasterArmSwitch",
             "type": "Su30MasterArmSwitch",
-            "width": 27.368421052631675,
-            "x": 288.6942034785027,
-            "y": 194.9983925927962,
+            "width": 29.130873159911314,
+            "x": 287.23826478118474,
+            "y": 192.79532745869665,
             "z": 0
         }
     ],
@@ -1363,7 +2053,7 @@
                 "top7": 0
             },
             "height": 322.4721944478852,
-            "locked": false,
+            "locked": true,
             "name": "Su30Mfd_1",
             "opacity": 0.87,
             "rotation": 0,
@@ -1372,8 +2062,8 @@
             "subtype": "Su30Mfd",
             "type": "Su30Mfd",
             "width": 267.96177011950607,
-            "x": 819.572710215412,
-            "y": 245.18877373902728,
+            "x": 822.682600325302,
+            "y": 244.5843781346316,
             "z": 0
         },
         {
@@ -1410,7 +2100,7 @@
                 "top6": 0,
                 "top7": 0
             },
-            "height": 314.4999999999999,
+            "height": 322.3786776568597,
             "locked": true,
             "name": "Su30Mfd_2",
             "opacity": 1,
@@ -1419,9 +2109,9 @@
             "stackingOrder": 40,
             "subtype": "Su30Mfd",
             "type": "Su30Mfd",
-            "width": 261.33718861209957,
-            "x": 256.8396653321217,
-            "y": 246.19303680791052,
+            "width": 267.8840613269635,
+            "x": 256.07307828975837,
+            "y": 237.61769434215705,
             "z": 0
         }
     ],
@@ -1521,7 +2211,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 57,
+            "stackingOrder": 56,
             "subtype": "Su30TargetType",
             "type": "Su30TargetType",
             "width": 71.67091999389602,
@@ -1982,9 +2672,9 @@
             },
             "height": 706.2857142857142,
             "instanceId": "3c24689d-b96e-4e7e-a95e-7c1eae8749d5",
-            "locked": true,
+            "locked": false,
             "name": "ContourPanel_Su27",
-            "opacity": 0.3,
+            "opacity": 0,
             "rotation": 0,
             "scale": 1,
             "stackingOrder": 47,
@@ -2183,7 +2873,7 @@
             "instanceId": "21bba102-0e6c-4750-acb2-13ef552cb250",
             "locked": true,
             "name": "ContourPanel_3",
-            "opacity": 0.74,
+            "opacity": 1,
             "rotation": 0,
             "scale": 1,
             "stackingOrder": 49,
@@ -2307,7 +2997,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 53,
+            "stackingOrder": 52,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 62.366250606448375,
@@ -2380,7 +3070,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 65,
+            "stackingOrder": 64,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 14,
@@ -2453,7 +3143,7 @@
             "opacity": 1,
             "rotation": -180,
             "scale": 1,
-            "stackingOrder": 66,
+            "stackingOrder": 65,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 14,
@@ -2547,7 +3237,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 68,
+            "stackingOrder": 67,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 151,
@@ -2625,7 +3315,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 69,
+            "stackingOrder": 68,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 47,
@@ -2702,12 +3392,12 @@
             },
             "height": 70.5463182897862,
             "instanceId": "82c27824-f44a-4898-9cde-bc1e677b018f",
-            "locked": false,
+            "locked": true,
             "name": "ContourPanel_8",
-            "opacity": 0.8,
+            "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 80,
+            "stackingOrder": 71,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 44.89311163895488,
@@ -2896,23 +3586,845 @@
                     }
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka34534544/Podlozhka34534544.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka34534544/Podlozhka34534544.qml",
             "customProperties": {
             },
             "height": 192,
             "instanceId": "1105caf8-6381-4bff-9fc7-603ceaada11d",
-            "locked": false,
+            "locked": true,
             "name": "ContourPanel_9",
-            "opacity": 0.8,
+            "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 84,
+            "stackingOrder": 74,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 248,
-            "x": 550.9407665505227,
-            "y": 572.1080139372821,
+            "x": 550.2439024390245,
+            "y": 571.4111498257837,
             "z": -1
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 711.712119567307,
+                "baseWidth": 1100.9660656495607,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka",
+                "parameters": {
+                    "fillColor": "#606060"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 707.7400334293534,
+                        "y": 510.7249225960679
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 707.8705501618123,
+                        "y": 522.478559845848
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 689.4611650485435,
+                        "y": 553.0380166952763
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 681.1472491909385,
+                        "y": 554.2133804202543
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 676.3964401294497,
+                        "y": 560.6778809076333
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 676.9902912621359,
+                        "y": 601.2279294193746
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 669.8640776699028,
+                        "y": 654.1192970433848
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 666.3009708737864,
+                        "y": 704.07225535495
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 663.3317152103557,
+                        "y": 709.3613921173511
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 654.4239482200646,
+                        "y": 711.712119567307
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 574.2540453074433,
+                        "y": 710.5367558423291
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 570.0970873786407,
+                        "y": 704.6599372174392
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 570.0970873786407,
+                        "y": 671.1620710555659
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 566.5339805825242,
+                        "y": 658.8207519432967
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 557.0323624595469,
+                        "y": 650.5932058684508
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 543.967637540453,
+                        "y": 647.6547965560059
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 533.8721682847895,
+                        "y": 648.2424784184947
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 519.6197411003236,
+                        "y": 658.8207519432967
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 516.056634304207,
+                        "y": 671.1620710555659
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 514.2750809061489,
+                        "y": 704.07225535495
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 511.89967637540445,
+                        "y": 710.5367558423291
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 451.3268608414239,
+                        "y": 711.1244377048181
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 444.2006472491909,
+                        "y": 707.0106646673951
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 440.6375404530744,
+                        "y": 701.133846042505
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 440.6375404530744,
+                        "y": 682.9157083053459
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 438.85598705501627,
+                        "y": 650.0055240059618
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 435.29288025889963,
+                        "y": 623.5598401939567
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 431.135922330097,
+                        "y": 605.3417024567976
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 431.7297734627831,
+                        "y": 554.2133804202543
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 425.79126213592224,
+                        "y": 555.9764260077213
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 417.47734627831727,
+                        "y": 554.2133804202543
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 400.84951456310665,
+                        "y": 526.5923328832711
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 398.4741100323624,
+                        "y": 520.127832395892
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 398.4741100323624,
+                        "y": 512.487968183535
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 391.9417475728155,
+                        "y": 510.13724073357906
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 367,
+                        "y": 509.4320224985922
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 250.01132686084134,
+                        "y": 509.4320224985922
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 242.2912621359223,
+                        "y": 509.4320224985922
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 241.69741100323617,
+                        "y": 518.2472504359273
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 241.69741100323617,
+                        "y": 525.2994327857953
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 239.3220064724918,
+                        "y": 532.3516151356635
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 181.71844660194168,
+                        "y": 612.8640302966568
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 173.4045307443365,
+                        "y": 614.6270758841238
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 11.283171521035525,
+                        "y": 568.7878906099816
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 13.064724919093797,
+                        "y": 513.5457955360152
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 512.3704318110374
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1.1877022653720806,
+                        "y": 439.49788086240085
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 13.064724919093797,
+                        "y": 438.32251713742295
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 12.470873786407727,
+                        "y": 403.6492872505717
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 14.84627831715204,
+                        "y": 396.5971049007036
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 112.23786407766984,
+                        "y": 299.62959759001814
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 113.42556634304198,
+                        "y": 187.97004371710761
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 137.77346278317142,
+                        "y": 187.38236185461855
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 148.46278317152095,
+                        "y": 182.09322509221752
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 149.4129449838187,
+                        "y": 157.09773269970734
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 168.36219476316552,
+                        "y": 124.23861701136833
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 331.43680073971325,
+                        "y": 11.082000835506904
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 345.6892279241793,
+                        "y": 1.0074546214097158
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 422.04151641239014,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 423.0595469255663,
+                        "y": 177.31201336811057
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 425.60462320850644,
+                        "y": 187.89028689291263
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 657.2065649560794,
+                        "y": 188.3940142036175
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 658.2245954692556,
+                        "y": 124.92437305480519
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 736.6129449838186,
+                        "y": 125.9318276762149
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 738.139990753583,
+                        "y": 187.89028689291263
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 961.5976883957467,
+                        "y": 190.40892344643694
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 972.7960240406841,
+                        "y": 186.3791049607981
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 997.126953305594,
+                        "y": 186.8828322715029
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1001.7080906148868,
+                        "y": 194.94246924278067
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1001.7080906148868,
+                        "y": 324.90411540463447
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1099.948035136385,
+                        "y": 396.43339352472447
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1100.9660656495607,
+                        "y": 567.7006791643768
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 932.991030975497,
+                        "y": 614.5473190599288
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 926.3738326398519,
+                        "y": 611.5249551956995
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 870.3821544151642,
+                        "y": 532.4397674150366
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 866.3100323624595,
+                        "y": 525.8913123758733
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 866.8190476190475,
+                        "y": 517.3279480938908
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 866.3100323624595,
+                        "y": 510.2757657440228
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka/Podlozhka.qml",
+            "customProperties": {
+            },
+            "height": 711.712119567307,
+            "instanceId": "df98453d-bcbf-473d-a371-fabdf36295ae",
+            "locked": true,
+            "name": "ContourPanel_10",
+            "opacity": 0.6,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 111,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 1100.9660656495607,
+            "x": 118.77430226693889,
+            "y": 51.93302109513206,
+            "z": -2
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 22.996515679442496,
+                "baseWidth": 65.85365853658527,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka79797906905",
+                "parameters": {
+                    "fillColor": "#606060",
+                    "strokeColor": "#606060"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.6968641114981438,
+                        "y": 3.484320557491287
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 3.8327526132402454,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 63.414634146341314,
+                        "y": 0.6968641114982574
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 65.1567944250869,
+                        "y": 4.181184668989545
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 65.85365853658527,
+                        "y": 20.209059233449466
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 62.0209059233448,
+                        "y": 22.996515679442496
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 3.4843205574911735,
+                        "y": 21.951219512195053
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 19.163763066202023
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka79797906905/Podlozhka79797906905.qml",
+            "customProperties": {
+            },
+            "height": 22.996515679442496,
+            "instanceId": "1d211895-5c4d-46e6-8c53-171a4d4246ee",
+            "locked": false,
+            "name": "ContourPanel_11",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 113,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 65.85365853658527,
+            "x": 557.212543554007,
+            "y": 265.4878048780488,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 186,
+                "baseWidth": 275,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka69695",
+                "parameters": {
+                    "fillColor": "#303037",
+                    "strokeColor": "#303030"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 183.1223628691983
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1.2658227848100978,
+                        "y": 162.44725738396625
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 18.987341772151865,
+                        "y": 125.31645569620252
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 194.93670886075932,
+                        "y": 2.5316455696202524
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 273.83966244725735,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 274.6835443037973,
+                        "y": 178.48101265822783
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 271.30801687763693,
+                        "y": 185.65400843881855
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka69695/Podlozhka69695.qml",
+            "customProperties": {
+            },
+            "height": 186,
+            "instanceId": "485d073d-4085-4c7e-802d-ef9ba3e46acd",
+            "locked": true,
+            "name": "ContourPanel_12",
+            "opacity": 0.7,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 116,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 275,
+            "x": 267.9259980525803,
+            "y": 53.50697825381364,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 20,
+                "baseWidth": 48,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka46465763777777",
+                "parameters": {
+                    "fillColor": "#606060",
+                    "strokeColor": "#606060"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 1.9002375296911396,
+                        "y": 18.05225653206662
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.23752969121142087,
+                        "y": 15.201900237529799
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 2.612826603325516
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 2.612826603325402,
+                        "y": 0.7125890736342626
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 6.413301662707681,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 44.418052256532064,
+                        "y": 0.23752969121142087
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 47.26840855106889,
+                        "y": 2.137767220902788
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 47.74346793349173,
+                        "y": 16.15201900237537
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 44.893111638954906,
+                        "y": 19.47743467933492
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 4.275534441805121,
+                        "y": 19.00237529691219
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka46465763777777/Podlozhka46465763777777.qml",
+            "customProperties": {
+            },
+            "height": 20,
+            "instanceId": "e1c0c652-7bb4-4c75-8726-60b95cb90a75",
+            "locked": false,
+            "name": "ContourPanel_13",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 118,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 48,
+            "x": 1168.143477446001,
+            "y": 525.0279105941408,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 26,
+                "baseWidth": 20,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka7979969797979",
+                "parameters": {
+                    "fillColor": "#FFFFFF",
+                    "strokeColor": "#FFFFFF"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 0.26109660574414306
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 19.060052219321165,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 19.060052219321165,
+                        "y": 25.587467362924258
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.5221932114882293,
+                        "y": 25.326370757180143
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka7979969797979/Podlozhka7979969797979.qml",
+            "customProperties": {
+            },
+            "height": 26,
+            "instanceId": "b0d09789-1c92-466d-91bc-60bf70d108ed",
+            "locked": true,
+            "name": "ContourPanel_14",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 123,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 20,
+            "x": 665.8485639686683,
+            "y": 245.93994778067878,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 72,
+                "baseWidth": 20,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka90890",
+                "parameters": {
+                    "fillColor": "#FFFFFF",
+                    "strokeColor": "#FFFFFF"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 6.25
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 18.39285714285711,
+                        "y": 0.1785714285714448
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 18.75,
+                        "y": 6.428571428571445
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 19.28571428571422,
+                        "y": 71.42857142857144
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.17857142857133113,
+                        "y": 71.42857142857144
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka90890/Podlozhka90890.qml",
+            "customProperties": {
+            },
+            "height": 72,
+            "instanceId": "e9b0238c-6796-4590-b74c-e2368264f9c6",
+            "locked": false,
+            "name": "ContourPanel_15",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 124,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 20,
+            "x": 665.9943038089696,
+            "y": 421.1446180903738,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 11,
+                "baseWidth": 19,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka85958",
+                "parameters": {
+                    "fillColor": "#FFFFFF",
+                    "strokeColor": "#FFFFFF"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.19646365422408962,
+                        "y": 10.019646365422432
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 0.5893909626719278
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 17.878192534381242,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 18.664047151277146,
+                        "y": 10.216110019646408
+                    }
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka85958/Podlozhka85958.qml",
+            "customProperties": {
+            },
+            "height": 11,
+            "instanceId": "7bcd9f15-7043-4c2e-b2e3-7869992ddfe5",
+            "locked": false,
+            "name": "ContourPanel_16",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 125,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 19,
+            "x": 666.3861679028523,
+            "y": 559.6054550320391,
+            "z": 0
         }
     ],
     "TpGain": [
@@ -2927,7 +4439,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 58,
+            "stackingOrder": 57,
             "subtype": "TpGain",
             "type": "TpGain",
             "width": 59.749808429118744,
@@ -2949,9 +4461,9 @@
                 "fitText": false,
                 "fontFamily": "",
                 "fontSize": 7.5,
-                "horizontalAlignment": 1,
+                "horizontalAlignment": 4,
                 "labelText": " VISUAL\n  CORR",
-                "padding": 4,
+                "padding": 0,
                 "textColor": "#000000",
                 "verticalAlignment": 128
             },
@@ -2961,12 +4473,12 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 54,
+            "stackingOrder": 53,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 27.468354430379634,
-            "x": 581.8987341772149,
-            "y": 670.3892405063289,
+            "x": 581.5822784810124,
+            "y": 668.1740506329113,
             "z": 0
         },
         {
@@ -2993,7 +4505,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 60,
+            "stackingOrder": 59,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 79.02597402597405,
@@ -3015,22 +4527,22 @@
                 "fontSize": 7.5,
                 "horizontalAlignment": 1,
                 "labelText": "RUD TRIM",
-                "padding": 4,
+                "padding": 0,
                 "textColor": "#000000",
                 "verticalAlignment": 128
             },
-            "height": 24.95890410958907,
+            "height": 13.566499046297963,
             "locked": false,
             "name": "TextLabel_3",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 67,
+            "stackingOrder": 66,
             "subtype": "TextLabel",
             "type": "Visual",
-            "width": 40.27397260273972,
-            "x": 580.5521278223384,
-            "y": 714.7255388179955,
+            "width": 29.19802323565125,
+            "x": 582.4508619995538,
+            "y": 719.1559185648307,
             "z": 0
         },
         {
@@ -3057,7 +4569,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 72,
+            "stackingOrder": 69,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 46.224188790560504,
@@ -3083,13 +4595,13 @@
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
             },
-            "height": 25.28266033254158,
+            "height": 26.232027421149155,
             "locked": false,
             "name": "TextLabel_5",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 74,
+            "stackingOrder": 70,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 44.608076009501175,
@@ -3109,9 +4621,9 @@
                 "fitText": false,
                 "fontFamily": "",
                 "fontSize": 6.5,
-                "horizontalAlignment": 1,
+                "horizontalAlignment": 4,
                 "labelText": "INNER",
-                "padding": 4,
+                "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
             },
@@ -3121,12 +4633,12 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 81,
+            "stackingOrder": 72,
             "subtype": "TextLabel",
             "type": "Visual",
-            "width": 22.51781472684101,
-            "x": 221.21140142517828,
-            "y": 507.3230403800475,
+            "width": 17.485347194373475,
+            "x": 224.9451676589445,
+            "y": 508.6217416787488,
             "z": 0
         },
         {
@@ -3143,7 +4655,7 @@
                 "fontSize": 6,
                 "horizontalAlignment": 1,
                 "labelText": "AUTO",
-                "padding": 4,
+                "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
             },
@@ -3153,12 +4665,172 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 82,
+            "stackingOrder": 73,
             "subtype": "TextLabel",
             "type": "Visual",
-            "width": 20.381908051822563,
+            "width": 12.52336188286381,
             "x": 240.40249809294068,
             "y": 529.0326959930045,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#303030",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": true,
+                "fontFamily": "",
+                "fontSize": 13.5,
+                "horizontalAlignment": 1,
+                "labelText": "OUTER",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 9.11494252873581,
+            "locked": false,
+            "name": "TextLabel_8",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 75,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 18.218390804597732,
+            "x": 225.89938796835327,
+            "y": 548.3838259441709,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#C27572",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": true,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 4,
+                "labelText": "DOWN",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 8.647519582245366,
+            "locked": false,
+            "name": "TextLabel_9",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 76,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 19.164490861618802,
+            "x": 165.44992525428182,
+            "y": 558.0652741514361,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#FBC067",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": true,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 4,
+                "labelText": "UP",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 8.647519582245366,
+            "locked": false,
+            "name": "TextLabel_10",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 77,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 19.164490861618802,
+            "x": 165.78935084174924,
+            "y": 494.697127937337,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#303030",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": true,
+                "fontFamily": "",
+                "fontSize": 11,
+                "horizontalAlignment": 4,
+                "labelText": "PULL- TURN\n       TO LEFT\n       - PULL",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 21.839721254355425,
+            "locked": false,
+            "name": "TextLabel_11",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 112,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 39.23344947735188,
+            "x": 569.6515679442507,
+            "y": 265.89198606271765,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#303030",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": true,
+                "fontFamily": "",
+                "fontSize": 18,
+                "horizontalAlignment": 1,
+                "labelText": "             HYD\n         1         2 \n\n",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 64
+            },
+            "height": 17.08582209974901,
+            "locked": false,
+            "name": "TextLabel_12",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 117,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 29.83863359896668,
+            "x": 1176.0153670465004,
+            "y": 526.3549626374721,
             "z": 0
         }
     ],
@@ -3229,8 +4901,8 @@
             "subtype": "clin",
             "type": "clin",
             "width": 79.37142857142855,
-            "x": 571.6538302277432,
-            "y": 399.840677524005,
+            "x": 569.2148058374994,
+            "y": 405.7640224717402,
             "z": 0
         }
     ]
