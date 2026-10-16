@@ -21,12 +21,12 @@ BaseSceneComponent {
     property int minorDivisions: 5
     property real multiplier: 100
     property bool showMultiplier: true
-    property string units: "кгс/см²"
+    property string units: "кг/см²"
     property bool showUnits: true
     property real fontSize: 12
-    property real horizontalPadding: 4
-    property real verticalPadding: 4
-    property real textGap: 4
+    property real horizontalPadding: 1
+    property real verticalPadding: 1
+    property real textGap: 1
     readonly property int tickCount: Math.max(1, majorDivisions) * Math.max(1, minorDivisions)
     readonly property var settingsKeys: ["value", "minimumValue", "maximumValue", "labelMinimum", "labelMaximum",
         "labelDecimals", "majorDivisions", "minorDivisions", "multiplier", "showMultiplier", "units", "showUnits",
@@ -96,19 +96,25 @@ BaseSceneComponent {
 
     readonly property real padX: Math.min(horizontalPadding, width / 4)
     readonly property real padY: Math.min(verticalPadding, height / 6)
-    readonly property real captionHeight: Math.min(fontSize * 1.5, height / 6)
+    readonly property real captionHeight: Math.min(fontSize * 1.25, height * 0.065)
     readonly property real headerHeight: showMultiplier ? captionHeight : 0
     readonly property real footerHeight: showUnits ? captionHeight : 0
     readonly property real gap: Math.min(textGap, height / 10)
-    readonly property real labelHeight: Math.max(1, Math.min(fontSize * 1.5,
-        (height - 2 * padY - headerHeight - footerHeight - 2 * gap) / (Math.max(1, majorDivisions) + 1)))
-    readonly property real axisTop: padY + headerHeight + gap + labelHeight / 2
-    readonly property real axisBottom: height - padY - footerHeight - gap - labelHeight / 2
+    readonly property real frameTop: padY + headerHeight + (showMultiplier ? gap : 0)
+    readonly property real frameBottom: height - padY - footerHeight - (showUnits ? gap : 0)
+    readonly property real labelHeight: Math.max(1, Math.min(fontSize * 1.25,
+        (frameBottom - frameTop) / (tickCount + 1)))
+    readonly property real axisInset: Math.min(labelHeight / 2 + 1, Math.max(0, frameBottom - frameTop) / 2)
+    readonly property real axisTop: frameTop + axisInset
+    readonly property real axisBottom: frameBottom - axisInset
 
     Rectangle {
-        anchors.fill: parent
-        color: "#30474a"
-        border.color: "#8da6a1"
+        objectName: "scaleFrame"
+        x: root.padX; y: root.frameTop
+        width: Math.max(0, root.width - 2 * root.padX)
+        height: Math.max(0, root.frameBottom - root.frameTop)
+        color: "transparent"
+        border.color: "#c1d3ca"
         border.width: 1
     }
     Text {
@@ -126,8 +132,8 @@ BaseSceneComponent {
     Item {
         id: scaleArea
         objectName: "scaleArea"
-        x: root.padX; y: root.axisTop
-        width: Math.max(0, root.width - 2 * root.padX)
+        x: root.padX + 1; y: root.axisTop
+        width: Math.max(0, root.width - 2 * root.padX - 2)
         height: Math.max(0, root.axisBottom - root.axisTop)
         Rectangle { x: parent.width * 0.92; width: 1; height: parent.height; color: "#c1d3ca" }
         Repeater {
