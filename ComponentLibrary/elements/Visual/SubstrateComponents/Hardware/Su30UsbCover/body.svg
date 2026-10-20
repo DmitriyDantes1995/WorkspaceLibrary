@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="116" viewBox="0 0 35 116">
+  <defs>
+    <g id="screw">
+      <path d="M13.5 1.3 17.2 .3 20.8 1.7 22.2 5.1 21 8.1 17.8 9.5 14.2 8.4 12.6 5.5 12.7 2.7Z" fill="#8f8100" stroke="#3c4e38" stroke-width=".22"/>
+      <path d="M13.8 1.8 17.2 .8 20.3 2.1 21.7 5.1 20.6 7.7 17.8 9 14.6 8 13.1 5.4 13.2 3Z" fill="#c2b000"/>
+      <path d="M13.1 5.6 20.5 1.9 21.3 3.5 14 7.2Z" fill="#726900" stroke="#4d511e" stroke-width=".18"/>
+      <path d="M13.6 5.7 20.3 2.4 20.7 3.3 14 6.6Z" fill="#dbca1b"/>
+    </g>
+    <g id="usbLetters" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15.7 48.9V53.2Q15.7 54.8 17.4 54.8 19.1 54.8 19.1 53.2V48.9"/>
+      <path d="M19.1 58.9Q18.4 58.1 17.3 58.2 15.6 58.3 15.7 59.9 15.7 60.9 17.4 61.2 19.2 61.6 19.1 62.9 19 64.1 17.4 64.1 16.3 64.1 15.5 63.3"/>
+      <path d="M15.8 67.5V73.3H17.5Q19.3 73.3 19.3 71.7 19.3 70.3 17.5 70.3H15.8M17.4 70.3Q19 70.3 19 68.9 19 67.5 17.4 67.5H15.8"/>
+    </g>
+  </defs>
+
+  <use xlink:href="#screw"/>
+  <use xlink:href="#screw" transform="translate(0 106.2)"/>
+
+  <rect x=".2" y="11.1" width="34.6" height="94.3" rx="2" fill="#d8e6e2"/>
+  <path d="M2 11.5H33L34.4 12.9V103.7L32.9 105H2.1L.6 103.6V13Z" fill="#2b3a3d" stroke="#172a2c" stroke-width=".15"/>
+  <rect x="7.5" y="16.7" width="20.3" height="62" rx="2.7" fill="#29393c" stroke="#11272a" stroke-width=".28"/>
+  <path d="M7.9 77V19.8Q7.9 17.1 10.6 17.1H24.7" fill="none" stroke="#3a484a" stroke-width=".18"/>
+
+  <path d="M11.1 91.4V43.6Q11.1 37.1 17.5 37.1 23.9 37.1 23.9 43.6V91.4Q23.9 93.7 21.6 93.7H13.4Q11.1 93.7 11.1 91.4Z" fill="#86979b" stroke="#17282b" stroke-width=".25"/>
+  <path d="M11.3 84.3H23.7V90.9H11.3Z" fill="#77898c"/>
+  <path d="M11.3 85H23.7V89.8H11.3Z" fill="#7f9194"/>
+  <path d="M11.2 84.3H23.8M11.2 91H23.8" fill="none" stroke="#3f5559" stroke-width=".24"/>
+  <path d="M11.5 91.4H23.5" fill="none" stroke="#a4b4b6" stroke-width=".18"/>
+
+  <use xlink:href="#usbLetters" stroke="#30454b" stroke-width=".72"/>
+  <use xlink:href="#usbLetters" stroke="#e4eeee" stroke-width=".43"/>
+</svg>
