@@ -1,4 +1,5 @@
 import QtQuick 2.15
+import QtQuick.Shapes 1.15
 import common_qml 1.0
 
 BaseSceneComponent {
@@ -14,23 +15,23 @@ BaseSceneComponent {
     property real value: 0
     property real minimumValue: 0
     property real maximumValue: 300
-    property real labelMinimum: 0
-    property real labelMaximum: 3
-    property int labelDecimals: 3
+    property int labelMinimum: 0
+    property int labelMaximum: 3
     property int majorDivisions: 3
     property int minorDivisions: 5
-    property real multiplier: 100
+    property int multiplier: 100
     property bool showMultiplier: true
     property string units: "кг/см²"
     property bool showUnits: true
-    property real fontSize: 12
-    property real horizontalPadding: 1
-    property real verticalPadding: 1
-    property real textGap: 1
+    property real fontSize: 20
+    property real multiplierFontSize: 20
+    property real unitsFontSize: 20
+    property string backgroundColor: "#303431"
+    property real lineWidth: 1
     readonly property int tickCount: Math.max(1, majorDivisions) * Math.max(1, minorDivisions)
     readonly property var settingsKeys: ["value", "minimumValue", "maximumValue", "labelMinimum", "labelMaximum",
-        "labelDecimals", "majorDivisions", "minorDivisions", "multiplier", "showMultiplier", "units", "showUnits",
-        "fontSize", "horizontalPadding", "verticalPadding", "textGap"]
+        "majorDivisions", "minorDivisions", "multiplier", "showMultiplier", "units", "showUnits", "fontSize",
+        "multiplierFontSize", "unitsFontSize", "backgroundColor", "lineWidth"]
     property bool restoringSettings: false
     customProperties: settingsMap()
     function settingsMap() {
@@ -38,16 +39,19 @@ BaseSceneComponent {
         for (var key of settingsKeys) result[key] = root[key]
         return result
     }
-    function synchronizeState(name, v) {
-        if (!restoringSettings && customProperties[name] !== v) {
-            customProperties[name] = v
-            customPropertiesChanged()
-        }
+    function synchronizeState() {
+        if (!restoringSettings)
+            customProperties = settingsMap()
+    }
+    function setCustomProperty(name, value) {
+        if (settingsKeys.indexOf(name) < 0) return
+        root[name] = value
+        synchronizeState()
     }
     onCustomPropertiesChanged: {
         if (restoringSettings) return
         // Old configurations used range / multiplier for numeric labels.
-        var copy = JSON.parse(JSON.stringify(customProperties)), missing = false
+        var copy = customProperties
         restoringSettings = true
         var legacyMultiplier = Number(copy.multiplier === undefined ? multiplier : copy.multiplier)
         if (copy.labelMinimum === undefined)
@@ -55,87 +59,100 @@ BaseSceneComponent {
         if (copy.labelMaximum === undefined)
             labelMaximum = Number(copy.maximumValue === undefined ? maximumValue : copy.maximumValue) / legacyMultiplier
         for (var key of settingsKeys) {
-            if (copy[key] === undefined) { copy[key] = root[key]; missing = true }
+            if (copy[key] !== undefined) root[key] = copy[key]
         }
-        if (missing) customProperties = copy
+        // Rebuild from the actual typed properties; retired layout and decimal
+        // settings must not return to the inspector or the next saved scene.
+        customProperties = settingsMap()
         restoringSettings = false
     }
+    // Scene hosts restore property maps synchronously after createObject().
+    // Canonicalize once that restore finishes, including removed legacy keys.
+    Component.onCompleted: Qt.callLater(synchronizeState)
     propertySchema: ({
         value: {displayName:"Value", type:"number", bindable:true, access:"readOnly", step:0.1},
         minimumValue: {displayName:"Working minimum", type:"number", step:1},
         maximumValue: {displayName:"Working maximum", type:"number", step:1},
-        labelMinimum: {displayName:"Label minimum", type:"number", step:0.1},
-        labelMaximum: {displayName:"Label maximum", type:"number", step:0.1},
-        labelDecimals: {displayName:"Label decimals", type:"number", min:0, max:6, step:1},
+        labelMinimum: {displayName:"Label minimum", type:"number", step:1},
+        labelMaximum: {displayName:"Label maximum", type:"number", step:1},
         majorDivisions: {displayName:"Major divisions", type:"number", min:1, max:20, step:1},
         minorDivisions: {displayName:"Minor divisions", type:"number", min:1, max:10, step:1},
-        multiplier: {displayName:"Multiplier caption", type:"number", min:0.001, max:1000000, step:1},
+        multiplier: {displayName:"Multiplier caption", type:"number", min:1, max:1000000, step:1},
         showMultiplier: {displayName:"Show multiplier", type:"bool"},
         units: {displayName:"Units", type:"string"}, showUnits: {displayName:"Show units", type:"bool"},
-        fontSize: {displayName:"Font size", type:"number", min:1, max:100, step:1, unit:"px"},
-        horizontalPadding: {displayName:"Horizontal padding", type:"number", min:0, max:100, step:1, unit:"px"},
-        verticalPadding: {displayName:"Vertical padding", type:"number", min:0, max:100, step:1, unit:"px"},
-        textGap: {displayName:"Text gap", type:"number", min:0, max:100, step:1, unit:"px"}
+        fontSize: {displayName:"Размер цифр", type:"number", min:1, max:100, step:1, unit:"px", order:10},
+        multiplierFontSize: {displayName:"Размер множ.", type:"number", min:1, max:100, step:1, unit:"px", order:20},
+        unitsFontSize: {displayName:"Размер единиц", type:"number", min:1, max:100, step:1, unit:"px", order:30},
+        backgroundColor: {displayName:"Цвет фона", type:"color", order:40},
+        lineWidth: {displayName:"Scale line width", type:"number", min:0.5, max:8, step:0.5, unit:"px"}
     })
-    onValueChanged: synchronizeState("value", value)
-    onMinimumValueChanged: synchronizeState("minimumValue", minimumValue)
-    onMaximumValueChanged: synchronizeState("maximumValue", maximumValue)
-    onLabelMinimumChanged: synchronizeState("labelMinimum", labelMinimum)
-    onLabelMaximumChanged: synchronizeState("labelMaximum", labelMaximum)
-    onLabelDecimalsChanged: synchronizeState("labelDecimals", labelDecimals)
-    onMajorDivisionsChanged: synchronizeState("majorDivisions", majorDivisions)
-    onMinorDivisionsChanged: synchronizeState("minorDivisions", minorDivisions)
-    onMultiplierChanged: synchronizeState("multiplier", multiplier)
-    onShowMultiplierChanged: synchronizeState("showMultiplier", showMultiplier)
-    onUnitsChanged: synchronizeState("units", units)
-    onShowUnitsChanged: synchronizeState("showUnits", showUnits)
-    onFontSizeChanged: synchronizeState("fontSize", fontSize)
-    onHorizontalPaddingChanged: synchronizeState("horizontalPadding", horizontalPadding)
-    onVerticalPaddingChanged: synchronizeState("verticalPadding", verticalPadding)
-    onTextGapChanged: synchronizeState("textGap", textGap)
+    onValueChanged: synchronizeState()
+    onMinimumValueChanged: synchronizeState()
+    onMaximumValueChanged: synchronizeState()
+    onLabelMinimumChanged: synchronizeState()
+    onLabelMaximumChanged: synchronizeState()
+    onMajorDivisionsChanged: synchronizeState()
+    onMinorDivisionsChanged: synchronizeState()
+    onMultiplierChanged: synchronizeState()
+    onShowMultiplierChanged: synchronizeState()
+    onUnitsChanged: synchronizeState()
+    onShowUnitsChanged: synchronizeState()
+    onFontSizeChanged: synchronizeState()
+    onMultiplierFontSizeChanged: synchronizeState()
+    onUnitsFontSizeChanged: synchronizeState()
+    onBackgroundColorChanged: synchronizeState()
+    onLineWidthChanged: synchronizeState()
 
-    readonly property real padX: Math.min(horizontalPadding, width / 4)
-    readonly property real padY: Math.min(verticalPadding, height / 6)
-    readonly property real captionHeight: Math.min(fontSize * 1.25, height * 0.065)
-    readonly property real headerHeight: showMultiplier ? captionHeight : 0
-    readonly property real footerHeight: showUnits ? captionHeight : 0
-    readonly property real gap: Math.min(textGap, height / 10)
-    readonly property real frameTop: padY + headerHeight + (showMultiplier ? gap : 0)
-    readonly property real frameBottom: height - padY - footerHeight - (showUnits ? gap : 0)
-    readonly property real labelHeight: Math.max(1, Math.min(fontSize * 1.25,
-        (frameBottom - frameTop) / (tickCount + 1)))
-    readonly property real axisInset: Math.min(labelHeight / 2 + 1, Math.max(0, frameBottom - frameTop) / 2)
+    readonly property real headerHeight: showMultiplier ? multiplierFontSize * 1.25 : 0
+    readonly property real footerHeight: showUnits ? unitsFontSize * 1.25 : 0
+    readonly property real frameTop: headerHeight
+    readonly property real frameBottom: height - footerHeight
+    // Text uses its requested size; changing geometry never silently shrinks it.
+    readonly property real labelHeight: fontSize * 1.25
+    readonly property real axisInset: Math.min(labelHeight / 2, Math.max(0, frameBottom - frameTop) / 2)
     readonly property real axisTop: frameTop + axisInset
     readonly property real axisBottom: frameBottom - axisInset
 
     Rectangle {
+        objectName: "scaleBackground"
+        anchors.fill: parent
+        color: root.backgroundColor
+    }
+    Rectangle {
         objectName: "scaleFrame"
-        x: root.padX; y: root.frameTop
-        width: Math.max(0, root.width - 2 * root.padX)
+        x: 0; y: root.frameTop
+        width: root.width
         height: Math.max(0, root.frameBottom - root.frameTop)
         color: "transparent"
-        border.color: "#c1d3ca"
-        border.width: 1
+        border.color: "#79827a"
+        border.width: root.lineWidth * 0.5
     }
     Text {
         objectName: "scaleMultiplier"
         visible: root.showMultiplier
-        x: root.padX; y: root.padY
-        width: Math.max(0, root.width - 2 * root.padX); height: root.headerHeight
+        x: 0; y: 0
+        width: root.width; height: root.headerHeight
         text: "×" + root.multiplier
-        color: "#c1d3ca"
+        color: "#cdd2c6"
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
-        font.pixelSize: root.fontSize
-        fontSizeMode: Text.Fit; minimumPixelSize: 1
+        font.pixelSize: root.multiplierFontSize
+        font.family: "Arial"
+        renderType: Text.CurveRendering
     }
     Item {
         id: scaleArea
         objectName: "scaleArea"
-        x: root.padX + 1; y: root.axisTop
-        width: Math.max(0, root.width - 2 * root.padX - 2)
+        x: 0; y: root.axisTop
+        width: root.width
         height: Math.max(0, root.axisBottom - root.axisTop)
-        Rectangle { x: parent.width * 0.92; width: 1; height: parent.height; color: "#c1d3ca" }
+        Rectangle {
+            objectName: "scaleAxis"
+            x: parent.width * 0.92 - width / 2
+            width: root.lineWidth
+            height: parent.height
+            color: "#cdd2c6"
+        }
         Repeater {
             model: root.tickCount + 1
             Item {
@@ -144,51 +161,58 @@ BaseSceneComponent {
                 y: scaleArea.height * (1 - index / root.tickCount)
                 width: scaleArea.width; height: 1
                 Rectangle {
-                    x: scaleArea.width * (parent.major ? 0.48 : 0.65)
-                    width: scaleArea.width * 0.92 - x; height: 1; color: "#c1d3ca"
+                    objectName: "scaleTick" + parent.index
+                    x: scaleArea.width * (parent.major ? 0.46 : 0.69)
+                    y: -height / 2
+                    width: scaleArea.width * 0.92 - x
+                    height: root.lineWidth * (parent.major ? 1 : 0.7)
+                    color: parent.major ? "#cdd2c6" : "#98a195"
                 }
                 Text {
                     objectName: "scaleLabel" + parent.index
                     visible: parent.major
                     x: 0; y: -height / 2
                     width: scaleArea.width * 0.42; height: root.labelHeight
-                    text: Number((root.labelMinimum + (root.labelMaximum - root.labelMinimum)
-                          * parent.index / root.tickCount).toFixed(root.labelDecimals)).toString()
-                    color: "#c1d3ca"
+                    text: Math.round(root.labelMinimum + (root.labelMaximum - root.labelMinimum)
+                          * parent.index / root.tickCount).toString()
+                    color: "#cdd2c6"
+                    font.family: "Arial"
                     font.pixelSize: root.fontSize
+                    renderType: Text.CurveRendering
                     horizontalAlignment: Text.AlignHCenter
                     verticalAlignment: Text.AlignVCenter
-                    fontSizeMode: Text.Fit; minimumPixelSize: 1
                 }
             }
         }
-        Canvas {
+        Shape {
+            id: pointer
             objectName: "scalePointer"
             x: scaleArea.width * 0.45
             y: root.mapLinearValue(root.value, root.minimumValue, root.maximumValue,
                                    scaleArea.height, 0, true) - height / 2
             width: scaleArea.width * 0.43
             height: Math.min(Math.max(3, root.fontSize * 0.7), scaleArea.height * 0.1)
-            onPaint: {
-                var c = getContext("2d")
-                c.clearRect(0, 0, width, height)
-                c.beginPath(); c.moveTo(0, 0); c.lineTo(width, height / 2); c.lineTo(0, height); c.closePath()
-                c.fillStyle = "#e0f0df"; c.fill()
+            ShapePath {
+                strokeWidth: -1
+                fillColor: "#e0e5d6"
+                startX: 0; startY: 0
+                PathLine { x: pointer.width; y: pointer.height / 2 }
+                PathLine { x: 0; y: pointer.height }
+                PathLine { x: 0; y: 0 }
             }
-            onWidthChanged: requestPaint()
-            onHeightChanged: requestPaint()
         }
     }
     Text {
         objectName: "scaleUnits"
         visible: root.showUnits
-        x: root.padX; y: root.height - root.padY - root.footerHeight
-        width: Math.max(0, root.width - 2 * root.padX); height: root.footerHeight
+        x: 0; y: root.height - root.footerHeight
+        width: root.width; height: root.footerHeight
         text: root.units
-        color: "#c1d3ca"
+        color: "#cdd2c6"
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
-        font.pixelSize: root.fontSize
-        fontSizeMode: Text.Fit; minimumPixelSize: 1
+        font.pixelSize: root.unitsFontSize
+        font.family: "Arial"
+        renderType: Text.CurveRendering
     }
 }
