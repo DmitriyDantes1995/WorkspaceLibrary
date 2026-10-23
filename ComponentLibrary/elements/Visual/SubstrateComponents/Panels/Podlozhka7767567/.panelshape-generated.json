@@ -1,0 +1,42 @@
+{
+    "assets": [
+        "Podlozhka7767567.qml",
+        "panel.svg"
+    ],
+    "closed": true,
+    "component": "Podlozhka7767567.qml",
+    "componentHeight": 63,
+    "componentWidth": 21,
+    "fillColor": "#606060",
+    "formatVersion": 2,
+    "holes": [
+    ],
+    "kind": "PanelShapeEditorPlate",
+    "originX": 760.7343412526998,
+    "originY": 597.3974082073433,
+    "points": [
+        {
+            "cornerRadius": 0,
+            "x": 761.1663066954643,
+            "y": 597.3974082073433
+        },
+        {
+            "cornerRadius": 0,
+            "x": 781.0367170626349,
+            "y": 597.6133909287255
+        },
+        {
+            "cornerRadius": 0,
+            "x": 781.0367170626349,
+            "y": 659.6004319654426
+        },
+        {
+            "cornerRadius": 0,
+            "x": 760.7343412526998,
+            "y": 659.8164146868248
+        }
+    ],
+    "sceneLayer": "background",
+    "strokeColor": "#606060",
+    "version": 3
+}
