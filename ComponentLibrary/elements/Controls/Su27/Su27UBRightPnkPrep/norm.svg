@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="93.4px" width="205.3px" viewBox="0 0 205.3 93.4">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 101.1, 46.5)">
+    <g transform="matrix(1.0, 0.0, 0.0, 1.0, -89.25, -7.6)">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, -3.5, 2.7)">
+        <use height="48.5" transform="matrix(1.0481, 0.0, 0.0, 1.0, 3.4833, -2.7)" width="167.3" xlink:href="#active_shape0" opacity=".24" />
+        <use height="31.3" transform="matrix(0.8485, 0.0, 0.0, 1.0, 12.9502, 8.85)" width="211.35" xlink:href="#active_text0" />
+      </g>
+      <defs>
+        <g id="active_text0" transform="matrix(1.0, 0.0, 0.0, 1.0, -21.45, -3.65)">
+          <g transform="matrix(1.0, 0.0, 0.0, 1.0, 12.0, 0.0)">
+            <use fill="#00ff00" height="31.3" transform="matrix(0.0313, 0.0, 0.0, 0.0313, 7.0, 29.0)" width="211.35" xlink:href="#active_font_Arial__0" />
+            <use fill="#00ff00" height="31.3" transform="matrix(0.0313, 0.0, 0.0, 0.0313, 30.0, 29.0)" width="211.35" xlink:href="#active_font_Arial__1" />
+            <use fill="#00ff00" height="31.3" transform="matrix(0.0313, 0.0, 0.0, 0.0313, 54.9, 29.0)" width="211.35" xlink:href="#active_font_Arial__2" />
+            <use fill="#00ff00" height="31.3" transform="matrix(0.0313, 0.0, 0.0, 0.0313, 77.7, 29.0)" width="211.35" xlink:href="#active_font_Arial__3" />
+            <use fill="#00ff00" height="31.3" transform="matrix(0.0313, 0.0, 0.0, 0.0313, 104.75, 29.0)" width="211.35" xlink:href="#active_font_Arial__5" />
+            <use fill="#00ff00" height="31.3" transform="matrix(0.0313, 0.0, 0.0, 0.0313, 127.85, 29.0)" width="211.35" xlink:href="#active_font_Arial__1" />
+            <use fill="#00ff00" height="31.3" transform="matrix(0.0313, 0.0, 0.0, 0.0313, 152.75, 29.0)" width="211.35" xlink:href="#active_font_Arial__6" />
+            <use fill="#00ff00" height="31.3" transform="matrix(0.0313, 0.0, 0.0, 0.0313, 174.1, 29.0)" width="211.35" xlink:href="#active_font_Arial__7" />
+          </g>
+        </g>
+        <g id="active_font_Arial__0">
+          <path d="M76.5 -733.0 L76.5 0.0 224.5 0.0 224.5 -610.0 511.5 -610.0 511.5 0.0 659.5 0.0 659.5 -733.0 76.5 -733.0" fill-rule="evenodd" stroke="none" />
+        </g>
+        <g id="active_font_Arial__1">
+          <path d="M197.0 -367.0 L197.0 -367.0 Q197.0 -493.5 253.0 -556.0 309.0 -619.0 400.5 -619.0 492.0 -619.0 547.5 -557.0 602.5 -495.0 602.5 -369.0 602.5 -241.5 546.0 -177.5 489.0 -114.0 400.5 -114.0 312.0 -114.0 254.5 -178.0 197.0 -242.5 197.0 -367.0 M44.5 -362.0 L44.5 -362.0 Q44.5 -187.0 141.0 -87.0 237.5 12.5 401.0 12.5 562.5 12.5 659.0 -87.5 755.5 -188.0 755.5 -365.5 755.5 -544.5 658.5 -645.0 561.0 -745.5 399.0 -745.5 309.5 -745.5 241.0 -716.5 189.5 -695.0 146.5 -650.5 103.0 -606.0 78.0 -550.0 44.5 -474.0 44.5 -362.0" fill-rule="evenodd" stroke="none" />
+        </g>
+        <g id="active_font_Arial__2">
+          <path d="M274.5 -610.0 L492.5 -610.0 492.5 -123.0 214.0 -123.0 Q274.5 -276.0 274.5 -610.0 M133.5 -733.0 L133.5 -655.5 Q133.5 -465.5 119.0 -341.0 104.5 -217.0 59.0 -123.0 L-3.0 -123.0 -3.0 160.0 120.0 160.0 120.0 0.0 581.5 0.0 581.5 160.0 704.5 160.0 704.5 -123.0 640.0 -123.0 640.0 -733.0 133.5 -733.0" fill-rule="evenodd" stroke="none" />
+        </g>
+        <g id="active_font_Arial__3">
+          <path d="M82.0 -733.0 L82.0 0.0 230.0 0.0 230.0 -610.0 578.5 -610.0 578.5 -733.0 82.0 -733.0" fill-rule="evenodd" stroke="none" />
+        </g>
+        <g id="active_font_Arial__5">
+          <path d="M75.0 0.0 L223.0 0.0 223.0 -320.5 513.0 -320.5 513.0 0.0 661.0 0.0 661.0 -733.0 513.0 -733.0 513.0 -444.5 223.0 -444.5 223.0 -733.0 75.0 -733.0 75.0 0.0" fill-rule="evenodd" stroke="none" />
+        </g>
+        <g id="active_font_Arial__6">
+          <path d="M222.5 -609.0 L294.0 -609.0 Q374.0 -609.0 400.5 -604.0 436.5 -597.5 460.0 -571.5 483.5 -545.5 483.5 -505.5 483.5 -473.0 467.0 -448.5 450.0 -424.0 420.5 -412.5 391.0 -401.0 303.5 -401.0 L222.5 -401.0 222.5 -609.0 M74.5 0.0 L222.5 0.0 222.5 -276.5 319.0 -276.5 Q419.5 -276.5 472.5 -287.0 511.5 -295.5 549.5 -321.5 587.0 -348.0 611.5 -394.0 636.0 -440.0 636.0 -507.5 636.0 -595.0 593.5 -650.0 551.0 -705.5 488.0 -722.0 447.0 -733.0 312.0 -733.0 L74.5 -733.0 74.5 0.0" fill-rule="evenodd" stroke="none" />
+        </g>
+        <g id="active_font_Arial__7">
+          <path d="M72.5 0.0 L210.0 0.0 210.0 -577.0 355.0 0.0 497.5 0.0 643.0 -577.0 643.0 0.0 780.5 0.0 780.5 -733.0 558.5 -733.0 427.0 -233.0 294.0 -733.0 72.5 -733.0 72.5 0.0" fill-rule="evenodd" stroke="none" />
+        </g>
+        <g id="active_shape0" transform="matrix(1.0, 0.0, 0.0, 1.0, -4.85, 2.7)">
+          <path d="M88.45 45.8 Q53.8 45.8 29.3 38.7 4.85 31.65 4.85 21.5 4.85 11.4 29.3 4.35 53.8 -2.7 88.45 -2.7 123.15 -2.7 147.65 4.35 172.15 11.4 172.15 21.55 172.15 31.65 147.65 38.7 123.15 45.8 88.45 45.8" fill="url(#active_gradient0)" fill-rule="evenodd" stroke="none" />
+        </g>
+        <radialGradient cx="0" cy="0" gradientTransform="matrix(0.0, 0.0275, -0.1036, 0.0, 88.5, 21.55)" gradientUnits="userSpaceOnUse" id="active_gradient0" r="819.2" spreadMethod="pad">
+          <stop offset="0.18823529411764706" stop-color="#00ff00" stop-opacity="0.4" />
+          <stop offset="1.0" stop-color="#00ff00" stop-opacity="0.0" />
+        </radialGradient>
+      </defs>
+    </g>
+  </g>
+  <defs>
+    </defs>
+</svg>

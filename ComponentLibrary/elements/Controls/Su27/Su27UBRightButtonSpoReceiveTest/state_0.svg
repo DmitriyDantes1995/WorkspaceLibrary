@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="133.4px" width="133.4px" viewBox="0 0 133.4 133.4">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 66.7, 66.65)">
+    <use height="133.4" transform="matrix(1.0, 0.0, 0.0, 1.0, -66.7, -66.65)" width="133.4" xlink:href="#shape0" />
+  </g>
+  <defs>
+    <g id="shape0" transform="matrix(1.0, 0.0, 0.0, 1.0, 66.7, 66.65)">
+      <path d="M47.15 -47.15 Q66.7 -27.6 66.7 0.05 66.7 27.7 47.15 47.2 27.65 66.75 0.0 66.75 -27.65 66.75 -47.2 47.2 -66.7 27.7 -66.7 0.05 -66.7 -27.6 -47.2 -47.15 -27.65 -66.65 0.0 -66.65 27.65 -66.65 47.15 -47.15" fill="#577d79" fill-rule="evenodd" stroke="none" />
+      <path d="M-32.85 -55.15 L-32.35 -56.05 32.35 -56.1 64.75 0.0 32.35 56.1 31.25 56.1 63.1 0.9 30.7 -55.2 -32.85 -55.15" fill="#3f5a57" fill-rule="evenodd" stroke="none" />
+      <path d="M31.25 56.1 L30.7 57.0 -34.0 57.05 -66.4 0.95 -34.0 -55.15 -32.85 -55.15 30.7 -55.2 63.1 0.9 31.25 56.1 M-0.4 -35.7 Q-15.35 -35.7 -25.9 -25.15 -36.45 -14.6 -36.45 0.35 -36.45 15.3 -25.9 25.85 -15.35 36.4 -0.4 36.4 14.55 36.4 25.1 25.85 35.65 15.3 35.65 0.35 35.65 -14.6 25.1 -25.15 14.55 -35.7 -0.4 -35.7" fill="url(#gradient0)" fill-rule="evenodd" stroke="none" />
+      <path d="M-0.4 -35.7 Q14.55 -35.7 25.1 -25.15 35.65 -14.6 35.65 0.35 35.65 15.3 25.1 25.85 14.55 36.4 -0.4 36.4 -15.35 36.4 -25.9 25.85 -36.45 15.3 -36.45 0.35 -36.45 -14.6 -25.9 -25.15 -15.35 -35.7 -0.4 -35.7" fill="#ffffff" fill-rule="evenodd" stroke="none" />
+      <path d="M-0.4 -32.1 Q13.05 -32.1 22.55 -22.65 32.05 -13.15 32.05 0.3 32.05 13.8 22.55 23.25 13.05 32.75 -0.4 32.75 -13.85 32.75 -23.35 23.25 -32.85 13.8 -32.85 0.3 -32.85 -13.15 -23.35 -22.65 -13.85 -32.1 -0.4 -32.1" fill="#694141" fill-rule="evenodd" stroke="none" />
+      <path d="M-0.4 -22.2 Q13.05 -22.2 22.55 -12.75 32.05 -3.25 32.05 10.2 32.05 23.7 22.55 33.15 13.05 42.65 -0.4 42.65 -13.85 42.65 -23.35 33.15 -32.85 23.7 -32.85 10.2 -32.85 -3.25 -23.35 -12.75 -13.85 -22.2 -0.4 -22.2" fill="#694141" fill-rule="evenodd" stroke="none" />
+      <path d="M-0.4 -15.85 Q13.05 -15.85 22.55 -6.4 32.05 3.1 32.05 16.55 32.05 30.05 22.55 39.5 13.05 49.0 -0.4 49.0 -13.85 49.0 -23.35 39.5 -32.85 30.05 -32.85 16.55 -32.85 3.1 -23.35 -6.4 -13.85 -15.85 -0.4 -15.85" fill="url(#gradient1)" fill-rule="evenodd" stroke="none" />
+      <path d="M-0.4 -24.9 Q13.05 -24.9 22.55 -15.45 32.05 -5.95 32.05 7.5 32.05 21.0 22.55 30.45 13.05 39.95 -0.4 39.95 -13.85 39.95 -23.35 30.45 -32.85 21.0 -32.85 7.5 -32.85 -5.95 -23.35 -15.45 -13.85 -24.9 -0.4 -24.9" fill="url(#gradient2)" fill-rule="evenodd" stroke="none" />
+    </g>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(0.0791, 0.0, 0.0, 0.0791, -1.65, 0.95)" gradientUnits="userSpaceOnUse" id="gradient0" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#d7e3e1" />
+      <stop offset="1.0" stop-color="#9fbdba" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(0.0406, 0.0, 0.0, 0.0406, -2.7, 7.1)" gradientUnits="userSpaceOnUse" id="gradient1" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#a77272" />
+      <stop offset="1.0" stop-color="#744747" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(0.0, 0.0289, -0.0406, 0.0, 0.05, 7.5)" gradientUnits="userSpaceOnUse" id="gradient2" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#ffffff" stop-opacity="0.5019608" />
+      <stop offset="1.0" stop-color="#ffffff" stop-opacity="0.0" />
+    </radialGradient>
+  </defs>
+</svg>
