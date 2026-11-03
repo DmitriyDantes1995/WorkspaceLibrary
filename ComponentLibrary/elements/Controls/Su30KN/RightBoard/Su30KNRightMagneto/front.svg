@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="962.7045 524.82944 28.950836 42.97115" width="28.950836" height="42.97115">
+  <g transform="matrix(0.00024414062 -1.1986084 1.1986084 0.00024414062 945.92398 546.6407)">
+    <g transform="matrix(1.0, 0.0, 0.0, 1.0, 9.3, 26.05)">
+      <mask id="wheel_front_clipPath0" transform="matrix(0.14, 0.0, 0.0, 0.24, -9.1, -12.0)" maskContentUnits="userSpaceOnUse">
+        <path d="M100.0 0.0 L100.0 100.0 0.0 100.0 0.0 0.0 100.0 0.0" fill="#fff" fill-rule="evenodd" stroke="none" />
+      </mask>
+      <g mask="url(#wheel_front_clipPath0)">
+      </g>
+      <use height="24.15" transform="matrix(1.0, 0.0, 0.0, 1.0, -9.3, -12.05)" width="18.2" xlink:href="#wheel_front_shape13" />
+    </g>
+    <defs>
+      <g id="wheel_front_shape13" transform="matrix(1.0, 0.0, 0.0, 1.0, 9.3, 12.05)">
+        <path d="M8.9 -10.85 L8.9 10.9 8.85 11.15 8.5 11.75 8.3 11.9 7.7 12.1 -9.3 12.1 -9.3 -12.05 7.7 -12.05 8.3 -11.9 8.5 -11.7 8.85 -11.1 8.9 -10.85" fill="url(#wheel_front_gradient2)" fill-rule="evenodd" stroke="none" />
+        <path d="M4.25 0.1 L8.45 -2.25 8.45 2.5 4.25 0.1" fill="url(#wheel_front_gradient3)" fill-rule="evenodd" stroke="none" />
+        <path d="M4.25 0.1 L8.45 -2.25 8.45 2.5 4.25 0.1 Z" fill="none" stroke="#cccccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.05" />
+      </g>
+      <linearGradient gradientTransform="matrix(0.0, 0.0147, -0.039, 0.0, -108.85, 0.0)" gradientUnits="userSpaceOnUse" id="wheel_front_gradient2" spreadMethod="pad" x1="-819.2" x2="819.2">
+        <stop offset="0.0392156862745098" stop-color="#000000" />
+        <stop offset="0.5686274509803921" stop-color="#000000" stop-opacity="0.0" />
+        <stop offset="0.9568627450980393" stop-color="#000000" />
+      </linearGradient>
+      <radialGradient cx="0" cy="0" gradientTransform="matrix(0.0131, 0.0, 0.0, 0.0147, 2.0, -7.2)" gradientUnits="userSpaceOnUse" id="wheel_front_gradient3" r="819.2" spreadMethod="pad">
+        <stop offset="0.0" stop-color="#ffffff" />
+        <stop offset="1.0" stop-color="#ffffe4" />
+      </radialGradient>
+    </defs>
+  </g>
+</svg>

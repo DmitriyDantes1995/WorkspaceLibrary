@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6.5 -3 13 6" width="13" height="6">
+  <g transform="matrix(0 -1 1 0 -6.5 3.85)">
+    <g transform="matrix(1.0, 0.0, 0.0, 1.0, 3.85, 6.5)">
+      <mask id="digit_clipPath0" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" maskContentUnits="userSpaceOnUse">
+        <path d="M3.0 -6.5 L3.0 6.5 -3.0 6.5 -3.0 -6.5 3.0 -6.5" fill="#fff" fill-rule="evenodd" stroke="none" />
+      </mask>
+      <g mask="url(#digit_clipPath0)">
+        <use height="13.0" transform="matrix(1.0, 0.0, 0.0, 1.0, -3.85, -6.35)" width="7.0" xlink:href="#digit_shape1" />
+        <use height="8.0" transform="matrix(1.0, 0.0, 0.0, 1.0, -2.6, -4.0)" width="5.2" xlink:href="#digit_sprite0" />
+        <use height="13.0" transform="matrix(1.0, 0.0, 0.0, 1.0, -3.85, -6.35)" width="7.0" xlink:href="#digit_shape3" />
+      </g>
+    </g>
+    <defs>
+      <linearGradient gradientTransform="matrix(0.0, -0.0063, 0.0108, 0.0, 17.55, 0.0)" gradientUnits="userSpaceOnUse" id="digit_gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+        <stop offset="0.0392156862745098" stop-color="#000000" />
+        <stop offset="0.5686274509803921" stop-color="#525252" stop-opacity="0.0" />
+        <stop offset="0.9568627450980393" stop-color="#000000" />
+      </linearGradient>
+      <g id="digit_shape1" transform="matrix(1.0, 0.0, 0.0, 1.0, 3.85, 6.35)">
+        <path d="M3.15 -6.35 L3.15 6.65 -3.85 6.65 -3.85 -6.35 3.15 -6.35" fill="url(#digit_gradient1)" fill-rule="evenodd" stroke="none" />
+      </g>
+      <linearGradient gradientTransform="matrix(0.0, -0.0079, 0.0108, 0.0, 16.7, 0.15)" gradientUnits="userSpaceOnUse" id="digit_gradient1" spreadMethod="pad" x1="-819.2" x2="819.2">
+        <stop offset="0.0" stop-color="#000000" />
+        <stop offset="0.29411764705882354" stop-color="#0e0e0e" />
+        <stop offset="0.5647058823529412" stop-color="#252525" />
+        <stop offset="0.792156862745098" stop-color="#191919" />
+        <stop offset="1.0" stop-color="#000000" />
+      </linearGradient>
+      <g id="digit_sprite0" transform="matrix(1.0, 0.0, 0.0, 1.0, 2.6, 0.0)">
+        <use height="8.0" transform="matrix(1.0, 0.0, 0.0, 1.0, -2.6, 0.0)" width="5.2" xlink:href="#digit_shape2" />
+      </g>
+      <g id="digit_shape2" transform="matrix(1.0, 0.0, 0.0, 1.0, 2.6, 0.0)">
+        <path d="M0.9 1.7 Q0.5 1.35 0.0 1.35 -0.55 1.35 -0.9 1.7 -1.25 2.05 -1.25 2.6 -1.25 3.15 -0.9 3.5 -0.55 3.85 0.0 3.9 L0.9 3.5 Q1.25 3.15 1.25 2.6 1.25 2.05 0.9 1.7 M2.35 1.5 L2.5 1.95 2.6 2.75 2.55 3.6 2.5 3.75 Q2.15 5.05 1.15 6.35 L1.0 6.55 Q0.35 7.3 -0.7 7.85 L-0.9 7.95 -1.0 8.0 -1.35 8.0 -1.7 7.7 -1.75 7.65 -1.8 7.25 -1.4 6.85 Q-0.45 6.55 0.5 5.45 L0.55 5.25 0.45 5.1 0.45 5.05 0.25 4.95 -0.45 4.95 Q-1.35 4.95 -1.85 4.45 -2.6 3.7 -2.6 2.6 -2.6 1.55 -1.85 0.8 -1.1 0.0 0.0 0.0 1.05 0.0 1.85 0.8 L2.35 1.5" fill="#ffffff" fill-rule="evenodd" stroke="none" />
+      </g>
+      <g id="digit_shape3" transform="matrix(1.0, 0.0, 0.0, 1.0, 3.85, 6.35)">
+        <path d="M3.15 -6.35 L3.15 6.65 -3.85 6.65 -3.85 -6.35 3.15 -6.35" fill="url(#digit_gradient2)" fill-rule="evenodd" stroke="none" />
+      </g>
+      <linearGradient gradientTransform="matrix(0.0, -0.0063, 0.0108, 0.0, 16.7, 0.15)" gradientUnits="userSpaceOnUse" id="digit_gradient2" spreadMethod="pad" x1="-819.2" x2="819.2">
+        <stop offset="0.0392156862745098" stop-color="#000000" />
+        <stop offset="0.5686274509803921" stop-color="#525252" stop-opacity="0.0" />
+        <stop offset="0.9568627450980393" stop-color="#000000" />
+      </linearGradient>
+    </defs>
+  </g>
+</svg>

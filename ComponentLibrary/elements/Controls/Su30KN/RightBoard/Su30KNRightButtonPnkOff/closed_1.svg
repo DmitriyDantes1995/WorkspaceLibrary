@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="77.604381" width="76.876482" viewBox="-46.973761 -49.025472 76.876482 77.604381">
+  <g transform="matrix(-3.0517578e-05 -0.2599945 0.2599945 -3.0517578e-05 0 0)">
+    <use height="222.95" transform="matrix(1.0, 0.0, 0.0, 1.0, -109.9, -107.95)" width="271.0" xlink:href="#shape2" />
+    <use height="30.9" transform="matrix(-1.0E-4, -1.309, 1.309, -1.0E-4, 19.1686, 63.8784)" width="100.65" xlink:href="#text0" />
+  </g>
+  <defs>
+    <g id="shape2" transform="matrix(1.0, 0.0, 0.0, 1.0, 109.9, 107.95)">
+      <path d="M-88.9 -90.05 L161.1 -90.05 161.1 91.6 Q161.1 101.3 154.25 108.15 147.4 115.0 137.7 115.0 L-65.5 115.0 Q-75.2 115.0 -82.05 108.15 -88.9 101.3 -88.9 91.6 L-88.9 -90.05" fill="url(#gradient3)" fill-rule="evenodd" stroke="none" />
+      <path d="M-40.0 -84.1 Q-40.0 -90.0 -34.1 -90.0 L114.1 -90.0 Q120.0 -90.0 120.0 -84.1 L120.0 109.1 Q120.0 115.0 114.1 115.0 L-34.1 115.0 Q-40.0 115.0 -40.0 109.1 L-40.0 -84.1" fill="url(#gradient4)" fill-rule="evenodd" stroke="none" />
+      <path d="M160.0 -90.05 L-90.0 -90.05 -109.9 -107.95 138.15 -107.9 160.0 -90.05" fill="#0c0c0c" fill-rule="evenodd" stroke="none" />
+      <path d="M-88.9 -90.05 L161.1 -90.05 161.1 91.6 Q161.1 101.3 154.25 108.15 147.4 115.0 137.7 115.0 L-65.5 115.0 Q-75.2 115.0 -82.05 108.15 -88.9 101.3 -88.9 91.6 L-88.9 -90.05" fill="url(#gradient5)" fill-rule="evenodd" stroke="none" />
+      <path d="M-88.9 -90.05 L161.1 -90.05 161.1 91.6 Q161.1 101.3 154.25 108.15 147.4 115.0 137.7 115.0 L-65.5 115.0 Q-75.2 115.0 -82.05 108.15 -88.9 101.3 -88.9 91.6 L-88.9 -90.05" fill="url(#gradient6)" fill-rule="evenodd" stroke="none" />
+    </g>
+    <linearGradient gradientTransform="matrix(0.0, 0.1251, -0.1252, 0.0, 36.15, 12.5)" gradientUnits="userSpaceOnUse" id="gradient3" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#000000" />
+      <stop offset="0.08627450980392157" stop-color="#272727" />
+      <stop offset="0.9607843137254902" stop-color="#2a2a2a" />
+      <stop offset="1.0" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(0.0, 0.1343, -0.1251, 0.0, 40.0, 10.0)" gradientUnits="userSpaceOnUse" id="gradient4" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#8e8e8e" />
+      <stop offset="0.08627450980392157" stop-color="#e0e0e0" />
+      <stop offset="0.9607843137254902" stop-color="#ffffff" />
+      <stop offset="1.0" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(0.1526, 0.0, 0.0, 0.1252, 36.1, 12.35)" gradientUnits="userSpaceOnUse" id="gradient5" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#000000" />
+      <stop offset="0.07058823529411765" stop-color="#333333" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(-0.1526, 0.0, 0.0, -0.1252, 36.1, 12.55)" gradientUnits="userSpaceOnUse" id="gradient6" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#000000" />
+      <stop offset="0.07058823529411765" stop-color="#333333" stop-opacity="0.0" />
+    </linearGradient>
+    <g id="text0" transform="matrix(1.0, 0.0, 0.0, 1.0, -34.7, -5.9)">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, 32.95, 0.0)">
+        <use fill="#333333" height="30.9" transform="matrix(0.0381, 0.0, 0.0, 0.0381, 0.0, 35.0)" width="100.65" xlink:href="#font_Arial_O0" />
+        <use fill="#333333" height="30.9" transform="matrix(0.0381, 0.0, 0.0, 0.0381, 30.35, 35.0)" width="100.65" xlink:href="#font_Arial_F0" />
+        <use fill="#333333" height="30.9" transform="matrix(0.0381, 0.0, 0.0, 0.0381, 54.15, 35.0)" width="100.65" xlink:href="#font_Arial_F0" />
+      </g>
+    </g>
+    <g id="font_Arial_O0">
+      <path d="M197.0 -367.0 Q197.0 -493.5 253.0 -556.0 309.0 -619.0 400.5 -619.0 492.0 -619.0 547.5 -557.0 602.5 -495.0 602.5 -369.0 602.5 -241.5 546.0 -177.5 489.0 -114.0 400.5 -114.0 312.0 -114.0 254.5 -178.0 197.0 -242.5 197.0 -367.0 M44.5 -362.0 Q44.5 -187.0 141.0 -87.0 237.5 12.5 401.0 12.5 562.5 12.5 659.0 -87.5 755.5 -188.0 755.5 -365.5 755.5 -544.5 658.5 -645.0 561.0 -745.5 399.0 -745.5 309.5 -745.5 241.0 -716.5 189.5 -695.0 146.5 -650.5 103.0 -606.0 78.0 -550.0 44.5 -474.0 44.5 -362.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_F0">
+      <path d="M75.5 0.0 L223.5 0.0 223.5 -311.5 529.5 -311.5 529.5 -435.5 223.5 -435.5 223.5 -609.0 578.0 -609.0 578.0 -733.0 75.5 -733.0 75.5 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+  </defs>
+</svg>
