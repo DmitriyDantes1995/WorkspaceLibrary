@@ -6545,6 +6545,149 @@
             "z": 0
         }
     ],
+    "Su30KNLeftLampRs2Tuning": [
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftLampRs2Tuning/Su30KNLeftLampRs2Tuning.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 12.5,
+            "locked": false,
+            "name": "radio_rs2_tuning",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 246,
+            "subtype": "Su30KNLeftLampRs2Tuning",
+            "type": "Su30KNLeftLampRs2Tuning",
+            "width": 12.5,
+            "x": 1038.75,
+            "y": 884.75,
+            "z": 0
+        }
+    ],
+    "Su30KNLeftRegulatorR862Volume": [
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftRegulatorR862Volume/Su30KNLeftRegulatorR862Volume.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 23,
+            "locked": false,
+            "name": "radio_kv_squelch",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 247,
+            "subtype": "Su30KNLeftRegulatorR862Volume",
+            "type": "Su30KNLeftRegulatorR862Volume",
+            "width": 23,
+            "x": 915.5,
+            "y": 955.5,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftRegulatorR862Volume/Su30KNLeftRegulatorR862Volume.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 27,
+            "locked": false,
+            "name": "radio_ukv_volume",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 249,
+            "subtype": "Su30KNLeftRegulatorR862Volume",
+            "type": "Su30KNLeftRegulatorR862Volume",
+            "width": 27,
+            "x": 990.5,
+            "y": 1091.5,
+            "z": 0
+        }
+    ],
+    "Su30KNLeftSwitchRs2Reserve": [
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSwitchRs2Reserve/Su30KNLeftSwitchRs2Reserve.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 14,
+            "locked": false,
+            "name": "radio_kv_ukv_selector",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 248,
+            "subtype": "Su30KNLeftSwitchRs2Reserve",
+            "type": "Su30KNLeftSwitchRs2Reserve",
+            "width": 29,
+            "x": 1028.5,
+            "y": 995.0,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSwitchRs2Reserve/Su30KNLeftSwitchRs2Reserve.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 14,
+            "locked": false,
+            "name": "radio_rs2_reserve",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 250,
+            "subtype": "Su30KNLeftSwitchRs2Reserve",
+            "type": "Su30KNLeftSwitchRs2Reserve",
+            "width": 29,
+            "x": 934.0,
+            "y": 1081.5,
+            "z": 0
+        }
+    ],
+    "Su30KNLeftSwitchFlapperRudder": [
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSwitchFlapperRudder/Su30KNLeftSwitchFlapperRudder.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 20.23,
+            "locked": false,
+            "name": "systems1_auto_flutter",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 251,
+            "subtype": "Su30KNLeftSwitchFlapperRudder",
+            "type": "Su30KNLeftSwitchFlapperRudder",
+            "width": 36,
+            "x": 1113.0,
+            "y": 1079.885,
+            "z": 0
+        }
+    ],
+    "Su30KNLeftSwitchSdudampyaw": [
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSwitchSdudampyaw/Su30KNLeftSwitchSdudampyaw.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 21.58,
+            "locked": false,
+            "name": "sau_sdu_link",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 252,
+            "subtype": "Su30KNLeftSwitchSdudampyaw",
+            "type": "Su30KNLeftSwitchSdudampyaw",
+            "width": 33,
+            "x": 1602.5,
+            "y": 1083.21,
+            "z": 0
+        }
+    ],
     "__sceneSettings": [
         {
             "componentPath": "",

@@ -4121,6 +4121,27 @@
             "x": 1676,
             "y": 549,
             "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30/Su30RoundLamp/Su30RoundLamp.qml",
+            "customProperties": {
+                "offColor": "#8f703f",
+                "onColor": "#eeed70",
+                "value": 0
+            },
+            "height": 11,
+            "locked": false,
+            "name": "sdu_test_lamp_f",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 286,
+            "subtype": "Su30RoundLamp",
+            "type": "Su30RoundLamp",
+            "width": 11,
+            "x": 1691.6,
+            "y": 564.7,
+            "z": 0
         }
     ],
     "Substrate": [
@@ -7578,6 +7599,89 @@
             "x": 0,
             "y": 0,
             "z": -1000
+        }
+    ],
+    "Su30KNRightGuardRadioSilence": [
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightGuardRadioSilence/Su30KNRightGuardRadioSilence.qml",
+            "customProperties": {
+                "cover": 0,
+                "value": 0
+            },
+            "height": 74.4,
+            "locked": false,
+            "name": "L029_radio_silence",
+            "opacity": 1,
+            "rotation": -7,
+            "scale": 1,
+            "stackingOrder": 282,
+            "subtype": "Su30KNRightGuardRadioSilence",
+            "type": "Su30KNRightGuardRadioSilence",
+            "width": 31.0,
+            "x": 888.5,
+            "y": 410.0,
+            "z": 0
+        }
+    ],
+    "Su30KNRightRegulatorSpoVolume": [
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightRegulatorSpoVolume/Su30KNRightRegulatorSpoVolume.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 52,
+            "locked": false,
+            "name": "warning_volume",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 283,
+            "subtype": "Su30KNRightRegulatorSpoVolume",
+            "type": "Su30KNRightRegulatorSpoVolume",
+            "width": 52,
+            "x": 1101.5,
+            "y": 962.5,
+            "z": 0
+        }
+    ],
+    "Red_btn": [
+        {
+            "componentPath": "elements/Controls/simple/Buttons/red_btn/Red_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 36,
+            "locked": false,
+            "name": "engine_stop_button_0",
+            "opacity": 1,
+            "rotation": -90,
+            "scale": 1,
+            "stackingOrder": 284,
+            "subtype": "Red_btn",
+            "type": "Red_btn",
+            "width": 36,
+            "x": 1604.3,
+            "y": 985.7,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/red_btn/Red_btn.qml",
+            "customProperties": {
+                "oN": 0
+            },
+            "height": 36,
+            "locked": false,
+            "name": "engine_stop_button_1",
+            "opacity": 1,
+            "rotation": -90,
+            "scale": 1,
+            "stackingOrder": 285,
+            "subtype": "Red_btn",
+            "type": "Red_btn",
+            "width": 36,
+            "x": 1604.3,
+            "y": 1052.3,
+            "z": 0
         }
     ]
 }
