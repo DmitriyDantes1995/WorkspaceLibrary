@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="227.3835" width="588.5594" viewBox="-500.5095 -123.5924 588.5594 227.3835">
+  <g transform="rotate(89.97239)">
+    <filter color-interpolation-filters="sRGB" height="300%" id="filter0" width="300%" x="-100%" y="-100%">
+      <feColorMatrix in="SourceGraphic" result="filterResult0" type="matrix" values="0.3086 0.6094 0.082 0.0 -0.39215684 0.3086 0.6094 0.082 0.0 -0.39215684 0.3086 0.6094 0.082 0.0 -0.39215684 0.0 0.0 0.0 1.0 0.0" />
+    </filter>
+    <use filter="url(#filter0)" height="176.0" transform="matrix(1.0, 0.0, 0.0, 1.0, 15.55, 412.45)" width="176.0" xlink:href="#sprite0" />
+    <filter color-interpolation-filters="sRGB" height="300%" id="filter1" width="300%" x="-100%" y="-100%">
+      <feColorMatrix in="SourceGraphic" result="filterResult1" type="matrix" values="0.3086 0.6094 0.082 0.0 -0.39215684 0.3086 0.6094 0.082 0.0 -0.39215684 0.3086 0.6094 0.082 0.0 -0.39215684 0.0 0.0 0.0 1.0 0.0" />
+    </filter>
+    <use filter="url(#filter1)" height="176.0" transform="matrix(1.0, 0.0, 0.0, 1.0, 15.55, 0.0)" width="176.0" xlink:href="#sprite0" />
+    <filter color-interpolation-filters="sRGB" height="300%" id="filter2" width="300%" x="-100%" y="-100%">
+      <feGaussianBlur in="SourceGraphic" result="filterResult2" stdDeviation="0.1914838278181222 0.1914838278181222" />
+      <feGaussianBlur in="filterResult2" result="filterResult3" stdDeviation="0.1914838278181222 0.1914838278181222" />
+      <feGaussianBlur in="filterResult3" result="filterResult4" stdDeviation="0.1914838278181222 0.1914838278181222" />
+    </filter>
+    <use filter="url(#filter2)" height="176.0" transform="matrix(0.9, 0.0, 0.0, 0.9, 0.0, 412.4)" width="176.0" xlink:href="#sprite1" />
+    <use height="176.0" transform="matrix(1.0, 0.0, 0.0, 1.0, -35.55, 412.4)" width="176.0" xlink:href="#sprite2" />
+    <filter color-interpolation-filters="sRGB" height="300%" id="filter4" width="300%" x="-100%" y="-100%">
+      <feColorMatrix in="SourceGraphic" result="filterResult5" type="matrix" values="-0.43937185 0.5917702 0.84760165 0.0 -0.27450982 0.45682144 0.649858 -0.106679425 0.0 -0.27450982 -0.27602857 1.7186255 -0.44259706 0.0 -0.2745098 0.0 0.0 0.0 1.0 0.0" />
+    </filter>
+    <use filter="url(#filter4)" height="176.0" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="176.0" xlink:href="#sprite0" />
+  </g>
+  <defs>
+    <g id="sprite0">
+      <use height="176.0" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="176.0" xlink:href="#shape0" />
+    </g>
+    <g id="shape0">
+      <path d="M62.2 62.2 Q36.45 88.0 0.0 88.0 -36.45 88.0 -62.25 62.2 -88.0 36.45 -88.0 0.0 -88.0 -36.45 -62.25 -62.25 -36.45 -88.0 0.0 -88.0 36.45 -88.0 62.2 -62.25 88.0 -36.45 88.0 0.0 88.0 36.45 62.2 62.2" fill="url(#gradient0)" fill-rule="evenodd" stroke="none" />
+      <path d="M61.55 61.6 Q36.05 87.15 0.0 87.15 -36.1 87.15 -61.65 61.6 -87.15 36.1 -87.15 0.0 -87.15 -36.05 -61.65 -61.6 -36.1 -87.1 0.0 -87.1 36.05 -87.1 61.55 -61.6 87.1 -36.05 87.1 0.0 87.1 36.1 61.55 61.6" fill="url(#gradient1)" fill-rule="evenodd" stroke="none" />
+      <path d="M-61.6 -61.55 Q-36.1 -87.1 -0.05 -87.1 36.05 -87.1 61.6 -61.55 87.1 -36.05 87.1 0.05 87.1 36.1 61.6 61.65 36.05 87.15 -0.05 87.15 -36.1 87.15 -61.6 61.65 -87.15 36.1 -87.15 0.05 -87.15 -36.05 -61.6 -61.55" fill="url(#gradient2)" fill-rule="evenodd" stroke="none" />
+      <path d="M-61.6 -61.55 Q-36.1 -87.1 -0.05 -87.1 36.05 -87.1 61.6 -61.55 87.1 -36.05 87.1 0.05 87.1 36.1 61.6 61.65 36.05 87.15 -0.05 87.15 -36.1 87.15 -61.6 61.65 -87.15 36.1 -87.15 0.05 -87.15 -36.05 -61.6 -61.55" fill="url(#gradient3)" fill-rule="evenodd" stroke="none" />
+    </g>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(0.1086, 0.0, 0.0, 0.1086, 0.0, 0.0)" gradientUnits="userSpaceOnUse" id="gradient0" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#916000" />
+      <stop offset="0.7803921568627451" stop-color="#cda900" />
+      <stop offset="0.8274509803921568" stop-color="#d29600" />
+      <stop offset="0.8627450980392157" stop-color="#f1d541" />
+      <stop offset="0.9686274509803922" stop-color="#dbcf1b" />
+      <stop offset="1.0" stop-color="#996600" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" fx="582.4" fy="0" gradientTransform="matrix(0.1076, 0.0, 0.0, 0.1076, 0.0, 0.0)" gradientUnits="userSpaceOnUse" id="gradient1" r="819.2" spreadMethod="pad">
+      <stop offset="0.5333333333333333" stop-color="#916000" stop-opacity="0.5019608" />
+      <stop offset="1.0" stop-color="#ffb600" stop-opacity="0.007843138" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" fx="582.4" fy="0" gradientTransform="matrix(-0.1076, 0.0, 0.0, -0.1076, -0.05, 0.05)" gradientUnits="userSpaceOnUse" id="gradient2" r="819.2" spreadMethod="pad">
+      <stop offset="0.5333333333333333" stop-color="#ffe000" stop-opacity="0.49803922" />
+      <stop offset="1.0" stop-color="#ffb600" stop-opacity="0.007843138" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(-0.1076, 0.0, 0.0, -0.1076, -0.05, 0.05)" gradientUnits="userSpaceOnUse" id="gradient3" r="819.2" spreadMethod="pad">
+      <stop offset="0.6941176470588235" stop-color="#ffc400" stop-opacity="0.0" />
+      <stop offset="0.8156862745098039" stop-color="#ffee00" stop-opacity="0.3019608" />
+      <stop offset="0.9725490196078431" stop-color="#a09500" />
+      <stop offset="1.0" stop-color="#d2ad00" />
+    </radialGradient>
+    <g id="sprite1">
+      <use height="176.0" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="176.0" xlink:href="#shape1" />
+    </g>
+    <g id="shape1">
+      <path d="M62.2 62.2 Q36.45 88.0 0.0 88.0 -36.45 88.0 -62.25 62.2 -88.0 36.45 -88.0 0.0 -88.0 -36.45 -62.25 -62.25 -36.45 -88.0 0.0 -88.0 36.45 -88.0 62.2 -62.25 88.0 -36.45 88.0 0.0 88.0 36.45 62.2 62.2" fill="url(#gradient4)" fill-rule="evenodd" stroke="none" />
+      <path d="M61.55 61.6 Q36.05 87.15 0.0 87.15 -36.1 87.15 -61.65 61.6 -87.15 36.1 -87.15 0.0 -87.15 -36.05 -61.65 -61.6 -36.1 -87.1 0.0 -87.1 36.05 -87.1 61.55 -61.6 87.1 -36.05 87.1 0.0 87.1 36.1 61.55 61.6" fill="url(#gradient5)" fill-rule="evenodd" stroke="none" />
+      <path d="M-61.6 -61.55 Q-36.1 -87.1 -0.05 -87.1 36.05 -87.1 61.6 -61.55 87.1 -36.05 87.1 0.05 87.1 36.1 61.6 61.65 36.05 87.15 -0.05 87.15 -36.1 87.15 -61.6 61.65 -87.15 36.1 -87.15 0.05 -87.15 -36.05 -61.6 -61.55" fill="url(#gradient6)" fill-rule="evenodd" stroke="none" />
+      <path d="M-61.6 -61.55 Q-36.1 -87.1 -0.05 -87.1 36.05 -87.1 61.6 -61.55 87.1 -36.05 87.1 0.05 87.1 36.1 61.6 61.65 36.05 87.15 -0.05 87.15 -36.1 87.15 -61.6 61.65 -87.15 36.1 -87.15 0.05 -87.15 -36.05 -61.6 -61.55" fill="url(#gradient7)" fill-rule="evenodd" stroke="none" />
+    </g>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(0.1086, 0.0, 0.0, 0.1086, 0.0, 0.0)" gradientUnits="userSpaceOnUse" id="gradient4" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#000000" />
+      <stop offset="0.7803921568627451" stop-color="#000000" />
+      <stop offset="0.8274509803921568" stop-color="#000000" />
+      <stop offset="0.8627450980392157" stop-color="#000000" />
+      <stop offset="0.9686274509803922" stop-color="#000000" />
+      <stop offset="1.0" stop-color="#000000" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" fx="582.4" fy="0" gradientTransform="matrix(0.1076, 0.0, 0.0, 0.1076, 0.0, 0.0)" gradientUnits="userSpaceOnUse" id="gradient5" r="819.2" spreadMethod="pad">
+      <stop offset="0.5333333333333333" stop-color="#000000" stop-opacity="0.5019608" />
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.007843138" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" fx="582.4" fy="0" gradientTransform="matrix(-0.1076, 0.0, 0.0, -0.1076, -0.05, 0.05)" gradientUnits="userSpaceOnUse" id="gradient6" r="819.2" spreadMethod="pad">
+      <stop offset="0.5333333333333333" stop-color="#000000" stop-opacity="0.49803922" />
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.007843138" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(-0.1076, 0.0, 0.0, -0.1076, -0.05, 0.05)" gradientUnits="userSpaceOnUse" id="gradient7" r="819.2" spreadMethod="pad">
+      <stop offset="0.6941176470588235" stop-color="#000000" stop-opacity="0.0" />
+      <stop offset="0.8156862745098039" stop-color="#000000" stop-opacity="0.3019608" />
+      <stop offset="0.9725490196078431" stop-color="#000000" />
+      <stop offset="1.0" stop-color="#000000" />
+    </radialGradient>
+    <g id="sprite2">
+      <use height="176.0" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="176.0" xlink:href="#shape2" />
+    </g>
+    <g id="shape2">
+      <path d="M62.2 62.2 Q36.45 88.0 0.0 88.0 -36.45 88.0 -62.25 62.2 -88.0 36.45 -88.0 0.0 -88.0 -36.45 -62.25 -62.25 -36.45 -88.0 0.0 -88.0 36.45 -88.0 62.2 -62.25 88.0 -36.45 88.0 0.0 88.0 36.45 62.2 62.2" fill="url(#gradient8)" fill-rule="evenodd" stroke="none" />
+      <path d="M61.55 61.6 Q36.05 87.15 0.0 87.15 -36.1 87.15 -61.65 61.6 -87.15 36.1 -87.15 0.0 -87.15 -36.05 -61.65 -61.6 -36.1 -87.1 0.0 -87.1 36.05 -87.1 61.55 -61.6 87.1 -36.05 87.1 0.0 87.1 36.1 61.55 61.6" fill="url(#gradient9)" fill-rule="evenodd" stroke="none" />
+      <path d="M-61.6 -61.55 Q-36.1 -87.1 -0.05 -87.1 36.05 -87.1 61.6 -61.55 87.1 -36.05 87.1 0.05 87.1 36.1 61.6 61.65 36.05 87.15 -0.05 87.15 -36.1 87.15 -61.6 61.65 -87.15 36.1 -87.15 0.05 -87.15 -36.05 -61.6 -61.55" fill="url(#gradient10)" fill-rule="evenodd" stroke="none" />
+      <path d="M-61.6 -61.55 Q-36.1 -87.1 -0.05 -87.1 36.05 -87.1 61.6 -61.55 87.1 -36.05 87.1 0.05 87.1 36.1 61.6 61.65 36.05 87.15 -0.05 87.15 -36.1 87.15 -61.6 61.65 -87.15 36.1 -87.15 0.05 -87.15 -36.05 -61.6 -61.55" fill="url(#gradient11)" fill-rule="evenodd" stroke="none" />
+    </g>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(0.1086, 0.0, 0.0, 0.1086, 0.0, 0.0)" gradientUnits="userSpaceOnUse" id="gradient8" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#916000" />
+      <stop offset="0.7803921568627451" stop-color="#cda900" />
+      <stop offset="0.8274509803921568" stop-color="#d29600" />
+      <stop offset="0.8627450980392157" stop-color="#f1d541" />
+      <stop offset="0.9686274509803922" stop-color="#dbcf1b" />
+      <stop offset="1.0" stop-color="#996600" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" fx="582.4" fy="0" gradientTransform="matrix(0.1076, 0.0, 0.0, 0.1076, 0.0, 0.0)" gradientUnits="userSpaceOnUse" id="gradient9" r="819.2" spreadMethod="pad">
+      <stop offset="0.5333333333333333" stop-color="#916000" stop-opacity="0.5019608" />
+      <stop offset="1.0" stop-color="#ffb600" stop-opacity="0.007843138" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" fx="582.4" fy="0" gradientTransform="matrix(-0.1076, 0.0, 0.0, -0.1076, -0.05, 0.05)" gradientUnits="userSpaceOnUse" id="gradient10" r="819.2" spreadMethod="pad">
+      <stop offset="0.5333333333333333" stop-color="#ffe000" stop-opacity="0.49803922" />
+      <stop offset="1.0" stop-color="#ffb600" stop-opacity="0.007843138" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(-0.1076, 0.0, 0.0, -0.1076, -0.05, 0.05)" gradientUnits="userSpaceOnUse" id="gradient11" r="819.2" spreadMethod="pad">
+      <stop offset="0.6941176470588235" stop-color="#ffc400" stop-opacity="0.0" />
+      <stop offset="0.8156862745098039" stop-color="#ffee00" stop-opacity="0.3019608" />
+      <stop offset="0.9725490196078431" stop-color="#a09500" />
+      <stop offset="1.0" stop-color="#d2ad00" />
+    </radialGradient>
+  </defs>
+</svg>

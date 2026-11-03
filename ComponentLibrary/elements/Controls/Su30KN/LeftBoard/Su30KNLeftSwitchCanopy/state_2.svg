@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="211.9" width="322" viewBox="-164.8 -105.65 322 211.9">
+  <g>
+    <use height="162.95" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="193.8" xlink:href="#shape0" />
+  </g>
+  <defs>
+    <g id="shape0">
+      <path d="M22.0 25.35 L-18.5 25.35 -18.5 -50.85 22.0 -50.85 22.0 25.35" fill="url(#gradient0)" fill-rule="evenodd" stroke="none" />
+      <path d="M16.45 -77.1 L27.75 -65.8 27.75 -14.0 -33.75 -14.0 -33.75 -69.3 -25.95 -77.1 16.45 -77.1" fill="url(#gradient1)" fill-rule="evenodd" stroke="none" />
+      <path d="M6.65 -18.6 L6.2 -17.5 Q9.25 -19.3 11.95 -22.0 19.85 -29.85 19.85 -40.9 19.85 -52.0 11.95 -59.85 5.65 -66.15 -2.75 -67.4 -1.25 -65.65 -1.9 -65.6 16.25 -45.95 6.65 -18.6 M13.6 -76.4 L24.9 -65.1 24.9 -13.3 -36.6 -13.3 -36.6 -68.6 -28.8 -76.4 13.6 -76.4 M-19.55 -61.7 Q-27.45 -53.85 -27.45 -42.75 -27.45 -31.7 -19.55 -23.85 -16.85 -21.15 -13.8 -19.35 L-14.25 -20.45 Q-23.85 -47.8 -5.7 -67.45 -6.35 -67.5 -4.85 -69.25 -13.25 -68.0 -19.55 -61.7" fill="#bfbfbf" fill-rule="evenodd" stroke="none" />
+      <path d="M-19.55 -61.7 Q-13.25 -68.0 -4.85 -69.25 -6.35 -67.5 -5.7 -67.45 -23.85 -47.8 -14.25 -20.45 L-13.8 -19.35 Q-16.85 -21.15 -19.55 -23.85 -27.45 -31.7 -27.45 -42.75 -27.45 -53.85 -19.55 -61.7" fill="#848484" fill-rule="evenodd" stroke="none" />
+      <path d="M88.1 -6.75 Q86.55 2.25 77.6 0.7 L-6.55 -14.15 Q-11.95 -15.1 -13.5 -18.75 L-13.8 -19.35 -14.25 -20.45 Q-23.85 -47.8 -5.7 -67.45 -6.35 -67.5 -4.85 -69.25 L-4.75 -69.35 Q-2.05 -72.55 3.55 -71.6 L87.7 -56.75 Q96.65 -55.2 95.1 -46.2 L88.1 -6.75" fill="url(#gradient2)" fill-rule="evenodd" stroke="none" />
+      <path d="M38.75 -24.75 Q38.75 -58.25 55.4 -81.95 72.05 -105.65 95.7 -105.65 119.3 -105.65 136.0 -81.95 152.65 -58.25 152.65 -24.75 152.65 8.75 136.0 32.45 119.3 56.15 95.7 56.15 72.05 56.15 55.4 32.45 38.75 8.75 38.75 -24.75" fill="#f7f7f7" fill-rule="evenodd" stroke="none" />
+      <path d="M101.55 -104.5 L101.0 -104.5 100.75 -104.5 100.25 -104.5 Q76.6 -104.5 59.95 -80.8 43.3 -57.1 43.3 -23.6 43.3 9.9 59.95 33.6 70.25 48.3 83.25 53.9 L83.4 53.95 84.65 54.45 87.2 55.35 Q68.95 51.75 55.4 32.45 38.75 8.75 38.75 -24.75 38.75 -58.25 55.4 -81.95 72.05 -105.65 95.7 -105.65 101.5 -105.65 106.9 -104.2 L104.65 -104.4 102.5 -104.5 102.0 -104.5 101.55 -104.5" fill="url(#gradient3)" fill-rule="evenodd" stroke="none" />
+      <path d="M87.2 55.35 L84.65 54.45 83.4 53.95 83.25 53.9 Q70.25 48.3 59.95 33.6 43.3 9.9 43.3 -23.6 43.3 -57.1 59.95 -80.8 76.6 -104.5 100.25 -104.5 L100.75 -104.5 101.0 -104.5 101.55 -104.5 102.9 -104.4 105.15 -104.2 Q125.6 -102.0 140.55 -80.8 157.2 -57.1 157.2 -23.6 157.2 9.9 140.55 33.6 123.85 57.3 100.25 57.3 93.45 57.3 87.2 55.35" fill="url(#gradient4)" fill-rule="evenodd" stroke="none" />
+    </g>
+    <linearGradient gradientTransform="matrix(0.0247, 0.0, 0.0, 0.0465, 1.75, -12.75)" gradientUnits="userSpaceOnUse" id="gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#929896" />
+      <stop offset="0.5058823529411764" stop-color="#aaaaaa" />
+      <stop offset="1.0" stop-color="#848484" />
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(0.0375, 0.0, 0.0, 0.0385, -3.05, -45.6)" gradientUnits="userSpaceOnUse" id="gradient1" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#929896" />
+      <stop offset="0.5058823529411764" stop-color="#aaaaaa" />
+      <stop offset="1.0" stop-color="#848484" />
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(-0.0069, 0.0373, 0.035, 0.0065, 40.6, -35.5)" gradientUnits="userSpaceOnUse" id="gradient2" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#548092" />
+      <stop offset="0.5058823529411764" stop-color="#99b8c4" />
+      <stop offset="1.0" stop-color="#548092" />
+    </linearGradient>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(-0.0698, 0.0, 0.0, 0.0994, 114.75, -30.1)" gradientUnits="userSpaceOnUse" id="gradient3" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="1.0" stop-color="#9b9586" />
+    </radialGradient>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(-0.0698, 0.0, 0.0, 0.0994, 108.25, -46.1)" gradientUnits="userSpaceOnUse" id="gradient4" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#ffffff" />
+      <stop offset="1.0" stop-color="#9b9586" />
+    </radialGradient>
+  </defs>
+</svg>

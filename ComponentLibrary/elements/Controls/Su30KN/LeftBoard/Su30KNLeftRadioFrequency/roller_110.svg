@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4.5" height="23.7" viewBox="-2.25 -11.85 4.5 23.7"><defs><g id="p0_shape0">
+      <path d="M7.5 -2.0 L11.6 -1.5 11.6 1.5 7.5 2.0 -7.5 2.0 -11.6 1.5 -11.6 -1.5 -7.5 -2.0 7.5 -2.0" fill="#000000" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="p0_shape1">
+      <path d="M-23.4 -1.7 L23.4 -1.7 23.4 1.7 -23.4 1.7 -23.4 -1.7" fill="#bc4505" fill-rule="evenodd" stroke="none" />
+      <path d="M-23.4 0.0 L-23.4 -1.7 23.4 -1.7 23.4 0.0 -23.4 0.0" fill="url(#p0_gradient0)" fill-rule="evenodd" stroke="none" />
+      <path d="M-23.4 0.0 L23.4 0.0 23.4 1.7 -23.4 1.7 -23.4 0.0" fill="url(#p0_gradient1)" fill-rule="evenodd" stroke="none" />
+    </g>
+    <linearGradient gradientTransform="matrix(0.0, 0.001, -0.0286, 0.0, 0.0, -0.85)" gradientUnits="userSpaceOnUse" id="p0_gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#663300" />
+      <stop offset="0.3137254901960784" stop-color="#663300" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(0.0, -0.001, -0.0286, 0.0, 0.0, 0.85)" gradientUnits="userSpaceOnUse" id="p0_gradient1" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#663300" />
+      <stop offset="0.3137254901960784" stop-color="#663300" stop-opacity="0.0" />
+    </linearGradient>
+    <g id="p0_shape2">
+      <path d="M-0.3 1.7 L-0.3 -1.7 0.25 -1.7 0.25 1.7 -0.3 1.7" fill="#663300" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="p0_shape3">
+      <path d="M-0.25 -1.7 L0.3 -1.7 0.3 1.7 -0.25 1.7 -0.25 -1.7" fill="url(#p0_gradient2)" fill-rule="evenodd" stroke="none" />
+    </g>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(2.0E-4, 0.0, 0.0, 0.0021, 0.0, 0.0)" gradientUnits="userSpaceOnUse" id="p0_gradient2" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#fe8600" />
+      <stop offset="1.0" stop-color="#bc4505" />
+    </radialGradient>
+    <g id="p0_shape4">
+      <path d="M0.0 1.7 L-2.3 1.7 -2.3 -1.7 0.0 -1.7 0.0 1.7" fill="url(#p0_gradient3)" fill-rule="evenodd" stroke="none" />
+      <path d="M0.0 -1.7 L2.35 -1.7 2.35 1.7 0.0 1.7 0.0 -1.7" fill="url(#p0_gradient4)" fill-rule="evenodd" stroke="none" />
+    </g>
+    <linearGradient gradientTransform="matrix(0.0014, 0.0, 0.0, 0.0021, -1.15, 0.0)" gradientUnits="userSpaceOnUse" id="p0_gradient3" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#663300" />
+      <stop offset="0.3137254901960784" stop-color="#663300" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(-0.0014, 0.0, 0.0, -0.0021, 1.2, 0.0)" gradientUnits="userSpaceOnUse" id="p0_gradient4" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#663300" />
+      <stop offset="0.3137254901960784" stop-color="#663300" stop-opacity="0.0" />
+    </linearGradient>
+    <g id="p0_shape5">
+      <path d="M7.5 -2.0 L11.6 -1.5 11.6 1.5 7.5 2.0 0.05 2.0 0.05 -2.0 7.5 -2.0" fill="url(#p0_gradient5)" fill-rule="evenodd" stroke="none" />
+      <path d="M0.0 2.0 L-7.45 2.0 -7.45 1.95 -11.55 1.5 -11.55 -1.5 -7.45 -2.05 -7.45 -2.0 0.0 -2.0 0.0 2.0" fill="url(#p0_gradient6)" fill-rule="evenodd" stroke="none" />
+      <path d="M11.8 -1.65 L11.85 -1.5 11.85 1.5 11.8 1.7 11.65 1.75 7.55 2.25 -7.5 2.25 -11.6 1.75 -11.75 1.7 -11.85 1.5 -11.85 -1.5 -11.75 -1.65 -11.6 -1.75 -7.5 -2.25 7.55 -2.25 11.65 -1.75 11.8 -1.65 M11.35 -1.25 L7.5 -1.75 -7.5 -1.75 -11.35 -1.25 -11.35 1.3 -7.45 1.75 7.5 1.75 11.35 1.3 11.35 -1.25" fill="url(#p0_gradient7)" fill-rule="evenodd" stroke="none" />
+    </g>
+    <linearGradient gradientTransform="matrix(0.007, 0.0, 0.0, 0.0024, 5.8, 0.0)" gradientUnits="userSpaceOnUse" id="p0_gradient5" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.5058823529411764" stop-color="#663300" stop-opacity="0.0" />
+      <stop offset="0.9176470588235294" stop-color="#663300" />
+      <stop offset="1.0" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(-0.007, 0.0, 0.0, -0.0024, -5.75, -0.05)" gradientUnits="userSpaceOnUse" id="p0_gradient6" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.5058823529411764" stop-color="#663300" stop-opacity="0.0" />
+      <stop offset="0.9176470588235294" stop-color="#663300" />
+      <stop offset="1.0" stop-color="#000000" />
+    </linearGradient>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(0.0147, 0.0, 0.0, 0.0147, 0.0, 0.0)" gradientUnits="userSpaceOnUse" id="p0_gradient7" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#232323" />
+      <stop offset="1.0" stop-color="#000000" />
+    </radialGradient>
+  <mask id="p0_clipPath0" maskContentUnits="userSpaceOnUse">
+      <path d="M -7.5 -2 L -11.6 -1.5 L -11.6 1.5 L -7.5 2 L 7.5 2 L 11.6 1.5 L 11.6 -1.5 L 7.5 -2 Z" fill="white" stroke="none" />
+    </mask>
+    </defs><g transform="matrix(0 1 -1 0 0 0)">
+    <use height="4.0" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="23.2" xlink:href="#p0_shape0" />
+    <g mask="url(#p0_clipPath0)">
+      <use height="3.4" transform="matrix(1.0, 0.0, 0.0, 1.0, 7.0, 0.0)" width="46.8" xlink:href="#p0_shape1" />
+      <use height="3.4" transform="matrix(-1.002, 0.0, 0.0, -1.0, 13.45, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.002, 0.0, 0.0, 1.0, 14.45, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.002, 0.0, 0.0, 1.0, 13.95, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.002, 0.0, 0.0, 1.0, 12.95, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.002, 0.0, 0.0, 1.0, 14.95, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.002, 0.0, 0.0, 1.0, 15.5, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.002, 0.0, 0.0, 1.0, 16.0, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(-1.002, 0.0, 0.0, -1.0, 12.4, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.002, 0.0, 0.0, 1.0, 11.9, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.002, 0.0, 0.0, 1.0, 13.95, 0.0)" width="4.65" xlink:href="#p0_shape4" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, 20.5, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 21.5, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 21.0, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 20.0, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 22.0, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 22.55, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 23.1, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, 19.45, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 18.9, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 21.0, 0.0)" width="4.65" xlink:href="#p0_shape4" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, 6.45, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 7.45, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 6.95, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 5.95, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 7.95, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 8.5, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 9.05, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, 5.4, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 4.85, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 6.95, 0.0)" width="4.65" xlink:href="#p0_shape4" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, -0.55, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 0.45, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -0.05, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -1.05, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 0.95, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 1.5, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 2.05, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, -1.6, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -2.15, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -0.05, 0.0)" width="4.65" xlink:href="#p0_shape4" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, 27.45, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 28.45, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 27.95, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 26.95, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 28.95, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 29.5, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 30.05, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, 26.4, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 25.85, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 27.95, 0.0)" width="4.65" xlink:href="#p0_shape4" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, -7.5, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -6.5, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -7.0, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -8.0, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -6.0, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -5.45, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -4.9, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, -8.55, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -9.1, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -7.0, 0.0)" width="4.65" xlink:href="#p0_shape4" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, 27.5, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 28.5, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 28.0, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 27.0, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 29.0, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 29.55, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 30.1, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, 26.45, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 25.9, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, 28.0, 0.0)" width="4.65" xlink:href="#p0_shape4" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, -14.55, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -13.55, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -14.05, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -15.05, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -13.05, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -12.5, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -11.95, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(-1.0128, 0.0, 0.0, -1.0, -15.6, 0.0)" width="0.55" xlink:href="#p0_shape2" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -16.15, 0.0)" width="0.55" xlink:href="#p0_shape3" />
+      <use height="3.4" transform="matrix(1.0128, 0.0, 0.0, 1.0, -14.05, 0.0)" width="4.65" xlink:href="#p0_shape4" />
+    </g>
+    <use height="4.5" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="23.7" xlink:href="#p0_shape5" />
+  </g>
+  </svg>

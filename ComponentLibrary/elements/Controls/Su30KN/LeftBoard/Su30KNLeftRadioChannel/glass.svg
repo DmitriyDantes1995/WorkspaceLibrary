@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38.38902" height="42.99202" viewBox="267.25549 758.45399 38.38902 42.99202"><defs><g id="p0_shape0">
+      <path d="M-19.85 -17.35 Q-19.85 -22.35 -14.85 -22.35 L14.85 -22.35 Q19.85 -22.35 19.85 -17.35 L19.85 17.35 Q19.85 22.35 14.85 22.35 L-14.85 22.35 Q-19.85 22.35 -19.85 17.35 L-19.85 -17.35" fill="#000000" fill-rule="evenodd" stroke="none" fill-opacity="0.2784314" />
+      <path d="M-19.85 -17.35 L-19.85 17.35 Q-19.85 22.35 -14.85 22.35 L14.85 22.35 Q19.85 22.35 19.85 17.35 L19.85 -17.35 Q19.85 -22.35 14.85 -22.35 L-14.85 -22.35 Q-19.85 -22.35 -19.85 -17.35 Z" fill="none" stroke="#72887c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" stroke-opacity="0.2784314" />
+    </g>
+  </defs><g transform="matrix(0.9206 0 0 0.9206 286.45 779.95)">
+    <use height="46.7" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="41.7" xlink:href="#p0_shape0" />
+  </g>
+  </svg>
