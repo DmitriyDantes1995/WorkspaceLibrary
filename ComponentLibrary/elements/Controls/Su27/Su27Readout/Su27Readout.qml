@@ -5,7 +5,7 @@ BaseSceneComponent {
     id:root
     my_type:"Su27Readout"
     my_subtype:"Su27Readout"
-    previewSource:"preview.png"
+    previewSource:"preview.svg"
     componentPath:"elements/Controls/Su27/Su27Readout/Su27Readout.qml"
     width:120; height:58
     property real value:0
@@ -13,6 +13,7 @@ BaseSceneComponent {
     property int decimals:0
     property string labelText:""
     property string style:"drum"
+    readonly property var catalogVariantProperties: ["style"]
     property bool blankWhenZero:false
     readonly property int digitCount:Math.min(12,Math.max(1,digits))
     readonly property int decimalCount:Math.min(6,Math.max(0,decimals),digitCount-1)

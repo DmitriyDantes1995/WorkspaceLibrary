@@ -2,24 +2,31 @@ pragma ComponentBehavior: Bound
 import QtQuick 2.15
 import common_qml 1.0
 import "../_parts" as Buttons
+import "ChannelLooks.js" as Channels
 
 Buttons.MarkableButton {
     id: root
 
     my_type: "UniversalLampButton"
     my_subtype: "UniversalLampButton"
-    implicitWidth: 52.824042
-    implicitHeight: 54.169505
-    previewSource: "state_0.svg"
+    implicitWidth: numbered ? channel.width : 52.824042
+    implicitHeight: numbered ? channel.height : 54.169505
+    previewSource: numbered ? channel.dark[0] : "state_0.svg"
 
+    property string appearance: "standard"
+    readonly property var catalogVariantProperties: ["appearance", "channelNumber"]
+    property int channelNumber: 1
+    readonly property bool numbered: appearance === "orangeChannel"
+    readonly property var channel: Channels.entries[channelNumber] || Channels.entries[1]
     property int lamp: 0
     // Older right-board binding files address this same lamp by this name.
     property alias illuminated: root.lamp
     property bool testMode: false
     readonly property bool verticalMarkings: Math.abs(markingRotation % 180) === 90
 
-    releasedFace: Qt.resolvedUrl("state_0.svg")
-    pressedFace: Qt.resolvedUrl("state_1.svg")
+    releasedFace: Qt.resolvedUrl(numbered ? (lamp === 1 ? channel.lit[0] : channel.dark[0]) : "state_0.svg")
+    pressedFace: Qt.resolvedUrl(numbered ? (lamp === 1 ? channel.lit[1] : channel.dark[1]) : "state_1.svg")
+    faceFillMode: numbered ? Image.PreserveAspectFit : Image.Stretch
     markingCenter: verticalMarkings ? Qt.point(28.5, 28.2) : Qt.point(26, 30)
     pressedOffset: Qt.point(2.46, 1.64)
     markingWidth: 28
@@ -33,10 +40,24 @@ Buttons.MarkableButton {
 
     customProperties: Object.assign({}, root.standardProperties, {
         lamp: root.lamp,
+        appearance: root.appearance,
+        channelNumber: root.channelNumber,
         illuminated: root.lamp,
         testMode: root.testMode
     })
     propertySchema: Object.assign({}, root.standardPropertySchema, {
+        appearance: { displayName: qsTr("Appearance"), type: "enum", bindable: false, order: -2,
+            values: [
+                { label: qsTr("Standard"), value: "standard", previewSource: Qt.resolvedUrl("state_0.svg") },
+                { label: qsTr("Orange channel"), value: "orangeChannel",
+                  previewSource: Qt.resolvedUrl(root.channel.dark[0]) }
+            ] },
+        channelNumber: { displayName: qsTr("Channel number"), type: "enum", bindable: false, order: -1,
+            visibleWhen: { property: "numbered", equals: true },
+            values: [1, 2, 3, 4].map(function(number) {
+                return { label: String(number), value: number,
+                         previewSource: Qt.resolvedUrl(Channels.entries[number].dark[0]) }
+            }) },
         lamp: { displayName: qsTr("Illuminated"), type: "number", bindable: true, access: "readOnly", min: 0, max: 1, step: 1, order: 7 },
         illuminated: { hidden: true, bindable: false, access: "readOnly" },
         testMode: { displayName: qsTr("Test mode"), type: "bool", bindable: false, order: 8 }
@@ -57,6 +78,6 @@ Buttons.MarkableButton {
 
     faceOverlay: AdaptiveSvgImage {
         source: Qt.resolvedUrl("lamp.svg")
-        visible: root.lamp === 1
+        visible: !root.numbered && root.lamp === 1
     }
 }

@@ -35,7 +35,7 @@ BaseSceneComponent {
 
     my_type: "FaultAnnunciator"
     my_subtype: "FaultAnnunciator"
-    previewSource: "preview.png"
+    previewSource: "preview.svg"
 
     width: designWidth
     height: designHeight

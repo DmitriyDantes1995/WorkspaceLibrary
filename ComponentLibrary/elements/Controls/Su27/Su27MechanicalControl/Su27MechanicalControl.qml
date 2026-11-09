@@ -10,6 +10,7 @@ Toggle3Position {
     clip: true
     previewSource: "preview.svg"
     property string profile: "protectedToggle"
+    readonly property var catalogVariantProperties: ["profile"]
     property string labelText: ""
     property bool guardOpen: false
     property bool mirror: false

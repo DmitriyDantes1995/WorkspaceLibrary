@@ -4,6 +4,7 @@ import QtQuick.Window 2.15
 ControlState {
     id: root
     property bool held: false
+    property rect hitRegion: Qt.rect(0, 0, 1, 1)
     function releaseFromUser() {
         if (!held) return
         held = false
@@ -16,7 +17,10 @@ ControlState {
         function onActiveChanged() { if (!root.Window.window.active) root.releaseFromUser() }
     }
     MouseArea {
-        anchors.fill: parent
+        x: root.width * root.hitRegion.x
+        y: root.height * root.hitRegion.y
+        width: root.width * root.hitRegion.width
+        height: root.height * root.hitRegion.height
         enabled: root.acceptsInput
         preventStealing: true
         cursorShape: Qt.PointingHandCursor
