@@ -1764,6 +1764,50 @@
             "z": 0
         }
     ],
+    "RectangularIndicator": [
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RectangularIndicator/RectangularIndicator.qml",
+            "customProperties": {
+                "offColor": "#6DF5F2",
+                "onColor": "#ff0000",
+                "value": 0
+            },
+            "height": 3.8645424123381105,
+            "locked": true,
+            "name": "RectangularIndicator_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 168,
+            "subtype": "RectangularIndicator",
+            "type": "RectangularIndicator",
+            "width": 11.604830496144416,
+            "x": 411.6783094087299,
+            "y": 108.66235062160158,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Indicators/RectangularIndicator/RectangularIndicator.qml",
+            "customProperties": {
+                "offColor": "#6DF5F2",
+                "onColor": "#ff0000",
+                "value": 0
+            },
+            "height": 4.151898734177209,
+            "locked": true,
+            "name": "RectangularIndicator_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 169,
+            "subtype": "RectangularIndicator",
+            "type": "RectangularIndicator",
+            "width": 9.880692565109939,
+            "x": 468.5173898685,
+            "y": 190.78878740321082,
+            "z": 0
+        }
+    ],
     "RedSafetySwitchVisual": [
         {
             "componentPath": "elements/Controls/Other/RedSafetySwitchVisual/RedSafetySwitchVisual.qml",
@@ -2304,8 +2348,8 @@
             "subtype": "Su30TargetType",
             "type": "Su30TargetType",
             "width": 71.67091999389602,
-            "x": 213.81138519243189,
-            "y": 585.3967172054397,
+            "x": 214.76075228103957,
+            "y": 592.0422868256929,
             "z": 0
         }
     ],
@@ -2774,6 +2818,8 @@
                         "x": 868.8953613807982,
                         "y": 506.23889377444874
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka/Podlozhka.qml",
@@ -2783,15 +2829,15 @@
             "instanceId": "3c24689d-b96e-4e7e-a95e-7c1eae8749d5",
             "locked": false,
             "name": "ContourPanel_Su27",
-            "opacity": 0,
+            "opacity": 0.04,
             "rotation": 0,
             "scale": 1,
             "stackingOrder": 47,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 1104.2857142857142,
-            "x": 119.13929726957485,
-            "y": 57.281852046511176,
+            "x": 120.33552444558802,
+            "y": 49.68691533765036,
             "z": 0
         },
         {
@@ -2860,6 +2906,8 @@
                         "x": 5.006531651452121,
                         "y": 42.3120000000001
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/PodlozhkaText2/PodlozhkaText2.qml",
@@ -2973,6 +3021,8 @@
                         "x": 124.65116279069753,
                         "y": 316.50780989715696
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka23432/Podlozhka23432.qml",
@@ -2980,7 +3030,7 @@
             },
             "height": 423.0869703727301,
             "instanceId": "21bba102-0e6c-4750-acb2-13ef552cb250",
-            "locked": false,
+            "locked": true,
             "name": "ContourPanel_3",
             "opacity": 0.22,
             "rotation": 0,
@@ -2989,8 +3039,8 @@
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 227.4418604651163,
-            "x": 132.8354498518596,
-            "y": 242.3447233141676,
+            "x": 132.20253845945456,
+            "y": 243.29409040277528,
             "z": 0
         },
         {
@@ -3094,6 +3144,8 @@
                         "x": 3.1890354165750523,
                         "y": 98.10126582278485
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/PodlozhkaText3/PodlozhkaText3.qml",
@@ -3167,6 +3219,8 @@
                         "x": 1.1904761904761472,
                         "y": 3.846153846153925
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka1233434/Podlozhka1233434.qml",
@@ -3240,6 +3294,8 @@
                         "x": 1.1904761904761472,
                         "y": 3.846153846153925
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka1233434/Podlozhka1233434.qml",
@@ -3334,6 +3390,8 @@
                         "x": 0.4651162790697754,
                         "y": 17.674418604651237
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka5656456/Podlozhka5656456.qml",
@@ -3412,6 +3470,8 @@
                         "x": 43.60313315926891,
                         "y": 19.582245430809508
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka8098098/Podlozhka8098098.qml",
@@ -3494,6 +3554,8 @@
                         "x": 3.562945368171029,
                         "y": 70.5463182897862
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka677897/Podlozhka677897.qml",
@@ -3524,8 +3586,8 @@
                 ],
                 "name": "Podlozhka34534544",
                 "parameters": {
-                    "fillColor": "#7B9AB9",
-                    "strokeColor": "#7B9AB9"
+                    "fillColor": "#92BCC4",
+                    "strokeColor": "#92BCC4"
                 },
                 "points": [
                     {
@@ -3693,6 +3755,8 @@
                         "x": 15.67944250871085,
                         "y": 191.6376306620209
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka34534544/Podlozhka34534544.qml",
@@ -3723,7 +3787,8 @@
                 ],
                 "name": "Podlozhka",
                 "parameters": {
-                    "fillColor": "#606060"
+                    "fillColor": "#B8DCE2",
+                    "strokeColor": "#B8DCE2"
                 },
                 "points": [
                     {
@@ -4116,6 +4181,8 @@
                         "x": 866.3100323624595,
                         "y": 510.2757657440228
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka/Podlozhka.qml",
@@ -4123,7 +4190,7 @@
             },
             "height": 711.712119567307,
             "instanceId": "df98453d-bcbf-473d-a371-fabdf36295ae",
-            "locked": true,
+            "locked": false,
             "name": "ContourPanel_10",
             "opacity": 1,
             "rotation": 0,
@@ -4190,6 +4257,8 @@
                         "x": 0,
                         "y": 19.163763066202023
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka79797906905/Podlozhka79797906905.qml",
@@ -4212,8 +4281,8 @@
         },
         {
             "backgroundShape": {
-                "baseHeight": 186,
-                "baseWidth": 275,
+                "baseHeight": 186.63291139240505,
+                "baseWidth": 279.21940928270044,
                 "closed": true,
                 "cornerRadius": 0,
                 "holes": [
@@ -4227,56 +4296,156 @@
                     {
                         "cornerRadius": 0,
                         "x": 0,
-                        "y": 183.1223628691983
+                        "y": 183.74548238352114
                     },
                     {
                         "cornerRadius": 0,
-                        "x": 1.2658227848100978,
-                        "y": 162.44725738396625
+                        "x": 1.2852446917500302,
+                        "y": 163.00002469505907
                     },
                     {
                         "cornerRadius": 0,
-                        "x": 18.987341772151865,
-                        "y": 125.31645569620252
+                        "x": 19.278670376250858,
+                        "y": 125.74287619333128
                     },
                     {
                         "cornerRadius": 0,
-                        "x": 194.93670886075932,
-                        "y": 2.5316455696202524
+                        "x": 197.92768252950898,
+                        "y": 2.540260125117803
                     },
                     {
                         "cornerRadius": 0,
-                        "x": 273.83966244725735,
+                        "x": 278.04126831526287,
                         "y": 0
                     },
                     {
                         "cornerRadius": 0,
-                        "x": 274.6835443037973,
-                        "y": 178.48101265822783
+                        "x": 278.89809810976277,
+                        "y": 179.08833882080515
                     },
                     {
                         "cornerRadius": 0,
-                        "x": 271.30801687763693,
-                        "y": 185.65400843881855
+                        "x": 275.47077893176254,
+                        "y": 186.28574250863895
+                    }
+                ],
+                "polylines": [
+                    {
+                        "points": [
+                            {
+                                "x": 184.29300052574828,
+                                "y": 11.526486026704305
+                            },
+                            {
+                                "x": 184.29300052574828,
+                                "y": 35.37706073934797
+                            },
+                            {
+                                "x": 188.08594965916004,
+                                "y": 35.37706073934797
+                            },
+                            {
+                                "x": 188.08594965916004,
+                                "y": 71.8713136129112
+                            }
+                        ],
+                        "strokeColor": "#FFFFFF",
+                        "strokeWidth": 1.0034027494215325
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 98.22223172909553,
+                                "y": 73.02073890026753
+                            },
+                            {
+                                "x": 258.98492192216554,
+                                "y": 71.29660096923305
+                            }
+                        ],
+                        "strokeColor": "#FFFFFF",
+                        "strokeWidth": 1.0034027494215325
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 115.43638548842604,
+                                "y": 73.3080952221066
+                            },
+                            {
+                                "x": 115.43638548842604,
+                                "y": 87.10119867038247
+                            },
+                            {
+                                "x": 186.3353577514315,
+                                "y": 87.67591131406061
+                            },
+                            {
+                                "x": 186.3353577514315,
+                                "y": 133.0782101646353
+                            }
+                        ],
+                        "strokeColor": "#FFFFFF",
+                        "strokeWidth": 1.0034027494215325
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 143.73762133003729,
+                                "y": 134.51499177383073
+                            },
+                            {
+                                "x": 260.15198319398445,
+                                "y": 133.6529228083135
+                            }
+                        ],
+                        "strokeColor": "#FFFFFF",
+                        "strokeWidth": 1.0034027494215325
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 14.777350794035694,
+                                "y": 135.664417061187
+                            },
+                            {
+                                "x": 95.30457854954805,
+                                "y": 136.23912970486518
+                            },
+                            {
+                                "x": 95.5963438675028,
+                                "y": 165.2621182106123
+                            },
+                            {
+                                "x": 116.31168144229039,
+                                "y": 165.2621182106123
+                            },
+                            {
+                                "x": 116.31168144229039,
+                                "y": 184.51499177383073
+                            }
+                        ],
+                        "strokeColor": "#FFFFFF",
+                        "strokeWidth": 1.0034027494215325
                     }
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka69695/Podlozhka69695.qml",
             "customProperties": {
             },
-            "height": 186,
+            "height": 186.63291139240505,
             "instanceId": "485d073d-4085-4c7e-802d-ef9ba3e46acd",
-            "locked": false,
+            "locked": true,
             "name": "ContourPanel_12",
-            "opacity": 0,
+            "opacity": 1,
             "rotation": 0,
             "scale": 1,
             "stackingOrder": 112,
             "subtype": "ContourPanel",
             "type": "Substrate",
-            "width": 275,
-            "x": 267.9259980525803,
-            "y": 53.50697825381364,
+            "width": 279.21940928270044,
+            "x": 267.08211619604026,
+            "y": 48.12723141837063,
             "z": 0
         },
         {
@@ -4343,6 +4512,8 @@
                         "x": 4.275534441805121,
                         "y": 19.00237529691219
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka46465763777777/Podlozhka46465763777777.qml",
@@ -4397,6 +4568,8 @@
                         "x": 0.5221932114882293,
                         "y": 25.326370757180143
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka7979969797979/Podlozhka7979969797979.qml",
@@ -4461,6 +4634,8 @@
                         "x": 0.17857142857133113,
                         "y": 71.42857142857144
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka90890/Podlozhka90890.qml",
@@ -4515,6 +4690,8 @@
                         "x": 18.664047151277146,
                         "y": 10.216110019646408
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka85958/Podlozhka85958.qml",
@@ -4577,6 +4754,8 @@
                         "x": 0,
                         "y": 62.41900647948148
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka7767567/Podlozhka7767567.qml",
@@ -4651,6 +4830,8 @@
                         "x": 85.16057585825047,
                         "y": 21.92691029900334
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka67676/Podlozhka67676.qml",
@@ -4704,6 +4885,8 @@
                         "x": 65.01079913606907,
                         "y": 62.203023758099334
                     }
+                ],
+                "polylines": [
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka546566565/Podlozhka546566565.qml",

@@ -1,0 +1,1559 @@
+{
+    "Su30KNLeftButtonSduchannel1": [
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftButtonSduchannel1/Su30KNLeftButtonSduchannel1.qml",
+            "customProperties": {
+                "lamp": 0,
+                "value": 0
+            },
+            "height": 38.75710953488371,
+            "locked": true,
+            "name": "Su30KNLeftButtonSduchannel1_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 26,
+            "subtype": "Su30KNLeftButtonSduchannel1",
+            "type": "Su30KNLeftButtonSduchannel1",
+            "width": 38.75710953488371,
+            "x": 1528.1433798044545,
+            "y": 606.9005149999999,
+            "z": 0
+        }
+    ],
+    "Su30KNLeftButtonSduchannel2": [
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftButtonSduchannel2/Su30KNLeftButtonSduchannel2.qml",
+            "customProperties": {
+                "lamp": 0,
+                "value": 0
+            },
+            "height": 38.70840953488371,
+            "locked": true,
+            "name": "Su30KNLeftButtonSduchannel2_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 27,
+            "subtype": "Su30KNLeftButtonSduchannel2",
+            "type": "Su30KNLeftButtonSduchannel2",
+            "width": 38.70840953488371,
+            "x": 1527.7026135253845,
+            "y": 646.4597487209303,
+            "z": 0
+        }
+    ],
+    "Su30KNLeftButtonSduchannel3": [
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftButtonSduchannel3/Su30KNLeftButtonSduchannel3.qml",
+            "customProperties": {
+                "lamp": 0,
+                "value": 0
+            },
+            "height": 38.70840953488371,
+            "locked": true,
+            "name": "Su30KNLeftButtonSduchannel3_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 28,
+            "subtype": "Su30KNLeftButtonSduchannel3",
+            "type": "Su30KNLeftButtonSduchannel3",
+            "width": 38.70840953488371,
+            "x": 1528.1677298044542,
+            "y": 686.6923068604651,
+            "z": 0
+        }
+    ],
+    "Su30KNLeftButtonSduchannel4": [
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftButtonSduchannel4/Su30KNLeftButtonSduchannel4.qml",
+            "customProperties": {
+                "lamp": 0,
+                "value": 0
+            },
+            "height": 38.708409534883934,
+            "locked": true,
+            "name": "Su30KNLeftButtonSduchannel4_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 29,
+            "subtype": "Su30KNLeftButtonSduchannel4",
+            "type": "Su30KNLeftButtonSduchannel4",
+            "width": 38.708409534883934,
+            "x": 1529.0979623625935,
+            "y": 727.3899812790696,
+            "z": 0
+        }
+    ],
+    "Su30KNLeftSelectorPurdeltah": [
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSelectorPurdeltah/Su30KNLeftSelectorPurdeltah.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 114.65043502824881,
+            "locked": true,
+            "name": "Su30KNLeftSelectorPurdeltah_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 16,
+            "subtype": "Su30KNLeftSelectorPurdeltah",
+            "type": "Su30KNLeftSelectorPurdeltah",
+            "width": 114.65043502824881,
+            "x": 629.0939650703426,
+            "y": 519.6402561241578,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSelectorPurdeltah/Su30KNLeftSelectorPurdeltah.qml",
+            "customProperties": {
+                "value": 1
+            },
+            "height": 114.65043502824881,
+            "locked": true,
+            "name": "Su30KNLeftSelectorPurdeltah_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 17,
+            "subtype": "Su30KNLeftSelectorPurdeltah",
+            "type": "Su30KNLeftSelectorPurdeltah",
+            "width": 114.65043502824881,
+            "x": 630.1391628104557,
+            "y": 600.9114425648359,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSelectorPurdeltah/Su30KNLeftSelectorPurdeltah.qml",
+            "customProperties": {
+                "value": 1
+            },
+            "height": 114.65043502824881,
+            "locked": true,
+            "name": "Su30KNLeftSelectorPurdeltah_3",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 18,
+            "subtype": "Su30KNLeftSelectorPurdeltah",
+            "type": "Su30KNLeftSelectorPurdeltah",
+            "width": 114.65043502824881,
+            "x": 628.9244735449189,
+            "y": 679.3577702484517,
+            "z": 0
+        }
+    ],
+    "Su30KNLeftSelectorR862ch": [
+        {
+            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSelectorR862ch/Su30KNLeftSelectorR862ch.qml",
+            "customProperties": {
+                "value": 15
+            },
+            "height": 108.3199,
+            "locked": true,
+            "name": "Su30KNLeftSelectorR862ch_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 19,
+            "subtype": "Su30KNLeftSelectorR862ch",
+            "type": "Su30KNLeftSelectorR862ch",
+            "width": 108.3199,
+            "x": 634.5191195901161,
+            "y": 777.0428117738754,
+            "z": 0
+        }
+    ],
+    "Su30KNRightSwitchSystemBlue": [
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_1",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 30,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 497.6357966203677,
+            "y": 514.6432555454909,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_2",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 31,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 574.7288198761818,
+            "y": 514.5269764757235,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_3",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 32,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 575.5427733645541,
+            "y": 573.9455811268863,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_4",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 33,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 498.68230824827526,
+            "y": 573.8293020571188,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_5",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 34,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 499.0311454575776,
+            "y": 630.9223253129327,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_6",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 35,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 576.5892849924616,
+            "y": 631.271162522235,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_7",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 36,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 575.5427733645546,
+            "y": 689.7595346152583,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_8",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 37,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 496.8218431319964,
+            "y": 689.178139266421,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_9",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 38,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 497.6357966203684,
+            "y": 746.7362788013049,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_10",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 39,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 576.5892849924616,
+            "y": 747.0851160106072,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_11",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 40,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 575.0776570854846,
+            "y": 802.3176741501422,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
+            "customProperties": {
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_12",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 41,
+            "subtype": "Su30KNRightSwitchSystemBlue",
+            "type": "Su30KNRightSwitchSystemBlue",
+            "width": 55.24131883336068,
+            "x": 499.6125408064148,
+            "y": 802.6665113594445,
+            "z": 0
+        }
+    ],
+    "Substrate": [
+        {
+            "backgroundShape": {
+                "baseHeight": 430,
+                "baseWidth": 1909,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "PodlozhkaLev",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 18.633540372670836,
+                        "y": 403.1055900621117
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 0.6211180124223574
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1866.4596273291927,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1908.695652173913,
+                        "y": 155.9006211180124
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1876.7701863354037,
+                        "y": 403.72670807453414
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1814.6583850931675,
+                        "y": 403.1055900621118
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1785.4658385093167,
+                        "y": 429.1925465838509
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1396.645962732919,
+                        "y": 429.81366459627327
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1371.8012422360248,
+                        "y": 403.1055900621118
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1106.5975275200603,
+                        "y": 403.72670807453403
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 845.1068442902467,
+                        "y": 403.1055900621117
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 381.1316890107434,
+                        "y": 403.1055900621119
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/PodlozhkaLev/PodlozhkaLev.qml",
+            "customProperties": {
+            },
+            "height": 430,
+            "instanceId": "a008a926-7928-4e3f-b839-4a32c305c2f2",
+            "locked": false,
+            "name": "ContourPanel_1",
+            "opacity": 0.27,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 0,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 1909,
+            "x": 5.327938318449071,
+            "y": 485.0931677018633,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 396,
+                "baseWidth": 145,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.5128205128205536,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 144.61538461538476,
+                        "y": 0.5128205128206105
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 144.61538461538476,
+                        "y": 395.897435897436
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 395.897435897436
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 396,
+            "instanceId": "4db89742-32e3-460a-91b4-9977ea9e6d7e",
+            "locked": true,
+            "name": "ContourPanel_2",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 1,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 145,
+            "x": 1701.4589987906188,
+            "y": 488.71794871794873,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 395.37888198757764,
+                "baseWidth": 115.80745341614897,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.40957543206422,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 115.50027184210094,
+                        "y": 0.5120161641901747
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 115.50027184210094,
+                        "y": 395.27647875473974
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 395.27647875473974
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 395.37888198757764,
+            "instanceId": "72776a8b-f33e-40e3-9e11-5811dda87d0f",
+            "locked": true,
+            "name": "ContourPanel_3",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 2,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 115.80745341614897,
+            "x": 1586.5832223931034,
+            "y": 489.3701226309922,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 396,
+                "baseWidth": 171.70807453416137,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.6072787781933688,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 171.25261545051654,
+                        "y": 0.5128205128206105
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 171.25261545051654,
+                        "y": 395.897435897436
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 395.897435897436
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 396,
+            "instanceId": "bcbf4e65-b1d4-4f5b-b965-8d20d07dbfa2",
+            "locked": true,
+            "name": "ContourPanel_4",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 3,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 171.70807453416137,
+            "x": 1413.3223528278859,
+            "y": 488.780060519191,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 396.0000000000001,
+                "baseWidth": 115.80745341614897,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.40957543206422,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 115.50027184210094,
+                        "y": 0.5128205128206106
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 115.50027184210094,
+                        "y": 395.89743589743614
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 395.89743589743614
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 396.0000000000001,
+            "instanceId": "58946c41-6d6d-4484-afde-bcf764de14d0",
+            "locked": true,
+            "name": "ContourPanel_5",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 4,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 115.80745341614897,
+            "x": 1298.4465764303704,
+            "y": 488.18999840738974,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 394.75776397515557,
+                "baseWidth": 232.57763975155262,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.822555755089553,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 231.96072293523574,
+                        "y": 0.5112118155597394
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 231.96072293523574,
+                        "y": 394.65552161204374
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 394.65552161204374
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 394.75776397515557,
+            "instanceId": "5368aedf-75a2-4a10-a9a5-a8458cf1473e",
+            "locked": true,
+            "name": "ContourPanel_6",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 5,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 232.57763975155262,
+            "x": 1066.8006136974514,
+            "y": 489.4632903328554,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 130.78260869565224,
+                "baseWidth": 167.36024844720475,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.5919018512722125,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 166.9163220587508,
+                        "y": 0.16936364762454953
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 166.9163220587508,
+                        "y": 130.74873596612738
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 130.74873596612738
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 130.78260869565224,
+            "instanceId": "db6c57ba-92df-4c9c-97d4-003f04e2d3aa",
+            "locked": true,
+            "name": "ContourPanel_7",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 6,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 167.36024844720475,
+            "x": 899.0736599830252,
+            "y": 489.3820537114573,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 109.66459627329198,
+                "baseWidth": 167.30410218619465,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.5917032791731492,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 166.86032472681498,
+                        "y": 0.14201579418973437
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 166.86032472681498,
+                        "y": 109.63619311445407
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 109.63619311445407
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 109.66459627329198,
+            "instanceId": "3ff32dc8-a9ed-49bc-ba11-dbf5edc545c8",
+            "locked": true,
+            "name": "ContourPanel_8",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 7,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 167.30410218619465,
+            "x": 898.5397441322339,
+            "y": 618.7179487179492,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 155.0062111801244,
+                "baseWidth": 170.80622521668909,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.6040892138521757,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 170.35315830630017,
+                        "y": 0.20073324421154354
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 170.35315830630017,
+                        "y": 154.96606453128217
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 154.96606453128217
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 155.0062111801244,
+            "instanceId": "f0b680a8-36dc-486d-b101-db44f5ec1d00",
+            "locked": true,
+            "name": "ContourPanel_9",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 8,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 170.80622521668909,
+            "x": 896.0863279831658,
+            "y": 729.3080108297504,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 395.3788819875779,
+                "baseWidth": 148.10559006211167,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.5238040320499503,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 147.71273703807438,
+                        "y": 0.512016164190175
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 147.71273703807438,
+                        "y": 395.27647875474
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 395.27647875474
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 395.3788819875779,
+            "instanceId": "d4c089bf-f580-4bde-834d-83713463f390",
+            "locked": true,
+            "name": "ContourPanel_10",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 9,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 148.10559006211167,
+            "x": 749.4403652502465,
+            "y": 489.4943462334768,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 107.80124223602502,
+                "baseWidth": 114.56521739130415,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.4051820243724607,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 114.26133087302493,
+                        "y": 0.13960274829842728
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 114.26133087302493,
+                        "y": 107.77332168636536
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 107.77332168636536
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 107.80124223602502,
+            "instanceId": "831be229-5219-4015-8b34-ab9c58ca1b6d",
+            "locked": true,
+            "name": "ContourPanel_11",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 10,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 114.56521739130415,
+            "x": 635.2167627657743,
+            "y": 776.5129797738498,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 287.92546583850964,
+                "baseWidth": 112.70186335403707,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.3985919128348224,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 112.40291941941109,
+                        "y": 0.3728638511247921
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 112.40291941941109,
+                        "y": 287.8508930682848
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 287.8508930682848
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 287.92546583850964,
+            "instanceId": "39a63c35-0a03-490a-988c-d8a6b0efed45",
+            "locked": true,
+            "name": "ContourPanel_12",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 11,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 112.70186335403707,
+            "x": 635.8068248775755,
+            "y": 489.52540213409793,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 394.1366459627333,
+                "baseWidth": 140.65217391304327,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.49744358589939686,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 140.27909122361888,
+                        "y": 0.5104074669293038
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 140.27909122361888,
+                        "y": 394.03456446934763
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 394.03456446934763
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 394.1366459627333,
+            "instanceId": "f01e12d4-89eb-4228-8f6e-c62380e2d111",
+            "locked": true,
+            "name": "ContourPanel_13",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 12,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 140.65217391304327,
+            "x": 494.84409195832063,
+            "y": 489.55645803471907,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 393.51552795031097,
+                "baseWidth": 119.534161490683,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka74747",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.4227556551394961,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 119.21709474932852,
+                        "y": 0.5096031182988681
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 119.21709474932852,
+                        "y": 393.41360732665134
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 393.41360732665134
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
+            "customProperties": {
+            },
+            "height": 393.51552795031097,
+            "instanceId": "b53266bd-c11a-4747-adf9-4b82d36aa914",
+            "locked": true,
+            "name": "ContourPanel_14",
+            "opacity": 0.67,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 13,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 119.534161490683,
+            "x": 375.6204894738487,
+            "y": 490.20863194776234,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 395.6521739130435,
+                "baseWidth": 188.1987577639751,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka95959",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 73.91304347826087,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 188.1987577639751,
+                        "y": 0.6211180124223006
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 188.1987577639751,
+                        "y": 395.6521739130435
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 395.6521739130435
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 72.67080745341616,
+                        "y": 191.30434782608688
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka95959/Podlozhka95959.qml",
+            "customProperties": {
+            },
+            "height": 395.6521739130435,
+            "instanceId": "9c109f56-3658-4ea7-84eb-cdeffc17ec56",
+            "locked": true,
+            "name": "ContourPanel_15",
+            "opacity": 0.68,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 14,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 188.1987577639751,
+            "x": 187.32612561789335,
+            "y": 488.81987577639745,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 395,
+                "baseWidth": 254,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka09098",
+                "parameters": {
+                    "fillColor": "#B1D2E1",
+                    "strokeColor": "#B1D2E1"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 253.41614906832297,
+                        "y": 0.6211180124223006
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 251.5527950310559,
+                        "y": 190.68322981366452
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 178.88198757763973,
+                        "y": 393.16770186335407
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 19.254658385093137,
+                        "y": 394.4099378881988
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka09098/Podlozhka09098.qml",
+            "customProperties": {
+            },
+            "height": 395,
+            "instanceId": "8e130b78-50ed-4a45-b96b-e460a542d4b1",
+            "locked": false,
+            "name": "ContourPanel_16",
+            "opacity": 0.68,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 15,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 254,
+            "x": 6.580784002986547,
+            "y": 488.81987577639745,
+            "z": 0
+        }
+    ],
+    "UniversalLampButton": [
+        {
+            "componentPath": "elements/Controls/simple/Buttons/UniversalLampButton/UniversalLampButton.qml",
+            "customProperties": {
+                "arrowDirection": 0,
+                "illuminated": 0,
+                "labelBottom": "",
+                "labelBottomRight": "",
+                "labelTop": "посад",
+                "lamp": 0,
+                "markingRotation": -90,
+                "outlineColor": "#ddb30b",
+                "showDivider": false,
+                "showOutline": false,
+                "testMode": false,
+                "value": 0
+            },
+            "height": 45.35100061639226,
+            "locked": true,
+            "name": "UniversalLampButton_1",
+            "opacity": 1,
+            "rotation": 180,
+            "scale": 1,
+            "stackingOrder": 20,
+            "subtype": "UniversalLampButton",
+            "type": "UniversalLampButton",
+            "width": 44.22457176417489,
+            "x": 1642.883720930232,
+            "y": 525.505886682356,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/UniversalLampButton/UniversalLampButton.qml",
+            "customProperties": {
+                "arrowDirection": 0,
+                "illuminated": 0,
+                "labelBottom": "",
+                "labelBottomRight": "",
+                "labelTop": "навед",
+                "lamp": 0,
+                "markingRotation": -90,
+                "outlineColor": "#ddb30b",
+                "showDivider": false,
+                "showOutline": false,
+                "testMode": false,
+                "value": 0
+            },
+            "height": 45.35100061639226,
+            "locked": true,
+            "name": "UniversalLampButton_2",
+            "opacity": 1,
+            "rotation": 180,
+            "scale": 1,
+            "stackingOrder": 21,
+            "subtype": "UniversalLampButton",
+            "type": "UniversalLampButton",
+            "width": 44.22457176417489,
+            "x": 1641.7298747763862,
+            "y": 566.9161430926129,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/UniversalLampButton/UniversalLampButton.qml",
+            "customProperties": {
+                "arrowDirection": 0,
+                "illuminated": 0,
+                "labelBottom": "",
+                "labelBottomRight": "",
+                "labelTop": "навиг",
+                "lamp": 0,
+                "markingRotation": -90,
+                "outlineColor": "#ddb30b",
+                "showDivider": false,
+                "showOutline": false,
+                "testMode": false,
+                "value": 0
+            },
+            "height": 45.35100061639226,
+            "locked": false,
+            "name": "UniversalLampButton_3",
+            "opacity": 1,
+            "rotation": 180,
+            "scale": 1,
+            "stackingOrder": 22,
+            "subtype": "UniversalLampButton",
+            "type": "UniversalLampButton",
+            "width": 44.22457176417489,
+            "x": 1641.6016696481815,
+            "y": 607.8135789900485,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/UniversalLampButton/UniversalLampButton.qml",
+            "customProperties": {
+                "arrowDirection": 3,
+                "illuminated": 0,
+                "labelBottom": "цз",
+                "labelBottomRight": "",
+                "labelTop": "",
+                "lamp": 0,
+                "markingRotation": -90,
+                "outlineColor": "#ddb30b",
+                "showDivider": false,
+                "showOutline": false,
+                "testMode": false,
+                "value": 0
+            },
+            "height": 45.35100061639226,
+            "locked": true,
+            "name": "UniversalLampButton_5",
+            "opacity": 1,
+            "rotation": 180,
+            "scale": 1,
+            "stackingOrder": 23,
+            "subtype": "UniversalLampButton",
+            "type": "UniversalLampButton",
+            "width": 44.22457176417489,
+            "x": 1800.384615384616,
+            "y": 526.0187071951771,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/UniversalLampButton/UniversalLampButton.qml",
+            "customProperties": {
+                "arrowDirection": 4,
+                "illuminated": 0,
+                "labelBottom": "цз",
+                "labelBottomRight": "",
+                "labelTop": "",
+                "lamp": 0,
+                "markingRotation": -90,
+                "outlineColor": "#ddb30b",
+                "showDivider": false,
+                "showOutline": false,
+                "testMode": false,
+                "value": 0
+            },
+            "height": 45.35100061639226,
+            "locked": true,
+            "name": "UniversalLampButton_6",
+            "opacity": 1,
+            "rotation": 180,
+            "scale": 1,
+            "stackingOrder": 24,
+            "subtype": "UniversalLampButton",
+            "type": "UniversalLampButton",
+            "width": 44.22457176417489,
+            "x": 1799.7435897435905,
+            "y": 566.916143092613,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/UniversalLampButton/UniversalLampButton.qml",
+            "customProperties": {
+                "arrowDirection": 1,
+                "illuminated": 0,
+                "labelBottom": "цз",
+                "labelBottomRight": "",
+                "labelTop": "",
+                "lamp": 0,
+                "markingRotation": -90,
+                "outlineColor": "#ddb30b",
+                "showDivider": false,
+                "showOutline": false,
+                "testMode": false,
+                "value": 0
+            },
+            "height": 45.35100061639226,
+            "locked": true,
+            "name": "UniversalLampButton_7",
+            "opacity": 1,
+            "rotation": 180,
+            "scale": 1,
+            "stackingOrder": 25,
+            "subtype": "UniversalLampButton",
+            "type": "UniversalLampButton",
+            "width": 44.22457176417489,
+            "x": 1799.615384615385,
+            "y": 607.3007584772281,
+            "z": 0
+        }
+    ],
+    "__sceneSettings": [
+        {
+            "componentPath": "",
+            "customProperties": {
+                "backgroundGeometry": {
+                    "height": 441.32620320855614,
+                    "width": 1920,
+                    "x": 0,
+                    "y": 479.33689839572196
+                },
+                "backgroundOpacity": 1,
+                "backgroundPath": "blueprints/LEV_PLT_27УБК.jpg",
+                "documentHeight": 1400,
+                "documentWidth": 1920,
+                "gridSize": 5,
+                "showGrid": false,
+                "snapToGrid": false
+            },
+            "height": 0,
+            "name": "__sceneSettings",
+            "rotation": 0,
+            "subtype": "background",
+            "type": "__sceneSettings",
+            "width": 0,
+            "x": 0,
+            "y": 0,
+            "z": -1000
+        }
+    ]
+}

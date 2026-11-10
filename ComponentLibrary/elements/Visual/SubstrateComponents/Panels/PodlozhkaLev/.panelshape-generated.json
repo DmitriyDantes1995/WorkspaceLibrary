@@ -1,0 +1,82 @@
+{
+    "assets": [
+        "PodlozhkaLev.qml",
+        "panel.svg"
+    ],
+    "closed": true,
+    "component": "PodlozhkaLev.qml",
+    "componentHeight": 430,
+    "componentWidth": 1909,
+    "fillColor": "#B1D2E1",
+    "formatVersion": 2,
+    "holes": [
+    ],
+    "kind": "PanelShapeEditorPlate",
+    "originX": 5.327938318449071,
+    "originY": 485.0931677018633,
+    "points": [
+        {
+            "cornerRadius": 0,
+            "x": 23.961478691119908,
+            "y": 888.198757763975
+        },
+        {
+            "cornerRadius": 0,
+            "x": 5.327938318449071,
+            "y": 485.71428571428567
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1871.7875656476417,
+            "y": 485.0931677018633
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1914.023590492362,
+            "y": 640.9937888198757
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1882.0981246538527,
+            "y": 888.8198757763975
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1819.9863234116165,
+            "y": 888.1987577639751
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1790.7937768277657,
+            "y": 914.2857142857142
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1401.973901051368,
+            "y": 914.9068322981366
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1377.1291805544738,
+            "y": 888.1987577639751
+        },
+        {
+            "cornerRadius": 0,
+            "x": 1111.9254658385094,
+            "y": 888.8198757763973
+        },
+        {
+            "cornerRadius": 0,
+            "x": 850.4347826086957,
+            "y": 888.198757763975
+        },
+        {
+            "cornerRadius": 0,
+            "x": 386.4596273291925,
+            "y": 888.1987577639752
+        }
+    ],
+    "sceneLayer": "background",
+    "strokeColor": "#B1D2E1",
+    "version": 3
+}
