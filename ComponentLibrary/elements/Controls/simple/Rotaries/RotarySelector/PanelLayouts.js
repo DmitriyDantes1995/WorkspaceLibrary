@@ -31,9 +31,9 @@ var artwork = {
     }
 }
 
+// Detent geometry referenced by previously saved selectors.
 var entries = {
     "r862Channel": {
-        "label": "R-862 channel · 20 positions",
         "width": 108.3199,
         "height": 108.3199,
         "appearance": "channelBar",
@@ -44,7 +44,6 @@ var entries = {
         "preview": "_art/r862Channel/preview.svg"
     },
     "arkChannel": {
-        "label": "ARK channel · 9 positions",
         "width": 82.136165,
         "height": 100.42437,
         "appearance": "narrowPointer",
@@ -55,7 +54,6 @@ var entries = {
         "preview": "_art/arkChannel/preview.svg"
     },
     "asoMode": {
-        "label": "ASO mode · 4 positions",
         "width": 96.515647,
         "height": 96.93915,
         "appearance": "roundedPaddle",
@@ -66,7 +64,6 @@ var entries = {
         "preview": "_art/asoMode/preview.svg"
     },
     "asoReg": {
-        "label": "ASO program · 9 positions",
         "width": 108.81354,
         "height": 102.41354,
         "appearance": "roundedPaddle",
@@ -77,7 +74,6 @@ var entries = {
         "preview": "_art/asoReg/preview.svg"
     },
     "emission": {
-        "label": "Emission · 3 positions",
         "width": 112.96247,
         "height": 78.772689,
         "appearance": "offsetPaddle",
@@ -88,7 +84,6 @@ var entries = {
         "preview": "_art/emission/preview.svg"
     },
     "navMode": {
-        "label": "Navigation mode · 7 positions",
         "width": 106.49207,
         "height": 111.23096,
         "appearance": "twoSided",
@@ -99,7 +94,6 @@ var entries = {
         "preview": "_art/navMode/preview.svg"
     },
     "sauHeight": {
-        "label": "SAU height · 5 positions",
         "width": 74.384879,
         "height": 92.702943,
         "appearance": "narrowPointer",
@@ -110,7 +104,6 @@ var entries = {
         "preview": "_art/sauHeight/preview.svg"
     },
     "sauMode": {
-        "label": "SAU mode · 4 positions",
         "width": 72.729236,
         "height": 99.359156,
         "appearance": "narrowPointer",
@@ -121,7 +114,6 @@ var entries = {
         "preview": "_art/sauMode/preview.svg"
     },
     "spoMode": {
-        "label": "SPO mode · 11 positions",
         "width": 129.49064,
         "height": 129.49064,
         "appearance": "broadPaddle",
@@ -132,7 +124,6 @@ var entries = {
         "preview": "_art/spoMode/preview.svg"
     },
     "sroRequest": {
-        "label": "SRO request · 4 positions",
         "width": 69.076196,
         "height": 74.699275,
         "appearance": "narrowPointer",
@@ -143,7 +134,6 @@ var entries = {
         "preview": "_art/sroRequest/preview.svg"
     },
     "srzo": {
-        "label": "SRZO · 4 positions",
         "width": 85.151557,
         "height": 70.340369,
         "appearance": "markedPaddle",
@@ -154,7 +144,6 @@ var entries = {
         "preview": "_art/srzo/preview.svg"
     },
     "tksMode": {
-        "label": "TKS mode · 4 positions",
         "width": 96.739802,
         "height": 96.818891,
         "appearance": "markedPaddle",
@@ -165,7 +154,6 @@ var entries = {
         "preview": "_art/tksMode/preview.svg"
     },
     "tksRange": {
-        "label": "TKS range · 3 positions",
         "width": 103.4898,
         "height": 103.552,
         "appearance": "markedPaddle",

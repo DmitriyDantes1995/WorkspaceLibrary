@@ -13,7 +13,7 @@ RotaryDiscrete {
                    ? placement.preview : artworkFor(effectiveAppearance)
 
     property string appearance: "auto"
-    readonly property var catalogVariantProperties: ["layout", "appearance"]
+    readonly property var catalogVariantProperties: ["appearance"]
     readonly property string catalogSection: "bare"
     property string layout: "custom"
     readonly property var placement: Layouts.entries[layout]
@@ -42,28 +42,20 @@ RotaryDiscrete {
                          firstAngle: root.firstAngle, angleStep: root.angleStep, value: root.value })
     propertySchema: ({
         appearance: { displayName: qsTr("Appearance"), type: "enum", bindable: false, order: 0,
-            visibleWhen: { property: "hasCustomDetents", equals: true },
             values: [{ label: qsTr("Pointer"), value: "pointer", previewSource: Qt.resolvedUrl("pointer.svg") },
-                     { label: qsTr("Round dial"), value: "dial", previewSource: Qt.resolvedUrl("dial.svg") },
-                     { label: qsTr("Default for layout"), value: "auto", catalogHidden: true,
-                       previewSource: Qt.resolvedUrl(root.artworkFor(root.placement ? root.placement.appearance : "pointer")) }]
+                     { label: qsTr("Round dial"), value: "dial", previewSource: Qt.resolvedUrl("dial.svg") }]
                 .concat(Object.keys(Layouts.artwork).map(function(key) {
                     return { label: Layouts.artwork[key].label, value: key,
                              previewSource: Qt.resolvedUrl(Layouts.artwork[key].source) }
                 })) },
-        layout: { displayName: qsTr("Detent layout"), type: "enum", bindable: false, order: 1,
-            values: [{ label: qsTr("Custom"), value: "custom" }]
-                .concat(Object.keys(Layouts.entries).map(function(key) {
-                    return { label: Layouts.entries[key].label, value: key,
-                             previewSource: Qt.resolvedUrl(Layouts.entries[key].preview) }
-                })) },
-        positionCount: { displayName: qsTr("Positions"), type: "number", bindable: false, min: 2, max: 36, step: 1, order: 2,
+        layout: { hidden: true, bindable: false },
+        positionCount: { displayName: qsTr("Position count"), type: "number", bindable: false, min: 2, max: 36, step: 1, order: 2,
             visibleWhen: { property: "hasCustomDetents", equals: true } },
         firstAngle: { displayName: qsTr("First angle"), type: "number", bindable: false, min: -360, max: 360, step: 1, order: 3,
             visibleWhen: { property: "hasCustomDetents", equals: true } },
         angleStep: { displayName: qsTr("Angle step"), type: "number", bindable: false, min: -360, max: 360, step: 1, order: 4,
             visibleWhen: { property: "hasCustomDetents", equals: true } },
-        value: { displayName: qsTr("Position"), type: "number", bindable: true, access: "readWrite",
+        value: { displayName: qsTr("Current position"), type: "number", bindable: true, access: "readWrite",
             min: root.minimumValue, max: root.maximumValue, step: 1, order: 5 }
     })
 
