@@ -35,6 +35,7 @@ BaseSceneComponent {
     readonly property real smallCenterY: 322
 
     supportsGaugeCalibration: true
+    readonly property string catalogSection: "round"
     gaugeCalibrationCenterX: bigCenterX * width / designWidth
     gaugeCalibrationCenterY: bigCenterY * height / designHeight
     gaugeCalibrationAngleOffset: 90

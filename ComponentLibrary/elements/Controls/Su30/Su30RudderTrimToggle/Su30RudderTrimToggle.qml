@@ -2,6 +2,8 @@ import QtQuick 2.15
 import common_qml 1.0
 
 Toggle3Position {
+    readonly property string catalogSection: "open"
+    readonly property int catalogPositions: stateCount
     id: root
     my_type: "Su30RudderTrimToggle"
     my_subtype: "Su30RudderTrimToggle"

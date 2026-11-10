@@ -2189,27 +2189,6 @@
             "z": 0
         }
     ],
-    "Su30RedTipToggle": [
-        {
-            "componentPath": "elements/Controls/Su30/Su30RedTipToggle/Su30RedTipToggle.qml",
-            "customProperties": {
-                "value": 1
-            },
-            "height": 34.16666666666667,
-            "locked": false,
-            "name": "Su30RedTipToggle_2",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 41,
-            "subtype": "Su30RedTipToggle",
-            "type": "Su30RedTipToggle",
-            "width": 20,
-            "x": 460.5866983372921,
-            "y": 200.95961995249414,
-            "z": 0
-        }
-    ],
     "Su30RetractExtend": [
         {
             "componentPath": "elements/Controls/Su30/Su30RetractExtend/Su30RetractExtend.qml",
@@ -2228,27 +2207,6 @@
             "width": 23.61549707602322,
             "x": 139.20295823457678,
             "y": 489.0866128620204,
-            "z": 0
-        }
-    ],
-    "Su30RingToggle": [
-        {
-            "componentPath": "elements/Controls/Su30/Su30RingToggle/Su30RingToggle.qml",
-            "customProperties": {
-                "value": 1
-            },
-            "height": 33.977366255143956,
-            "locked": true,
-            "name": "Su30RingToggle_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 43,
-            "subtype": "Su30RingToggle",
-            "type": "Su30RingToggle",
-            "width": 24.962962962962905,
-            "x": 147.2107712622031,
-            "y": 586.7408922657321,
             "z": 0
         }
     ],
@@ -6090,6 +6048,48 @@
             "width": 70.23644314868807,
             "x": 177.40838977898918,
             "y": 421.23781441453474,
+            "z": 0
+        }
+    ],
+    "UniversalToggleSwitch": [
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "redTip",
+                "value": 1
+            },
+            "height": 34.16666666666667,
+            "locked": false,
+            "name": "Su30RedTipToggle_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 41,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 20,
+            "x": 460.5866983372921,
+            "y": 200.95961995249414,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "su30Ring",
+                "value": 1
+            },
+            "height": 33.977366255143956,
+            "locked": true,
+            "name": "Su30RingToggle_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 43,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 24.962962962962905,
+            "x": 147.2107712622031,
+            "y": 586.7408922657321,
             "z": 0
         }
     ],

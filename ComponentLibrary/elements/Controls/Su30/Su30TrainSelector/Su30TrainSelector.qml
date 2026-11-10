@@ -2,6 +2,7 @@ import QtQuick 2.15
 import common_qml 1.0
 
 RotaryDiscrete {
+    readonly property string catalogSection: "scaled"
     id: root
     my_type: "Su30TrainSelector"
     my_subtype: "Su30TrainSelector"
@@ -13,7 +14,7 @@ RotaryDiscrete {
     height: designHeight
     inputCenterX: visualRoot.x + 66 * visualRoot.scale
     inputCenterY: visualRoot.y + 91 * visualRoot.scale
-    // Stroke centres in TrainSelectorFace/artwork.svg (Su30.jpg).
+    // Stroke centres in the integrated scale artwork.
     function tickAngle(x, y) { return Math.atan2(x - 66, 91 - y) * 180 / Math.PI }
     angles: [tickAngle(35.5,110), tickAngle(31,90), tickAngle(33,71.5),
              tickAngle(47.5,55.5), tickAngle(66.5,48.5)]

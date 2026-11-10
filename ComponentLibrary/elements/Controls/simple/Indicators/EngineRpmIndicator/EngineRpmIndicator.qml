@@ -28,6 +28,7 @@ BaseSceneComponent {
     readonly property real needleCenterY: designHeight / 2
 
     supportsGaugeCalibration: true
+    readonly property string catalogSection: "round"
     gaugeCalibrationChannels: [
         { id:"n1", title:"N1", valueProperty:"n1Value", mappingModeProperty:"n1MappingMode", inputMinProperty:"n1InputMin", inputMaxProperty:"n1InputMax", outputMinProperty:"n1OutputMinAngle", outputMaxProperty:"n1OutputMaxAngle", pointsProperty:"n1MappingPoints", centerX:needleCenterX*width/designWidth, centerY:needleCenterY*height/designHeight, angleOffset:90 },
         { id:"n2", title:"N2", valueProperty:"n2Value", mappingModeProperty:"n2MappingMode", inputMinProperty:"n2InputMin", inputMaxProperty:"n2InputMax", outputMinProperty:"n2OutputMinAngle", outputMaxProperty:"n2OutputMaxAngle", pointsProperty:"n2MappingPoints", centerX:needleCenterX*width/designWidth, centerY:needleCenterY*height/designHeight, angleOffset:90 }

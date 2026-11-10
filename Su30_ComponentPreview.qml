@@ -7,22 +7,29 @@ Rectangle {
     color: "#17262c"
     property var controls: [
         { id: "03", name: "Su30MfdButton", states: [0, 1] },
-        { id: "08", name: "GrayTumbler2Position", states: [0, 1] },
-        { id: "09", name: "Su30RedTipToggle", states: [0, 1] },
+        { id: "08", name: "GrayTumbler2Position", switchLook: "grayStem", states: [0, 1] },
+        { id: "09", name: "Su30RedTipToggle", switchLook: "redTip", states: [0, 1] },
         { id: "10", name: "Su30YellowToggle3", states: [0, 1, 2] },
-        { id: "12", name: "Su30RingToggle", states: [0, 1] },
+        { id: "12", name: "Su30RingToggle", switchLook: "su30Ring", states: [0, 1] },
         { id: "14", name: "Su30RudderTrimToggle", states: [0, 1, 2] },
         { id: "15", name: "Su30TrainSelector", states: [0, 1, 2, 3, 4] },
-        { id: "17", name: "Su30RotaryKnob", states: [0, 0.1, 0.3, 0.6, 1] },
+        { id: "17", name: "Su30RotaryKnob", knobLook: "radialRibs", states: [0, 0.1, 0.3, 0.6, 1] },
         { id: "26", name: "Su30Annunciator", states: [0, 1] },
         { id: "27", name: "Su30RoundLamp", states: [0, 1] },
         { id: "28", name: "Su30ResetButton", states: [0, 1] }
     ]
     property bool lampTest: true
     function componentUrl(control) {
-        return Qt.resolvedUrl(control.id === "08"
-            ? "ComponentLibrary/elements/Controls/simple/Tumblers/2Position/GrayTumbler2Position/GrayTumbler2Position.qml"
-            : "ComponentLibrary/elements/Controls/Su30/" + control.name + "/" + control.name + ".qml")
+        const prefix = "ComponentLibrary/elements/Controls/"
+        if (control.switchLook)
+            return Qt.resolvedUrl(prefix + "simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml")
+        if (control.knobLook)
+            return Qt.resolvedUrl(prefix + "simple/Rotaries/KnurledKnob/KnurledKnob.qml")
+        return Qt.resolvedUrl(prefix + "Su30/" + control.name + "/" + control.name + ".qml")
+    }
+    function configure(item, control) {
+        if (control.switchLook || control.knobLook)
+            item.appearance = control.switchLook || control.knobLook
     }
     Text { font.family: "Segoe UI";
         x: 28; y: 20
@@ -61,6 +68,7 @@ Rectangle {
                                 y: 5
                                 source: preview.componentUrl(row.modelData)
                                 onLoaded: {
+                                    preview.configure(item, row.modelData)
                                     var ratio = item.width / item.height
                                     item.height = Math.min(item.height, 66, 94 / ratio)
                                     item.width = item.height * ratio
@@ -81,6 +89,7 @@ Rectangle {
                     x: 1080; y: 5
                     source: preview.componentUrl(row.modelData)
                     onLoaded: {
+                        preview.configure(item, row.modelData)
                         var ratio = item.width / item.height
                         item.height = Math.min(item.height, 66, 90 / ratio)
                         item.width = item.height * ratio

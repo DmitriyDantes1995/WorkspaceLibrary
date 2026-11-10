@@ -1,7 +1,7 @@
 import QtQuick 2.15
 import QtQuick.Shapes
 import common_qml 1.0
-import "../Su30RedTipToggle"
+import "../../simple/Tumblers/2Position/UniversalToggleSwitch" as Switches
 
 BaseSceneComponent {
     id: root
@@ -16,6 +16,8 @@ BaseSceneComponent {
     preserveAspectRatio: true
 
     property bool runtimeMode: false
+    readonly property string catalogSection: "open"
+    readonly property int catalogPositions: toggle.stateCount
     property alias value: toggle.value
     customProperties: ({ value: value })
     propertySchema: ({
@@ -72,8 +74,9 @@ BaseSceneComponent {
             height: 18
             color: "#233638"
         }
-        Su30RedTipToggle {
+        Switches.UniversalToggleSwitch {
             id: toggle
+            appearance: "redTip"
             objectName: "masterArmToggle"
             x: 8
             y: 4

@@ -34,6 +34,7 @@ BaseSceneComponent
    my_type: "Su_25"
    my_subtype: "Pribor_1"
    previewSource: ""
+   readonly property string catalogSection: "round"
 
   // Значения = переменные в Ranet?
    customProperties: {
@@ -65,10 +66,6 @@ BaseSceneComponent
       min: 0, max: 360, step: 1, unit: "°"
     }
   })
-  Component.onCompleted: {
-      console.log("LOADED COMBO WITH componentPath PROPERTY")
-  }
-
   Item {
     id: visualRoot
     objectName: "visualRoot"
@@ -141,7 +138,8 @@ BaseSceneComponent
 
     // заплнение внешнего круга
     Item
-    { width: outer_circle.width
+    { id: outerMarks
+      width: outer_circle.width
       height: outer_circle.height
       x: outer_circle.x
       y: outer_circle.y
@@ -163,7 +161,7 @@ BaseSceneComponent
           radius: implicitWidth * 0.5
           antialiasing: true
           color: gauge.outerMarkColor
-          anchors.horizontalCenter: parent.horizontalCenter
+          anchors.horizontalCenter: outerMarks.horizontalCenter
           y: - height - field.outer_mark_offset_y
           transform: Rotation { origin.x: outer_major_mark.width / 2;
                                 origin.y: field.circle_radius - outer_major_mark.y;
@@ -193,7 +191,7 @@ BaseSceneComponent
           implicitHeight: field.inPixels(0.08)
           antialiasing: true
           color: gauge.outerMarkColor
-          anchors.horizontalCenter: parent.horizontalCenter
+          anchors.horizontalCenter: outerMarks.horizontalCenter
           y: - height - field.outer_mark_offset_y
           transform: Rotation { origin.x: outer_minor_mark.width / 2;
                                 origin.y: outer_minor_mark.height + field.outer_mark_offset_y + field.circle_radius;
@@ -217,7 +215,7 @@ BaseSceneComponent
           font.family: gauge.outerFontFamily
           antialiasing: true
           color: gauge.outerMarkColor
-          anchors.horizontalCenter: parent.horizontalCenter
+          anchors.horizontalCenter: outerMarks.horizontalCenter
           y: -height - field.outer_mark_length - field.outer_text_offset_y - text_geom_offset()
           transform: [
             Rotation { origin.x: outer_text.width / 2; origin.y: outer_text.height / 2; angle: -modelData},
@@ -310,7 +308,7 @@ BaseSceneComponent
             implicitHeight: rotary_dial.mark_height(modelData)
             antialiasing: true
             color: gauge.innerMarkColor
-            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.horizontalCenter: rotary_dial.horizontalCenter
             y: 0
             transform: Rotation { origin.x: inner_mark.width / 2;
                                   origin.y: rotary_dial.width / 2;
@@ -334,7 +332,7 @@ BaseSceneComponent
             font.bold: true
             antialiasing: true
             color: modelData == 0 ? "#ff6600" : gauge.innerMarkColor
-            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.horizontalCenter: rotary_dial.horizontalCenter
             y: rotary_dial.mark_height(0)
             transform: Rotation { origin.x: inner_text.width / 2;
                                   origin.y: rotary_dial.height / 2 - inner_text.y;

@@ -30,6 +30,7 @@ BaseSceneComponent {
                       inputMin, inputMax, outputMinAngle, outputMaxAngle, true)
 
     supportsGaugeCalibration: true
+    readonly property string catalogSection: "round"
     gaugeCalibrationCenterX: width / 2
     gaugeCalibrationCenterY: height / 2
     gaugeCalibrationAngleOffset: 90

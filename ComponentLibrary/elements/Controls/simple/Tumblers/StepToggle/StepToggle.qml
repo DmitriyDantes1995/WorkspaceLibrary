@@ -15,6 +15,8 @@ BaseSceneComponent {
     property real pos: 0
     property string appearance: "graySquare"
     readonly property var catalogVariantProperties: ["appearance"]
+    readonly property string catalogSection: "open"
+    readonly property int catalogPositions: look.frames.length
     readonly property var look: Looks.entries[appearance] || Looks.entries.graySquare
     readonly property int currentPosition: Math.max(0, Math.min(look.frames.length - 1, Math.round(pos)))
 

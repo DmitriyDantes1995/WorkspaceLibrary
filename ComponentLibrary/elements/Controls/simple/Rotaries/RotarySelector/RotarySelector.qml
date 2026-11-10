@@ -13,7 +13,8 @@ RotaryDiscrete {
                    ? placement.preview : artworkFor(effectiveAppearance)
 
     property string appearance: "auto"
-    readonly property var catalogVariantProperties: hasCustomDetents ? ["layout", "appearance"] : ["layout"]
+    readonly property var catalogVariantProperties: ["layout", "appearance"]
+    readonly property string catalogSection: "bare"
     property string layout: "custom"
     readonly property var placement: Layouts.entries[layout]
     readonly property bool hasCustomDetents: !placement
@@ -41,6 +42,7 @@ RotaryDiscrete {
                          firstAngle: root.firstAngle, angleStep: root.angleStep, value: root.value })
     propertySchema: ({
         appearance: { displayName: qsTr("Appearance"), type: "enum", bindable: false, order: 0,
+            visibleWhen: { property: "hasCustomDetents", equals: true },
             values: [{ label: qsTr("Pointer"), value: "pointer", previewSource: Qt.resolvedUrl("pointer.svg") },
                      { label: qsTr("Round dial"), value: "dial", previewSource: Qt.resolvedUrl("dial.svg") },
                      { label: qsTr("Default for layout"), value: "auto", catalogHidden: true,

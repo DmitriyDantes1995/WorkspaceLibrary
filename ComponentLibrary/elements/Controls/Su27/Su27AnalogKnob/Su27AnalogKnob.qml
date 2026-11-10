@@ -13,6 +13,7 @@ RotaryAnalog {
     implicitHeight: 148
     property string profile: "volume"
     readonly property var catalogVariantProperties: ["profile"]
+    readonly property string catalogSection: profileData?.scaleMarks === false ? "bare" : "scaled"
     readonly property var profiles: ({
         temperature: { minimum: 15, maximum: 25, labels: ["15", "17", "19", "21", "23", "25"], handle: "arrow" },
         volume: { minimum: 0, maximum: 65535, labels: ["МЕНЬШЕ", "", "", "", "", "БОЛЬШЕ"], handle: "fluted" },

@@ -13,6 +13,7 @@ RotaryDiscrete {
     implicitHeight: 148
     property string profile: "radarMode"
     readonly property var catalogVariantProperties: ["profile"]
+    readonly property string catalogSection: "scaled"
     readonly property var profileData: Profiles.profiles[profile]
     readonly property Component profilePreview: selectorPreview
     minimumValue: profileData ? (profileData.minimum || 0) : 0

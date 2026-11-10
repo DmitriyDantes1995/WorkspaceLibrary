@@ -4,6 +4,7 @@ import common_qml 1.0
 import "../../simple/Toggles/Toggle_1" as RoundControl
 
 RotaryAnalog {
+    readonly property string catalogSection: "scaled"
     id: root
     my_type: "Su30HmtdsBright"
     my_subtype: "Su30HmtdsBright"

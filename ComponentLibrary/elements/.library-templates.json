@@ -9,20 +9,30 @@
         "name": "Тумблеры",
         "paths": [
             "Controls/simple/Tumblers",
-            "Controls/Su27/Su27MechanicalControl/Su27MechanicalControl.qml"
+            "Controls/Su27/Su27MechanicalControl",
+            "Controls/Su30/Su30MasterArmSwitch",
+            "Controls/Su30/Su30RudderTrimToggle",
+            "Controls/Su30/Su30YellowToggle3"
         ]
     },
     {
         "id": "knobs",
         "name": "Крутилки",
-        "paths": ["Controls/simple/Rotaries/KnurledKnob", "Controls/Su27/Su27AnalogKnob"]
+        "paths": [
+            "Controls/simple/Rotaries/KnurledKnob",
+            "Controls/Su27/Su27AnalogKnob",
+            "Controls/Su30/Su30HmtdsBright",
+            "Controls/Other/TpGain"
+        ]
     },
     {
         "id": "selectors",
         "name": "Селекторы",
         "paths": [
             "Controls/simple/Rotaries/RotarySelector",
-            "Controls/simple/Toggles",
+            "Controls/simple/Rotaries/ScaledSelectorVisual",
+            "Controls/Su30/Su30TrainSelector",
+            "Controls/Su30/Su30TargetType",
             "Controls/Su27/Su27Selector",
             "Controls/Su27/Su27DrumSelector"
         ]
@@ -35,7 +45,13 @@
     {
         "id": "instruments",
         "name": "Приборы",
-        "paths": ["Controls/simple/Indicators", "Controls/Su27/Su27Readout", "Controls/Su27/Su27Voltmeter"]
+        "paths": [
+            "Controls/simple/Indicators",
+            "Controls/Su27/Su27Readout",
+            "Controls/Su27/Su27Voltmeter",
+            "Controls/Su30/Su30Clock",
+            "Controls/complex/Gauges/Pribor/Combo.qml"
+        ]
     },
     {
         "id": "other",

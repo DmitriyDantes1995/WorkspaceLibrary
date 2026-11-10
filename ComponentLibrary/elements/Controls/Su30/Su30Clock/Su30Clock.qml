@@ -8,6 +8,7 @@ BaseSceneComponent {
     my_subtype: "Su30Clock"
     componentPath: "elements/Controls/Su30/Su30Clock/Su30Clock.qml"
     previewSource: "preview.png"
+    readonly property string catalogSection: "round"
     readonly property real designWidth: 200
     readonly property real designHeight: 210
     width: designWidth; height: designHeight

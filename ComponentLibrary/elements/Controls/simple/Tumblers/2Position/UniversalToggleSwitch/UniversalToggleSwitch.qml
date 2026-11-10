@@ -13,6 +13,8 @@ Toggle2Position {
     property alias oN: root.value
     property string appearance: "classic"
     readonly property var catalogVariantProperties: ["appearance", "tipColor"]
+    readonly property string catalogSection: "open"
+    readonly property int catalogPositions: stateCount
     property string tipColor: "default"
 
     readonly property var appearances: Object.assign({

@@ -46,6 +46,7 @@ BaseSceneComponent {
         backgroundOffsetY + 165.3 * backgroundScale
 
     supportsGaugeCalibration: true
+    readonly property string catalogSection: "round"
     gaugeCalibrationChannels: [
         {id:"large",title:"Large needle",valueProperty:"largeNeedleValue",mappingModeProperty:"largeNeedleMappingMode",inputMinProperty:"largeNeedleInputMin",inputMaxProperty:"largeNeedleInputMax",outputMinProperty:"largeNeedleOutputMinAngle",outputMaxProperty:"largeNeedleOutputMaxAngle",pointsProperty:"largeNeedleMappingPoints",centerX:bigCenterX*width/designWidth,centerY:bigCenterY*height/designHeight,angleOffset:-135},
         {id:"small",title:"Small needle",valueProperty:"smallNeedleValue",mappingModeProperty:"smallNeedleMappingMode",inputMinProperty:"smallNeedleInputMin",inputMaxProperty:"smallNeedleInputMax",outputMinProperty:"smallNeedleOutputMinAngle",outputMaxProperty:"smallNeedleOutputMaxAngle",pointsProperty:"smallNeedleMappingPoints",centerX:smallCenterX*width/designWidth,centerY:smallCenterY*height/designHeight,angleOffset:90}

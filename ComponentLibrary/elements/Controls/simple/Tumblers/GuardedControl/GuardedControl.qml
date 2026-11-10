@@ -17,6 +17,8 @@ ControlState {
     readonly property var look: variants[marking] || variants[Object.keys(variants)[0]]
     readonly property bool hasMarkings: Object.keys(variants).length > 1
     readonly property bool hasFireButton: !!look.fire
+    readonly property string catalogSection: look.button ? "coveredButtons" : "covered"
+    readonly property int catalogPositions: stateCount
     implicitWidth: look.width
     implicitHeight: look.height
     maximumValue: look.maximum

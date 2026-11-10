@@ -41,6 +41,7 @@ BaseSceneComponent {
         backgroundOffsetY + 169.4 * backgroundScale
 
     supportsGaugeCalibration: true
+    readonly property string catalogSection: "round"
     gaugeCalibrationCenterX: bigCenterX * width / designWidth
     gaugeCalibrationCenterY: bigCenterY * height / designHeight
     gaugeCalibrationAngleOffset: 90

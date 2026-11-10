@@ -242,5 +242,4 @@ Item {
             updateSourceSize()
         }
     }
-    Component.onDestruction: destroyTransformObservers()
 }

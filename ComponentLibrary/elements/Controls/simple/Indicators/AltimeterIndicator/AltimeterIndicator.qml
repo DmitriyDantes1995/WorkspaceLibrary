@@ -32,6 +32,7 @@ BaseSceneComponent {
     readonly property real needleCenterY: designHeight / 2
 
     supportsGaugeCalibration: true
+    readonly property string catalogSection: "round"
     gaugeCalibrationChannels: [
         {
             id: "large", title: "Large needle",

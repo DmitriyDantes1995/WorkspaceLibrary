@@ -1,6 +1,18 @@
 .pragma library
 
 var entries = {
+    "redTip": {
+        "label": "Red tip lever",
+        "width": 48,
+        "height": 82,
+        "frames": {"": ["_art/redTip/state_0.svg", "_art/redTip/state_1.svg"]}
+    },
+    "su30Ring": {
+        "label": "Tall lever with ring",
+        "width": 72,
+        "height": 98,
+        "frames": {"": ["_art/su30Ring/state_0.svg", "_art/su30Ring/state_1.svg"]}
+    },
     "silverRing": {
         "label": "Silver lever with ring",
         "width": 19.725,

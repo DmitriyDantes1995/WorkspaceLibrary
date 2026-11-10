@@ -16,6 +16,8 @@ BaseSceneComponent {
     property bool lidOpen: false
     property string appearance: "red"
     readonly property var catalogVariantProperties: ["appearance"]
+    readonly property string catalogSection: "covered"
+    readonly property int catalogPositions: 2
     readonly property var look: Looks.entries[appearance] || Looks.entries.red
     readonly property bool raised: look.positionThreshold ? oN >= look.positionThreshold : oN === 1
 

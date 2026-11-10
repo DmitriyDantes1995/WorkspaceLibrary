@@ -13,6 +13,7 @@ RotaryAnalog {
 
     property string appearance: "knurled"
     readonly property var catalogVariantProperties: ["appearance", "controlMode"]
+    readonly property string catalogSection: "bare"
     property string controlMode: "volume"
     readonly property var look: Looks.entries[appearance]
     readonly property bool hasTravelModes: !look

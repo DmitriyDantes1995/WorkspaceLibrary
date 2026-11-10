@@ -7,6 +7,7 @@ MomentaryButton {
     implicitWidth: 34
     implicitHeight: 34
     Rectangle {
+        id: bezel
         anchors.fill: parent
         radius: width / 2
         color: "#344747"
@@ -16,7 +17,7 @@ MomentaryButton {
             model: 32
             Rectangle {
                 required property int index
-                x: parent.width / 2 - 0.5
+                x: bezel.width / 2 - 0.5
                 y: 1
                 width: 1; height: 4
                 color: "#b6bc87"

@@ -8,6 +8,8 @@ RotaryDiscrete {
     my_subtype: my_type
     property string appearance: "classic"
     readonly property var catalogVariantProperties: ["appearance"]
+    readonly property string catalogSection: "open"
+    readonly property int catalogPositions: angles.length
     readonly property var look: Looks.entries[appearance] || Looks.entries.classic
     implicitWidth: look.width
     implicitHeight: look.height

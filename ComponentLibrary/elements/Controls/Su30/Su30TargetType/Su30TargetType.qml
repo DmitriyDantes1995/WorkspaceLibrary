@@ -3,6 +3,7 @@ import QtQuick.Shapes
 import common_qml 1.0
 
 RotaryDiscrete {
+    readonly property string catalogSection: "scaled"
     id:root
     my_type:"Su30TargetType"
     my_subtype:"Su30TargetType"

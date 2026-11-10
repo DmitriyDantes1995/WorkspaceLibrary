@@ -91,6 +91,20 @@ var entries = {
         "source": "_art/slot/body.svg",
         "preview": "_art/slot/preview.svg"
     },
+    "radialRibs": {
+        "label": "Knob with radial ribs",
+        "width": 64,
+        "height": 64,
+        "minimum": 0,
+        "maximum": 1,
+        "start": 0,
+        "end": 360,
+        "step": 0.05,
+        "discrete": false,
+        "bodyRect": [0, 0, 1, 1],
+        "source": "_art/radialRibs/body.png",
+        "preview": "_art/radialRibs/body.png"
+    },
     "scalloped": {
         "label": "Scalloped dial",
         "width": 48.276489,

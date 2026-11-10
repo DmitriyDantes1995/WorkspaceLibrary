@@ -36,6 +36,7 @@ BaseSceneComponent {
     readonly property real strelka_NY_PriborY: 322
 
     supportsGaugeCalibration: true
+    readonly property string catalogSection: "round"
     gaugeCalibrationChannels: [
         { id:"alpha", title:"Angle of attack", valueProperty:"alphaValue", mappingModeProperty:"alphaMappingMode", inputMinProperty:"alphaInputMin", inputMaxProperty:"alphaInputMax", outputMinProperty:"alphaOutputMinAngle", outputMaxProperty:"alphaOutputMaxAngle", pointsProperty:"alphaMappingPoints", centerX:strelka_Alpha_PriborX*width/designWidth, centerY:strelka_Alpha_PriborY*height/designHeight, angleOffset:90 },
         { id:"loadFactor", title:"Load factor", valueProperty:"loadFactorValue", mappingModeProperty:"loadFactorMappingMode", inputMinProperty:"loadFactorInputMin", inputMaxProperty:"loadFactorInputMax", outputMinProperty:"loadFactorOutputMinAngle", outputMaxProperty:"loadFactorOutputMaxAngle", pointsProperty:"loadFactorMappingPoints", centerX:strelka_NY_PriborX*width/designWidth, centerY:strelka_NY_PriborY*height/designHeight, angleOffset:90 }

@@ -24,6 +24,7 @@ BaseSceneComponent {
     readonly property real needleVisual: mapGaugeValue(value, valueMappingMode,
         valueMappingPoints, inputMin, inputMax, outputMinAngle, outputMaxAngle, true)
     supportsGaugeCalibration: true
+    readonly property string catalogSection: "round"
     gaugeCalibrationCenterX: width / 2
     gaugeCalibrationCenterY: height / 2
 

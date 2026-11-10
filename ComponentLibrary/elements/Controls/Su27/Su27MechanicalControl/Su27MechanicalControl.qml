@@ -1,5 +1,6 @@
 import QtQuick 2.15
 import common_qml 1.0
+import "_parts"
 
 Toggle3Position {
     id: root
@@ -10,7 +11,12 @@ Toggle3Position {
     clip: true
     previewSource: "preview.svg"
     property string profile: "protectedToggle"
-    readonly property var catalogVariantProperties: ["profile"]
+    readonly property var catalogVariantProperties: ["profile", "threePosition"]
+    readonly property bool sduTest: profile === "sduTestToggle"
+    readonly property string catalogSection: profile === "guardedButton" ? "coveredButtons"
+        : ["oxygenValve", "suitVent", "rdk52", "ventilationSlider"].includes(profile) ? "mechanisms"
+        : hasGuard ? "covered" : "open"
+    readonly property int catalogPositions: stateCount
     property string labelText: ""
     property bool guardOpen: false
     property bool mirror: false
@@ -58,8 +64,9 @@ Toggle3Position {
             schema.firePressed = {displayName: "Extinguisher pressed", type: "number", bindable: true, access: "readWrite", min: 0, max: 1, step: 1}
             schema.mirror = {displayName: "Mirror L guard", type: "bool", bindable: false}
         }
-        if (profile === "sduTestToggle")
-            schema.threePosition = {displayName: "Check 1 (three positions)", type: "bool", bindable: false}
+        if (sduTest)
+            schema.threePosition = {displayName: "Check 1 (three positions)", type: "bool", bindable: false,
+                catalogValues: [{label: "2 положения", value: false}, {label: "3 положения", value: true}]}
         return schema
     }
 

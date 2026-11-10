@@ -1,402 +1,4 @@
 {
-    "Su30KNLeftButtonSduchannel1": [
-        {
-            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftButtonSduchannel1/Su30KNLeftButtonSduchannel1.qml",
-            "customProperties": {
-                "lamp": 0,
-                "value": 0
-            },
-            "height": 38.75710953488371,
-            "locked": true,
-            "name": "Su30KNLeftButtonSduchannel1_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 26,
-            "subtype": "Su30KNLeftButtonSduchannel1",
-            "type": "Su30KNLeftButtonSduchannel1",
-            "width": 38.75710953488371,
-            "x": 1528.1433798044545,
-            "y": 606.9005149999999,
-            "z": 0
-        }
-    ],
-    "Su30KNLeftButtonSduchannel2": [
-        {
-            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftButtonSduchannel2/Su30KNLeftButtonSduchannel2.qml",
-            "customProperties": {
-                "lamp": 0,
-                "value": 0
-            },
-            "height": 38.70840953488371,
-            "locked": true,
-            "name": "Su30KNLeftButtonSduchannel2_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 27,
-            "subtype": "Su30KNLeftButtonSduchannel2",
-            "type": "Su30KNLeftButtonSduchannel2",
-            "width": 38.70840953488371,
-            "x": 1527.7026135253845,
-            "y": 646.4597487209303,
-            "z": 0
-        }
-    ],
-    "Su30KNLeftButtonSduchannel3": [
-        {
-            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftButtonSduchannel3/Su30KNLeftButtonSduchannel3.qml",
-            "customProperties": {
-                "lamp": 0,
-                "value": 0
-            },
-            "height": 38.70840953488371,
-            "locked": true,
-            "name": "Su30KNLeftButtonSduchannel3_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 28,
-            "subtype": "Su30KNLeftButtonSduchannel3",
-            "type": "Su30KNLeftButtonSduchannel3",
-            "width": 38.70840953488371,
-            "x": 1528.1677298044542,
-            "y": 686.6923068604651,
-            "z": 0
-        }
-    ],
-    "Su30KNLeftButtonSduchannel4": [
-        {
-            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftButtonSduchannel4/Su30KNLeftButtonSduchannel4.qml",
-            "customProperties": {
-                "lamp": 0,
-                "value": 0
-            },
-            "height": 38.708409534883934,
-            "locked": true,
-            "name": "Su30KNLeftButtonSduchannel4_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 29,
-            "subtype": "Su30KNLeftButtonSduchannel4",
-            "type": "Su30KNLeftButtonSduchannel4",
-            "width": 38.708409534883934,
-            "x": 1529.0979623625935,
-            "y": 727.3899812790696,
-            "z": 0
-        }
-    ],
-    "Su30KNLeftSelectorPurdeltah": [
-        {
-            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSelectorPurdeltah/Su30KNLeftSelectorPurdeltah.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 114.65043502824881,
-            "locked": true,
-            "name": "Su30KNLeftSelectorPurdeltah_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 16,
-            "subtype": "Su30KNLeftSelectorPurdeltah",
-            "type": "Su30KNLeftSelectorPurdeltah",
-            "width": 114.65043502824881,
-            "x": 629.0939650703426,
-            "y": 519.6402561241578,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSelectorPurdeltah/Su30KNLeftSelectorPurdeltah.qml",
-            "customProperties": {
-                "value": 1
-            },
-            "height": 114.65043502824881,
-            "locked": true,
-            "name": "Su30KNLeftSelectorPurdeltah_2",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 17,
-            "subtype": "Su30KNLeftSelectorPurdeltah",
-            "type": "Su30KNLeftSelectorPurdeltah",
-            "width": 114.65043502824881,
-            "x": 630.1391628104557,
-            "y": 600.9114425648359,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSelectorPurdeltah/Su30KNLeftSelectorPurdeltah.qml",
-            "customProperties": {
-                "value": 1
-            },
-            "height": 114.65043502824881,
-            "locked": true,
-            "name": "Su30KNLeftSelectorPurdeltah_3",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 18,
-            "subtype": "Su30KNLeftSelectorPurdeltah",
-            "type": "Su30KNLeftSelectorPurdeltah",
-            "width": 114.65043502824881,
-            "x": 628.9244735449189,
-            "y": 679.3577702484517,
-            "z": 0
-        }
-    ],
-    "Su30KNLeftSelectorR862ch": [
-        {
-            "componentPath": "elements/Controls/Su30KN/LeftBoard/Su30KNLeftSelectorR862ch/Su30KNLeftSelectorR862ch.qml",
-            "customProperties": {
-                "value": 15
-            },
-            "height": 108.3199,
-            "locked": true,
-            "name": "Su30KNLeftSelectorR862ch_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 19,
-            "subtype": "Su30KNLeftSelectorR862ch",
-            "type": "Su30KNLeftSelectorR862ch",
-            "width": 108.3199,
-            "x": 634.5191195901161,
-            "y": 777.0428117738754,
-            "z": 0
-        }
-    ],
-    "Su30KNRightSwitchSystemBlue": [
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_1",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 30,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 497.6357966203677,
-            "y": 514.6432555454909,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_2",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 31,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 574.7288198761818,
-            "y": 514.5269764757235,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_3",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 32,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 575.5427733645541,
-            "y": 573.9455811268863,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_4",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 33,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 498.68230824827526,
-            "y": 573.8293020571188,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_5",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 34,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 499.0311454575776,
-            "y": 630.9223253129327,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_6",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 35,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 576.5892849924616,
-            "y": 631.271162522235,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_7",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 36,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 575.5427733645546,
-            "y": 689.7595346152583,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_8",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 37,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 496.8218431319964,
-            "y": 689.178139266421,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_9",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 38,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 497.6357966203684,
-            "y": 746.7362788013049,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_10",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 39,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 576.5892849924616,
-            "y": 747.0851160106072,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_11",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 40,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 575.0776570854846,
-            "y": 802.3176741501422,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightSwitchSystemBlue/Su30KNRightSwitchSystemBlue.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 56.2948842578552,
-            "locked": true,
-            "name": "Su30KNRightSwitchSystemBlue_12",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 41,
-            "subtype": "Su30KNRightSwitchSystemBlue",
-            "type": "Su30KNRightSwitchSystemBlue",
-            "width": 55.24131883336068,
-            "x": 499.6125408064148,
-            "y": 802.6665113594445,
-            "z": 0
-        }
-    ],
     "Substrate": [
         {
             "backgroundShape": {
@@ -1524,6 +1126,443 @@
             "width": 44.22457176417489,
             "x": 1799.615384615385,
             "y": 607.3007584772281,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/UniversalLampButton/UniversalLampButton.qml",
+            "customProperties": {
+                "appearance": "orangeChannel",
+                "channelNumber": 1,
+                "lamp": 0,
+                "value": 0
+            },
+            "height": 38.75710953488371,
+            "locked": true,
+            "name": "Su30KNLeftButtonSduchannel1_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 26,
+            "subtype": "UniversalLampButton",
+            "type": "UniversalLampButton",
+            "width": 38.75710953488371,
+            "x": 1528.1433798044545,
+            "y": 606.9005149999999,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/UniversalLampButton/UniversalLampButton.qml",
+            "customProperties": {
+                "appearance": "orangeChannel",
+                "channelNumber": 2,
+                "lamp": 0,
+                "value": 0
+            },
+            "height": 38.70840953488371,
+            "locked": true,
+            "name": "Su30KNLeftButtonSduchannel2_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 27,
+            "subtype": "UniversalLampButton",
+            "type": "UniversalLampButton",
+            "width": 38.70840953488371,
+            "x": 1527.7026135253845,
+            "y": 646.4597487209303,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/UniversalLampButton/UniversalLampButton.qml",
+            "customProperties": {
+                "appearance": "orangeChannel",
+                "channelNumber": 3,
+                "lamp": 0,
+                "value": 0
+            },
+            "height": 38.70840953488371,
+            "locked": true,
+            "name": "Su30KNLeftButtonSduchannel3_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 28,
+            "subtype": "UniversalLampButton",
+            "type": "UniversalLampButton",
+            "width": 38.70840953488371,
+            "x": 1528.1677298044542,
+            "y": 686.6923068604651,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/UniversalLampButton/UniversalLampButton.qml",
+            "customProperties": {
+                "appearance": "orangeChannel",
+                "channelNumber": 4,
+                "lamp": 0,
+                "value": 0
+            },
+            "height": 38.708409534883934,
+            "locked": true,
+            "name": "Su30KNLeftButtonSduchannel4_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 29,
+            "subtype": "UniversalLampButton",
+            "type": "UniversalLampButton",
+            "width": 38.708409534883934,
+            "x": 1529.0979623625935,
+            "y": 727.3899812790696,
+            "z": 0
+        }
+    ],
+    "RotarySelector": [
+        {
+            "componentPath": "elements/Controls/simple/Rotaries/RotarySelector/RotarySelector.qml",
+            "customProperties": {
+                "appearance": "dial",
+                "layout": "custom",
+                "positionCount": 11,
+                "firstAngle": -30,
+                "angleStep": -30,
+                "value": 0
+            },
+            "height": 114.65043502824881,
+            "locked": true,
+            "name": "Su30KNLeftSelectorPurdeltah_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 16,
+            "subtype": "RotarySelector",
+            "type": "RotarySelector",
+            "width": 114.65043502824881,
+            "x": 629.0939650703426,
+            "y": 519.6402561241578,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Rotaries/RotarySelector/RotarySelector.qml",
+            "customProperties": {
+                "appearance": "dial",
+                "layout": "custom",
+                "positionCount": 11,
+                "firstAngle": -30,
+                "angleStep": -30,
+                "value": 1
+            },
+            "height": 114.65043502824881,
+            "locked": true,
+            "name": "Su30KNLeftSelectorPurdeltah_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 17,
+            "subtype": "RotarySelector",
+            "type": "RotarySelector",
+            "width": 114.65043502824881,
+            "x": 630.1391628104557,
+            "y": 600.9114425648359,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Rotaries/RotarySelector/RotarySelector.qml",
+            "customProperties": {
+                "appearance": "dial",
+                "layout": "custom",
+                "positionCount": 11,
+                "firstAngle": -30,
+                "angleStep": -30,
+                "value": 1
+            },
+            "height": 114.65043502824881,
+            "locked": true,
+            "name": "Su30KNLeftSelectorPurdeltah_3",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 18,
+            "subtype": "RotarySelector",
+            "type": "RotarySelector",
+            "width": 114.65043502824881,
+            "x": 628.9244735449189,
+            "y": 679.3577702484517,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Rotaries/RotarySelector/RotarySelector.qml",
+            "customProperties": {
+                "appearance": "auto",
+                "layout": "r862Channel",
+                "value": 15
+            },
+            "height": 108.3199,
+            "locked": true,
+            "name": "Su30KNLeftSelectorR862ch_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 19,
+            "subtype": "RotarySelector",
+            "type": "RotarySelector",
+            "width": 108.3199,
+            "x": 634.5191195901161,
+            "y": 777.0428117738754,
+            "z": 0
+        }
+    ],
+    "UniversalToggleSwitch": [
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_1",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 30,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 497.6357966203677,
+            "y": 514.6432555454909,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_2",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 31,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 574.7288198761818,
+            "y": 514.5269764757235,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_3",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 32,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 575.5427733645541,
+            "y": 573.9455811268863,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_4",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 33,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 498.68230824827526,
+            "y": 573.8293020571188,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_5",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 34,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 499.0311454575776,
+            "y": 630.9223253129327,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_6",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 35,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 576.5892849924616,
+            "y": 631.271162522235,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_7",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 36,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 575.5427733645546,
+            "y": 689.7595346152583,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_8",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 37,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 496.8218431319964,
+            "y": 689.178139266421,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_9",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 38,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 497.6357966203684,
+            "y": 746.7362788013049,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_10",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 39,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 576.5892849924616,
+            "y": 747.0851160106072,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_11",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 40,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 575.0776570854846,
+            "y": 802.3176741501422,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "system",
+                "tipColor": "blue",
+                "value": 0
+            },
+            "height": 56.2948842578552,
+            "locked": true,
+            "name": "Su30KNRightSwitchSystemBlue_12",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 41,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 55.24131883336068,
+            "x": 499.6125408064148,
+            "y": 802.6665113594445,
             "z": 0
         }
     ],
