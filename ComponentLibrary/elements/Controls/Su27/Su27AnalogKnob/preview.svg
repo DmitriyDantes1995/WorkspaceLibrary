@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 148">
+  <defs>
+    <linearGradient id="handle" gradientUnits="userSpaceOnUse" x1="-27" y1="-20" x2="28" y2="24">
+      <stop stop-color="#515650"/>
+      <stop offset=".45" stop-color="#252925"/>
+      <stop offset="1" stop-color="#101310"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(74 74)">
+    <path d="M-32.527 32.527 -36.77 36.77M-45.434 -7.196 -51.36 -8.135M-20.884 -40.986 -23.608 -46.332M20.884 -40.986 23.608 -46.332M45.434 -7.196 51.36 -8.135M32.527 32.527 36.77 36.77" fill="none" stroke="#edece3" stroke-width="1.6"/>
+    <g fill="#edece3" font-family="Arial,sans-serif" font-size="9" font-weight="bold" text-anchor="middle">
+      <text transform="translate(-44.548 44.548) scale(0.64 1)" y="3.1">МЕНЬШЕ</text>
+      <text transform="translate(44.548 44.548) scale(0.64 1)" y="3.1">БОЛЬШЕ</text>
+    </g>
+    <g transform="rotate(-135)">
+      <path d="M0 -34 3.916 -29.743 8.8 -32.841 11.481 -27.716 17 -29.445 18.263 -23.801 24.042 -24.042 23.801 -18.263 29.445 -17 27.716 -11.481 32.841 -8.8 29.743 -3.916 34 0 29.743 3.916 32.841 8.8 27.716 11.481 29.445 17 23.801 18.263 24.042 24.042 18.263 23.801 17 29.445 11.481 27.716 8.8 32.841 3.916 29.743 0 34 -3.916 29.743 -8.8 32.841 -11.481 27.716 -17 29.445 -18.263 23.801 -24.042 24.042 -23.801 18.263 -29.445 17 -27.716 11.481 -32.841 8.8 -29.743 3.916 -34 0 -29.743 -3.916 -32.841 -8.8 -27.716 -11.481 -29.445 -17 -23.801 -18.263 -24.042 -24.042 -18.263 -23.801 -17 -29.445 -11.481 -27.716 -8.8 -32.841 -3.916 -29.743Z" fill="url(#handle)" stroke="#888b88" stroke-width="1.5"/>
+      <path d="M0 15V-30" stroke="#eeeee4" stroke-width="3.2" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

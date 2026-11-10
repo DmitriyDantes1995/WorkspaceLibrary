@@ -1,7 +1,7 @@
 import QtQuick 2.15
 import "_parts" as Parts
-import "../Su30KNLeftRegulatorRudd" as RegulatorRudd
-import "../Su30KNLeftButtonStores" as ButtonStores
+import "../../../simple/Rotaries/KnurledKnob" as Knobs
+import "../../../simple/Buttons/RoundButton" as Buttons
 
 // 1LeftBort.swf, lrud #563.
 Parts.RudLever {
@@ -27,9 +27,10 @@ Parts.RudLever {
     onRegulatorChanged: synchronizeMountedControl("regulator")
     onStoresChanged: synchronizeMountedControl("stores")
 
-    RegulatorRudd.Su30KNLeftRegulatorRudd {
+    Knobs.KnurledKnob {
         id: regulatorControl
         objectName: "regulatorControl"
+        controlMode: "trim"
         z: 1
         width: 56.6
         height: 56.6
@@ -45,9 +46,10 @@ Parts.RudLever {
         }
     }
 
-    ButtonStores.Su30KNLeftButtonStores {
+    Buttons.RoundButton {
         id: storesControl
         objectName: "storesControl"
+        appearance: "whiteStem"
         z: 1
         width: 117.85
         height: 79.1

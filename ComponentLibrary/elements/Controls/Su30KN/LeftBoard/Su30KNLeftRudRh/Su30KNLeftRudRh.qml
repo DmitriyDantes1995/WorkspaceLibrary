@@ -1,10 +1,7 @@
 import QtQuick 2.15
 import "../Su30KNLeftRudLh/_parts" as Parts
-import "../Su30KNLeftButtonStores" as ButtonStores
-import "../Su30KNLeftButtonRudvp" as ButtonRudvp
-import "../Su30KNLeftButtonRudmrk" as ButtonRudmrk
-import "../Su30KNLeftButtonRudradio" as ButtonRudradio
-import "../Su30KNLeftSwitchRudairbrake" as SwitchRudairbrake
+import "../../../simple/Buttons/RoundButton" as Buttons
+import "../../../simple/Tumblers/2Position/UniversalToggleSwitch" as Switches
 
 // 1LeftBort.swf, rrud #589.
 Parts.RudLever {
@@ -42,9 +39,10 @@ Parts.RudLever {
     onRadioChanged: synchronizeMountedControl("radio")
     onAirbrakeChanged: synchronizeMountedControl("airbrake")
 
-    ButtonStores.Su30KNLeftButtonStores {
+    Buttons.RoundButton {
         id: resetControl
         objectName: "resetControl"
+        appearance: "whiteStem"
         z: 1
         width: 117.85
         height: 79.1
@@ -60,9 +58,10 @@ Parts.RudLever {
         }
     }
 
-    ButtonRudvp.Su30KNLeftButtonRudvp {
+    Buttons.RoundButton {
         id: rudvpControl
         objectName: "rudvpControl"
+        appearance: "hexagon"
         z: 1
         width: 96
         height: 87
@@ -78,9 +77,10 @@ Parts.RudLever {
         }
     }
 
-    ButtonRudvp.Su30KNLeftButtonRudvp {
+    Buttons.RoundButton {
         id: spuControl
         objectName: "spuControl"
+        appearance: "hexagon"
         z: 1
         width: 96
         height: 87
@@ -96,9 +96,10 @@ Parts.RudLever {
         }
     }
 
-    ButtonRudmrk.Su30KNLeftButtonRudmrk {
+    Buttons.RoundButton {
         id: markerControl
         objectName: "markerControl"
+        appearance: "brownRound"
         z: 1
         width: 122.8
         height: 122.8
@@ -114,9 +115,10 @@ Parts.RudLever {
         }
     }
 
-    ButtonRudradio.Su30KNLeftButtonRudradio {
+    Buttons.RoundButton {
         id: radioControl
         objectName: "radioControl"
+        appearance: "brownSide"
         z: 1
         width: 104.8
         height: 122.8
@@ -132,9 +134,10 @@ Parts.RudLever {
         }
     }
 
-    SwitchRudairbrake.Su30KNLeftSwitchRudairbrake {
+    Switches.UniversalToggleSwitch {
         id: airbrakeControl
         objectName: "airbrakeControl"
+        appearance: "ribbedSlide"
         z: 1
         width: 170.0163
         height: 102.9742

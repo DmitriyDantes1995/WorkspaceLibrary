@@ -5,11 +5,12 @@ BaseSceneComponent {
     id: root
     my_type: "Su27Voltmeter"
     my_subtype: "Su27Voltmeter"
-    previewSource: "preview.png"
+    previewSource: "preview.svg"
     componentPath: "elements/Controls/Su27/Su27Voltmeter/Su27Voltmeter.qml"
     width: 220; height: 220
     preserveAspectRatio: true
     property string profile: "dc"
+    readonly property var catalogVariantProperties: ["profile"]
     property real value: 0
     property string valueMappingMode: "Linear"
     property real inputMin: 0

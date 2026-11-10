@@ -1848,65 +1848,6 @@
             "z": 0
         }
     ],
-    "Simple_btn": [
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 19.57894736842104,
-            "locked": false,
-            "name": "Simple_btn_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 29,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 19.57894736842104,
-            "x": 432.2777847230901,
-            "y": 91.44430553819222,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 17.310344827586164,
-            "locked": true,
-            "name": "Simple_btn_2",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 57,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 17.310344827586164,
-            "x": 587.0986164497263,
-            "y": 692.2382673227837,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 11.08447937131632,
-            "locked": true,
-            "name": "Simple_btn_3",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 134,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 11.08447937131632,
-            "x": 764.3005893909626,
-            "y": 641.7072691552063,
-            "z": 0
-        }
-    ],
     "StandardTumbler2Position": [
         {
             "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
@@ -6201,6 +6142,71 @@
             "width": 79.37142857142855,
             "x": 567.9725698126547,
             "y": 403.9006684344731,
+            "z": 0
+        }
+    ],
+    "RoundButton": [
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 19.57894736842104,
+            "locked": false,
+            "name": "Simple_btn_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 29,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 19.57894736842104,
+            "x": 432.2777847230901,
+            "y": 91.44430553819222,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 17.310344827586164,
+            "locked": true,
+            "name": "Simple_btn_2",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 57,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 17.310344827586164,
+            "x": 587.0986164497263,
+            "y": 692.2382673227837,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 11.08447937131632,
+            "locked": true,
+            "name": "Simple_btn_3",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 134,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 11.08447937131632,
+            "x": 764.3005893909626,
+            "y": 641.7072691552063,
             "z": 0
         }
     ]

@@ -1,0 +1,45 @@
+[
+    {
+        "id": "buttons",
+        "name": "Кнопки",
+        "paths": ["Controls/simple/Buttons"]
+    },
+    {
+        "id": "switches",
+        "name": "Тумблеры",
+        "paths": [
+            "Controls/simple/Tumblers",
+            "Controls/Su27/Su27MechanicalControl/Su27MechanicalControl.qml"
+        ]
+    },
+    {
+        "id": "knobs",
+        "name": "Крутилки",
+        "paths": ["Controls/simple/Rotaries/KnurledKnob", "Controls/Su27/Su27AnalogKnob"]
+    },
+    {
+        "id": "selectors",
+        "name": "Селекторы",
+        "paths": [
+            "Controls/simple/Rotaries/RotarySelector",
+            "Controls/simple/Toggles",
+            "Controls/Su27/Su27Selector",
+            "Controls/Su27/Su27DrumSelector"
+        ]
+    },
+    {
+        "id": "lamps",
+        "name": "Лампы",
+        "paths": ["Controls/simple/Lamps", "Controls/Su27/Su27Annunciator"]
+    },
+    {
+        "id": "instruments",
+        "name": "Приборы",
+        "paths": ["Controls/simple/Indicators", "Controls/Su27/Su27Readout", "Controls/Su27/Su27Voltmeter"]
+    },
+    {
+        "id": "other",
+        "name": "Прочие",
+        "paths": ["Controls/simple"]
+    }
+]

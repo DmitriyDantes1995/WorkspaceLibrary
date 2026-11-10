@@ -7,6 +7,7 @@ MomentaryButton {
 
     required property url releasedFace
     required property url pressedFace
+    property int faceFillMode: Image.Stretch
     property Component faceOverlay
     required property string outlinePath
     property real outlineWidth: 0.85
@@ -70,8 +71,11 @@ MomentaryButton {
         scale: Math.min(root.width / width, root.height / height)
 
         AdaptiveSvgImage {
+            parent: root.faceFillMode === Image.PreserveAspectFit ? root : face
             anchors.fill: parent
+            z: -1
             source: root.currentState === 1 ? root.pressedFace : root.releasedFace
+            fillMode: root.faceFillMode
         }
 
         Loader {

@@ -1066,1096 +1066,6 @@
             "z": 0
         }
     ],
-    "Simple_btn": [
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Top_1",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 397.05882352941177,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Top_2",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 463.2352941176471,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Top_3",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 529.4117647058823,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Top_4",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 595.5882352941177,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Top_5",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 661.7647058823529,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Top_6",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 727.9411764705882,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Top_7",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 794.1176470588235,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Top_8",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 860.2941176470588,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Bottom_1",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 397.05882352941177,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Bottom_2",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 463.2352941176471,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Bottom_3",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 529.4117647058823,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Bottom_4",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 595.5882352941177,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Bottom_5",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 661.7647058823529,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Bottom_6",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 727.9411764705882,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Bottom_7",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 794.1176470588235,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Bottom_8",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 860.2941176470588,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Left_1",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 332.2610294117647,
-            "y": 663.1433823529412,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Left_2",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 332.2610294117647,
-            "y": 729.3198529411765,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Left_3",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 332.2610294117647,
-            "y": 795.4963235294117,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Left_4",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 332.2610294117647,
-            "y": 861.6727941176471,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Left_5",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 332.2610294117647,
-            "y": 927.8492647058823,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Left_6",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 332.2610294117647,
-            "y": 994.0257352941177,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Left_7",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 332.2610294117647,
-            "y": 1060.202205882353,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Left_8",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 332.2610294117647,
-            "y": 1126.3786764705883,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Right_1",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 920.9558823529412,
-            "y": 663.1433823529412,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Right_2",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 920.9558823529412,
-            "y": 729.3198529411765,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Right_3",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 920.9558823529412,
-            "y": 795.4963235294117,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Right_4",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 920.9558823529412,
-            "y": 861.6727941176471,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Right_5",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 920.9558823529412,
-            "y": 927.8492647058823,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Right_6",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 920.9558823529412,
-            "y": 994.0257352941177,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Right_7",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 920.9558823529412,
-            "y": 1060.202205882353,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "LeftMfd_Right_8",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 920.9558823529412,
-            "y": 1126.3786764705883,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Top_1",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1793.6580882352941,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Top_2",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1859.8345588235295,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Top_3",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1926.0110294117646,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Top_4",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1992.1875,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Top_5",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2058.363970588235,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Top_6",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2124.5404411764707,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Top_7",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2190.716911764706,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Top_8",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2256.893382352941,
-            "y": 521.1397058823529,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Bottom_1",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1793.6580882352941,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Bottom_2",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1859.8345588235295,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Bottom_3",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1926.0110294117646,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Bottom_4",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1992.1875,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Bottom_5",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2058.363970588235,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Bottom_6",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2124.5404411764707,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Bottom_7",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2190.716911764706,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Bottom_8",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2256.893382352941,
-            "y": 1233.9154411764705,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Left_1",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1728.860294117647,
-            "y": 663.1433823529412,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Left_2",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1728.860294117647,
-            "y": 729.3198529411765,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Left_3",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1728.860294117647,
-            "y": 795.4963235294117,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Left_4",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1728.860294117647,
-            "y": 861.6727941176471,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Left_5",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1728.860294117647,
-            "y": 927.8492647058823,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Left_6",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1728.860294117647,
-            "y": 994.0257352941177,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Left_7",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1728.860294117647,
-            "y": 1060.202205882353,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Left_8",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 1728.860294117647,
-            "y": 1126.3786764705883,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Right_1",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2317.5551470588234,
-            "y": 663.1433823529412,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Right_2",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2317.5551470588234,
-            "y": 729.3198529411765,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Right_3",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2317.5551470588234,
-            "y": 795.4963235294117,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Right_4",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2317.5551470588234,
-            "y": 861.6727941176471,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Right_5",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2317.5551470588234,
-            "y": 927.8492647058823,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Right_6",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2317.5551470588234,
-            "y": 994.0257352941177,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Right_7",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2317.5551470588234,
-            "y": 1060.202205882353,
-            "z": 2
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/simple_btn/Simple_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 38.60294117647059,
-            "locked": false,
-            "name": "RightMfd_Right_8",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Simple_btn",
-            "type": "Simple_btn",
-            "width": 38.60294117647059,
-            "x": 2317.5551470588234,
-            "y": 1126.3786764705883,
-            "z": 2
-        }
-    ],
     "StandardTumbler2Position": [
         {
             "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
@@ -2379,59 +1289,6 @@
             "z": 4
         }
     ],
-    "Red_btn": [
-        {
-            "componentPath": "elements/Controls/simple/Buttons/red_btn/Red_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 39.981617647058826,
-            "locked": false,
-            "name": "UnguidedLaunch",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Red_btn",
-            "type": "Red_btn",
-            "width": 39.981617647058826,
-            "x": 807.9044117647059,
-            "y": 290.9007352941176,
-            "z": 4
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/red_btn/Red_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 39.981617647058826,
-            "locked": false,
-            "name": "EmergencyJettison",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Red_btn",
-            "type": "Red_btn",
-            "width": 39.981617647058826,
-            "x": 938.8786764705882,
-            "y": 397.05882352941177,
-            "z": 4
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/red_btn/Red_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 39.981617647058826,
-            "locked": false,
-            "name": "MasterArm",
-            "opacity": 1,
-            "rotation": 0,
-            "subtype": "Red_btn",
-            "type": "Red_btn",
-            "width": 39.981617647058826,
-            "x": 579.0441176470588,
-            "y": 391.54411764705884,
-            "z": 4
-        }
-    ],
     "Toggle_1": [
         {
             "componentPath": "elements/Controls/simple/Toggles/Toggle_1/CustomRoundSwitch.qml",
@@ -2499,6 +1356,1281 @@
             "width": 67.55514705882352,
             "x": 372.24264705882354,
             "y": 1364.889705882353,
+            "z": 4
+        }
+    ],
+    "RoundButton": [
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 397.05882352941177,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 463.2352941176471,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 529.4117647058823,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 595.5882352941177,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 661.7647058823529,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 727.9411764705882,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 794.1176470588235,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Top_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 860.2941176470588,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 397.05882352941177,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 463.2352941176471,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 529.4117647058823,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 595.5882352941177,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 661.7647058823529,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 727.9411764705882,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 794.1176470588235,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Bottom_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 860.2941176470588,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 663.1433823529412,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 729.3198529411765,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 795.4963235294117,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 861.6727941176471,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 927.8492647058823,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 994.0257352941177,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 1060.202205882353,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Left_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 332.2610294117647,
+            "y": 1126.3786764705883,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 663.1433823529412,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 729.3198529411765,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 795.4963235294117,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 861.6727941176471,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 927.8492647058823,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 994.0257352941177,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 1060.202205882353,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "LeftMfd_Right_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 920.9558823529412,
+            "y": 1126.3786764705883,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1793.6580882352941,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1859.8345588235295,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1926.0110294117646,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1992.1875,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2058.363970588235,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2124.5404411764707,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2190.716911764706,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Top_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2256.893382352941,
+            "y": 521.1397058823529,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1793.6580882352941,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1859.8345588235295,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1926.0110294117646,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1992.1875,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2058.363970588235,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2124.5404411764707,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2190.716911764706,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Bottom_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2256.893382352941,
+            "y": 1233.9154411764705,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 663.1433823529412,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 729.3198529411765,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 795.4963235294117,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 861.6727941176471,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 927.8492647058823,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 994.0257352941177,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 1060.202205882353,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Left_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 1728.860294117647,
+            "y": 1126.3786764705883,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_1",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 663.1433823529412,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_2",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 729.3198529411765,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_3",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 795.4963235294117,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_4",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 861.6727941176471,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_5",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 927.8492647058823,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_6",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 994.0257352941177,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_7",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 1060.202205882353,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "silver",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 38.60294117647059,
+            "locked": false,
+            "name": "RightMfd_Right_8",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 38.60294117647059,
+            "x": 2317.5551470588234,
+            "y": 1126.3786764705883,
+            "z": 2
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "red",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 39.981617647058826,
+            "locked": false,
+            "name": "UnguidedLaunch",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 39.981617647058826,
+            "x": 807.9044117647059,
+            "y": 290.9007352941176,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "red",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 39.981617647058826,
+            "locked": false,
+            "name": "EmergencyJettison",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 39.981617647058826,
+            "x": 938.8786764705882,
+            "y": 397.05882352941177,
+            "z": 4
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "red",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 39.981617647058826,
+            "locked": false,
+            "name": "MasterArm",
+            "opacity": 1,
+            "rotation": 0,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 39.981617647058826,
+            "x": 579.0441176470588,
+            "y": 391.54411764705884,
             "z": 4
         }
     ]

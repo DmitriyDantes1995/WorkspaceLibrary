@@ -7,7 +7,7 @@ BaseSceneComponent {
 
     my_type: "clin"
     my_subtype: "clin"
-    previewSource: "preview.png"
+    previewSource: "preview.svg"
 
     readonly property real designWidth: 50.8
     readonly property real designHeight: 58

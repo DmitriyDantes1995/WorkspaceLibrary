@@ -14,11 +14,13 @@ BaseSceneComponent {
     property alias runtimeMode:selector.runtimeMode
     property alias value:selector.value
     property string profile:"radioChannel"
+    readonly property var catalogVariantProperties: ["profile"]
     readonly property var profiles: ({radioChannel:2,aimWave:2,aimCode:2,aimCarry:1})
     enabled: profiles[profile] !== undefined
     customProperties:({profile:profile,value:value})
     propertySchema:({
         profile:{displayName:"Профиль",type:"enum",bindable:false,
+            previewComponent:selector.profilePreview,
             values:Object.keys(profiles).map(function(name) { return {label:name,value:name} })},
         value:{displayName:"Положение",type:"number",min:selector.minimumValue,max:selector.maximumValue,
             step:1,bindable:true,access:"readWrite"}

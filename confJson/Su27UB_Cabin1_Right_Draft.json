@@ -1056,124 +1056,6 @@
             "z": 0
         }
     ],
-    "GraySquareTumbler3Position": [
-        {
-            "componentPath": "elements/Controls/simple/Tumblers/3Position/GraySquareTumbler3Position/GraySquareTumbler3Position.qml",
-            "customProperties": {
-                "pos": 1
-            },
-            "height": 41,
-            "locked": false,
-            "name": "fkp_mlp_toggle_APPROX",
-            "opacity": 1,
-            "rotation": -90,
-            "scale": 1,
-            "stackingOrder": 92,
-            "subtype": "GraySquareTumbler3Position",
-            "type": "GraySquareTumbler3Position",
-            "width": 22,
-            "x": 351.0,
-            "y": 767.0,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Tumblers/3Position/GraySquareTumbler3Position/GraySquareTumbler3Position.qml",
-            "customProperties": {
-                "pos": 1
-            },
-            "height": 37,
-            "locked": false,
-            "name": "antiice_toggle_APPROX",
-            "opacity": 1,
-            "rotation": -90,
-            "scale": 1,
-            "stackingOrder": 170,
-            "subtype": "GraySquareTumbler3Position",
-            "type": "GraySquareTumbler3Position",
-            "width": 23,
-            "x": 1490.0,
-            "y": 934.0,
-            "z": 0
-        }
-    ],
-    "Green_lb": [
-        {
-            "componentPath": "elements/Controls/simple/Lamps/Green_lb/Green_lb.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 23,
-            "locked": false,
-            "name": "ident_kd_lamp_APPROX",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 53,
-            "subtype": "Green_lb",
-            "type": "Green_lb",
-            "width": 23,
-            "x": 1030.5,
-            "y": 408.5,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Lamps/Green_lb/Green_lb.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 23,
-            "locked": false,
-            "name": "ident_kp_lamp_APPROX",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 55,
-            "subtype": "Green_lb",
-            "type": "Green_lb",
-            "width": 23,
-            "x": 1130.0,
-            "y": 396.5,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Lamps/Green_lb/Green_lb.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 28,
-            "locked": false,
-            "name": "ident_reply_lamp_APPROX",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 62,
-            "subtype": "Green_lb",
-            "type": "Green_lb",
-            "width": 28,
-            "x": 961.5,
-            "y": 554.0,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Lamps/Green_lb/Green_lb.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 15,
-            "locked": false,
-            "name": "high_code_lamp_APPROX",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 67,
-            "subtype": "Green_lb",
-            "type": "Green_lb",
-            "width": 15,
-            "x": 1144.5,
-            "y": 524.5,
-            "z": 0
-        }
-    ],
     "StandardTumbler2Position": [
         {
             "componentPath": "elements/Controls/simple/Tumblers/2Position/StandardTumbler2Position/StandardTumbler2Position.qml",
@@ -2660,197 +2542,6 @@
             "width": 39,
             "x": 912.0,
             "y": 862.0,
-            "z": 0
-        }
-    ],
-    "Su27RoundButton": [
-        {
-            "componentPath": "elements/Controls/Su27/Su27RoundButton/Su27RoundButton.qml",
-            "customProperties": {
-                "fontSize": 10,
-                "labelText": "",
-                "value": 0
-            },
-            "height": 30,
-            "locked": false,
-            "name": "L029_reset_button",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 272,
-            "subtype": "Su27RoundButton",
-            "type": "Su27RoundButton",
-            "width": 30,
-            "x": 722.5,
-            "y": 597.0,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su27/Su27RoundButton/Su27RoundButton.qml",
-            "customProperties": {
-                "fontSize": 10,
-                "labelText": "",
-                "value": 0
-            },
-            "height": 27,
-            "locked": false,
-            "name": "L029_stop_button",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 273,
-            "subtype": "Su27RoundButton",
-            "type": "Su27RoundButton",
-            "width": 27,
-            "x": 825.0,
-            "y": 589.5,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su27/Su27RoundButton/Su27RoundButton.qml",
-            "customProperties": {
-                "fontSize": 10,
-                "labelText": "",
-                "value": 0
-            },
-            "height": 27,
-            "locked": false,
-            "name": "L029_test_button",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 274,
-            "subtype": "Su27RoundButton",
-            "type": "Su27RoundButton",
-            "width": 27,
-            "x": 862.0,
-            "y": 586.0,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su27/Su27RoundButton/Su27RoundButton.qml",
-            "customProperties": {
-                "fontSize": 10,
-                "labelText": "",
-                "value": 0
-            },
-            "height": 22,
-            "locked": false,
-            "name": "ident_reply_button_0",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 275,
-            "subtype": "Su27RoundButton",
-            "type": "Su27RoundButton",
-            "width": 22,
-            "x": 969,
-            "y": 602,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su27/Su27RoundButton/Su27RoundButton.qml",
-            "customProperties": {
-                "fontSize": 10,
-                "labelText": "",
-                "value": 0
-            },
-            "height": 22,
-            "locked": false,
-            "name": "ident_reply_button_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 276,
-            "subtype": "Su27RoundButton",
-            "type": "Su27RoundButton",
-            "width": 22,
-            "x": 1074,
-            "y": 602,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su27/Su27RoundButton/Su27RoundButton.qml",
-            "customProperties": {
-                "fontSize": 10,
-                "labelText": "",
-                "value": 0
-            },
-            "height": 27,
-            "locked": false,
-            "name": "high_code_test_button",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 277,
-            "subtype": "Su27RoundButton",
-            "type": "Su27RoundButton",
-            "width": 27,
-            "x": 1195.5,
-            "y": 513.0,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su27/Su27RoundButton/Su27RoundButton.qml",
-            "customProperties": {
-                "fontSize": 10,
-                "labelText": "",
-                "value": 0
-            },
-            "height": 33,
-            "locked": false,
-            "name": "lamp_test_button",
-            "opacity": 1,
-            "rotation": -90,
-            "scale": 1,
-            "stackingOrder": 278,
-            "subtype": "Su27RoundButton",
-            "type": "Su27RoundButton",
-            "width": 33,
-            "x": 1329.0,
-            "y": 1058.5,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su27/Su27RoundButton/Su27RoundButton.qml",
-            "customProperties": {
-                "fontSize": 10,
-                "labelText": "",
-                "value": 0
-            },
-            "height": 35,
-            "locked": false,
-            "name": "engine_start_button_0",
-            "opacity": 1,
-            "rotation": -90,
-            "scale": 1,
-            "stackingOrder": 280,
-            "subtype": "Su27RoundButton",
-            "type": "Su27RoundButton",
-            "width": 35,
-            "x": 1454.0,
-            "y": 987.0,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/Su27/Su27RoundButton/Su27RoundButton.qml",
-            "customProperties": {
-                "fontSize": 10,
-                "labelText": "",
-                "value": 0
-            },
-            "height": 35,
-            "locked": false,
-            "name": "engine_start_button_1",
-            "opacity": 1,
-            "rotation": -90,
-            "scale": 1,
-            "stackingOrder": 281,
-            "subtype": "Su27RoundButton",
-            "type": "Su27RoundButton",
-            "width": 35,
-            "x": 1454.0,
-            "y": 1053.5,
             "z": 0
         }
     ],
@@ -7674,110 +7365,6 @@
             "z": -1000
         }
     ],
-    "Su30KNRightGuardRadioSilence": [
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightGuardRadioSilence/Su30KNRightGuardRadioSilence.qml",
-            "customProperties": {
-                "cover": 0,
-                "value": 0
-            },
-            "height": 74.4,
-            "locked": false,
-            "name": "L029_radio_silence",
-            "opacity": 1,
-            "rotation": -7,
-            "scale": 1,
-            "stackingOrder": 282,
-            "subtype": "Su30KNRightGuardRadioSilence",
-            "type": "Su30KNRightGuardRadioSilence",
-            "width": 31.0,
-            "x": 888.5,
-            "y": 410.0,
-            "z": 0
-        }
-    ],
-    "Su30KNRightRegulatorSpoVolume": [
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightRegulatorSpoVolume/Su30KNRightRegulatorSpoVolume.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 52,
-            "locked": false,
-            "name": "warning_volume",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 283,
-            "subtype": "Su30KNRightRegulatorSpoVolume",
-            "type": "Su30KNRightRegulatorSpoVolume",
-            "width": 52,
-            "x": 1101.5,
-            "y": 962.5,
-            "z": 0
-        }
-    ],
-    "Red_btn": [
-        {
-            "componentPath": "elements/Controls/simple/Buttons/red_btn/Red_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 36,
-            "locked": false,
-            "name": "engine_stop_button_0",
-            "opacity": 1,
-            "rotation": -90,
-            "scale": 1,
-            "stackingOrder": 284,
-            "subtype": "Red_btn",
-            "type": "Red_btn",
-            "width": 36,
-            "x": 1604.3,
-            "y": 985.7,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Buttons/red_btn/Red_btn.qml",
-            "customProperties": {
-                "oN": 0
-            },
-            "height": 36,
-            "locked": false,
-            "name": "engine_stop_button_1",
-            "opacity": 1,
-            "rotation": -90,
-            "scale": 1,
-            "stackingOrder": 285,
-            "subtype": "Red_btn",
-            "type": "Red_btn",
-            "width": 36,
-            "x": 1604.3,
-            "y": 1052.3,
-            "z": 0
-        }
-    ],
-    "Su30KNRightButtonArkTest": [
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightButtonArkTest/Su30KNRightButtonArkTest.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 26,
-            "locked": false,
-            "name": "pn184_ark_test_button",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 288,
-            "subtype": "Su30KNRightButtonArkTest",
-            "type": "Su30KNRightButtonArkTest",
-            "width": 26,
-            "x": 838.0,
-            "y": 995.0,
-            "z": 0
-        }
-    ],
     "Su27UBRightPnkPrep": [
         {
             "componentPath": "elements/Controls/Su27/Su27UBRightPnkPrep/Su27UBRightPnkPrep.qml",
@@ -7797,28 +7384,6 @@
             "width": 62,
             "x": 747.25,
             "y": 920.5,
-            "z": 0
-        }
-    ],
-    "Su30KNRightButtonPnkOff": [
-        {
-            "componentPath": "elements/Controls/Su30KN/RightBoard/Su30KNRightButtonPnkOff/Su30KNRightButtonPnkOff.qml",
-            "customProperties": {
-                "value": 0,
-                "cover": 0
-            },
-            "height": 56,
-            "locked": false,
-            "name": "pn188_pnk_cutoff",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 290,
-            "subtype": "Su30KNRightButtonPnkOff",
-            "type": "Su30KNRightButtonPnkOff",
-            "width": 55,
-            "x": 896.0,
-            "y": 755.0,
             "z": 0
         }
     ],
@@ -7903,6 +7468,468 @@
             "width": 62,
             "x": 1565.0,
             "y": 943.45,
+            "z": 0
+        }
+    ],
+    "GuardedControl": [
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/GuardedControl/GuardedControl.qml",
+            "customProperties": {
+                "appearance": "yellowSquares",
+                "marking": "default",
+                "cover": 0,
+                "value": 0
+            },
+            "height": 74.4,
+            "locked": false,
+            "name": "L029_radio_silence",
+            "opacity": 1,
+            "rotation": -7,
+            "scale": 1,
+            "stackingOrder": 282,
+            "subtype": "GuardedControl",
+            "type": "GuardedControl",
+            "width": 31.0,
+            "x": 888.5,
+            "y": 410.0,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/GuardedControl/GuardedControl.qml",
+            "customProperties": {
+                "appearance": "off",
+                "marking": "default",
+                "value": 0,
+                "cover": 0
+            },
+            "height": 56,
+            "locked": false,
+            "name": "pn188_pnk_cutoff",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 290,
+            "subtype": "GuardedControl",
+            "type": "GuardedControl",
+            "width": 55,
+            "x": 896.0,
+            "y": 755.0,
+            "z": 0
+        }
+    ],
+    "KnurledKnob": [
+        {
+            "componentPath": "elements/Controls/simple/Rotaries/KnurledKnob/KnurledKnob.qml",
+            "customProperties": {
+                "appearance": "dot",
+                "value": 0
+            },
+            "height": 52,
+            "locked": false,
+            "name": "warning_volume",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 283,
+            "subtype": "KnurledKnob",
+            "type": "KnurledKnob",
+            "width": 52,
+            "x": 1101.5,
+            "y": 962.5,
+            "z": 0
+        }
+    ],
+    "UniversalLamp": [
+        {
+            "componentPath": "elements/Controls/simple/Lamps/UniversalLamp/UniversalLamp.qml",
+            "customProperties": {
+                "appearance": "round",
+                "lampColor": "green",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 23,
+            "locked": false,
+            "name": "ident_kd_lamp_APPROX",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 53,
+            "subtype": "UniversalLamp",
+            "type": "UniversalLamp",
+            "width": 23,
+            "x": 1030.5,
+            "y": 408.5,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Lamps/UniversalLamp/UniversalLamp.qml",
+            "customProperties": {
+                "appearance": "round",
+                "lampColor": "green",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 23,
+            "locked": false,
+            "name": "ident_kp_lamp_APPROX",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 55,
+            "subtype": "UniversalLamp",
+            "type": "UniversalLamp",
+            "width": 23,
+            "x": 1130.0,
+            "y": 396.5,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Lamps/UniversalLamp/UniversalLamp.qml",
+            "customProperties": {
+                "appearance": "round",
+                "lampColor": "green",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 28,
+            "locked": false,
+            "name": "ident_reply_lamp_APPROX",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 62,
+            "subtype": "UniversalLamp",
+            "type": "UniversalLamp",
+            "width": 28,
+            "x": 961.5,
+            "y": 554.0,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Lamps/UniversalLamp/UniversalLamp.qml",
+            "customProperties": {
+                "appearance": "round",
+                "lampColor": "green",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 15,
+            "locked": false,
+            "name": "high_code_lamp_APPROX",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 67,
+            "subtype": "UniversalLamp",
+            "type": "UniversalLamp",
+            "width": 15,
+            "x": 1144.5,
+            "y": 524.5,
+            "z": 0
+        }
+    ],
+    "StepToggle": [
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/StepToggle/StepToggle.qml",
+            "customProperties": {
+                "appearance": "graySquare",
+                "pos": 1
+            },
+            "height": 41,
+            "locked": false,
+            "name": "fkp_mlp_toggle_APPROX",
+            "opacity": 1,
+            "rotation": -90,
+            "scale": 1,
+            "stackingOrder": 92,
+            "subtype": "StepToggle",
+            "type": "StepToggle",
+            "width": 22,
+            "x": 351.0,
+            "y": 767.0,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/StepToggle/StepToggle.qml",
+            "customProperties": {
+                "appearance": "graySquare",
+                "pos": 1
+            },
+            "height": 37,
+            "locked": false,
+            "name": "antiice_toggle_APPROX",
+            "opacity": 1,
+            "rotation": -90,
+            "scale": 1,
+            "stackingOrder": 170,
+            "subtype": "StepToggle",
+            "type": "StepToggle",
+            "width": 23,
+            "x": 1490.0,
+            "y": 934.0,
+            "z": 0
+        }
+    ],
+    "RoundButton": [
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "whiteRound",
+                "value": 0
+            },
+            "height": 26,
+            "locked": false,
+            "name": "pn184_ark_test_button",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 288,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 26,
+            "x": 838.0,
+            "y": 995.0,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "labelled",
+                "fontSize": 10,
+                "labelText": "",
+                "value": 0
+            },
+            "height": 30,
+            "locked": false,
+            "name": "L029_reset_button",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 272,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 30,
+            "x": 722.5,
+            "y": 597.0,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "labelled",
+                "fontSize": 10,
+                "labelText": "",
+                "value": 0
+            },
+            "height": 27,
+            "locked": false,
+            "name": "L029_stop_button",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 273,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 27,
+            "x": 825.0,
+            "y": 589.5,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "labelled",
+                "fontSize": 10,
+                "labelText": "",
+                "value": 0
+            },
+            "height": 27,
+            "locked": false,
+            "name": "L029_test_button",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 274,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 27,
+            "x": 862.0,
+            "y": 586.0,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "labelled",
+                "fontSize": 10,
+                "labelText": "",
+                "value": 0
+            },
+            "height": 22,
+            "locked": false,
+            "name": "ident_reply_button_0",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 275,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 22,
+            "x": 969,
+            "y": 602,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "labelled",
+                "fontSize": 10,
+                "labelText": "",
+                "value": 0
+            },
+            "height": 22,
+            "locked": false,
+            "name": "ident_reply_button_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 276,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 22,
+            "x": 1074,
+            "y": 602,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "labelled",
+                "fontSize": 10,
+                "labelText": "",
+                "value": 0
+            },
+            "height": 27,
+            "locked": false,
+            "name": "high_code_test_button",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 277,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 27,
+            "x": 1195.5,
+            "y": 513.0,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "labelled",
+                "fontSize": 10,
+                "labelText": "",
+                "value": 0
+            },
+            "height": 33,
+            "locked": false,
+            "name": "lamp_test_button",
+            "opacity": 1,
+            "rotation": -90,
+            "scale": 1,
+            "stackingOrder": 278,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 33,
+            "x": 1329.0,
+            "y": 1058.5,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "labelled",
+                "fontSize": 10,
+                "labelText": "",
+                "value": 0
+            },
+            "height": 35,
+            "locked": false,
+            "name": "engine_start_button_0",
+            "opacity": 1,
+            "rotation": -90,
+            "scale": 1,
+            "stackingOrder": 280,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 35,
+            "x": 1454.0,
+            "y": 987.0,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "labelled",
+                "fontSize": 10,
+                "labelText": "",
+                "value": 0
+            },
+            "height": 35,
+            "locked": false,
+            "name": "engine_start_button_1",
+            "opacity": 1,
+            "rotation": -90,
+            "scale": 1,
+            "stackingOrder": 281,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 35,
+            "x": 1454.0,
+            "y": 1053.5,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "red",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 36,
+            "locked": false,
+            "name": "engine_stop_button_0",
+            "opacity": 1,
+            "rotation": -90,
+            "scale": 1,
+            "stackingOrder": 284,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 36,
+            "x": 1604.3,
+            "y": 985.7,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Buttons/RoundButton/RoundButton.qml",
+            "customProperties": {
+                "appearance": "red",
+                "valuePropertyName": "oN",
+                "oN": 0
+            },
+            "height": 36,
+            "locked": false,
+            "name": "engine_stop_button_1",
+            "opacity": 1,
+            "rotation": -90,
+            "scale": 1,
+            "stackingOrder": 285,
+            "subtype": "RoundButton",
+            "type": "RoundButton",
+            "width": 36,
+            "x": 1604.3,
+            "y": 1052.3,
             "z": 0
         }
     ]
