@@ -1,11 +1,12 @@
 import QtQuick 2.15
 import common_qml 1.0
+import "../../Su30KN/LeftBoard/Su30KNLeftKshScale/_parts"
 
 BaseSceneComponent {
     id:root
     my_type:"Su27KshIndicator"
     my_subtype:"Su27KshIndicator"
-    previewSource:"preview.png"
+    previewSource:"../../Su30KN/LeftBoard/Su30KNLeftKshScale/preview.svg"
     componentPath:"elements/Controls/Su27/Su27KshIndicator/Su27KshIndicator.qml"
     width:128; height:180
     preserveAspectRatio:true
@@ -22,8 +23,8 @@ BaseSceneComponent {
     readonly property real scaleVisual:mapGaugeValue(value,valueMappingMode,
         valueMappingPoints,inputMin,inputMax,outputMinAngle,outputMaxAngle,true)
     supportsGaugeCalibration:true
-    gaugeCalibrationCenterX:(width-128*Math.min(width/128,height/180))/2+20*Math.min(width/128,height/180)
-    gaugeCalibrationCenterY:height/2
+    gaugeCalibrationCenterX: width / 2 + (scaleFace.pivotY - scaleFace.height / 2) * scaleFace.scale
+    gaugeCalibrationCenterY: height / 2
     customProperties:({value:value,valueMappingMode:valueMappingMode,inputMin:inputMin,inputMax:inputMax,
         outputMinAngle:outputMinAngle,outputMaxAngle:outputMaxAngle,valueMappingPoints:valueMappingPoints})
     propertySchema:({
@@ -50,57 +51,17 @@ BaseSceneComponent {
             customPropertiesChanged()
         }
     }
-    Item {
-        id:visual
-        width:128;height:180
-        scale:Math.min(root.width/width,root.height/height)
-        transformOrigin:Item.TopLeft
-        x:(root.width-width*scale)/2;y:(root.height-height*scale)/2
-        Canvas {
-            anchors.fill:parent
-            onPaint: {
-                var c=getContext("2d")
-                c.reset();c.clearRect(0,0,width,height)
-                c.strokeStyle="#babdad";c.lineWidth=2
-                c.beginPath();c.arc(20,90,80,-Math.PI/2,Math.PI/2);c.stroke()
-                c.strokeStyle="#727e73";c.lineWidth=1
-                c.beginPath();c.arc(20,90,84,-Math.PI/2,Math.PI/2);c.stroke()
-                c.beginPath();c.moveTo(20,6);c.lineTo(20,174);c.stroke()
-                c.fillStyle="#eeeede"
-                c.beginPath();c.moveTo(111,83);c.lineTo(95,90);c.lineTo(111,97);c.closePath();c.fill()
-            }
-        }
-        Item {
-            x:20;y:8;width:74;height:164
-            clip:true
-            Item {
-                id:scaleItem
-                objectName:"kshScale"
-                x:0;y:82
-                rotation:root.editorCalibrationActive ? root.editorCalibrationAngle : root.scaleVisual
-                Repeater {
-                    model:26
-                    Item {
-                        required property int index
-                        rotation:125-index*7
-                        Rectangle { x: index%5 === 0 ? -1.5 : -0.7; y:-75; width:index%5 === 0 ? 3 : 1.4; height:index%5 === 0 ? 11 : 5; color:"#e9eadb"; antialiasing:true }
-                    }
-                }
-                Repeater {
-                    model:6
-                    Text {
-                        required property int index
-                        readonly property real angle:(125-index*35)*Math.PI/180
-                        x:Math.sin(angle)*54-width/2
-                        y:-Math.cos(angle)*54-height/2
-                        width:29;height:19
-                        text:(0.5+index*0.5).toFixed(index%2 === 0 ? 1 : 0)
-                        color:"#ececdd";font.family:"Arial";font.pixelSize:17
-                        rotation:-scaleItem.rotation
-                        horizontalAlignment:Text.AlignHCenter;verticalAlignment:Text.AlignVCenter
-                    }
-                }
-            }
-        }
+    KshScaleFace {
+        id: scaleFace
+        anchors.centerIn: parent
+        width: 137.1
+        height: 129.55
+        scale: Math.min(root.width / height, root.height / width)
+        rotation: -90
+        // The engraved card runs in the opposite direction, at 66° per unit
+        // versus 70° for the saved calibration. Its 0.5 mark starts 57° from the pointer.
+        readonly property real calibrationAngle: root.editorCalibrationActive
+                                                  ? root.editorCalibrationAngle : root.scaleVisual
+        cardAngle: 57 - (calibrationAngle + 35) * 66 / 70
     }
 }

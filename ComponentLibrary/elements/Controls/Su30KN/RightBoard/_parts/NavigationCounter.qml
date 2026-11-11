@@ -13,7 +13,8 @@ Indicator {
     minimumValue: -1
     value: -1
     customProperties: ({ value: value, testMode: testMode })
-    propertySchema: ({
+    propertySchema: navigationPropertySchema
+    readonly property var navigationPropertySchema: ({
         value: { displayName: "Reading", type: "number", bindable: true,
                  access: "readOnly", min: minimumValue, max: maximumValue },
         testMode: { displayName: "Test mode", type: "bool", bindable: false, access: "readWrite" }

@@ -9,11 +9,11 @@ RotaryAnalog {
     my_subtype: "KnurledKnob"
     implicitWidth: look ? look.width : (controlMode === "trim" ? 69.331502 : 57.47716)
     implicitHeight: look ? look.height : implicitWidth
-    previewSource: look ? look.preview : "knob.svg"
+    previewSource: look ? (look.preview || look.scale) : "knob.svg"
 
     property string appearance: "knurled"
     readonly property var catalogVariantProperties: ["appearance", "controlMode"]
-    readonly property string catalogSection: "bare"
+    readonly property string catalogSection: look && look.scale ? "scaled" : "bare"
     property string controlMode: "volume"
     readonly property var look: Looks.entries[appearance]
     readonly property bool hasTravelModes: !look
@@ -36,7 +36,8 @@ RotaryAnalog {
             values: [{ label: qsTr("Knurled"), value: "knurled", previewSource: Qt.resolvedUrl("knob.svg") }]
                 .concat(Object.keys(Looks.entries).map(function(key) {
                     return { label: Looks.entries[key].label, value: key,
-                             previewSource: Qt.resolvedUrl(Looks.entries[key].preview) }
+                             previewSource: Looks.entries[key].preview ? Qt.resolvedUrl(Looks.entries[key].preview) : "",
+                             catalogHidden: Looks.entries[key].catalogHidden === true }
                 })) },
         controlMode: { displayName: qsTr("Travel"), type: "enum", bindable: false, order: 1,
             visibleWhen: { property: "hasTravelModes", equals: true },
@@ -65,6 +66,12 @@ RotaryAnalog {
             rotation: root.startAngleForMode(previewValue)
             scale: root.scaleForMode(previewValue)
         }
+    }
+
+    AdaptiveSvgImage {
+        anchors.fill: parent
+        visible: !!(root.look && root.look.scale)
+        source: visible ? Qt.resolvedUrl(root.look.scale) : ""
     }
 
     AdaptiveSvgImage {

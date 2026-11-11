@@ -1,0 +1,23 @@
+{
+    "channels": {
+        "value": {
+            "inputMax": 3,
+            "inputMin": 0.5,
+            "mappingMode": "Linear",
+            "mappingPoints": [
+                {
+                    "input": 0.5,
+                    "output": -35
+                },
+                {
+                    "input": 3,
+                    "output": 140,
+                    "preserveAngularDelta": true
+                }
+            ],
+            "outputMaxAngle": 140,
+            "outputMinAngle": -35
+        }
+    },
+    "version": 1
+}

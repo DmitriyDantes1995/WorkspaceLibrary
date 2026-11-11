@@ -119,5 +119,66 @@ var entries = {
         "stretch": true,
         "source": "_art/scalloped/body.svg",
         "preview": "_art/scalloped/body.svg"
+    },
+    "r862Volume": {
+        "label": "Громкость КВ / УКВ · ГРОМК",
+        "width": 97.06,
+        "height": 97.06,
+        "minimum": 0.0,
+        "maximum": 65535.0,
+        "start": -180.0,
+        "end": 0.0,
+        "step": 1.0,
+        "discrete": false,
+        "bodyRect": [
+            0.31151421800947865,
+            0.31151421800947865,
+            0.3769715639810427,
+            0.3769715639810427
+        ],
+        "stretch": false,
+        "source": "_art/barHandle/body.svg",
+        "scale": "_art/r862Volume/scale.svg"
+    },
+    "spuVolume": {
+        "catalogHidden": true,
+        "minimum": 0,
+        "maximum": 65535,
+        "start": -90,
+        "end": 90,
+        "step": 1,
+        "discrete": false,
+        "source": "knob.svg",
+        "label": "Left · Intercom volume",
+        "width": 151.75,
+        "height": 151.75,
+        "bodyRect": [
+            0.31194963674911663,
+            0.31194963674911663,
+            0.37610072650176674,
+            0.37610072650176674
+        ],
+        "scale": "_art/spuVolume/scale.svg",
+        "preview": "_art/spuVolume/preview.svg"
+    },
+    "spoVolume": {
+        "label": "Громкость СПО · ЗВУК",
+        "width": 114.25,
+        "height": 114.25,
+        "minimum": 0.0,
+        "maximum": 65535.0,
+        "start": 90.0,
+        "end": 390.0,
+        "step": 1.0,
+        "discrete": true,
+        "bodyRect": [
+            0.321891466083151,
+            0.321891466083151,
+            0.35621706783369805,
+            0.35621706783369805
+        ],
+        "stretch": true,
+        "source": "_art/dot/body.svg",
+        "scale": "_art/spoVolume/scale.svg"
     }
 }

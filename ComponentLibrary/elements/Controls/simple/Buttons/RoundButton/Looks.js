@@ -151,5 +151,14 @@ var entries = {
             "_art/silver/release.svg",
             "_art/silver/pressed.svg"
         ]
+    },
+    "pinkHexagon": {
+        "label": "Pink dome with hexagonal bezel",
+        "width": 40.02,
+        "height": 40.02,
+        "frames": [
+            "../../../Su27/Su27UBRightButtonSpoReceiveTest/state_0.svg",
+            "../../../Su27/Su27UBRightButtonSpoReceiveTest/state_1.svg"
+        ]
     }
 }

@@ -53,7 +53,6 @@ Item {
                     ? _naturalImplicitHeight : image.implicitHeight
 
     property var _transformObservers: []
-    property bool _observerRebuildPending: false
 
     function devicePixelRatio() {
         if (root.Screen.devicePixelRatio > 0)
@@ -138,7 +137,6 @@ Item {
     }
 
     function rebuildTransformObservers() {
-        _observerRebuildPending = false
         destroyTransformObservers()
 
         var observedObjects = []
@@ -169,10 +167,8 @@ Item {
     }
 
     function scheduleObserverRebuild() {
-        if (_observerRebuildPending)
-            return
-        _observerRebuildPending = true
-        Qt.callLater(rebuildTransformObservers)
+        if (!observerRebuildTimer.running)
+            observerRebuildTimer.start()
     }
 
     Component {
@@ -205,6 +201,12 @@ Item {
             function onScreenChanged() { hierarchyChanged() }
             function onDevicePixelRatioChanged() { changed() }
         }
+    }
+
+    Timer {
+        id: observerRebuildTimer
+        interval: 0
+        onTriggered: root.rebuildTransformObservers()
     }
 
     Timer {

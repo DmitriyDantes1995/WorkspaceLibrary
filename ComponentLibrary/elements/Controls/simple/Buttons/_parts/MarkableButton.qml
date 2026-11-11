@@ -16,11 +16,21 @@ MomentaryButton {
     property real markingWidth: 23
     property real singleTextWidth: 28
     property real markingHeight: 18
-    property string labelBottomRight: ""
     property bool showDivider: false
+    property bool markingsVisible: true
 
     property string labelTop: ""
+    property real labelTopFontSize: 0
+    property real labelTopOffsetX: 0
+    property real labelTopOffsetY: 0
     property string labelBottom: ""
+    property real labelBottomFontSize: 0
+    property real labelBottomOffsetX: 0
+    property real labelBottomOffsetY: 0
+    property string labelBottomRight: ""
+    property real labelBottomRightFontSize: 0
+    property real labelBottomRightOffsetX: 0
+    property real labelBottomRightOffsetY: 0
     property int arrowDirection: 0
     property int markingRotation: 0
     property bool showOutline: false
@@ -32,36 +42,59 @@ MomentaryButton {
     readonly property var standardProperties: ({
         value: root.value,
         labelTop: root.labelTop,
+        labelTopFontSize: root.labelTopFontSize,
+        labelTopOffsetX: root.labelTopOffsetX,
+        labelTopOffsetY: root.labelTopOffsetY,
         labelBottom: root.labelBottom,
+        labelBottomFontSize: root.labelBottomFontSize,
+        labelBottomOffsetX: root.labelBottomOffsetX,
+        labelBottomOffsetY: root.labelBottomOffsetY,
         labelBottomRight: root.labelBottomRight,
+        labelBottomRightFontSize: root.labelBottomRightFontSize,
+        labelBottomRightOffsetX: root.labelBottomRightOffsetX,
+        labelBottomRightOffsetY: root.labelBottomRightOffsetY,
         showDivider: root.showDivider,
         arrowDirection: root.arrowDirection,
         markingRotation: root.markingRotation,
         showOutline: root.showOutline,
         outlineColor: root.outlineColor.toString()
     })
-    readonly property var standardPropertySchema: ({
-        labelTop: { displayName: qsTr("Top text"), type: "string", bindable: false, order: 0 },
-        labelBottom: { displayName: qsTr("Bottom text"), type: "string", bindable: false, order: 1 },
-        labelBottomRight: { displayName: qsTr("Bottom right text"), type: "string", bindable: false, order: 1.1 },
-        showDivider: { displayName: qsTr("Keypad dividers"), type: "bool", bindable: false, order: 1.2 },
-        arrowDirection: { displayName: qsTr("Arrow"), type: "enum", bindable: false, order: 2, values: [
+    readonly property var standardPropertySchema: Object.assign({
+        labelTop: { displayName: qsTr("Top text"), type: "string", bindable: false, hidden: !root.markingsVisible, order: 0 },
+        labelBottom: { displayName: qsTr("Bottom text"), type: "string", bindable: false, hidden: !root.markingsVisible, order: 1 },
+        labelBottomRight: { displayName: qsTr("Bottom right text"), type: "string", bindable: false, hidden: !root.markingsVisible, order: 1.1 },
+        showDivider: { displayName: qsTr("Keypad dividers"), type: "bool", bindable: false, hidden: !root.markingsVisible, order: 1.2 },
+        arrowDirection: { displayName: qsTr("Arrow"), type: "enum", bindable: false, hidden: !root.markingsVisible, order: 2, values: [
             { value: 0, label: qsTr("None") },
             { value: 1, label: "↑" },
             { value: 2, label: "→" },
             { value: 3, label: "↓" },
             { value: 4, label: "←" }
         ] },
-        markingRotation: { displayName: qsTr("Marking rotation"), type: "enum", bindable: false, order: 3, values: [
+        markingRotation: { displayName: qsTr("Marking rotation"), type: "enum", bindable: false, hidden: !root.markingsVisible, order: 3, values: [
             { value: 0, label: "0°" },
             { value: 90, label: "90°" },
             { value: -90, label: "−90°" },
             { value: 180, label: "180°" }
         ] },
-        showOutline: { displayName: qsTr("Outline"), type: "bool", bindable: false, order: 4 },
-        outlineColor: { displayName: qsTr("Outline color"), type: "color", bindable: false, order: 5, visibleWhen: { property: "showOutline", equals: true } },
+        showOutline: { displayName: qsTr("Outline"), type: "bool", bindable: false, hidden: !root.markingsVisible, order: 4 },
+        outlineColor: { displayName: qsTr("Outline color"), type: "color", bindable: false, hidden: !root.markingsVisible, order: 5, visibleWhen: { property: "showOutline", equals: true } },
         value: { displayName: qsTr("Pressed"), type: "number", bindable: true, access: "readWrite", min: 0, max: 1, step: 1, order: 6 }
-    })
+    }, textLayoutSchema("labelTop", root.labelTop, 0),
+       textLayoutSchema("labelBottom", root.labelBottom, 1),
+       textLayoutSchema("labelBottomRight", root.labelBottomRight, 1.1))
+
+    function textLayoutSchema(field, text, order) {
+        const hidden = !root.markingsVisible || text.length === 0
+        return {
+            [field + "FontSize"]: { displayName: "Font size", type: "number", bindable: false,
+                hidden: hidden, min: 0, max: 48, step: 1, unit: "px", order: order + 0.01 },
+            [field + "OffsetX"]: { displayName: "ΔX", type: "number", bindable: false,
+                hidden: hidden, unit: "px", order: order + 0.02 },
+            [field + "OffsetY"]: { displayName: "ΔY", type: "number", bindable: false,
+                hidden: hidden, unit: "px", order: order + 0.03 }
+        }
+    }
 
     Item {
         id: face
@@ -85,6 +118,7 @@ MomentaryButton {
 
         Item {
             // The cap and its markings move together. The lamp stays in the housing.
+            visible: root.markingsVisible
             x: root.currentState === 1 ? root.pressedOffset.x : 0
             y: root.currentState === 1 ? root.pressedOffset.y : 0
 
@@ -118,6 +152,14 @@ MomentaryButton {
                 height: root.markingHeight
                 rotation: root.markingRotation
 
+                function offsetInButtonAxes(x, y) {
+                    // Undo the text rotation so X and Y still follow the button face.
+                    const angle = -rotation * Math.PI / 180
+                    const cosine = Math.cos(angle)
+                    const sine = Math.sin(angle)
+                    return Qt.point(x * cosine - y * sine, x * sine + y * cosine)
+                }
+
                 FaceText {
                     id: topText
                     singleLine: marking.singleText
@@ -125,6 +167,8 @@ MomentaryButton {
                     y: marking.hasLowerRow ? 0 : (marking.height - height) / 2
                     width: marking.width - (arrow.visible ? arrow.width + 3 : 0)
                     text: root.labelTop
+                    customFontSize: root.labelTopFontSize
+                    positionOffset: marking.offsetInButtonAxes(root.labelTopOffsetX, root.labelTopOffsetY)
                 }
 
                 Shape {
@@ -152,6 +196,8 @@ MomentaryButton {
                     y: marking.hasUpperRow ? marking.topRowHeight : (marking.height - height) / 2
                     width: bottomRight.visible ? marking.width / 2 : marking.width
                     text: root.labelBottom
+                    customFontSize: root.labelBottomFontSize
+                    positionOffset: marking.offsetInButtonAxes(root.labelBottomOffsetX, root.labelBottomOffsetY)
                 }
 
                 FaceText {
@@ -161,6 +207,8 @@ MomentaryButton {
                     width: marking.width / 2
                     height: bottomText.height
                     text: root.labelBottomRight
+                    customFontSize: root.labelBottomRightFontSize
+                    positionOffset: marking.offsetInButtonAxes(root.labelBottomRightOffsetX, root.labelBottomRightOffsetY)
                 }
 
                 Rectangle {
@@ -184,18 +232,26 @@ MomentaryButton {
     }
 
     component FaceText: Text {
+        id: legend
         property bool singleLine: false
+        property real customFontSize: 0
+        property point positionOffset: Qt.point(0, 0)
+        readonly property bool automaticSize: customFontSize <= 0
 
         visible: text.length > 0
         color: "#f3f0e8"
         font.family: "Arial"
         font.bold: true
-        font.pixelSize: singleLine ? 12 : 9
+        font.pixelSize: automaticSize ? (singleLine ? 12 : 9) : Math.max(1, Math.round(customFontSize))
         minimumPixelSize: 4
-        fontSizeMode: Text.Fit
+        fontSizeMode: automaticSize ? Text.Fit : Text.FixedSize
         textFormat: Text.PlainText
-        elide: Text.ElideRight
+        elide: automaticSize ? Text.ElideRight : Text.ElideNone
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
+        transform: Translate {
+            x: legend.positionOffset.x
+            y: legend.positionOffset.y
+        }
     }
 }

@@ -1,6 +1,13 @@
 .pragma library
 
 var entries = {
+    // 1RightBort.swf #460. The same body is used for heating, radio and standby navigation.
+    "airframe": {
+        "label": "Right · Airframe systems lever",
+        "width": 76.896,
+        "height": 76.896,
+        "frames": {"": ["_art/airframe/state_0.svg", "_art/airframe/state_1.svg"]}
+    },
     "redTip": {
         "label": "Red tip lever",
         "width": 48,

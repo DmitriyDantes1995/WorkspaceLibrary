@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110.0" height="110.0" viewBox="-55.0 -55.0 110.0 110.0">
+  <defs>
+    <g id="font_Arial_A0">
+      <path d="M463.0 -290.0 L263.0 -290.0 362.0 -562.0 463.0 -290.0 M735.5 0.0 L442.0 -733.0 285.5 -733.0 0.0 0.0 157.0 0.0 217.5 -166.5 510.5 -166.5 574.5 0.0 735.5 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_U0">
+      <path d="M73.5 -733.0 L73.5 -342.0 Q73.5 -219.0 88.0 -156.0 98.0 -113.5 129.5 -74.5 161.0 -36.0 215.5 -11.5 269.5 12.5 374.5 12.5 461.5 12.5 515.5 -9.5 569.5 -32.0 602.0 -69.5 634.0 -107.0 646.0 -161.5 658.0 -216.0 658.0 -348.0 L658.0 -733.0 510.0 -733.0 510.0 -327.5 Q510.0 -240.5 503.5 -203.0 497.0 -165.5 465.0 -139.5 433.0 -114.0 370.0 -114.0 308.0 -114.0 272.5 -141.0 236.5 -168.5 227.0 -213.5 221.5 -241.5 221.5 -336.0 L221.5 -733.0 73.5 -733.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_T0">
+      <path d="M239.5 0.0 L387.5 0.0 387.5 -609.0 604.5 -609.0 604.5 -733.0 22.0 -733.0 22.0 -609.0 239.5 -609.0 239.5 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="text63">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, 60.75, 0.0)">
+        <use fill="#ffffff" height="11.0" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 0.0, 10.0)" width="30.2" xlink:href="#font_Arial_A0" />
+        <use fill="#ffffff" height="11.0" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 7.85, 10.0)" width="30.2" xlink:href="#font_Arial_U0" />
+        <use fill="#ffffff" height="11.0" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 15.7, 10.0)" width="30.2" xlink:href="#font_Arial_T0" />
+      </g>
+    </g>
+    <g id="font_Arial_F0">
+      <path d="M75.5 0.0 L223.5 0.0 223.5 -311.5 529.5 -311.5 529.5 -435.5 223.5 -435.5 223.5 -609.0 578.0 -609.0 578.0 -733.0 75.5 -733.0 75.5 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_L0">
+      <path d="M78.5 0.0 L594.5 0.0 594.5 -123.5 226.5 -123.5 226.5 -727.0 78.5 -727.0 78.5 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_I0">
+      <path d="M70.0 0.0 L218.0 0.0 218.0 -733.0 70.0 -733.0 70.0 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_G0">
+      <path d="M415.5 -269.5 L585.0 -269.5 585.0 -176.5 Q551.5 -150.5 505.0 -132.0 458.0 -114.0 411.5 -114.0 317.5 -114.0 259.5 -179.0 201.5 -244.5 201.5 -375.0 201.5 -496.0 259.0 -557.5 316.0 -619.0 413.0 -619.0 477.0 -619.0 520.0 -587.5 562.5 -556.5 578.0 -502.5 L725.0 -530.0 Q703.0 -631.0 626.5 -688.0 549.5 -745.5 413.0 -745.5 308.0 -745.5 237.5 -709.0 145.0 -661.5 97.0 -572.5 49.0 -483.5 49.0 -369.0 49.0 -263.5 92.0 -173.5 135.0 -84.0 220.5 -35.5 306.0 12.5 421.0 12.5 511.5 12.5 600.0 -21.5 688.0 -56.0 734.5 -101.0 L734.5 -393.0 415.5 -393.0 415.5 -269.5" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_H0">
+      <path d="M75.0 0.0 L223.0 0.0 223.0 -320.5 513.0 -320.5 513.0 0.0 661.0 0.0 661.0 -733.0 513.0 -733.0 513.0 -444.5 223.0 -444.5 223.0 -733.0 75.0 -733.0 75.0 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="text64">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, 52.4, 0.0)">
+        <use fill="#ffffff" height="11.15" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 0.0, 10.0)" width="46.15" xlink:href="#font_Arial_F0" />
+        <use fill="#ffffff" height="11.15" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 6.6, 10.0)" width="46.15" xlink:href="#font_Arial_L0" />
+        <use fill="#ffffff" height="11.15" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 13.2, 10.0)" width="46.15" xlink:href="#font_Arial_I0" />
+        <use fill="#ffffff" height="11.15" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 16.15, 10.0)" width="46.15" xlink:href="#font_Arial_G0" />
+        <use fill="#ffffff" height="11.15" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 24.6, 10.0)" width="46.15" xlink:href="#font_Arial_H0" />
+        <use fill="#ffffff" height="11.15" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 32.45, 10.0)" width="46.15" xlink:href="#font_Arial_T0" />
+      </g>
+    </g>
+    <g id="font_Arial_N0">
+      <path d="M76.0 0.0 L213.5 0.0 213.5 -478.0 509.0 0.0 657.5 0.0 657.5 -733.0 520.0 -733.0 520.0 -243.5 220.0 -733.0 76.0 -733.0 76.0 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_D0">
+      <path d="M222.0 -609.0 L288.5 -609.0 Q379.0 -609.0 410.0 -602.0 451.5 -593.0 478.5 -567.5 505.5 -542.0 520.5 -496.5 535.5 -451.0 535.5 -366.0 535.5 -281.0 520.5 -231.5 505.5 -182.5 482.0 -161.0 458.0 -139.5 422.0 -130.5 394.5 -123.5 332.5 -123.5 L222.0 -123.5 222.0 -609.0 M74.0 -733.0 L74.0 0.0 352.5 0.0 Q434.5 0.0 483.5 -15.5 549.0 -36.5 587.5 -74.0 638.5 -123.5 666.0 -203.5 688.5 -269.0 688.5 -359.5 688.5 -462.5 664.5 -532.5 640.5 -603.0 594.5 -651.5 548.5 -700.0 484.0 -719.0 436.0 -733.0 344.5 -733.0 L74.0 -733.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="text65">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, 60.75, 0.0)">
+        <use fill="#ffffff" height="10.85" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 0.0, 10.0)" width="29.35" xlink:href="#font_Arial_L0" />
+        <use fill="#ffffff" height="10.85" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 6.6, 10.0)" width="29.35" xlink:href="#font_Arial_N0" />
+        <use fill="#ffffff" height="10.85" transform="matrix(0.0107, 0.0, 0.0, 0.0107, 14.45, 10.0)" width="29.35" xlink:href="#font_Arial_D0" />
+      </g>
+    </g>
+  </defs>
+  <g transform="rotate(-90) translate(-820.75 -834.4)">
+    <g transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)">
+      <path d="M852.3 817.25 L851.0 820.95 M857.95 833.65 L854.0 833.65 M851.45 850.0 L850.05 846.3" fill="none" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="miter-clip" stroke-miterlimit="3.0" stroke-width="2.0" />
+      <path d="M851.0 820.95 L854.8 822.4 M851.0 820.95 L847.25 819.7 M854.0 833.65 L854.0 837.6 M854.0 833.65 L854.0 829.6 M850.05 846.3 L846.25 847.65 M850.05 846.3 L853.85 844.9" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="miter-clip" stroke-miterlimit="3.0" stroke-width="2.0" />
+    </g>
+    <use height="11.0" transform="matrix(1.0E-4, 0.8959, -0.8959, 1.0E-4, 858.2, 744.75)" width="30.2" xlink:href="#text63" />
+    <use height="11.15" transform="matrix(1.0E-4, 0.8959, -0.8959, 1.0E-4, 867.85, 773.2)" width="46.15" xlink:href="#text64" />
+    <use height="10.85" transform="matrix(1.0E-4, 0.8959, -0.8959, 1.0E-4, 856.6, 805.85)" width="29.35" xlink:href="#text65" />
+  </g>
+</svg>

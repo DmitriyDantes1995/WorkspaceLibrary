@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="148" viewBox="0 0 1000000 1000000">
+  <defs>
+    <style>.C1 {stroke: #eae6db; stroke-width: 4139; stroke-opacity: 1.000; fill: none; fill-opacity: 1.000;}</style>
+    <style>.C2 {stroke: none; stroke-width: none; stroke-opacity: 1.000; fill: #eae6db; fill-opacity: 1.000;}</style>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" transform="rotate(-90 500000 500000)">
+    <path d="M 174878 460991 c -17858 155904 76169 302933 225184 352120 c 149015 49187 312093 -12976 390554 -148876 c 78462 -135899 50758 -308211 -66347 -412668 c -117105 -104457 -291449 -112372 -417537 -18955" class="C1" />
+    <path d="M 240673 468528 c -14286 124723 60935 242346 180147 281696 c 119212 39350 249674 -10381 312443 -119101 c 62769 -108720 40607 -246568 -53077 -330134 c -93684 -83566 -233159 -89898 -334030 -15164" class="C1" />
+    <path d="M 259063 357343 l 18508 56667" class="C1" />
+    <path d="M 259063 357343 l 58329 -12305" class="C1" />
+    <path d="M 346157 285825 l -39424 -53212" class="C1" />
+    <path d="M 240673 468528 l -65795 -7536" class="C1" />
+    <path d="M 194810 348657 l 0 -7115 l 45338 0 q -2451 -2569 -4901 -6739 q -2451 -4170 -3676 -7490 l 6878 0 q 2806 5969 6799 10435 q 3992 4467 7747 6324 l 0 4585 l -58184 0 Z" class="C2" />
+  </g>
+</svg>

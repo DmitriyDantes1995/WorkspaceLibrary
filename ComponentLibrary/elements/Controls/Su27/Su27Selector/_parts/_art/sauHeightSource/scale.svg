@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="133.4" height="133.4" viewBox="-66.7 -66.7 133.4 133.4">
+  <defs>
+    <g id="font_Arial_H0">
+      <path d="M75.0 0.0 L223.0 0.0 223.0 -320.5 513.0 -320.5 513.0 0.0 661.0 0.0 661.0 -733.0 513.0 -733.0 513.0 -444.5 223.0 -444.5 223.0 -733.0 75.0 -733.0 75.0 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_k0">
+      <path d="M68.5 0.0 L209.0 0.0 209.0 -170.0 274.5 -238.5 408.0 0.0 559.5 0.0 365.0 -337.0 546.5 -531.0 373.5 -531.0 209.0 -344.0 209.0 -733.0 68.5 -733.0 68.5 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_m0">
+      <path d="M63.0 -531.0 L63.0 0.0 203.5 0.0 203.5 -258.0 Q203.5 -334.5 215.0 -367.5 226.0 -400.5 252.0 -418.0 278.0 -435.5 310.5 -435.5 337.5 -435.5 353.5 -424.5 369.0 -413.5 376.5 -391.0 384.0 -368.5 384.0 -291.0 L384.0 0.0 524.5 0.0 524.5 -255.0 Q524.5 -330.0 536.0 -364.5 547.5 -399.5 573.5 -417.5 599.5 -435.5 629.0 -435.5 669.5 -435.5 689.0 -405.5 703.5 -382.5 703.5 -303.5 L703.5 0.0 844.0 0.0 844.0 -339.5 Q844.0 -415.5 829.5 -449.5 809.5 -495.5 769.0 -519.0 728.5 -543.0 670.0 -543.0 624.0 -543.0 583.5 -522.0 543.0 -501.0 508.0 -458.5 484.0 -501.0 446.5 -522.0 409.0 -543.0 358.0 -543.0 262.0 -543.0 192.5 -458.5 L192.5 -531.0 63.0 -531.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="text191">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, -4.55, 0.0)">
+        <use fill="#ffffff" height="13.0" transform="matrix(0.0137, 0.0, 0.0, 0.0137, 0.0, 13.0)" width="37.55" xlink:href="#font_Arial_H0" />
+        <use fill="#ffffff" height="13.0" transform="matrix(0.0137, 0.0, 0.0, 0.0137, 9.6, 13.0)" width="37.55" xlink:href="#font_Arial_k0" />
+        <use fill="#ffffff" height="13.0" transform="matrix(0.0137, 0.0, 0.0, 0.0137, 16.9, 13.0)" width="37.55" xlink:href="#font_Arial_m0" />
+      </g>
+    </g>
+    <g id="font_Arial_M0">
+      <path d="M72.5 0.0 L210.0 0.0 210.0 -577.0 355.0 0.0 497.5 0.0 643.0 -577.0 643.0 0.0 780.5 0.0 780.5 -733.0 558.5 -733.0 427.0 -233.0 294.0 -733.0 72.5 -733.0 72.5 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_A0">
+      <path d="M463.0 -290.0 L263.0 -290.0 362.0 -562.0 463.0 -290.0 M735.5 0.0 L442.0 -733.0 285.5 -733.0 0.0 0.0 157.0 0.0 217.5 -166.5 510.5 -166.5 574.5 0.0 735.5 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="font_Arial_N0">
+      <path d="M76.0 0.0 L213.5 0.0 213.5 -478.0 509.0 0.0 657.5 0.0 657.5 -733.0 520.0 -733.0 520.0 -243.5 220.0 -733.0 76.0 -733.0 76.0 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="text194">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, 12.4, 0.0)">
+        <use fill="#ffffff" height="11.6" transform="matrix(0.0117, 0.0, 0.0, 0.0117, 1.0, 11.0)" width="33.45" xlink:href="#font_Arial_M0" />
+        <use fill="#ffffff" height="11.6" transform="matrix(0.0117, 0.0, 0.0, 0.0117, 10.5, 11.0)" width="33.45" xlink:href="#font_Arial_A0" />
+        <use fill="#ffffff" height="11.6" transform="matrix(0.0117, 0.0, 0.0, 0.0117, 18.65, 11.0)" width="33.45" xlink:href="#font_Arial_N0" />
+      </g>
+    </g>
+    <g id="font_Arial_40">
+      <path d="M319.0 -271.0 L150.5 -271.0 319.0 -521.5 319.0 -271.0 M319.0 0.0 L455.0 0.0 455.0 -147.5 546.0 -147.5 546.0 -271.0 455.0 -271.0 455.0 -736.0 337.0 -736.0 19.0 -270.5 19.0 -147.5 319.0 -147.5 319.0 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="text199">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, 12.4, 0.0)">
+        <use fill="#ffffff" height="11.6" transform="matrix(0.0117, 0.0, 0.0, 0.0117, 10.0, 11.0)" width="14.45" xlink:href="#font_Arial_40" />
+      </g>
+    </g>
+    <g id="font_Arial_70">
+      <path d="M43.5 -592.5 L363.0 -592.5 Q264.0 -468.0 205.0 -310.0 145.5 -152.0 142.0 0.0 L277.5 0.0 Q277.0 -97.0 309.5 -220.0 341.5 -343.5 403.0 -453.0 464.5 -562.5 524.0 -621.0 L524.0 -723.0 43.5 -723.0 43.5 -592.5" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="text200">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, 12.4, 0.0)">
+        <use fill="#ffffff" height="11.45" transform="matrix(0.0117, 0.0, 0.0, 0.0117, 10.0, 11.0)" width="14.15" xlink:href="#font_Arial_70" />
+      </g>
+    </g>
+    <g id="font_Arial_10">
+      <path d="M403.0 0.0 L403.0 -736.0 289.0 -736.0 Q265.0 -669.0 200.5 -618.5 136.0 -568.5 81.0 -550.5 L81.0 -423.0 Q185.5 -457.5 262.5 -529.5 L262.5 0.0 403.0 0.0" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="text201">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, 12.4, 0.0)">
+        <use fill="#ffffff" height="11.6" transform="matrix(0.0117, 0.0, 0.0, 0.0117, 8.0, 11.0)" width="19.2" xlink:href="#font_Arial_10" />
+        <use fill="#ffffff" height="11.6" transform="matrix(0.0117, 0.0, 0.0, 0.0117, 13.5, 11.0)" width="19.2" xlink:href="#font_Arial_10" />
+      </g>
+    </g>
+    <g id="text202">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, 12.4, 0.0)">
+        <use fill="#ffffff" height="11.6" transform="matrix(0.0117, 0.0, 0.0, 0.0117, 7.0, 11.0)" width="19.85" xlink:href="#font_Arial_10" />
+        <use fill="#ffffff" height="11.6" transform="matrix(0.0117, 0.0, 0.0, 0.0117, 13.15, 11.0)" width="19.85" xlink:href="#font_Arial_40" />
+      </g>
+    </g>
+    <g id="text203">
+      <g transform="matrix(1.0, 0.0, 0.0, 1.0, 12.4, 0.0)">
+        <use fill="#ffffff" height="11.6" transform="matrix(0.0117, 0.0, 0.0, 0.0117, 7.0, 11.0)" width="19.85" xlink:href="#font_Arial_10" />
+        <use fill="#ffffff" height="11.6" transform="matrix(0.0117, 0.0, 0.0, 0.0117, 13.15, 11.0)" width="19.85" xlink:href="#font_Arial_70" />
+      </g>
+    </g>
+  </defs>
+  <g transform="rotate(90) translate(-1178.3 -519.95)">
+    <g transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)">
+      <path d="M1150.8 517.65 Q1149.9 522.8 1150.8 527.95 L1148.25 528.4 Q1147.9 526.5 1147.8 524.6 L1144.5 524.6 1144.5 521.6 1147.8 521.6 Q1147.85 519.4 1148.25 517.2 L1150.8 517.65" fill="#ffffff" fill-rule="evenodd" stroke="none" />
+      <path d="M1150.8 517.65 Q1149.9 522.8 1150.8 527.95 L1148.25 528.4 Q1147.9 526.5 1147.8 524.6 L1144.5 524.6 1144.5 521.6 1147.8 521.6 Q1147.85 519.4 1148.25 517.2 L1150.8 517.65 Z" fill="none" stroke="#4a4a4a" stroke-linecap="butt" stroke-linejoin="miter-clip" stroke-miterlimit="3.0" stroke-width="1.0" />
+      <path d="M1157.85 501.3 Q1154.5 505.3 1152.75 510.2 L1150.3 509.35 Q1150.95 507.5 1151.8 505.8 L1148.95 504.15 1150.45 501.55 1153.3 503.2 Q1154.45 501.35 1155.9 499.65 L1157.85 501.3" fill="#ffffff" fill-rule="evenodd" stroke="none" />
+      <path d="M1157.85 501.3 Q1154.5 505.3 1152.75 510.2 L1150.3 509.35 Q1150.95 507.5 1151.8 505.8 L1148.95 504.15 1150.45 501.55 1153.3 503.2 Q1154.45 501.35 1155.9 499.65 L1157.85 501.3 Z" fill="none" stroke="#4a4a4a" stroke-linecap="butt" stroke-linejoin="miter-clip" stroke-miterlimit="3.0" stroke-width="1.0" />
+      <path d="M1172.35 490.65 Q1167.45 492.4 1163.45 495.75 L1161.75 493.8 1164.85 491.5 1163.2 488.65 1165.8 487.15 1167.45 490.0 Q1169.35 488.95 1171.45 488.2 L1172.35 490.65" fill="#ffffff" fill-rule="evenodd" stroke="none" />
+      <path d="M1172.35 490.65 Q1167.45 492.4 1163.45 495.75 L1161.75 493.8 1164.85 491.5 1163.2 488.65 1165.8 487.15 1167.45 490.0 Q1169.35 488.95 1171.45 488.2 L1172.35 490.65 Z" fill="none" stroke="#4a4a4a" stroke-linecap="butt" stroke-linejoin="miter-clip" stroke-miterlimit="3.0" stroke-width="1.0" />
+      <path d="M1152.75 535.45 Q1154.5 540.35 1157.85 544.35 L1155.9 546.0 1153.6 542.95 1150.75 544.6 1149.25 542.0 1152.1 540.35 Q1151.05 538.4 1150.3 536.3 1151.5 535.8 1152.75 535.45" fill="#ffffff" fill-rule="evenodd" stroke="none" />
+      <path d="M1152.75 535.45 Q1154.5 540.35 1157.85 544.35 L1155.9 546.0 1153.6 542.95 1150.75 544.6 1149.25 542.0 1152.1 540.35 Q1151.05 538.4 1150.3 536.3 1151.5 535.8 1152.75 535.45 Z" fill="none" stroke="#4a4a4a" stroke-linecap="butt" stroke-linejoin="miter-clip" stroke-miterlimit="3.0" stroke-width="1.0" />
+      <path d="M1163.5 549.85 Q1167.5 553.2 1172.4 554.95 L1171.5 557.4 1168.0 555.9 1166.35 558.75 1163.75 557.25 1165.4 554.4 Q1163.5 553.25 1161.8 551.8 L1163.5 549.85" fill="#ffffff" fill-rule="evenodd" stroke="none" />
+      <path d="M1163.5 549.85 Q1167.5 553.2 1172.4 554.95 L1171.5 557.4 1168.0 555.9 1166.35 558.75 1163.75 557.25 1165.4 554.4 Q1163.5 553.25 1161.8 551.8 L1163.5 549.85 Z" fill="none" stroke="#4a4a4a" stroke-linecap="butt" stroke-linejoin="miter-clip" stroke-miterlimit="3.0" stroke-width="1.0" />
+    </g>
+    <use height="13.0" transform="matrix(0.0, -1.0, 1.0, 0.0, 1206.9, 534.65)" width="37.55" xlink:href="#text191" />
+    <use height="11.6" transform="matrix(0.0, -1.0, 1.0, 0.0, 1201.9, 581.35)" width="33.45" xlink:href="#text194" />
+    <use height="11.6" transform="matrix(0.0, -1.0, 1.0, 0.0, 1151.3, 587.65)" width="14.45" xlink:href="#text199" />
+    <use height="11.45" transform="matrix(0.0, -1.0, 1.0, 0.0, 1136.85, 570.3)" width="14.15" xlink:href="#text200" />
+    <use height="11.6" transform="matrix(0.0, -1.0, 1.0, 0.0, 1132.15, 548.8)" width="19.2" xlink:href="#text201" />
+    <use height="11.6" transform="matrix(0.0, -1.0, 1.0, 0.0, 1136.85, 525.35)" width="19.85" xlink:href="#text202" />
+    <use height="11.6" transform="matrix(0.0, -1.0, 1.0, 0.0, 1151.3, 511.3)" width="19.85" xlink:href="#text203" />
+  </g>
+</svg>

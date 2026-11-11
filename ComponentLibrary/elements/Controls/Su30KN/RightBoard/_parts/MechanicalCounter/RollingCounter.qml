@@ -21,7 +21,8 @@ BaseSceneComponent {
     preserveAspectRatio: true
     previewSource: "preview.svg"
     customProperties: ({ value: value })
-    propertySchema: ({ value: {
+    propertySchema: counterPropertySchema
+    readonly property var counterPropertySchema: ({ value: {
         displayName: "Value", type: "number", bindable: true,
         access: "readWrite", min: -1, max: maximumValue, step: 1
     } })

@@ -39,7 +39,6 @@ RotaryDiscrete {
     SelectorFace {
         anchors.fill: parent
         definition: root.profileData
-        angles: root.angles
         visualAngle: root.visualAngle
     }
 
@@ -48,15 +47,58 @@ RotaryDiscrete {
         SelectorFace {
             property string previewValue: "radarMode"
             definition: Profiles.profiles[previewValue]
-            visualAngle: angles.length ? angles[0] : 0
+            visualAngle: angles[0] || 0
         }
     }
 
-    component SelectorFace: RotaryFace {
+    component SelectorFace: Item {
+        id: face
         property var definition: null
-        labels: definition ? definition.labels : []
-        angles: definition ? Profiles.anglesFor(definition) : []
-        labelEvery: definition ? (definition.labelEvery || 1) : 1
-        handle: definition ? definition.handle : "arrow"
+        property real visualAngle: 0
+        readonly property var angles: definition ? Profiles.anglesFor(definition) : []
+        readonly property string artwork: definition && definition.artwork ? definition.artwork : ""
+        readonly property string cadScale: definition && definition.cadScale ? definition.cadScale : ""
+
+        AdaptiveSvgImage {
+            anchors.fill: parent
+            visible: !!face.cadScale
+            source: visible ? Qt.resolvedUrl(face.cadScale) : ""
+            fillMode: Image.PreserveAspectFit
+        }
+
+        Loader {
+            anchors.centerIn: parent
+            width: face.artwork ? Math.min(face.width, face.height) : face.width
+            height: face.artwork ? width : face.height
+            sourceComponent: face.artwork ? sourceArtwork : generatedFace
+        }
+        Component {
+            id: sourceArtwork
+            Item {
+                AdaptiveSvgImage {
+                    anchors.fill: parent
+                    visible: !face.cadScale
+                    source: visible ? Qt.resolvedUrl(face.artwork + "scale.svg") : ""
+                }
+                AdaptiveSvgImage {
+                    anchors.centerIn: parent
+                    width: parent.width * (face.definition.handleScale || 1)
+                    height: width
+                    source: Qt.resolvedUrl(face.definition.handleSource || (face.artwork + "handle.svg"))
+                    rotation: face.visualAngle
+                }
+            }
+        }
+        Component {
+            id: generatedFace
+            RotaryFace {
+                labels: face.definition ? face.definition.labels : []
+                angles: face.angles
+                labelEvery: face.definition ? (face.definition.labelEvery || 1) : 1
+                handle: face.definition ? face.definition.handle : "arrow"
+                visualAngle: face.visualAngle
+                scaleMarks: !face.cadScale && (!face.definition || face.definition.scaleMarks !== false)
+            }
+        }
     }
 }

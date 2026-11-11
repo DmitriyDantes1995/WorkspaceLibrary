@@ -29,7 +29,6 @@
         "id": "selectors",
         "name": "Селекторы",
         "paths": [
-            "Controls/simple/Rotaries/RotarySelector",
             "Controls/simple/Rotaries/ScaledSelectorVisual",
             "Controls/Su30/Su30TrainSelector",
             "Controls/Su30/Su30TargetType",
@@ -47,8 +46,14 @@
         "name": "Приборы",
         "paths": [
             "Controls/simple/Indicators",
+            "Controls/Su27/Su27KshIndicator",
             "Controls/Su27/Su27Readout",
             "Controls/Su27/Su27Voltmeter",
+            "Controls/Su30KN/LeftBoard/Su30KNLeftRadioChannel",
+            "Controls/Su30KN/LeftBoard/Su30KNLeftRadioFrequency",
+            "Controls/Su30KN/RightBoard/Su30KNRightNavCheckDisplay",
+            "Controls/Su30KN/RightBoard/Su30KNRightPressure",
+            "Controls/Su30KN/RightBoard/Su30KNRightSatelliteDisplay",
             "Controls/Su30/Su30Clock",
             "Controls/complex/Gauges/Pribor/Combo.qml"
         ]
