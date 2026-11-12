@@ -43,21 +43,26 @@ BaseSceneComponent {
     onValueChanged:synchronizeState()
     onProfileChanged:synchronizeState()
     Item {
-        width:100; height:174
-        scale:Math.min(root.width/width,root.height/height)
-        transformOrigin:Item.TopLeft
-        x:(root.width-width*scale)/2
-        y:(root.height-height*scale)/2
+        id: face
+        readonly property real layoutScale: Math.min(root.width / 100, root.height / 174)
+        anchors.centerIn: parent
+        width: 100 * layoutScale
+        height: 174 * layoutScale
         Readouts.Su27Readout {
             objectName:"drumReadout"
-            x:22; y:0; width:56; height:40
+            x: 22 * face.layoutScale
+            width:56; height:40
+            scale: face.layoutScale
+            transformOrigin: Item.TopLeft
             digits:root.profiles[root.profile] || 2
             value:selector.value
         }
         Selectors.Su27Selector {
             id:selector
             objectName:"drumSelector"
-            x:0; y:66; width:100; height:100
+            y: 66 * face.layoutScale
+            width: face.width
+            height: width
             profile:root.profile
             onUserPropertyChanged:function(name,next) { root.userPropertyChanged("value",next) }
         }

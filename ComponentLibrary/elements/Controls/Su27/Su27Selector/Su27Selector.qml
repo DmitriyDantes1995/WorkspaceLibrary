@@ -12,6 +12,7 @@ RotaryDiscrete {
     implicitWidth: 148
     implicitHeight: 148
     property string profile: "radarMode"
+    property real handleSize: 0
     readonly property var catalogVariantProperties: ["profile"]
     readonly property string catalogSection: "scaled"
     readonly property var profileData: Profiles.profiles[profile]
@@ -20,10 +21,16 @@ RotaryDiscrete {
     value: minimumValue
     angles: profileData ? Profiles.anglesFor(profileData) : []
     enabled: profileData !== undefined
-    customProperties: ({ profile: profile, value: value })
+    customProperties: ({ profile: profile, handleSize: handleSize, value: value })
     propertySchema: ({
         profile: { displayName: "Profile", type: "enum", bindable: false,
             values: Profiles.choices(), previewComponent: root.profilePreview },
+        handleSize: { displayName: "Handle size", type: "number", bindable: false,
+            min: 0, sliderMin: 1,
+            max: Math.max(200, Math.ceil(selectorFace.defaultHandleSize * 2), Math.ceil(handleSize)),
+            step: 1, unit: "px", wheelEnabled: true,
+            hidden: !profileData?.artwork || !!profileData?.sharedHandle,
+            editorValue: Math.round(selectorFace.effectiveHandleSize * 10) / 10 },
         value: { displayName: "Value", type: "number", bindable: true, access: "readWrite", min: minimumValue, max: maximumValue, step: 1 }
     })
     function synchronizePropertyMap() {
@@ -37,9 +44,11 @@ RotaryDiscrete {
     }
     onProfileChanged: synchronizePropertyMap()
     SelectorFace {
+        id: selectorFace
         anchors.fill: parent
         definition: root.profileData
         visualAngle: root.visualAngle
+        handleSize: root.handleSize
     }
 
     Component {
@@ -55,9 +64,13 @@ RotaryDiscrete {
         id: face
         property var definition: null
         property real visualAngle: 0
+        property real handleSize: 0
         readonly property var angles: definition ? Profiles.anglesFor(definition) : []
         readonly property string artwork: definition && definition.artwork ? definition.artwork : ""
         readonly property string cadScale: definition && definition.cadScale ? definition.cadScale : ""
+        readonly property var sharedHandle: definition?.sharedHandle
+        readonly property real defaultHandleSize: sharedHandle?.size ?? Math.min(width, height)
+        readonly property real effectiveHandleSize: !sharedHandle && handleSize > 0 ? handleSize : defaultHandleSize
 
         AdaptiveSvgImage {
             anchors.fill: parent
@@ -82,9 +95,12 @@ RotaryDiscrete {
                 }
                 AdaptiveSvgImage {
                     anchors.centerIn: parent
-                    width: parent.width * (face.definition.handleScale || 1)
+                    width: face.effectiveHandleSize
                     height: width
-                    source: Qt.resolvedUrl(face.definition.handleSource || (face.artwork + "handle.svg"))
+                    source: face.definition?.artwork
+                            ? Qt.resolvedUrl(face.definition.sharedHandle?.source
+                                             ?? (face.definition.artwork + "handle.svg"))
+                            : ""
                     rotation: face.visualAngle
                 }
             }
@@ -95,7 +111,8 @@ RotaryDiscrete {
                 labels: face.definition ? face.definition.labels : []
                 angles: face.angles
                 labelEvery: face.definition ? (face.definition.labelEvery || 1) : 1
-                handle: face.definition ? face.definition.handle : "arrow"
+                handle: face.definition?.handle || "arrow"
+                handleSize: Profiles.drawnHandleSizes[handle]
                 visualAngle: face.visualAngle
                 scaleMarks: !face.cadScale && (!face.definition || face.definition.scaleMarks !== false)
             }

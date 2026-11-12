@@ -15,8 +15,8 @@ BaseSceneComponent {
     readonly property var catalogVariantProperties: ["appearance"]
     readonly property string catalogSection: "scaled"
     readonly property var looks: ({
-        wide: {label: qsTr("Wide selector"), width: 147.5, height: 149, face: "_art/wide/background.svg", handle: "_art/wide/handle.svg"},
-        square: {label: qsTr("Square selector"), width: 130, height: 130, face: "_art/square/background.svg", handle: "_art/square/handle.svg"}
+        wide: {label: qsTr("Wide selector"), width: 147.5, height: 149, face: "_art/wide/background.svg"},
+        square: {label: qsTr("Square selector"), width: 130, height: 130, face: "_art/square/background.svg"}
     })
     readonly property var look: looks[appearance] || looks.wide
     customProperties: ({appearance: appearance, thinNeedlAngle: thinNeedlAngle})
@@ -39,11 +39,14 @@ BaseSceneComponent {
             source: Qt.resolvedUrl(root.look.face)
             fillMode: Image.PreserveAspectFit
         }
-        AdaptiveSvgImage {
-            anchors.fill: parent
-            source: Qt.resolvedUrl(root.look.handle)
-            fillMode: Image.PreserveAspectFit
-            rotation: root.thinNeedlAngle
-        }
+    }
+
+    AdaptiveSvgImage {
+        anchors.centerIn: parent
+        width: 130
+        height: width
+        source: Qt.resolvedUrl("_art/handle.svg")
+        fillMode: Image.PreserveAspectFit
+        rotation: root.thinNeedlAngle
     }
 }

@@ -20,9 +20,7 @@ var profiles = {
     radarMode: {
         label: "Left · tbl_purmode",
         angles: [-150, -120, -90, -60, -30, 0, 30],
-        artwork: "_parts/_art/purModeOriginal/",
-        handleSource: "_parts/_art/deltaH/handle.svg",
-        handleScale: 112 / 160
+        artwork: "_parts/_art/purModeOriginal/"
     },
     guidance: {
         label: "Right · tbl_tks_mode",
@@ -56,8 +54,36 @@ profiles.radarRangeMode.artwork = profiles.sauIndication.artwork
 var literaProfiles = ["literaRls", "litera27", "radarProgram"]
 literaProfiles.forEach(function(key) {
     profiles[key].artwork = profiles.deltaH.artwork
-    profiles[key].handleScale = 0.86
 })
+
+// The handle is sized in scene pixels independently of the dial artwork.
+var sharedHandles = [
+    { source: "deltaH/handle.svg", size: 100,
+      profiles: ["deltaH", "radarMode", "literaRls", "litera27", "radarProgram"] },
+    { source: "sau-sdu-handle.svg", size: 130,
+      profiles: ["sauIndication", "sduMode", "radarRangeMode", "arkSource",
+                 "pn184Channels", "pn188Range", "pn188Mach", "sroSource"] },
+    { source: "tksRangeOriginal/handle.svg", size: 59,
+      profiles: ["guidance", "leader", "srzoSource"] },
+    { source: "asoModeSource/handle.svg", size: 65,
+      profiles: ["intervalLtc", "salvoLtc"] },
+    { source: "navModeOriginal/handle.svg", size: 64,
+      profiles: ["navModeOriginal", "pn187Program"] },
+    { source: "radioChannelSource/handle.svg", size: 55,
+      profiles: ["radioChannel"] },
+    { source: "spoSource/handle.svg", size: 60,
+      profiles: ["warningType"] },
+    { source: "emissionSource/handle.svg", size: 148,
+      profiles: ["emissionSource"] }
+]
+sharedHandles.forEach(function(handle) {
+    var artwork = { source: "_parts/_art/" + handle.source, size: handle.size }
+    for (var key of handle.profiles)
+        profiles[key].sharedHandle = artwork
+})
+
+var drawnHandleSizes = { arrow: 55, bar: 63, diamond: 52, paddle: 60 }
+
 Object.keys(Cad.angles).forEach(function(key) {
     profiles[key].cadScale = "_parts/_cad/" + key + ".svg"
     profiles[key].angles = Cad.angles[key]
@@ -93,6 +119,7 @@ function choices() {
         return { label: sourceName ? label + " · " + sourceName : label, value: name,
                  catalogHidden: legacyProfiles[name] !== undefined || profile.drumOnly === true
                     || (profile.artwork && !profile.cadScale && name !== "intervalLtc" && name !== "salvoLtc"),
-                 previewSource: profile.artwork && !profile.cadScale ? profile.artwork + "preview.svg" : "" }
+                 previewSource: profile.artwork && !profile.cadScale && !profile.sharedHandle
+                                ? profile.artwork + "preview.svg" : "" }
     })
 }
