@@ -1,15 +1,17 @@
 .pragma library
 
+var redFrames = [
+    "_art/red/close_lid.svg",
+    "_art/red/open_lid_down.svg",
+    "_art/red/open_lid_up.svg"
+]
+
 var entries = {
     "red": {
         "label": "Red",
         "width": 0,
         "height": 0,
-        "frames": [
-            "_art/red/close_lid.svg",
-            "_art/red/open_lid_down.svg",
-            "_art/red/open_lid_up.svg"
-        ]
+        "frames": redFrames
     },
     "numbered": {
         "label": "Numbered",
@@ -26,11 +28,7 @@ var entries = {
         "positionThreshold": 0.5,
         "width": 157.7,
         "height": 306,
-        "frames": [
-            "_art/long/closed.svg",
-            "_art/long/position_0.svg",
-            "_art/long/position_1.svg"
-        ]
+        "frames": redFrames
     },
     "compact": {
         "label": "Compact red guard",

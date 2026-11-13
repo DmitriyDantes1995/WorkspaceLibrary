@@ -13,23 +13,38 @@ BaseSceneComponent {
 
     property bool runtimeMode: false
     property real pos: 0
+    property alias value: root.pos
+    property string positionPropertyName: "pos"
+    property var positionValues: []
     property string appearance: "graySquare"
     readonly property var catalogVariantProperties: ["appearance"]
     readonly property string catalogSection: "open"
     readonly property int catalogPositions: look.frames.length
     readonly property var look: Looks.entries[appearance] || Looks.entries.graySquare
-    readonly property int currentPosition: Math.max(0, Math.min(look.frames.length - 1, Math.round(pos)))
+    readonly property int currentPosition: positionValues.length
+        ? Math.max(0, positionValues.indexOf(Math.round(pos)))
+        : Math.max(0, Math.min(look.frames.length - 1, Math.round(pos)))
 
-    customProperties: ({ appearance: root.appearance, pos: root.pos })
+    customProperties: {
+        const values = { appearance: root.appearance, [root.positionPropertyName]: root.pos }
+        if (root.positionPropertyName !== "pos")
+            values.positionPropertyName = root.positionPropertyName
+        if (root.positionValues.length)
+            values.positionValues = root.positionValues
+        return values
+    }
     propertySchema: ({
+        positionPropertyName: { hidden: true, bindable: false },
+        positionValues: { hidden: true, bindable: false },
         appearance: { displayName: qsTr("Appearance"), type: "enum", bindable: false,
             values: Object.keys(Looks.entries).map(function(key) {
                 const style = Looks.entries[key]
                 return { label: style.label, value: key, previewSource: Qt.resolvedUrl(style.preview) }
             }) },
-        pos: { displayName: qsTr("Position"), type: "enum", bindable: true, access: "readWrite",
+        [root.positionPropertyName]: { displayName: qsTr("Position"), type: "enum", bindable: true, access: "readWrite",
             values: root.look.frames.map(function(frame, index) {
-                return { label: qsTr("Position %1").arg(index), value: index }
+                const code = root.positionValues.length ? root.positionValues[index] : index
+                return { label: qsTr("Position %1").arg(code), value: code }
             }) }
     })
 
@@ -43,8 +58,9 @@ BaseSceneComponent {
         anchors.fill: parent
         enabled: root.runtimeMode
         onClicked: {
-            root.pos = (root.currentPosition + 1) % root.look.frames.length
-            root.userPropertyChanged("pos", root.pos)
+            const next = (root.currentPosition + 1) % root.look.frames.length
+            root.pos = root.positionValues.length ? root.positionValues[next] : next
+            root.userPropertyChanged(root.positionPropertyName, root.pos)
         }
     }
 }

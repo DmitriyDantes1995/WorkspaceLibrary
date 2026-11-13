@@ -26,7 +26,8 @@ BaseSceneComponent {
         appearance: { displayName: qsTr("Appearance"), type: "enum", bindable: false,
             values: Object.keys(Looks.entries).map(function(key) {
                 const style = Looks.entries[key]
-                return { label: style.label, value: key, previewSource: Qt.resolvedUrl(style.frames[0]) }
+                return { label: style.label, value: key, previewSource: Qt.resolvedUrl(style.frames[0]),
+                         catalogHidden: key === "red" }
             }) },
         oN: { displayName: qsTr("Position"), type: "enum", bindable: true, access: "read",
             values: [{ label: qsTr("Down"), value: 0 }, { label: qsTr("Up"), value: 1 }] }
