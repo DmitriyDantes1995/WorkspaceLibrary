@@ -1,5 +1,6 @@
 import QtQuick 2.15
 import common_qml 1.0
+import "../../../../common_qml/CockpitTranslations.js" as Translations
 
 Indicator {
     id: root
@@ -11,12 +12,15 @@ Indicator {
     height: 40
     preserveAspectRatio: false
     property string labelText: "ПИТАНИЕ"
+    property var labelTranslations: ({})
     property string lightColor: "#efd7a0"
     property real fontSize: 14
-    customProperties: ({value:value,labelText:labelText,lightColor:lightColor,fontSize:fontSize})
+    customProperties: ({value:value,labelText:labelText,labelTranslations:labelTranslations,
+                        lightColor:lightColor,fontSize:fontSize})
     propertySchema: ({
         value:{displayName:"Свечение",type:"number",min:0,max:1,step:1,bindable:true,access:"readOnly"},
         labelText:{displayName:"Надпись",type:"string",bindable:false},
+        labelTranslations:{hidden:true,bindable:false},
         lightColor:{displayName:"Цвет свечения",type:"string",bindable:false},
         fontSize:{displayName:"Шрифт",type:"number",min:1,max:72,step:1,bindable:false}
     })
@@ -27,6 +31,7 @@ Indicator {
         }
     }
     onLabelTextChanged:synchronize("labelText",labelText)
+    onLabelTranslationsChanged:synchronize("labelTranslations",labelTranslations)
     onLightColorChanged:synchronize("lightColor",lightColor)
     onFontSizeChanged:synchronize("fontSize",fontSize)
     Rectangle {
@@ -47,7 +52,8 @@ Indicator {
             objectName:"annunciatorLegend"
             anchors.fill:parent
             anchors.margins:Math.min(parent.width,parent.height)*0.18
-            text:root.labelText
+            text:Translations.forLanguage(root.labelTranslations, Qt.uiLanguage, root.labelText)
+            textFormat:Text.PlainText
             color:root.value ? root.lightColor : "#a8b1a5"
             font.family:"Arial"
             font.pixelSize:Math.max(1,Math.min(root.fontSize,parent.height*0.35))

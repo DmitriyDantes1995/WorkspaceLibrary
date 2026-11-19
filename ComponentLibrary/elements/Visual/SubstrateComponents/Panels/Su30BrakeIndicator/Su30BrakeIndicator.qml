@@ -5,13 +5,13 @@ BaseSceneComponent {
     my_type: "Substrate"
     my_subtype: "ContourPanel"
     sceneLayer: "content"
-    previewSource: "../../../../Controls/Su30/Su30BrakeIndicator/_parts/legacy.svg"
+    previewSource: "panel.svg"
     width: 156
     height: 112
     customProperties: ({})
     AdaptiveSvgImage {
         anchors.fill: parent
-        source: Qt.resolvedUrl("../../../../Controls/Su30/Su30BrakeIndicator/_parts/legacy.svg")
+        source: Qt.resolvedUrl(parent.previewSource)
         fillMode: Image.Stretch
         smooth: true
     }

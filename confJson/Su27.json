@@ -334,7 +334,8 @@
                 "fontFamily": "Arial",
                 "preset": "Weapon",
                 "textColor": "#ffffff",
-                "value": 0
+                "value": 0,
+                "localizeCaptions": true
             },
             "height": 9.399049881235172,
             "locked": true,
@@ -357,7 +358,8 @@
                 "fontFamily": "Arial",
                 "preset": "Weapon",
                 "textColor": "#ffffff",
-                "value": 2
+                "value": 2,
+                "localizeCaptions": true
             },
             "height": 9.399049881235172,
             "locked": true,
@@ -380,7 +382,8 @@
                 "fontFamily": "Arial",
                 "preset": "Weapon",
                 "textColor": "#ffffff",
-                "value": 1
+                "value": 1,
+                "localizeCaptions": true
             },
             "height": 9.399049881235172,
             "locked": true,
@@ -403,7 +406,8 @@
                 "fontFamily": "Arial",
                 "preset": "Gun",
                 "textColor": "#ffffff",
-                "value": 1
+                "value": 1,
+                "localizeCaptions": true
             },
             "height": 9.399049881235172,
             "locked": true,
@@ -483,7 +487,12 @@
                 "lampColor": "green",
                 "m_text": "MARKER",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "MARKER": {
+                        "ru": "МАРКЕР"
+                    }
+                }
             },
             "height": 19.467336520541224,
             "locked": true,
@@ -506,7 +515,12 @@
                 "lampColor": "green",
                 "m_text": "INNER ON",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "INNER ON": {
+                        "ru": "БЛИЖ\nВКЛЮЧЕН"
+                    }
+                }
             },
             "height": 18.077882236516576,
             "locked": false,
@@ -529,7 +543,12 @@
                 "lampColor": "green",
                 "m_text": "INTERACT",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "INTERACT": {
+                        "ru": "ВЗАИМОД"
+                    }
+                }
             },
             "height": 17.341530595414774,
             "locked": true,
@@ -552,7 +571,13 @@
                 "lampColor": "green",
                 "m_text": "MANUAL PROTEST",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "MANUAL PROTEST": {
+                        "ru": "РУЧНАЯ\nПРОВЕРКА",
+                        "en": "MANUAL\nTEST"
+                    }
+                }
             },
             "height": 17.423571316507733,
             "locked": true,
@@ -575,7 +600,12 @@
                 "lampColor": "green",
                 "m_text": "RESERVE",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "RESERVE": {
+                        "ru": "РЕЗЕРВ"
+                    }
+                }
             },
             "height": 18.20009896091049,
             "locked": true,
@@ -598,7 +628,12 @@
                 "lampColor": "green",
                 "m_text": "LANDING",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "LANDING": {
+                        "ru": "ПОСАДКА"
+                    }
+                }
             },
             "height": 17.22365596024352,
             "locked": true,
@@ -621,7 +656,12 @@
                 "lampColor": "green",
                 "m_text": "TURN",
                 "m_value": true,
-                "verticalText": true
+                "verticalText": true,
+                "m_textTranslations": {
+                    "TURN": {
+                        "ru": "РАЗВ"
+                    }
+                }
             },
             "height": 19.521739130434753,
             "locked": true,
@@ -644,7 +684,13 @@
                 "lampColor": "red",
                 "m_text": "RCS",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "RCS": {
+                        "ru": "СДУ",
+                        "en": "FCS"
+                    }
+                }
             },
             "height": 18.95555555555555,
             "locked": false,
@@ -667,7 +713,12 @@
                 "lampColor": "red",
                 "m_text": "HYD",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "HYD": {
+                        "ru": "ГИДРО"
+                    }
+                }
             },
             "height": 18.214814814814787,
             "locked": false,
@@ -690,7 +741,13 @@
                 "lampColor": "red",
                 "m_text": "CONTROL MANUALLY",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "CONTROL MANUALLY": {
+                        "ru": "УПРАВЛЯЙ\nВРУЧНУЮ",
+                        "en": "CONTROL\nMANUALLY"
+                    }
+                }
             },
             "height": 18.92873563218393,
             "locked": false,
@@ -713,7 +770,12 @@
                 "lampColor": "red",
                 "m_text": "FIRE",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "FIRE": {
+                        "ru": "ПОЖАР"
+                    }
+                }
             },
             "height": 18.733333333333334,
             "locked": false,
@@ -736,7 +798,12 @@
                 "lampColor": "red",
                 "m_text": "LIMIT",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "LIMIT": {
+                        "ru": "α, nу\nКРИТИЧ"
+                    }
+                }
             },
             "height": 19.06666666666669,
             "locked": false,
@@ -759,7 +826,12 @@
                 "lampColor": "green",
                 "m_text": "RH REHEAT",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "RH REHEAT": {
+                        "ru": "ФОРСАЖ\nПРАВ"
+                    }
+                }
             },
             "height": 17.74782608695662,
             "locked": true,
@@ -782,7 +854,12 @@
                 "lampColor": "green",
                 "m_text": "LH REHEAT",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "LH REHEAT": {
+                        "ru": "ФОРСАЖ\nЛЕВ"
+                    }
+                }
             },
             "height": 17.747826086956508,
             "locked": true,
@@ -805,7 +882,13 @@
                 "lampColor": "green",
                 "m_text": "RH ENG START",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "RH ENG START": {
+                        "ru": "ЗАПУСК\nПРАВ",
+                        "en": "RH ENG\nSTART"
+                    }
+                }
             },
             "height": 20.150000000000006,
             "locked": true,
@@ -828,7 +911,13 @@
                 "lampColor": "green",
                 "m_text": "LH ENG START",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "LH ENG START": {
+                        "ru": "ЗАПУСК\nЛЕВ",
+                        "en": "LH ENG\nSTART"
+                    }
+                }
             },
             "height": 19.900000000000006,
             "locked": true,
@@ -874,7 +963,13 @@
                 "lampColor": "green",
                 "m_text": "STAB TRIM NEUTR",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "STAB TRIM NEUTR": {
+                        "ru": "ТРИМ НЕЙТР\nСТ",
+                        "en": "STAB TRIM\nNEUTR"
+                    }
+                }
             },
             "height": 21.066666666666634,
             "locked": false,
@@ -897,7 +992,13 @@
                 "lampColor": "green",
                 "m_text": "ALL TRIM NEUTR",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "ALL TRIM NEUTR": {
+                        "ru": "ТРИМ НЕЙТР\nЭЛ",
+                        "en": "AIL TRIM\nNEUTR"
+                    }
+                }
             },
             "height": 20.066666666666748,
             "locked": false,
@@ -920,7 +1021,13 @@
                 "lampColor": "green",
                 "m_text": "RUD TRIM NEUTR",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "RUD TRIM NEUTR": {
+                        "ru": "ТРИМ НЕЙТР\nРН",
+                        "en": "RUD TRIM\nNEUTR"
+                    }
+                }
             },
             "height": 20.488607594936553,
             "locked": false,
@@ -943,7 +1050,13 @@
                 "lampColor": "green",
                 "m_text": "DR CH LOCK OPEN",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "DR CH LOCK OPEN": {
+                        "ru": "ЗАМОК ТП\nОТКРЫТ",
+                        "en": "DR CH LOCK\nOPEN"
+                    }
+                }
             },
             "height": 19.24325484316668,
             "locked": true,
@@ -966,7 +1079,13 @@
                 "lampColor": "green",
                 "m_text": "DR OH LOCK OPEN",
                 "m_value": true,
-                "verticalText": false
+                "verticalText": false,
+                "m_textTranslations": {
+                    "DR OH LOCK OPEN": {
+                        "ru": "ЗАМОК ТП\nОТКРЫТ",
+                        "en": "DR CH LOCK\nOPEN"
+                    }
+                }
             },
             "height": 17.399999999999892,
             "locked": true,
@@ -2231,11 +2350,12 @@
             "z": 0
         }
     ],
-    "Su30TargetType": [
+    "Su27Selector": [
         {
-            "componentPath": "elements/Controls/Su30/Su30TargetType/Su30TargetType.qml",
+            "componentPath": "elements/Controls/Su27/Su27Selector/Su27Selector.qml",
             "customProperties": {
-                "value": 0
+                "value": 0,
+                "profile": "targetType"
             },
             "height": 71.82554981049559,
             "locked": true,
@@ -2244,19 +2364,18 @@
             "rotation": 0,
             "scale": 1,
             "stackingOrder": 55,
-            "subtype": "Su30TargetType",
-            "type": "Su30TargetType",
+            "subtype": "Su27Selector",
+            "type": "Su27Selector",
             "width": 71.67091999389602,
             "x": 214.76075228103957,
             "y": 592.0422868256929,
             "z": 0
-        }
-    ],
-    "Su30TrainSelector": [
+        },
         {
-            "componentPath": "elements/Controls/Su30/Su30TrainSelector/Su30TrainSelector.qml",
+            "componentPath": "elements/Controls/Su27/Su27Selector/Su27Selector.qml",
             "customProperties": {
-                "value": 0
+                "value": 0,
+                "profile": "training"
             },
             "height": 60.423497512660795,
             "locked": true,
@@ -2265,11 +2384,31 @@
             "rotation": 0,
             "scale": 1,
             "stackingOrder": 45,
-            "subtype": "Su30TrainSelector",
-            "type": "Su30TrainSelector",
+            "subtype": "Su27Selector",
+            "type": "Su27Selector",
             "width": 46.41225171262351,
             "x": 360.38703569830295,
             "y": 147.55525926589877,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/Su27/Su27Selector/Su27Selector.qml",
+            "customProperties": {
+                "value": 0,
+                "profile": "gain"
+            },
+            "height": 59.87871847966701,
+            "locked": true,
+            "name": "TpGain_1",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 56,
+            "subtype": "Su27Selector",
+            "type": "Su27Selector",
+            "width": 59.749808429118744,
+            "x": 273.24725385209786,
+            "y": 576.7791545257272,
             "z": 0
         }
     ],
@@ -4807,27 +4946,6 @@
             "z": 0
         }
     ],
-    "TpGain": [
-        {
-            "componentPath": "elements/Controls/Other/TpGain/TpGain.qml",
-            "customProperties": {
-                "value": 0
-            },
-            "height": 59.87871847966701,
-            "locked": true,
-            "name": "TpGain_1",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 56,
-            "subtype": "TpGain",
-            "type": "TpGain",
-            "width": 59.749808429118744,
-            "x": 273.24725385209786,
-            "y": 576.7791545257272,
-            "z": 0
-        }
-    ],
     "VerticalScaleIndicator": [
         {
             "componentPath": "elements/Controls/Su30/VerticalScaleIndicator/VerticalScaleIndicator.qml",
@@ -4942,14 +5060,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 7.5,
                 "horizontalAlignment": 4,
-                "labelText": " VISUAL\n  CORR",
+                "labelText": "ВИЗУАЛ\nКОРРЕКЦ",
                 "padding": 0,
                 "textColor": "#000000",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": " VISUAL\n  CORR"
+                }
             },
             "height": 15.582278481012736,
             "locked": false,
@@ -4974,14 +5095,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 7.5,
                 "horizontalAlignment": 1,
-                "labelText": "RUD  TRIM                            ",
+                "labelText": "ТРИММЕР РН",
                 "padding": 4,
                 "textColor": "#000000",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "RUD  TRIM                            "
+                }
             },
             "height": 39.16233766233768,
             "locked": false,
@@ -5006,14 +5130,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 7.5,
                 "horizontalAlignment": 1,
-                "labelText": "RUD TRIM",
+                "labelText": "ТРИМ РН",
                 "padding": 0,
                 "textColor": "#000000",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "RUD TRIM"
+                }
             },
             "height": 13.566499046297963,
             "locked": false,
@@ -5038,14 +5165,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 9,
                 "horizontalAlignment": 1,
-                "labelText": "COOL\n  73",
+                "labelText": "ОХЛ.\n73",
                 "padding": 4,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "COOL\n  73"
+                }
             },
             "height": 24.324483775811245,
             "locked": false,
@@ -5070,14 +5200,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 7.5,
                 "horizontalAlignment": 1,
-                "labelText": "WING LEAD\n     EDGES\n",
+                "labelText": "НОСКИ\nКРЫЛА",
                 "padding": 4,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "WING LEAD\n     EDGES\n"
+                }
             },
             "height": 26.232027421149155,
             "locked": false,
@@ -5102,14 +5235,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 6.5,
                 "horizontalAlignment": 4,
-                "labelText": "INNER",
+                "labelText": "ВНУТР",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "INNER"
+                }
             },
             "height": 9.368171021377691,
             "locked": false,
@@ -5134,14 +5270,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 6,
                 "horizontalAlignment": 1,
-                "labelText": "AUTO",
+                "labelText": "АВТ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "AUTO"
+                }
             },
             "height": 7.942992874109393,
             "locked": false,
@@ -5167,13 +5306,16 @@
                 "borderWidth": 0,
                 "cornerRadius": 0,
                 "fitText": true,
-                "fontFamily": "",
+                "fontFamily": "Arial",
                 "fontSize": 13.5,
                 "horizontalAlignment": 1,
-                "labelText": "OUTER",
+                "labelText": "ВНЕШ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "OUTER"
+                }
             },
             "height": 9.11494252873581,
             "locked": false,
@@ -5199,13 +5341,16 @@
                 "borderWidth": 0,
                 "cornerRadius": 0,
                 "fitText": true,
-                "fontFamily": "",
+                "fontFamily": "Arial",
                 "fontSize": 10.5,
                 "horizontalAlignment": 4,
-                "labelText": "DOWN",
+                "labelText": "ВЫПУСК",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "DOWN"
+                }
             },
             "height": 8.647519582245366,
             "locked": false,
@@ -5231,13 +5376,16 @@
                 "borderWidth": 0,
                 "cornerRadius": 0,
                 "fitText": true,
-                "fontFamily": "",
+                "fontFamily": "Arial",
                 "fontSize": 10.5,
                 "horizontalAlignment": 4,
-                "labelText": "UP",
+                "labelText": "УБОРКА",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "UP"
+                }
             },
             "height": 8.647519582245366,
             "locked": false,
@@ -5263,13 +5411,16 @@
                 "borderWidth": 0,
                 "cornerRadius": 0,
                 "fitText": true,
-                "fontFamily": "",
+                "fontFamily": "Arial",
                 "fontSize": 11,
                 "horizontalAlignment": 4,
-                "labelText": "PULL- TURN\n       TO LEFT\n       - PULL",
+                "labelText": "ТЯНИ —\nВЛЕВО —\nТЯНИ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "PULL- TURN\n       TO LEFT\n       - PULL"
+                }
             },
             "height": 21.839721254355425,
             "locked": false,
@@ -5295,13 +5446,16 @@
                 "borderWidth": 0,
                 "cornerRadius": 0,
                 "fitText": true,
-                "fontFamily": "",
+                "fontFamily": "Arial",
                 "fontSize": 18,
                 "horizontalAlignment": 1,
-                "labelText": "             HYD\n         1         2 \n\n",
+                "labelText": "            ГИДР\n         1         2",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 64
+                "verticalAlignment": 64,
+                "labelTranslations": {
+                    "en": "             HYD\n         1         2 \n\n"
+                }
             },
             "height": 17.08582209974901,
             "locked": false,
@@ -5327,13 +5481,16 @@
                 "borderWidth": 0,
                 "cornerRadius": 0,
                 "fitText": true,
-                "fontFamily": "",
+                "fontFamily": "Arial",
                 "fontSize": 18,
                 "horizontalAlignment": 1,
-                "labelText": "   BRAKE \nLH       RH",
+                "labelText": "ТОРМ\nЛЕВ     ПРАВ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "   BRAKE \nLH       RH"
+                }
             },
             "height": 20.166219839142173,
             "locked": false,
@@ -5359,13 +5516,16 @@
                 "borderWidth": 0,
                 "cornerRadius": 0,
                 "fitText": true,
-                "fontFamily": "",
+                "fontFamily": "Arial",
                 "fontSize": 18,
                 "horizontalAlignment": 1,
-                "labelText": "AIR",
+                "labelText": "ВОЗД",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "AIR"
+                }
             },
             "height": 7.163538873994639,
             "locked": false,
@@ -5391,13 +5551,16 @@
                 "borderWidth": 0,
                 "cornerRadius": 0,
                 "fitText": true,
-                "fontFamily": "",
+                "fontFamily": "Arial",
                 "fontSize": 18,
                 "horizontalAlignment": 1,
-                "labelText": "HYD ACC\n\n  CHECK",
+                "labelText": "ГИДРОАКК\n\nКОНТР",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "HYD ACC\n\n  CHECK"
+                }
             },
             "height": 19.63002680965144,
             "locked": true,
@@ -5422,14 +5585,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8.5,
                 "horizontalAlignment": 1,
-                "labelText": "M/ARM ON",
+                "labelText": "ГЛАВ ВКЛ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "M/ARM ON"
+                }
             },
             "height": 6.528735632183839,
             "locked": false,
@@ -5454,14 +5620,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 52,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "   LP\nAUTO",
+                "labelText": "ПУСК\nАВТ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "   LP\nAUTO"
+                }
             },
             "height": 21.471264367816104,
             "locked": true,
@@ -5486,14 +5655,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "MAN",
+                "labelText": "РУЧ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "MAN"
+                }
             },
             "height": 17.448275862068954,
             "locked": false,
@@ -5518,14 +5690,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "AIR",
+                "labelText": "ВОЗДУХ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "AIR"
+                }
             },
             "height": 20.8034557235421,
             "locked": true,
@@ -5550,14 +5725,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "GROUND",
+                "labelText": "ЗЕМЛЯ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "GROUND"
+                }
             },
             "height": 9.356371490280765,
             "locked": true,
@@ -5582,14 +5760,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "NON RTRD",
+                "labelText": "БЕЗ ТОРМ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "NON RTRD"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,
@@ -5614,14 +5795,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "RTRD",
+                "labelText": "ТОРМ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "RTRD"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,
@@ -5646,14 +5830,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "ARMED",
+                "labelText": "ВЗВЕД",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "ARMED"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,
@@ -5678,14 +5865,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "EMERG\n JETT",
+                "labelText": "АВАР\nСБРОС",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "EMERG\n JETT"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,
@@ -5710,14 +5900,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "GUN",
+                "labelText": "ПУШКА",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "GUN"
+                }
             },
             "height": 27.714902807775445,
             "locked": false,
@@ -5728,8 +5921,8 @@
             "stackingOrder": 154,
             "subtype": "TextLabel",
             "type": "Visual",
-            "width": 37.235421166306764,
-            "x": 462.50539956803414,
+            "width": 21.5,
+            "x": 456.5,
             "y": 116.34773218142554,
             "z": 0
         },
@@ -5742,14 +5935,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "CUTOFF",
+                "labelText": "ОТСЕЧКА",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "CUTOFF"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,
@@ -5774,14 +5970,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": " UNGD\nLAUNCH",
+                "labelText": "НЕУПР\nПУСК",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": " UNGD\nLAUNCH"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,
@@ -5806,14 +6005,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "RESERVE",
+                "labelText": "РЕЗЕРВ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "RESERVE"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,
@@ -5838,14 +6040,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
-                "labelText": "PODS",
+                "labelText": "БЛОКИ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "PODS"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,
@@ -5870,14 +6075,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 9,
                 "horizontalAlignment": 1,
-                "labelText": "EMPTY",
+                "labelText": "ПУСТЫЕ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "EMPTY"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,
@@ -5888,7 +6096,7 @@
             "stackingOrder": 159,
             "subtype": "TextLabel",
             "type": "Visual",
-            "width": 37.235421166306764,
+            "width": 25.2,
             "x": 406.19870410367133,
             "y": 89.41468682505408,
             "z": 0
@@ -5902,16 +6110,19 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 9,
                 "horizontalAlignment": 1,
-                "labelText": "JETT",
+                "labelText": "СБРОС",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "JETT"
+                }
             },
-            "height": 27.714902807775445,
+            "height": 23.7,
             "locked": true,
             "name": "TextLabel_31",
             "opacity": 1,
@@ -5920,9 +6131,9 @@
             "stackingOrder": 160,
             "subtype": "TextLabel",
             "type": "Visual",
-            "width": 37.235421166306764,
-            "x": 434.3412526997837,
-            "y": 70.0410367170627,
+            "width": 27.0,
+            "x": 427.5,
+            "y": 71.0,
             "z": 0
         },
         {
@@ -5934,14 +6145,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 9,
                 "horizontalAlignment": 1,
-                "labelText": "OPERN",
+                "labelText": "РАБОТА",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "OPERN"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,
@@ -5952,7 +6166,7 @@
             "stackingOrder": 161,
             "subtype": "TextLabel",
             "type": "Visual",
-            "width": 37.235421166306764,
+            "width": 21.7,
             "x": 455.788336933045,
             "y": 65.35421166306702,
             "z": 0
@@ -5966,14 +6180,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 9,
                 "horizontalAlignment": 1,
-                "labelText": "STABY",
+                "labelText": "РЕЗЕРВ",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "STABY"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,
@@ -5984,7 +6201,7 @@
             "stackingOrder": 162,
             "subtype": "TextLabel",
             "type": "Visual",
-            "width": 37.235421166306764,
+            "width": 21.9,
             "x": 456.069114470842,
             "y": 90.0410367170627,
             "z": 0
@@ -5998,14 +6215,17 @@
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
-                "fitText": false,
-                "fontFamily": "",
+                "fitText": true,
+                "fontFamily": "Arial",
                 "fontSize": 8,
                 "horizontalAlignment": 1,
-                "labelText": "SAFE",
+                "labelText": "ПРЕДОХР",
                 "padding": 0,
                 "textColor": "#ffffff",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "SAFE"
+                }
             },
             "height": 27.714902807775445,
             "locked": true,

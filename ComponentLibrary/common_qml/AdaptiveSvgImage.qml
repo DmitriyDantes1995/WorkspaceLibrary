@@ -95,6 +95,10 @@ Item {
     }
 
     function updateSourceSize() {
+        // Library previews may instantiate an item only to read its metadata.
+        // Its natural dimensions are available without a screen-sized raster.
+        if (!root.Window.window)
+            return
         // Let the first load complete at the SVG's natural size. Besides
         // preserving Image-compatible implicit geometry, this only happens
         // once; all later renders use the adaptive target.
@@ -121,53 +125,39 @@ Item {
     }
 
     function scheduleSourceSizeUpdate() {
-        renderSizeTimer.restart()
-    }
-
-    function destroyTransformObservers() {
-        for (var index = 0; index < _transformObservers.length; ++index)
-            _transformObservers[index].destroy()
-        _transformObservers = []
-    }
-
-    function appendObservedObject(objects, candidate) {
-        if (!candidate || objects.indexOf(candidate) >= 0)
-            return
-        objects.push(candidate)
+        if (root.Window.window)
+            renderSizeTimer.restart()
     }
 
     function rebuildTransformObservers() {
-        destroyTransformObservers()
-
-        var observedObjects = []
-        var item = root
-        while (item) {
-            appendObservedObject(observedObjects, item)
-            var transforms = item.transform
-            if (transforms) {
-                for (var transformIndex = 0;
-                     transformIndex < transforms.length; ++transformIndex)
-                    appendObservedObject(observedObjects,
-                                         transforms[transformIndex])
+        var targets = new Set()
+        if (root.Window.window) {
+            targets.add(root.Window.window)
+            for (var item = root; item; item = item.parent) {
+                targets.add(item)
+                for (var transform of item.transform)
+                    targets.add(transform)
             }
-            item = item.parent
         }
-        var quickWindow = root.Window.window
-        appendObservedObject(observedObjects, quickWindow)
 
         var observers = []
-        for (var index = 0; index < observedObjects.length; ++index) {
-            var observer = transformObserverFactory.createObject(
-                        root, { "observedObject": observedObjects[index] })
-            if (observer)
+        for (var observer of _transformObservers) {
+            if (targets.delete(observer.observedObject))
                 observers.push(observer)
+            else
+                observer.destroy()
+        }
+        for (var target of targets) {
+            var added = transformObserverFactory.createObject(root, { observedObject: target })
+            if (added)
+                observers.push(added)
         }
         _transformObservers = observers
         scheduleSourceSizeUpdate()
     }
 
     function scheduleObserverRebuild() {
-        if (!observerRebuildTimer.running)
+        if ((root.Window.window || _transformObservers.length) && !observerRebuildTimer.running)
             observerRebuildTimer.start()
     }
 
@@ -180,10 +170,6 @@ Item {
             ignoreUnknownSignals: true
 
             function changed() { root.scheduleSourceSizeUpdate() }
-            function hierarchyChanged() {
-                root.scheduleObserverRebuild()
-                root.scheduleSourceSizeUpdate()
-            }
 
             function onWidthChanged() { changed() }
             function onHeightChanged() { changed() }
@@ -196,9 +182,9 @@ Item {
             function onZScaleChanged() { changed() }
             function onAngleChanged() { changed() }
             function onOriginChanged() { changed() }
-            function onParentChanged() { hierarchyChanged() }
-            function onWindowChanged() { hierarchyChanged() }
-            function onScreenChanged() { hierarchyChanged() }
+            function onParentChanged() { root.scheduleObserverRebuild() }
+            function onWindowChanged() { root.scheduleObserverRebuild() }
+            function onScreenChanged() { changed() }
             function onDevicePixelRatioChanged() { changed() }
         }
     }
@@ -236,7 +222,7 @@ Item {
     Screen.onDevicePixelRatioChanged: scheduleSourceSizeUpdate()
 
     Component.onCompleted: {
-        rebuildTransformObservers()
+        scheduleObserverRebuild()
         // Avoid one natural-size frame on initial creation. Later geometry
         // changes remain debounced.
         if (image.status === Image.Ready) {

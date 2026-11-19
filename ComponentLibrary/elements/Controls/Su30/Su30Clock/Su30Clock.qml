@@ -1,5 +1,6 @@
 import QtQuick 2.15
 import common_qml 1.0
+import "../../../../common_qml/CockpitTranslations.js" as Translations
 import "_parts"
 
 BaseSceneComponent {
@@ -52,6 +53,26 @@ BaseSceneComponent {
         x: (root.width - width * scale) / 2
         y: (root.height - height * scale) / 2
         AdaptiveSvgImage { anchors.fill:parent; source:Qt.resolvedUrl("_parts/face.svg"); fillMode:Image.PreserveAspectFit }
+        CockpitLegend {
+            x: 72; y: 176; width: 56; height: 12
+            legendKey: "su27.clock.time"
+            color: "#dce1ab"
+            font.pixelSize: 8
+        }
+        CockpitLegend {
+            x: 1; y: 127; width: 48; height: 10
+            rotation: 60
+            legendKey: "su27.clock.flight"
+            color: "#dce1ab"
+            font.pixelSize: 6
+        }
+        CockpitLegend {
+            x: 154; y: 127; width: 48; height: 10
+            rotation: -60
+            legendKey: "su27.clock.stopwatch"
+            color: "#dce1ab"
+            font.pixelSize: 5
+        }
         ClockHand { objectName:"flightHourHand"; x:67; y:124; handLength:12; thickness:2.3; rotation:root.angle(root.flightSeconds,43200) }
         ClockHand { objectName:"flightMinuteHand"; x:67; y:124; handLength:21; thickness:1.4; rotation:root.angle(root.flightSeconds,3600) }
         ClockHand { objectName:"stopwatchMinuteHand"; x:133; y:124; handLength:21; thickness:1.4; rotation:root.angle(root.stopwatchSeconds,3600) }
@@ -66,7 +87,8 @@ BaseSceneComponent {
             onUserPropertyChanged: function(name,value) { root.userPropertyChanged("flightButton",value) }
         }
         ClockButton {
-            id:stopwatchControl; objectName:"stopwatchButton"; x:132; y:173; label:"ПУСК"
+            id:stopwatchControl; objectName:"stopwatchButton"; x:132; y:173
+            label: Translations.legend("su27.clock.start", Qt.uiLanguage)
             runtimeMode:root.runtimeMode
             onUserPropertyChanged: function(name,value) { root.userPropertyChanged("stopwatchButton",value) }
         }

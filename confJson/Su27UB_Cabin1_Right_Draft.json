@@ -1379,7 +1379,10 @@
                 "fontSize": 10,
                 "labelText": "STBY NAV",
                 "lightColor": "#ebedb5",
-                "value": 0
+                "value": 0,
+                "labelTranslations": {
+                    "ru": "РЕЗ НАВ"
+                }
             },
             "height": 24,
             "locked": false,
@@ -1401,7 +1404,10 @@
                 "fontSize": 10,
                 "labelText": "УДХ30\nРМ",
                 "lightColor": "#ebedb5",
-                "value": 0
+                "value": 0,
+                "labelTranslations": {
+                    "en": "TA×30\nBCN"
+                }
             },
             "height": 32,
             "locked": false,
@@ -1423,7 +1429,10 @@
                 "fontSize": 10,
                 "labelText": "УПРАВЛ\nМАРШР",
                 "lightColor": "#ebedb5",
-                "value": 0
+                "value": 0,
+                "labelTranslations": {
+                    "en": "GUID\nROUTE"
+                }
             },
             "height": 32,
             "locked": false,
@@ -1445,7 +1454,10 @@
                 "fontSize": 10,
                 "labelText": "ППМ\nАЭР",
                 "lightColor": "#ebedb5",
-                "value": 0
+                "value": 0,
+                "labelTranslations": {
+                    "en": "WPT\nAD"
+                }
             },
             "height": 32,
             "locked": false,
@@ -1467,7 +1479,10 @@
                 "fontSize": 10,
                 "labelText": "КОР РМ\nЗОНА",
                 "lightColor": "#ebedb5",
-                "value": 0
+                "value": 0,
+                "labelTranslations": {
+                    "en": "BCN CORR\nZONE"
+                }
             },
             "height": 32,
             "locked": false,
@@ -1489,7 +1504,10 @@
                 "fontSize": 10,
                 "labelText": "КОМБИН\nПУТЕВ",
                 "lightColor": "#ebedb5",
-                "value": 0
+                "value": 0,
+                "labelTranslations": {
+                    "en": "COMB\nTRACK"
+                }
             },
             "height": 32,
             "locked": false,
@@ -1511,7 +1529,10 @@
                 "fontSize": 10,
                 "labelText": "ВОЗВР\nЧК",
                 "lightColor": "#ebedb5",
-                "value": 0
+                "value": 0,
+                "labelTranslations": {
+                    "en": "RTN\nCH"
+                }
             },
             "height": 32,
             "locked": false,
@@ -1558,7 +1579,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "ENT"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1582,7 +1606,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#c6bdb6",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "5T"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1606,7 +1633,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#c6bdb6",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "4T"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1630,7 +1660,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#c6bdb6",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "3T"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1654,7 +1687,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#c6bdb6",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "2T"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1678,7 +1714,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#c6bdb6",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "1T"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1702,7 +1741,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "RESET"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1726,7 +1768,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#c6bdb6",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "10T"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1750,7 +1795,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#c6bdb6",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "9T"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1774,7 +1822,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#c6bdb6",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "8T"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1798,7 +1849,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#c6bdb6",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "7T"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1822,7 +1876,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#c6bdb6",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "6T"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1846,7 +1903,10 @@
                 "markingRotation": -90,
                 "outlineColor": "#c6bdb6",
                 "showOutline": true,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "GRP"
+                }
             },
             "height": 37,
             "locked": false,
@@ -1965,7 +2025,13 @@
             "customProperties": {
                 "labelBottom": "РАБ",
                 "labelTop": "РЕЖ",
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "MODE"
+                },
+                "labelBottomTranslations": {
+                    "en": "OPER"
+                }
             },
             "height": 38,
             "locked": false,
@@ -1987,7 +2053,13 @@
                 "labelBottom": "РСБН",
                 "labelTop": "КОНТР",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "TEST"
+                },
+                "labelBottomTranslations": {
+                    "en": "RSBN"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2009,7 +2081,13 @@
                 "labelBottom": "5 / К",
                 "labelTop": "УПР",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "CTRL"
+                },
+                "labelBottomTranslations": {
+                    "en": "5 / C"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2031,7 +2109,13 @@
                 "labelBottom": "4 / М",
                 "labelTop": "УД",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "TA"
+                },
+                "labelBottomTranslations": {
+                    "en": "4 / M"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2053,7 +2137,10 @@
                 "labelBottom": "3 / △",
                 "labelTop": "РМ",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "BCN"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2075,7 +2162,10 @@
                 "labelBottom": "2",
                 "labelTop": "АЭР",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "AD"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2097,7 +2187,10 @@
                 "labelBottom": "1 / ◁",
                 "labelTop": "ППМ",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "WPT"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2118,7 +2211,10 @@
             "customProperties": {
                 "labelTop": "ЗНАК",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "SIGN"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2140,7 +2236,10 @@
                 "labelBottom": "0",
                 "labelTop": "ВОЗВР",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "RTN"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2224,7 +2323,10 @@
             "customProperties": {
                 "labelTop": "6 / П",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "6 / P"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2246,7 +2348,13 @@
                 "labelBottom": "РУЧ",
                 "labelTop": "РМ",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "BCN"
+                },
+                "labelBottomTranslations": {
+                    "en": "MAN"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2268,7 +2376,13 @@
                 "labelBottom": "РУЧ",
                 "labelTop": "НП",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "WPT"
+                },
+                "labelBottomTranslations": {
+                    "en": "MAN"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2310,7 +2424,10 @@
             "customProperties": {
                 "labelTop": "СБРОС",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "RESET"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2332,7 +2449,13 @@
                 "labelBottom": "ПРАВ",
                 "labelTop": "ПЗ",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "G/A"
+                },
+                "labelBottomTranslations": {
+                    "en": "RIGHT"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2354,7 +2477,13 @@
                 "labelBottom": "ЛЕВ",
                 "labelTop": "ПЗ",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "G/A"
+                },
+                "labelBottomTranslations": {
+                    "en": "LEFT"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2376,7 +2505,13 @@
                 "labelBottom": "ПОВТ",
                 "labelTop": "ИКВ",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "INS"
+                },
+                "labelBottomTranslations": {
+                    "en": "REP"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2398,7 +2533,13 @@
                 "labelBottom": "ДУБЛ",
                 "labelTop": "ИКВ",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "INS"
+                },
+                "labelBottomTranslations": {
+                    "en": "B/U"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2420,7 +2561,13 @@
                 "labelBottom": "ОСН",
                 "labelTop": "ИКВ",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "INS"
+                },
+                "labelBottomTranslations": {
+                    "en": "MAIN"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2441,7 +2588,10 @@
             "customProperties": {
                 "labelTop": "МК",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "MAG"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2463,7 +2613,13 @@
                 "labelBottom": "РУЧ",
                 "labelTop": "ЗК",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "HDG"
+                },
+                "labelBottomTranslations": {
+                    "en": "MAN"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2484,7 +2640,10 @@
             "customProperties": {
                 "labelTop": "АРК",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "ADF"
+                }
             },
             "height": 37,
             "locked": false,
@@ -2506,7 +2665,13 @@
                 "labelBottom": "ПНК",
                 "labelTop": "ПИТАН",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "PWR"
+                },
+                "labelBottomTranslations": {
+                    "en": "FNS"
+                }
             },
             "height": 39,
             "locked": false,
@@ -2528,7 +2693,13 @@
                 "labelBottom": "ОТКАЗ\nСИСТ",
                 "labelTop": "ОТКЛ",
                 "markingRotation": 0,
-                "value": 0
+                "value": 0,
+                "labelTopTranslations": {
+                    "en": "OFF"
+                },
+                "labelBottomTranslations": {
+                    "en": "SYS\nFAIL"
+                }
             },
             "height": 39,
             "locked": false,
@@ -4588,7 +4759,10 @@
                 "labelText": "Су-27УБ · 1 КАБИНА · ПРАВЫЙ БОРТ",
                 "padding": 0,
                 "textColor": "#17363d",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "Su-27UB · COCKPIT 1 · RIGHT CONSOLE"
+                }
             },
             "height": 42,
             "locked": false,
@@ -4618,6 +4792,9 @@
                 "fontSize": 16,
                 "horizontalAlignment": 4,
                 "labelText": "П И Т А Н И Е",
+                "labelTranslations": {
+                    "en": "POWER"
+                },
                 "padding": 0,
                 "textColor": "#f3f6f2",
                 "verticalAlignment": 128
@@ -4652,7 +4829,10 @@
                 "labelText": "ЭКРАН",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "EKRAN"
+                }
             },
             "height": 29,
             "locked": false,
@@ -4684,7 +4864,10 @@
                 "labelText": "РАДИО\nУКВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "VHF\nRADIO"
+                }
             },
             "height": 29,
             "locked": false,
@@ -4716,7 +4899,10 @@
                 "labelText": "РАДИО\nКВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "HF\nRADIO"
+                }
             },
             "height": 29,
             "locked": false,
@@ -4748,7 +4934,10 @@
                 "labelText": "ОПОЗН.",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "IFF"
+                }
             },
             "height": 29,
             "locked": false,
@@ -4780,7 +4969,10 @@
                 "labelText": "ИНДИК.",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "DISPLAY"
+                }
             },
             "height": 29,
             "locked": false,
@@ -4812,7 +5004,10 @@
                 "labelText": "ОПС",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "OPS"
+                }
             },
             "height": 29,
             "locked": false,
@@ -4844,7 +5039,10 @@
                 "labelText": "НАВЕД.",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "GUIDANCE"
+                }
             },
             "height": 29,
             "locked": false,
@@ -4876,7 +5074,10 @@
                 "labelText": "СУО\nОБОРОНА",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "WCS\nDEFENSE"
+                }
             },
             "height": 29,
             "locked": false,
@@ -4908,7 +5109,10 @@
                 "labelText": "ИНДИКАЦ.\nРЕЗЕРВ\n(по фото)",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "STBY\nDISPLAY\n(PHOTO)"
+                }
             },
             "height": 39,
             "locked": false,
@@ -4937,42 +5141,14 @@
                 "fontFamily": "Arial",
                 "fontSize": 11,
                 "horizontalAlignment": 4,
-                "labelText": "STBY NAV",
-                "padding": 0,
-                "textColor": "#b8bbc1",
-                "verticalAlignment": 128
-            },
-            "height": 20,
-            "locked": false,
-            "name": "stby_nav_lens_text",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 24,
-            "subtype": "TextLabel",
-            "type": "Visual",
-            "width": 84,
-            "x": 741,
-            "y": 430,
-            "z": 0
-        },
-        {
-            "componentPath": "common_qml/GeneratedTextLabel.qml",
-            "customProperties": {
-                "backgroundColor": "#000000",
-                "backgroundEnabled": false,
-                "backgroundOpacity": 1,
-                "borderColor": "#ffffff",
-                "borderWidth": 0,
-                "cornerRadius": 0,
-                "fitText": true,
-                "fontFamily": "Arial",
-                "fontSize": 11,
-                "horizontalAlignment": 4,
                 "labelText": "STBY NAV · по фото",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "STBY NAV · PHOTO REF",
+                    "ru": "РЕЗ. НАВ. · по фото"
+                }
             },
             "height": 23,
             "locked": false,
@@ -5004,7 +5180,10 @@
                 "labelText": "Л-029 / ЛТЦ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "L-029 / FLARES"
+                }
             },
             "height": 20,
             "locked": false,
@@ -5036,7 +5215,10 @@
                 "labelText": "ИНТЕРВАЛ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "INTERVAL"
+                }
             },
             "height": 16,
             "locked": false,
@@ -5068,7 +5250,10 @@
                 "labelText": "ЗАЛП ЛТЦ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "FLARE SALVO"
+                }
             },
             "height": 16,
             "locked": false,
@@ -5100,7 +5285,10 @@
                 "labelText": "ДО ЛТЦ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "FLR LEFT"
+                }
             },
             "height": 15,
             "locked": false,
@@ -5132,7 +5320,10 @@
                 "labelText": "СБРОС",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "RESET"
+                }
             },
             "height": 16,
             "locked": false,
@@ -5164,7 +5355,10 @@
                 "labelText": "СТОП",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "STOP"
+                }
             },
             "height": 16,
             "locked": false,
@@ -5196,7 +5390,10 @@
                 "labelText": "КОНТР.",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "TEST"
+                }
             },
             "height": 16,
             "locked": false,
@@ -5228,7 +5425,10 @@
                 "labelText": "АВАР.",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "EMER."
+                }
             },
             "height": 16,
             "locked": false,
@@ -5260,7 +5460,10 @@
                 "labelText": "5812 / СТИРАН · БЕДСТВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "5812 / ERASE · DISTRESS"
+                }
             },
             "height": 18,
             "locked": false,
@@ -5292,7 +5495,10 @@
                 "labelText": "КД",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "KD"
+                }
             },
             "height": 15,
             "locked": false,
@@ -5324,7 +5530,10 @@
                 "labelText": "КП",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "KP"
+                }
             },
             "height": 15,
             "locked": false,
@@ -5356,7 +5565,10 @@
                 "labelText": "ЗАПАСН",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "STBY"
+                }
             },
             "height": 15,
             "locked": false,
@@ -5388,7 +5600,10 @@
                 "labelText": "480 / ОТВЕТ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "480 / REPLY"
+                }
             },
             "height": 17,
             "locked": false,
@@ -5420,7 +5635,10 @@
                 "labelText": "ЗНАК",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "CODE"
+                }
             },
             "height": 17,
             "locked": false,
@@ -5452,7 +5670,10 @@
                 "labelText": "КОНТР.",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "TEST"
+                }
             },
             "height": 17,
             "locked": false,
@@ -5484,7 +5705,10 @@
                 "labelText": "В-КОДЕ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "HIGH CODE"
+                }
             },
             "height": 15,
             "locked": false,
@@ -5516,7 +5740,10 @@
                 "labelText": "КОНТРОЛЬ НАПРЯЖЕНИЯ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "VOLTAGE CHECK"
+                }
             },
             "height": 19,
             "locked": false,
@@ -5548,7 +5775,10 @@
                 "labelText": "СТАБИЛИЗАТОР\nЛЕВ / ПРАВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "STABILIZER\nLEFT / RIGHT"
+                }
             },
             "height": 30,
             "locked": false,
@@ -5580,7 +5810,10 @@
                 "labelText": "ПИРОПАТРОНЫ\nI  КРЕСЛА  II",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "EJECTION SEAT SQUIBS\nI                 II"
+                }
             },
             "height": 29,
             "locked": false,
@@ -5612,7 +5845,10 @@
                 "labelText": "ПП-204 / ПРОВЕРКА СДУ-10",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "PP-204 / SDU-10 TEST"
+                }
             },
             "height": 26,
             "locked": false,
@@ -5644,7 +5880,10 @@
                 "labelText": "ПВД РЕЗЕРВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "STBY PITOT"
+                }
             },
             "height": 15,
             "locked": false,
@@ -5676,7 +5915,10 @@
                 "labelText": "ПВД ОСНОВН",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "MAIN PITOT"
+                }
             },
             "height": 15,
             "locked": false,
@@ -5708,7 +5950,10 @@
                 "labelText": "НАВЕДЕНИЕ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "GUIDANCE"
+                }
             },
             "height": 14,
             "locked": false,
@@ -5740,7 +5985,10 @@
                 "labelText": "ВЕДУЩ / ВЕДОМ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "LEAD / WING"
+                }
             },
             "height": 14,
             "locked": false,
@@ -5772,7 +6020,10 @@
                 "labelText": "ФКП / МЛП",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "FKP / MLP"
+                }
             },
             "height": 14,
             "locked": false,
@@ -5804,7 +6055,10 @@
                 "labelText": "ВСК-ШП",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "VSK-SHP"
+                }
             },
             "height": 13,
             "locked": false,
@@ -5836,7 +6090,10 @@
                 "labelText": "ИЗМ / РЕТР",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "MEAS / RLY"
+                }
             },
             "height": 12,
             "locked": false,
@@ -5868,7 +6125,10 @@
                 "labelText": "НАПР / ВВОД",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "DIR / ENT"
+                }
             },
             "height": 12,
             "locked": false,
@@ -5900,7 +6160,10 @@
                 "labelText": "КОМП / ТЛФ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "COMP / VOICE"
+                }
             },
             "height": 11,
             "locked": false,
@@ -5932,7 +6195,10 @@
                 "labelText": "АНТ / ТЛГ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "ANT / CW"
+                }
             },
             "height": 11,
             "locked": false,
@@ -5964,7 +6230,10 @@
                 "labelText": "Нм / РУЧ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "Hm / MAN"
+                }
             },
             "height": 12,
             "locked": false,
@@ -5996,7 +6265,10 @@
                 "labelText": "М / АВТ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "M / AUTO"
+                }
             },
             "height": 12,
             "locked": false,
@@ -6028,7 +6300,10 @@
                 "labelText": "НАВЕДЕНИЕ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "GUIDANCE"
+                }
             },
             "height": 8,
             "locked": false,
@@ -6060,7 +6335,10 @@
                 "labelText": "ПЕРЕДАЧА",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "TX"
+                }
             },
             "height": 12,
             "locked": false,
@@ -6092,7 +6370,10 @@
                 "labelText": "ОБЗОР",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "SCAN"
+                }
             },
             "height": 12,
             "locked": false,
@@ -6124,7 +6405,10 @@
                 "labelText": "АВТОМАТ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "AUTO"
+                }
             },
             "height": 12,
             "locked": false,
@@ -6156,7 +6440,10 @@
                 "labelText": "ППС / ИЗЛ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "FWD / EMIT"
+                }
             },
             "height": 12,
             "locked": false,
@@ -6188,7 +6475,10 @@
                 "labelText": "РЕЖИМ\nПОМЕХ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "JAMMING\nMODE"
+                }
             },
             "height": 23,
             "locked": false,
@@ -6220,7 +6510,10 @@
                 "labelText": "ВЫСОТА\nТИП",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "ALT / TYPE"
+                }
             },
             "height": 16,
             "locked": false,
@@ -6252,7 +6545,10 @@
                 "labelText": "ЯРКОСТЬ ЛАМП\nНА ДОСКЕ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "PANEL LAMP\nBRIGHTNESS"
+                }
             },
             "height": 20,
             "locked": false,
@@ -6284,7 +6580,10 @@
                 "labelText": "ОСВЕЩЕНИЕ\nПРИБОРОВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "INSTRUMENT\nLIGHTS"
+                }
             },
             "height": 24,
             "locked": false,
@@ -6316,7 +6615,10 @@
                 "labelText": "ОСВЕЩЕНИЕ\nЛЕВОГО БОРТА",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "LEFT CONSOLE\nLIGHTS"
+                }
             },
             "height": 24,
             "locked": false,
@@ -6348,7 +6650,10 @@
                 "labelText": "ОСВЕЩЕНИЕ\nПРАВ. БОРТА",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "RIGHT CONSOLE\nLIGHTS"
+                }
             },
             "height": 24,
             "locked": false,
@@ -6380,7 +6685,10 @@
                 "labelText": "ЗАЛИВАЮЩИЙ\nСВЕТ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "FLOOD\nLIGHT"
+                }
             },
             "height": 24,
             "locked": false,
@@ -6412,7 +6720,10 @@
                 "labelText": "ОСВЕЩ.\nКИ-13",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "KI-13\nLIGHT"
+                }
             },
             "height": 20,
             "locked": false,
@@ -6444,7 +6755,10 @@
                 "labelText": "ПРОВ.\nЛАМП",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "LAMP\nTEST"
+                }
             },
             "height": 20,
             "locked": false,
@@ -6476,7 +6790,10 @@
                 "labelText": "НОЧЬ\nДЕНЬ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "NIGHT\nDAY"
+                }
             },
             "height": 20,
             "locked": false,
@@ -6508,7 +6825,10 @@
                 "labelText": "АККУМ / АЭР",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "BAT / EXT PWR"
+                }
             },
             "height": 15,
             "locked": false,
@@ -6540,7 +6860,10 @@
                 "labelText": "ПРЕОБРАЗ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "CONVERTER"
+                }
             },
             "height": 15,
             "locked": false,
@@ -6572,7 +6895,10 @@
                 "labelText": "ТОК / ГЕНЕР",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "CURR / GEN"
+                }
             },
             "height": 15,
             "locked": false,
@@ -6604,7 +6930,10 @@
                 "labelText": "ОТКЛ ПРИВОД\nГЕНЕР ЛЕВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "L GEN DRIVE\nDISCONNECT"
+                }
             },
             "height": 24,
             "locked": false,
@@ -6636,7 +6965,10 @@
                 "labelText": "ОТКЛ ПРИВОД\nГЕНЕР ПРАВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "R GEN DRIVE\nDISCONNECT"
+                }
             },
             "height": 24,
             "locked": false,
@@ -6668,7 +7000,10 @@
                 "labelText": "ПРОТИВООБЛЕД\nАВТ / РУЧ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "ANTI-ICE\nAUTO / MAN"
+                }
             },
             "height": 25,
             "locked": false,
@@ -6700,7 +7035,10 @@
                 "labelText": "АВТ ДРОС\nФОРСАЖ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "AUTO THR\nAFTERBURNER"
+                }
             },
             "height": 23,
             "locked": false,
@@ -6732,7 +7070,10 @@
                 "labelText": "ПРОКРУТКА\nПРАВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "CRANK\nRIGHT"
+                }
             },
             "height": 20,
             "locked": false,
@@ -6764,7 +7105,10 @@
                 "labelText": "ЗАПУСК\nПРАВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "START\nRIGHT"
+                }
             },
             "height": 18,
             "locked": false,
@@ -6796,7 +7140,10 @@
                 "labelText": "ПРОКРУТКА\nЛЕВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "CRANK\nLEFT"
+                }
             },
             "height": 20,
             "locked": false,
@@ -6828,7 +7175,10 @@
                 "labelText": "ЗАПУСК\nЛЕВ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "START\nLEFT"
+                }
             },
             "height": 18,
             "locked": false,
@@ -6860,7 +7210,10 @@
                 "labelText": "СВОБОДНАЯ ПАНЕЛЬ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "SPARE PANEL"
+                }
             },
             "height": 30,
             "locked": false,
@@ -6892,7 +7245,10 @@
                 "labelText": "ОТКЛ ПНК",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "PNK OFF"
+                }
             },
             "height": 10,
             "locked": false,
@@ -6924,7 +7280,10 @@
                 "labelText": "КОНТР ПРИЁМ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "RX TEST"
+                }
             },
             "height": 13,
             "locked": false,
@@ -6956,7 +7315,10 @@
                 "labelText": "АНО %",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "NAV LT %"
+                }
             },
             "height": 13,
             "locked": false,
@@ -6988,7 +7350,10 @@
                 "labelText": "СТОП",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "STOP"
+                }
             },
             "height": 16,
             "locked": false,
@@ -7020,7 +7385,10 @@
                 "labelText": "РАДИО\nМОЛЧАНИЕ",
                 "padding": 0,
                 "textColor": "#f3f6f2",
-                "verticalAlignment": 128
+                "verticalAlignment": 128,
+                "labelTranslations": {
+                    "en": "RADIO\nSILENCE"
+                }
             },
             "height": 27,
             "locked": false,
@@ -7034,188 +7402,6 @@
             "width": 63,
             "x": 870.0,
             "y": 381.5,
-            "z": 0
-        },
-        {
-            "componentPath": "common_qml/GeneratedTextLabel.qml",
-            "customProperties": {
-                "backgroundEnabled": false,
-                "fitText": true,
-                "fontFamily": "Arial",
-                "fontSize": 8,
-                "horizontalAlignment": 4,
-                "labelText": "2",
-                "textColor": "#f3ecd5",
-                "verticalAlignment": 128
-            },
-            "height": 10,
-            "locked": false,
-            "name": "sdu_guard_0_cover_label",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 299,
-            "subtype": "TextLabel",
-            "type": "Visual",
-            "width": 12,
-            "x": 1713.5,
-            "y": 562.8,
-            "z": 0
-        },
-        {
-            "componentPath": "common_qml/GeneratedTextLabel.qml",
-            "customProperties": {
-                "backgroundEnabled": false,
-                "fitText": true,
-                "fontFamily": "Arial",
-                "fontSize": 8,
-                "horizontalAlignment": 4,
-                "labelText": "1",
-                "textColor": "#f3ecd5",
-                "verticalAlignment": 128
-            },
-            "height": 10,
-            "locked": false,
-            "name": "sdu_guard_1_cover_label",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 300,
-            "subtype": "TextLabel",
-            "type": "Visual",
-            "width": 12,
-            "x": 1765.5,
-            "y": 537.6,
-            "z": 0
-        },
-        {
-            "componentPath": "common_qml/GeneratedTextLabel.qml",
-            "customProperties": {
-                "backgroundEnabled": false,
-                "fitText": true,
-                "fontFamily": "Arial",
-                "fontSize": 4.75,
-                "horizontalAlignment": 4,
-                "labelText": "АВАР\nЛТЦ",
-                "textColor": "#f3ecd5",
-                "verticalAlignment": 128
-            },
-            "height": 12,
-            "locked": false,
-            "name": "ltc_emergency_guard_cover_label",
-            "opacity": 1,
-            "rotation": -90,
-            "scale": 1,
-            "stackingOrder": 301,
-            "subtype": "TextLabel",
-            "type": "Visual",
-            "width": 38.88,
-            "x": 900.06,
-            "y": 547.7705,
-            "z": 0
-        },
-        {
-            "componentPath": "common_qml/GeneratedTextLabel.qml",
-            "customProperties": {
-                "backgroundEnabled": false,
-                "fitText": true,
-                "fontFamily": "Arial",
-                "fontSize": 4.75,
-                "horizontalAlignment": 4,
-                "labelText": "ОТКЛ\nГЕНЕР",
-                "textColor": "#f3ecd5",
-                "verticalAlignment": 128
-            },
-            "height": 12,
-            "locked": false,
-            "name": "generator_guard_0_cover_label",
-            "opacity": 1,
-            "rotation": -180,
-            "scale": 1,
-            "stackingOrder": 302,
-            "subtype": "TextLabel",
-            "type": "Visual",
-            "width": 42.48,
-            "x": 1575.6944,
-            "y": 886.0,
-            "z": 0
-        },
-        {
-            "componentPath": "common_qml/GeneratedTextLabel.qml",
-            "customProperties": {
-                "backgroundEnabled": false,
-                "fitText": true,
-                "fontFamily": "Arial",
-                "fontSize": 4.75,
-                "horizontalAlignment": 4,
-                "labelText": "ОТКЛ\nГЕНЕР",
-                "textColor": "#f3ecd5",
-                "verticalAlignment": 128
-            },
-            "height": 12,
-            "locked": false,
-            "name": "generator_guard_1_cover_label",
-            "opacity": 1,
-            "rotation": -180,
-            "scale": 1,
-            "stackingOrder": 303,
-            "subtype": "TextLabel",
-            "type": "Visual",
-            "width": 42.48,
-            "x": 1575.6944,
-            "y": 846.0,
-            "z": 0
-        },
-        {
-            "componentPath": "common_qml/GeneratedTextLabel.qml",
-            "customProperties": {
-                "backgroundEnabled": false,
-                "fitText": true,
-                "fontFamily": "Arial",
-                "fontSize": 4.75,
-                "horizontalAlignment": 4,
-                "labelText": "СТИРАН",
-                "textColor": "#f3ecd5",
-                "verticalAlignment": 128
-            },
-            "height": 7,
-            "locked": false,
-            "name": "identification_guard_0_cover_label",
-            "opacity": 1,
-            "rotation": -90,
-            "scale": 1,
-            "stackingOrder": 304,
-            "subtype": "TextLabel",
-            "type": "Visual",
-            "width": 37.44,
-            "x": 960.28,
-            "y": 468.2049,
-            "z": 0
-        },
-        {
-            "componentPath": "common_qml/GeneratedTextLabel.qml",
-            "customProperties": {
-                "backgroundEnabled": false,
-                "fitText": true,
-                "fontFamily": "Arial",
-                "fontSize": 4.75,
-                "horizontalAlignment": 4,
-                "labelText": "БЕДСТВ",
-                "textColor": "#f3ecd5",
-                "verticalAlignment": 128
-            },
-            "height": 7,
-            "locked": false,
-            "name": "identification_guard_1_cover_label",
-            "opacity": 1,
-            "rotation": -90,
-            "scale": 1,
-            "stackingOrder": 305,
-            "subtype": "TextLabel",
-            "type": "Visual",
-            "width": 37.44,
-            "x": 995.28,
-            "y": 468.2049,
             "z": 0
         }
     ],
@@ -7381,9 +7567,9 @@
             "componentPath": "elements/Controls/simple/Tumblers/GuardedControl/GuardedControl.qml",
             "customProperties": {
                 "appearance": "off",
-                "marking": "default",
                 "value": 0,
-                "cover": 0
+                "cover": 0,
+                "coverLegendKey": "su27.pnk.cutoff"
             },
             "height": 56,
             "locked": false,
@@ -7405,7 +7591,8 @@
                 "appearance": "yellowSquares",
                 "coverPropertyName": "guardOpen",
                 "guardOpen": false,
-                "value": 0
+                "value": 0,
+                "coverLegendKey": "su27.sdu.cover2"
             },
             "height": 70,
             "locked": false,
@@ -7432,7 +7619,8 @@
                     2,
                     0
                 ],
-                "value": 0
+                "value": 0,
+                "coverLegendKey": "su27.sdu.cover1"
             },
             "height": 70,
             "locked": false,
@@ -7454,7 +7642,8 @@
                 "appearance": "redU",
                 "coverPropertyName": "guardOpen",
                 "guardOpen": false,
-                "value": 0
+                "value": 0,
+                "coverLegendKey": "su27.ltc.emergency"
             },
             "height": 54,
             "locked": false,
@@ -7476,7 +7665,8 @@
                 "appearance": "redU",
                 "coverPropertyName": "guardOpen",
                 "guardOpen": false,
-                "value": 0
+                "value": 0,
+                "coverLegendKey": "su27.generator.disconnect"
             },
             "height": 59,
             "locked": false,
@@ -7498,7 +7688,8 @@
                 "appearance": "redU",
                 "coverPropertyName": "guardOpen",
                 "guardOpen": false,
-                "value": 0
+                "value": 0,
+                "coverLegendKey": "su27.generator.disconnect"
             },
             "height": 59,
             "locked": false,
@@ -7564,7 +7755,8 @@
                 "appearance": "redBar",
                 "coverPropertyName": "guardOpen",
                 "guardOpen": false,
-                "value": 0
+                "value": 0,
+                "coverLegendKey": "su27.iff.erase"
             },
             "height": 52,
             "locked": false,
@@ -7586,7 +7778,8 @@
                 "appearance": "redU",
                 "coverPropertyName": "guardOpen",
                 "guardOpen": false,
-                "value": 0
+                "value": 0,
+                "coverLegendKey": "su27.iff.distress"
             },
             "height": 52,
             "locked": false,

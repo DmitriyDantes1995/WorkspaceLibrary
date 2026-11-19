@@ -1,17 +1,18 @@
 import QtQuick 2.15
+import "../../../../../common_qml/CockpitTranslations.js" as Translations
 
 Canvas {
     id: face
     objectName: "rotaryFace"
     property var labels: []
+    readonly property var displayedLabels: labels.map(function(label) {
+        return typeof label === "string" ? label : Translations.forLanguage(label, Qt.uiLanguage, label.ru)
+    })
     property var angles: []
     property int labelEvery: 1
-    property string handle: "arrow"
-    property real visualAngle: 0
-    property real handleSize: Math.min(width, height)
     property bool taperedScale: false
     property bool scaleMarks: true
-    onLabelsChanged: requestPaint()
+    onDisplayedLabelsChanged: requestPaint()
     onAnglesChanged: requestPaint()
     onLabelEveryChanged: requestPaint()
     onTaperedScaleChanged: requestPaint()
@@ -32,12 +33,13 @@ Canvas {
             c.beginPath(); c.moveTo(Math.sin(a) * 46, -Math.cos(a) * 46)
             c.lineTo(Math.sin(a) * 52, -Math.cos(a) * 52); c.stroke()
             if (i % labelEvery === 0 || i === angles.length - 1) {
+                var label = displayedLabels[i] || ""
                 var labelWidth = Math.abs(Math.sin(a)) > 0.7 ? 23 : 40
-                var measuredWidth = c.measureText(labels[i]).width
+                var measuredWidth = c.measureText(label).width
                 c.save()
                 c.translate(Math.sin(a) * 63, -Math.cos(a) * 63)
                 c.scale(Math.min(1, labelWidth / Math.max(1, measuredWidth)), 1)
-                c.fillText(labels[i], 0, 0)
+                c.fillText(label, 0, 0)
                 c.restore()
             }
         }
@@ -57,11 +59,4 @@ Canvas {
         }
     }
 
-    RotaryHandle {
-        anchors.centerIn: parent
-        width: face.handleSize
-        height: width
-        handle: face.handle
-        rotation: face.visualAngle
-    }
 }

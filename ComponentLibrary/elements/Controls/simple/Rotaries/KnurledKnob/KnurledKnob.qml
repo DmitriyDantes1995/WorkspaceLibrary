@@ -1,6 +1,7 @@
 pragma ComponentBehavior: Bound
 import QtQuick 2.15
 import common_qml 1.0
+import "../../../../../common_qml/CockpitTranslations.js" as Translations
 import "PanelLooks.js" as Looks
 
 RotaryAnalog {
@@ -75,6 +76,7 @@ RotaryAnalog {
     }
 
     AdaptiveSvgImage {
+        id: knobBody
         x: root.width * root.bodyRect[0]
         y: root.height * root.bodyRect[1]
         width: root.width * root.bodyRect[2]
@@ -82,5 +84,52 @@ RotaryAnalog {
         source: Qt.resolvedUrl(root.look ? root.look.source : "knob.svg")
         rotation: root.visualAngle
         fillMode: root.look && root.look.stretch ? Image.Stretch : Image.PreserveAspectFit
+    }
+
+    Loader {
+        id: knobLegends
+        readonly property var arcs: root.look?.arcLegends || []
+        anchors.centerIn: knobBody
+        width: knobBody.paintedWidth
+        height: knobBody.paintedHeight
+        active: arcs.length > 0
+        sourceComponent: Canvas {
+            objectName: "knobArcLegends"
+            rotation: knobBody.rotation
+            readonly property var words: knobLegends.arcs.map(function(legend) {
+                return Translations.legend(legend.key, Qt.uiLanguage)
+            })
+
+            onWordsChanged: requestPaint()
+            onWidthChanged: requestPaint()
+            onHeightChanged: requestPaint()
+            onPaint: {
+                const ctx = getContext("2d")
+                ctx.reset()
+                ctx.clearRect(0, 0, width, height)
+                ctx.translate(width / 2, height / 2)
+                ctx.scale(width / 360, height / 360)
+                ctx.fillStyle = "#fff7e3"
+                ctx.textAlign = "center"
+                ctx.textBaseline = "middle"
+
+                for (let i = 0; i < words.length; ++i) {
+                    const word = words[i]
+                    const legend = knobLegends.arcs[i]
+                    const centerAngle = legend.angle * Math.PI / 180
+                    const letters = Array.from(word)
+                    const step = legend.direction * 1.22 / Math.max(3, letters.length - 1)
+                    ctx.font = "bold " + Math.min(26, 134 / letters.length) + "px Arial"
+                    for (let j = 0; j < letters.length; ++j) {
+                        const angle = centerAngle + (j - (letters.length - 1) / 2) * step
+                        ctx.save()
+                        ctx.translate(65 * Math.cos(angle), 65 * Math.sin(angle))
+                        ctx.rotate(angle + legend.direction * Math.PI / 2)
+                        ctx.fillText(letters[j], 0, 0)
+                        ctx.restore()
+                    }
+                }
+            }
+        }
     }
 }

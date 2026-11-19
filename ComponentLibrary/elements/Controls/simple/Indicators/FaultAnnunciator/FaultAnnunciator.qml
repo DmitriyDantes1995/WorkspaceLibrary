@@ -1,5 +1,6 @@
 import QtQuick 2.15
 import common_qml 1.0
+import "../../../../../common_qml/CockpitTranslations.js" as Translations
 
 BaseSceneComponent {
     id: root
@@ -11,7 +12,10 @@ BaseSceneComponent {
     // Public component data. m_value is the property bound to RaNET.
     property string m_text: "FAULT"
     property var m_value: 0
+    property var m_textTranslations: ({})
 
+    readonly property string displayText: Translations.forLanguage(
+        m_textTranslations[m_text], Qt.uiLanguage, m_text)
     readonly property bool alarmState: normalizeAlarmState(m_value)
     property string lampColor: "green"
     property real fontSize: 28
@@ -19,12 +23,16 @@ BaseSceneComponent {
     readonly property color signalColor: lampColor === "red" ? "#ff1610"
                                       : (lampColor === "yellow" ? "#fff020" : "#80ff18")
     onM_textChanged: synchronizeState("m_text",m_text)
+    onM_textTranslationsChanged: synchronizeState("m_textTranslations",m_textTranslations)
     onM_valueChanged: synchronizeState("m_value",m_value)
     onLampColorChanged: synchronizeState("lampColor",lampColor)
     onFontSizeChanged: synchronizeState("fontSize",fontSize)
     onVerticalTextChanged: synchronizeState("verticalText",verticalText)
     function synchronizeState(name,value) {
-        if(customProperties[name] !== value) {customProperties[name]=value;customPropertiesChanged()}
+        if (customProperties && customProperties[name] !== value) {
+            customProperties[name] = value
+            customPropertiesChanged()
+        }
     }
     onCustomPropertiesChanged: {
         // Old scene maps contain only m_text/m_value; add the new defaults.
@@ -43,12 +51,14 @@ BaseSceneComponent {
 
     customProperties: ({
         "m_text": m_text,
+        "m_textTranslations": m_textTranslations,
         "m_value": m_value,
         "lampColor": lampColor,
         "fontSize": fontSize,
         "verticalText": verticalText
     })
     propertySchema: ({
+        m_textTranslations: {hidden:true,bindable:false},
         verticalText: {displayName:"Vertical text",type:"bool"},
         lampColor: {displayName:"Color",type:"enum",values:[{label:"Green",value:"green"},{label:"Red",value:"red"},{label:"Yellow",value:"yellow"}]},
         fontSize: {displayName:"Font size",type:"number",min:1,max:200,step:1,unit:"px"},
@@ -140,8 +150,9 @@ BaseSceneComponent {
             height: projectedHeight * fitScale
 
             text: root.verticalText
-                  ? Array.from(root.m_text.replace(/[\r\n]/g, "")).join("\n")
-                  : root.m_text
+                  ? Array.from(root.displayText.replace(/[\r\n]/g, "")).join("\n")
+                  : root.displayText
+            textFormat: Text.PlainText
             color: "#000000"
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
@@ -149,6 +160,7 @@ BaseSceneComponent {
             elide: Text.ElideNone
             clip: true
 
+            font.family: "Arial"
             font.bold: true
             font.pixelSize: Math.max(1, root.fontSize * textWindow.fontScale)
             fontSizeMode: Text.Fit

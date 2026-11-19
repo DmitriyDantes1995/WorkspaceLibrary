@@ -48,6 +48,22 @@ BaseSceneComponent {
             color: "#bfd7d0"
         }
         AdaptiveSvgImage { anchors.fill:parent; source:Qt.resolvedUrl("_parts/scale.svg"); fillMode:Image.PreserveAspectFit }
-
+        CockpitLegend {
+            x: 23; y: 5; width: 84; height: 25
+            legendKey: "su27.hydraulic.title"
+            color: "#d6e4dc"
+            font.pixelSize: 19
+        }
+        Repeater {
+            model: [34, 96]
+            CockpitLegend {
+                required property int modelData
+                x: modelData - width / 2
+                y: 216; width: 48; height: 13
+                legendKey: "su27.hydraulic.units"
+                color: "#d6e4dc"
+                font.pixelSize: 6
+            }
+        }
     }
 }

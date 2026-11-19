@@ -8,6 +8,10 @@ var entries = {
         "maximum": 1,
         "closed": ["_art/horizontal/closed_0.svg", "_art/horizontal/closed_1.svg"],
         "open": ["_art/horizontal-reheat/open_0.svg", "_art/horizontal-reheat/open_1.svg"],
+        "legend": {
+            "center": [0.3375, 0.445], "size": [0.56, 0.28],
+            "editable": true, "bold": true
+        },
         "regions": [
             {"x": 0, "y": 0.261559, "width": 0.659074, "height": 0.590632, "action": "open"},
             {"x": 0.66965, "y": 0.261494, "width": 0.219687, "height": 0.590679, "action": "close"},
@@ -22,6 +26,11 @@ var entries = {
         "maximum": 1,
         "closed": ["_art/box/closed.svg", "_art/box/closed.svg"],
         "open": ["_art/box-gain/open_0.svg", "_art/box-gain/open_1.svg"],
+        "legend": {
+            "center": [0.312, 0.48], "size": [0.47, 0.20],
+            "plate": true, "bold": true, "color": "white",
+            "keys": ["su27.manualGain"]
+        },
         "regions": [
             {"x": 0.00017, "y": 0.180675, "width": 0.705642, "height": 0.799704, "action": "open"},
             {"x": 0.723741, "y": 0.180709, "width": 0.23543, "height": 0.799038, "action": "close"},
@@ -36,6 +45,10 @@ var entries = {
         "maximum": 1,
         "closed": ["_art/fire/closed_0.svg", "_art/fire/closed_1.svg"],
         "open": ["_art/fire-right/open_0.svg", "_art/fire-right/open_1.svg"],
+        "legend": {
+            "center": [0.316, 0.274], "size": [0.50, 0.124],
+            "editable": true, "bold": true
+        },
         "regions": [
             {"x": 0, "y": 0.1873454, "width": 0.6310217, "height": 0.3815523, "action": "open"},
             {"x": 0.6411472, "y": 0.1873073, "width": 0.2103359, "height": 0.381587, "action": "close"},
@@ -50,6 +63,10 @@ var entries = {
         "maximum": 2,
         "closed": ["_art/lever-default/closed_0.svg", "_art/lever-default/closed_1.svg", "_art/lever-default/closed_2.svg"],
         "open": ["_art/lever-default/open_0.svg", "_art/lever-default/open_1.svg", "_art/lever-default/open_2.svg"],
+        "legend": {
+            "center": [0.5, 0.09], "size": [0.28, 0.26],
+            "keys": ["su27.sdu.cover1"]
+        },
         "regions": [
             {"x": 0.293908, "y": 0.28589, "width": 0.418385, "height": 0.713897, "action": "open"},
             {"x": 0.293684, "y": 0.036592, "width": 0.418241, "height": 0.2381, "action": "close"},
@@ -65,6 +82,10 @@ var entries = {
         "maximum": 1,
         "closed": ["_art/redBar-default/closed_0.svg", "_art/redBar-default/closed_0.svg"],
         "open": ["_art/redBar-default/open_0.svg", "_art/redBar-default/open_1.svg"],
+        "legend": {
+            "center": [0.5, 0.53], "size": [2.09, 0.135], "rotation": -90,
+            "keys": ["su27.iff.erase"]
+        },
         "regions": [
             {"x": 0.121426, "y": 0.3040401, "width": 0.7114938, "height": 0.6959146, "action": "open", "state": 0},
             {"x": 0.121426, "y": 0.1285277, "width": 0.7113569, "height": 0.1632231, "action": "close", "state": 0}
@@ -78,6 +99,10 @@ var entries = {
         "maximum": 1,
         "closed": ["_art/yellowSquares-default/closed_0.svg", "_art/yellowSquares-default/closed_0.svg"],
         "open": ["_art/yellowSquares-default/open_0.svg", "_art/yellowSquares-default/open_1.svg"],
+        "legend": {
+            "center": [0.5, 0.64], "size": [0.42, 0.14],
+            "keys": ["su27.sdu.cover2"]
+        },
         "regions": [
             {"x": 0.0, "y": 0.2814508, "width": 0.9999135, "height": 0.7185306, "action": "open", "state": 0},
             {"x": 0.0, "y": 0.0090204, "width": 1.0, "height": 0.2499136, "action": "close", "state": 0},
@@ -92,6 +117,10 @@ var entries = {
         "maximum": 1,
         "closed": ["_art/redU-default/closed_0.svg", "_art/redU-default/closed_1.svg"],
         "open": ["_art/redU-default/open_0.svg", "_art/redU-default/open_1.svg"],
+        "legend": {
+            "center": [0.17, 0.63], "size": [0.94, 0.12], "rotation": -90,
+            "keys": ["su27.ltc.emergency", "su27.generator.disconnect", "su27.iff.distress"]
+        },
         "regions": [
             {"x": 0.014918, "y": 0.3502608, "width": 0.8303482, "height": 0.6402994, "action": "open", "state": 0},
             {"x": 0.0151666, "y": 0.1205491, "width": 0.8301874, "height": 0.2134302, "action": "close", "state": 0},
@@ -106,6 +135,10 @@ var entries = {
         "maximum": 1,
         "closed": ["_art/off/closed.svg", "_art/off/closed.svg"],
         "open": ["_art/off-default/open_0.svg", "_art/off-default/open_1.svg"],
+        "legend": {
+            "center": [0.65, 0.5], "size": [0.66, 0.5],
+            "bold": true, "color": "#303030", "fontScale": 0.47, "keys": ["su27.pnk.cutoff"]
+        },
         "regions": [
             {"x": 0.31132187206734185, "y": 0.09183610585623345, "width": 0.687725927406999, "height": 0.8375006958867091, "action": "open"},
             {"x": 0.03332335364119536, "y": 0.09190034358022826, "width": 0.25376196580296906, "height": 0.8375892645455639, "action": "close"}
@@ -151,7 +184,7 @@ var savedMarkings = {
             "open": ["_art/box-striped/open_0.svg", "_art/box-striped/open_1.svg"]
         },
         "gain": {
-            "closed": ["_art/box-gain/closed_0.svg", "_art/box-gain/closed_0.svg"]
+            "legendKey": "su27.manualGain"
         }
     },
     "fire": {
@@ -175,7 +208,7 @@ var savedMarkings = {
     },
     "off": {
         "default": {
-            "closed": ["_art/off-default/closed_0.svg", "_art/off-default/closed_0.svg"]
+            "legendKey": "su27.pnk.cutoff"
         }
     }
 }

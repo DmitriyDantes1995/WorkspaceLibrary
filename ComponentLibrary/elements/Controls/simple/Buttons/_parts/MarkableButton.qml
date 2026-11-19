@@ -1,6 +1,7 @@
 import QtQuick 2.15
 import QtQuick.Shapes 1.15
 import common_qml 1.0
+import "../../../../../common_qml/CockpitTranslations.js" as Translations
 
 MomentaryButton {
     id: root
@@ -20,14 +21,17 @@ MomentaryButton {
     property bool markingsVisible: true
 
     property string labelTop: ""
+    property var labelTopTranslations: ({})
     property real labelTopFontSize: 0
     property real labelTopOffsetX: 0
     property real labelTopOffsetY: 0
     property string labelBottom: ""
+    property var labelBottomTranslations: ({})
     property real labelBottomFontSize: 0
     property real labelBottomOffsetX: 0
     property real labelBottomOffsetY: 0
     property string labelBottomRight: ""
+    property var labelBottomRightTranslations: ({})
     property real labelBottomRightFontSize: 0
     property real labelBottomRightOffsetX: 0
     property real labelBottomRightOffsetY: 0
@@ -42,14 +46,17 @@ MomentaryButton {
     readonly property var standardProperties: ({
         value: root.value,
         labelTop: root.labelTop,
+        labelTopTranslations: root.labelTopTranslations,
         labelTopFontSize: root.labelTopFontSize,
         labelTopOffsetX: root.labelTopOffsetX,
         labelTopOffsetY: root.labelTopOffsetY,
         labelBottom: root.labelBottom,
+        labelBottomTranslations: root.labelBottomTranslations,
         labelBottomFontSize: root.labelBottomFontSize,
         labelBottomOffsetX: root.labelBottomOffsetX,
         labelBottomOffsetY: root.labelBottomOffsetY,
         labelBottomRight: root.labelBottomRight,
+        labelBottomRightTranslations: root.labelBottomRightTranslations,
         labelBottomRightFontSize: root.labelBottomRightFontSize,
         labelBottomRightOffsetX: root.labelBottomRightOffsetX,
         labelBottomRightOffsetY: root.labelBottomRightOffsetY,
@@ -63,6 +70,9 @@ MomentaryButton {
         labelTop: { displayName: qsTr("Top text"), type: "string", bindable: false, hidden: !root.markingsVisible, order: 0 },
         labelBottom: { displayName: qsTr("Bottom text"), type: "string", bindable: false, hidden: !root.markingsVisible, order: 1 },
         labelBottomRight: { displayName: qsTr("Bottom right text"), type: "string", bindable: false, hidden: !root.markingsVisible, order: 1.1 },
+        labelTopTranslations: { hidden: true, bindable: false },
+        labelBottomTranslations: { hidden: true, bindable: false },
+        labelBottomRightTranslations: { hidden: true, bindable: false },
         showDivider: { displayName: qsTr("Keypad dividers"), type: "bool", bindable: false, hidden: !root.markingsVisible, order: 1.2 },
         arrowDirection: { displayName: qsTr("Arrow"), type: "enum", bindable: false, hidden: !root.markingsVisible, order: 2, values: [
             { value: 0, label: qsTr("None") },
@@ -141,9 +151,9 @@ MomentaryButton {
                 readonly property bool hasLowerRow: bottomText.visible || bottomRight.visible
                 readonly property bool singleText: !arrow.visible && !bottomRight.visible
                                                    && hasUpperRow !== hasLowerRow
-                readonly property int topLines: root.labelTop.split("\n").length
-                readonly property int bottomLines: Math.max(root.labelBottom.split("\n").length,
-                                                            root.labelBottomRight.split("\n").length)
+                readonly property int topLines: topText.text.split("\n").length
+                readonly property int bottomLines: Math.max(bottomText.text.split("\n").length,
+                                                            bottomRight.text.split("\n").length)
                 readonly property real topRowHeight: height * topLines / (topLines + bottomLines)
 
                 x: root.markingCenter.x - width / 2
@@ -162,11 +172,12 @@ MomentaryButton {
 
                 FaceText {
                     id: topText
+                    objectName: "buttonTopLegend"
                     singleLine: marking.singleText
                     height: marking.hasLowerRow ? marking.topRowHeight : (singleLine ? 13 : 9)
                     y: marking.hasLowerRow ? 0 : (marking.height - height) / 2
                     width: marking.width - (arrow.visible ? arrow.width + 3 : 0)
-                    text: root.labelTop
+                    text: Translations.forLanguage(root.labelTopTranslations, Qt.uiLanguage, root.labelTop)
                     customFontSize: root.labelTopFontSize
                     positionOffset: marking.offsetInButtonAxes(root.labelTopOffsetX, root.labelTopOffsetY)
                 }
@@ -190,23 +201,25 @@ MomentaryButton {
 
                 FaceText {
                     id: bottomText
+                    objectName: "buttonBottomLegend"
                     singleLine: marking.singleText
                     height: marking.hasUpperRow ? marking.height - marking.topRowHeight
                                                 : (singleLine ? 13 : marking.height)
                     y: marking.hasUpperRow ? marking.topRowHeight : (marking.height - height) / 2
                     width: bottomRight.visible ? marking.width / 2 : marking.width
-                    text: root.labelBottom
+                    text: Translations.forLanguage(root.labelBottomTranslations, Qt.uiLanguage, root.labelBottom)
                     customFontSize: root.labelBottomFontSize
                     positionOffset: marking.offsetInButtonAxes(root.labelBottomOffsetX, root.labelBottomOffsetY)
                 }
 
                 FaceText {
                     id: bottomRight
+                    objectName: "buttonBottomRightLegend"
                     x: marking.width / 2
                     y: bottomText.y
                     width: marking.width / 2
                     height: bottomText.height
-                    text: root.labelBottomRight
+                    text: Translations.forLanguage(root.labelBottomRightTranslations, Qt.uiLanguage, root.labelBottomRight)
                     customFontSize: root.labelBottomRightFontSize
                     positionOffset: marking.offsetInButtonAxes(root.labelBottomRightOffsetX, root.labelBottomRightOffsetY)
                 }

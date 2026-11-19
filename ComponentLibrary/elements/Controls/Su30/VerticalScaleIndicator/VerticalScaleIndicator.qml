@@ -1,6 +1,7 @@
 import QtQuick 2.15
 import QtQuick.Shapes 1.15
 import common_qml 1.0
+import "../../../../common_qml/CockpitTranslations.js" as Translations
 
 BaseSceneComponent {
     id: root
@@ -207,7 +208,9 @@ BaseSceneComponent {
         visible: root.showUnits
         x: 0; y: root.height - root.footerHeight
         width: root.width; height: root.footerHeight
-        text: root.units
+        text: root.units === "кг/см²"
+              ? Translations.forLanguage({en: "kg/cm²"}, Qt.uiLanguage, root.units)
+              : root.units
         color: "#cdd2c6"
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter

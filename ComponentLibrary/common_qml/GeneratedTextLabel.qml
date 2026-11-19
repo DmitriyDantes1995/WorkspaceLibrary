@@ -1,10 +1,12 @@
 import QtQuick 2.15
 import common_qml 1.0
+import "CockpitTranslations.js" as Translations
 
 BaseSceneComponent {
     id: root
 
     property string labelText: "TEXT"
+    property var labelTranslations: ({})
     property real fontSize: 18
     property bool fitText: false
     // Preserve legacy styling on load and on subsequent saves; its controls
@@ -99,6 +101,7 @@ BaseSceneComponent {
 
     customProperties: ({
         "labelText": labelText,
+        "labelTranslations": labelTranslations,
         "fontSize": fontSize,
         "fitText": fitText,
         "textColor": textColor,
@@ -116,6 +119,7 @@ BaseSceneComponent {
 
     propertySchema: ({
         "labelText": { label: "Текст", type: "string", bindable: true },
+        "labelTranslations": { hidden: true, bindable: false },
         "fitText": { label: "Вписывать текст", type: "bool", bindable: false },
         "backgroundEnabled": { label: "Показывать фон", type: "bool", bindable: false },
         "backgroundColor": { label: "Цвет фона", type: "string", bindable: false },
@@ -219,7 +223,8 @@ BaseSceneComponent {
             height: implicitHeight
             scale: root.textScale
             transformOrigin: Item.TopLeft
-            text: root.labelText
+            text: root.editing ? root.labelText
+                               : Translations.forLanguage(root.labelTranslations, Qt.uiLanguage, root.labelText)
             textFormat: TextEdit.PlainText
             color: root.textColor
             font.pixelSize: root.glyphFontSize

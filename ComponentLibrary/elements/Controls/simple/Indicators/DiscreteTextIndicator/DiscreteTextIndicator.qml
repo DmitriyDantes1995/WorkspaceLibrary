@@ -1,5 +1,6 @@
 import QtQuick 2.15
 import common_qml 1.0
+import "../../../../../common_qml/CockpitTranslations.js" as Translations
 
 BaseSceneComponent {
     id: root
@@ -12,21 +13,28 @@ BaseSceneComponent {
     // Local state is an index into the prepared captions, not a protocol code.
     property int value: 0
     property string preset: "Weapon"
+    property bool localizeCaptions: false
     readonly property var captions: preset === "Gun"
         ? ["1/2", "30", "RDS", "40", "RL", "10", "3/4"]
         : ["A-G", "STP", "LRM", "MRM", "B", "R", "SRM"]
     readonly property var captionOptions: [{label: "Пусто", value: -1}].concat(
         captions.map(function(caption, index) { return {label: caption, value: index} }))
-    readonly property string displayText: value >= 0 && value < captions.length ? captions[value] : ""
+    readonly property var russianCaptions: preset === "Gun" ? ({RDS: "СНАР"})
+        : ({"A-G": "В-З", LRM: "РБД", MRM: "РСД", B: "Б", R: "НАР", SRM: "РМД"})
+    readonly property string sourceCaption: captions[value] || ""
+    readonly property string displayText: localizeCaptions
+        ? Translations.forLanguage({ru: russianCaptions[sourceCaption]}, Qt.uiLanguage, sourceCaption)
+        : sourceCaption
     property color backgroundColor: "#afc3c2"
     property color textColor: "#ffffff"
     property string fontFamily: "Arial"
 
-    customProperties: ({value: value, preset: preset,
+    customProperties: ({value: value, preset: preset, localizeCaptions: localizeCaptions,
         backgroundColor: backgroundColor, textColor: textColor, fontFamily: fontFamily})
     propertySchema: ({
         preset: {displayName: "Набор", type: "enum", bindable: false, order: 0,
             values: [{label: "Вооружение", value: "Weapon"}, {label: "GUN", value: "Gun"}]},
+        localizeCaptions: {hidden: true, bindable: false},
         value: {displayName: "Надпись", type: "enum", bindable: true, access: "readOnly",
             values: captionOptions, order: 1},
         backgroundColor: {displayName: "Фон", type: "color", bindable: false},
@@ -43,6 +51,7 @@ BaseSceneComponent {
     }
     onValueChanged: synchronizeState("value", value)
     onPresetChanged: synchronizeState("preset", preset)
+    onLocalizeCaptionsChanged: synchronizeState("localizeCaptions", localizeCaptions)
     onBackgroundColorChanged: synchronizeState("backgroundColor", backgroundColor)
     onTextColorChanged: synchronizeState("textColor", textColor)
     onFontFamilyChanged: synchronizeState("fontFamily", fontFamily)

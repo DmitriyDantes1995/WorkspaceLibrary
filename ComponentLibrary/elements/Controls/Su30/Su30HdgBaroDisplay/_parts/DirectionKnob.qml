@@ -21,7 +21,11 @@ RotaryAnalog {
             readonly property real angle:(index-(root.label.length-1)/2)*28
             x:31+22*Math.sin(angle*Math.PI/180)-width/2
             y:31-22*Math.cos(angle*Math.PI/180)-height/2
-            text:root.label.charAt(index); color:"#dce3de"; font.pixelSize:15; rotation:angle
+            text: root.label.charAt(index)
+            color: "#dce3de"
+            font.family: "Arial"
+            font.pixelSize: 15
+            rotation: angle
         }
     }
     }

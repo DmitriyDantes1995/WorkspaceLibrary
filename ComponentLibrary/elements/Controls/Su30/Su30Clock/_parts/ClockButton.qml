@@ -31,7 +31,13 @@ MomentaryButton {
             radius: width / 2
             color: root.currentState ? "#bcc288" : "#f2f4b8"
             border.color: "#91996b"
-            Text { anchors.centerIn: parent; text: root.label; font.pixelSize: 6; color: "#4d5844" }
+            Text {
+                anchors.centerIn: parent
+                text: root.label
+                font.family: "Arial"
+                font.pixelSize: 6
+                color: "#4d5844"
+            }
         }
     }
 }

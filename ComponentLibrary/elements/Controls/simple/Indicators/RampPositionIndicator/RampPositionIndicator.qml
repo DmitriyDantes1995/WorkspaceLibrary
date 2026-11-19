@@ -104,6 +104,14 @@ BaseSceneComponent {
             smooth: true
         }
 
+        CockpitLegend {
+            x: 107; y: 15; width: 104; height: 24
+            legendKey: "su27.instrument.ramp"
+            color: "white"
+            font.pixelSize: 20
+            font.bold: true
+        }
+
         AdaptiveSvgImage {
             id: leftArrow
             objectName: "rampLeftArrowImage"

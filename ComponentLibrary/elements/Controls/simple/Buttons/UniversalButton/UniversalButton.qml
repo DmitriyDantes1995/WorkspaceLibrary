@@ -1,3 +1,4 @@
+pragma ComponentBehavior: Bound
 import QtQuick 2.15
 import "../_parts" as Buttons
 import "../_parts/BoardButtonLooks.js" as BoardLooks
@@ -16,6 +17,7 @@ Buttons.MarkableButton {
     releasedFace: Qt.resolvedUrl(originalFace ? originalFace.dark[0] : "state_0.svg")
     pressedFace: Qt.resolvedUrl(originalFace ? originalFace.dark[1] : "state_1.svg")
     markingsVisible: !originalFace
+    faceOverlay: appearance === "left_btn_saureset" ? resetLegend : null
     markingCenter: Qt.point(21.6, 21.6)
     pressedOffset: Qt.point(2.4, 1.65)
     markingWidth: 29
@@ -30,4 +32,11 @@ Buttons.MarkableButton {
     propertySchema: Object.assign({}, standardPropertySchema, {
         appearance: { hidden: true, bindable: false }
     })
+
+    Component {
+        id: resetLegend
+        Item {
+            Buttons.ResetButtonLegend { pressed: root.currentState === 1 }
+        }
+    }
 }

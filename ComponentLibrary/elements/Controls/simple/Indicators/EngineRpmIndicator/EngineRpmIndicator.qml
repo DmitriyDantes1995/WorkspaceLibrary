@@ -97,6 +97,13 @@ BaseSceneComponent {
             smooth: true
         }
 
+        CockpitLegend {
+            x: 55; y: 58; width: 61; height: 14
+            legendKey: "su27.instrument.rpm"
+            color: "white"
+            font.pixelSize: 10
+        }
+
         Item {
             objectName: "engineRpmN1Needle"
             x: root.needleCenterX

@@ -1,5 +1,7 @@
+pragma ComponentBehavior: Bound
 import QtQuick 2.15
 import common_qml 1.0
+import "../_parts" as Buttons
 import "Looks.js" as Looks
 
 MomentaryButton {
@@ -49,6 +51,16 @@ MomentaryButton {
         anchors.fill: parent
         source: root.look ? Qt.resolvedUrl(root.look.frames[root.value === 1 ? 1 : 0]) : ""
         fillMode: root.look && root.look.stretch ? Image.Stretch : Image.PreserveAspectFit
+    }
+
+    Loader {
+        anchors.centerIn: artwork
+        width: artwork.paintedWidth
+        height: artwork.paintedHeight
+        active: root.appearance === "reset"
+        sourceComponent: Item {
+            Buttons.ResetButtonLegend { pressed: root.currentState === 1 }
+        }
     }
 
     Text {

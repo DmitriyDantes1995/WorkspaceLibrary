@@ -1,6 +1,7 @@
 .pragma library
 
 // Original dial faces and detents from 1LeftBort.swf and 1RightBort.swf.
+// Legend bounds are normalized to the face, including transparent margins.
 var profiles = {
     "sauIndication": {
         "label": "Left · tbl_ilsindic",
@@ -138,7 +139,13 @@ var profiles = {
             90,
             120
         ],
-        "artwork": "_parts/_art/asoProgramSource/"
+        "artwork": "_parts/_art/asoProgramSource/",
+        "scaleLegends": [
+            { key: "su27.scale.off", bounds: [0.129, 0.641, 0.180, 0.074] },
+            { key: "su27.scale.chaff", bounds: [0.076, 0.486, 0.105, 0.088] },
+            { key: "su27.scale.chaff", bounds: [0.350, 0.300, 0.120, 0.072], rotation: -30 },
+            { key: "su27.scale.flare", bounds: [0.614, 0.460, 0.150, 0.075], rotation: 90 }
+        ]
     },
     "salvoLtc": {
         "label": "Right · tbl_aso_mode",
@@ -148,7 +155,10 @@ var profiles = {
             -60,
             -30
         ],
-        "artwork": "_parts/_art/asoModeSource/"
+        "artwork": "_parts/_art/asoModeSource/",
+        "scaleLegends": [
+            { key: "su27.scale.off", bounds: [0.167, 0.669, 0.201, 0.082] }
+        ]
     },
     "srzoSource": {
         "label": "Right · tbl_srzo",

@@ -17,6 +17,23 @@ ControlState {
         transformOrigin:Item.TopLeft
         x:(root.width-width*scale)/2; y:(root.height-height*scale)/2
         AdaptiveSvgImage {anchors.fill:parent; source:Qt.resolvedUrl("housing.svg")}
+        Repeater {
+            model: [
+                {name: "retractLegend", key: "su27.lever.retract", y: 29},
+                {name: "extendLegend", key: "su27.lever.extend", y: 249}
+            ]
+            CockpitLegend {
+                required property var modelData
+                objectName: modelData.name
+                legendKey: modelData.key
+                x: 8
+                y: modelData.y
+                width: 66
+                height: 18
+                font.pixelSize: 15
+                color: "#e1eeeb"
+            }
+        }
         Rectangle {
             objectName:"movingGrip"
             x:17; y:root.currentState === 0 ? 57 : 166; width:54; height:76

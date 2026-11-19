@@ -15,7 +15,7 @@ BaseSceneComponent {
     property alias value:selector.value
     property string profile:"radioChannel"
     readonly property var catalogVariantProperties: ["profile"]
-    readonly property string catalogSection: "scaled"
+    readonly property string catalogSection: "otherInstruments"
     readonly property var profiles: ({radioChannel:2,aimWave:2,aimCode:2,aimCarry:1})
     readonly property var profileNames: ({
         radioChannel: "КАНАЛ",

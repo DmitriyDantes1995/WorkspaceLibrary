@@ -1,5 +1,6 @@
 import QtQuick 2.15
 import common_qml 1.0
+import "../../../../common_qml/CockpitTranslations.js" as Translations
 import "_parts"
 
 BaseSceneComponent {
@@ -84,11 +85,13 @@ BaseSceneComponent {
             }
         }
         DirectionKnob {
-            id:hdgControl;objectName:"hdg";x:86;y:434;label:"HDG";runtimeMode:root.runtimeMode
+            id:hdgControl;objectName:"hdg";x:86;y:434;runtimeMode:root.runtimeMode
+            label: Translations.legend("su27.display.heading", Qt.uiLanguage)
             onUserPropertyChanged:function(name,value){root.userPropertyChanged("hdg",value)}
         }
         DirectionKnob {
-            id:baroControl;objectName:"baro";x:392;y:434;label:"BARO";runtimeMode:root.runtimeMode
+            id:baroControl;objectName:"baro";x:392;y:434;runtimeMode:root.runtimeMode
+            label: Translations.legend("su27.display.barometric", Qt.uiLanguage)
             onUserPropertyChanged:function(name,value){root.userPropertyChanged("baro",value)}
         }
     }

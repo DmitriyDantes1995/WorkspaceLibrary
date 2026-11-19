@@ -1,5 +1,6 @@
 import QtQuick 2.15
 import common_qml 1.0
+import "../../../../common_qml/CockpitTranslations.js" as Translations
 
 BaseSceneComponent {
     id: root
@@ -46,7 +47,16 @@ BaseSceneComponent {
         x:(root.width-width*scale)/2; y:(root.height-height*scale)/2
         Rectangle { anchors.fill:parent; radius:4; color:"#252725"; border.color:"#66645b"; border.width:2 }
         Rectangle { x:5; y:5; width:46; height:194; radius:3; color:"#0d1513"; border.color:"#9b988a"; border.width:2 }
-        Text { x:6; y:7; width:44; height:17; text:"\u041a\u0410\u0411\u0420."; font.family:"Arial"; font.pixelSize:12; font.bold:true; color:"#efecdb"; horizontalAlignment:Text.AlignHCenter }
+        Text {
+            objectName: "stabilizerLegend"
+            x: 6; y: 7; width: 44; height: 17
+            text: Translations.forLanguage({ en: "NOSE UP" }, Qt.uiLanguage, "КАБР.")
+            font.family: "Arial"; font.pixelSize: 12; font.bold: true
+            fontSizeMode: Text.HorizontalFit
+            minimumPixelSize: 1
+            color: "#efecdb"
+            horizontalAlignment: Text.AlignHCenter
+        }
         Rectangle { x:39; y:32; width:3; height:148; color:"#e1e4d5" }
         Repeater {
             model:8

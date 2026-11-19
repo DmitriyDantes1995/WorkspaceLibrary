@@ -1,0 +1,81 @@
+.pragma library
+
+const legends = {
+    "su27.center.train": { ru: "СЕРИЯ", en: "TRAIN" },
+    "su27.center.trainPart": { ru: "ЧАСТЬ", en: "PART" },
+    "su27.center.trainSingle": { ru: "ОДИН", en: "SCL" },
+    "su27.center.targetType": { ru: "ТИП ЦЕЛИ", en: "TARGET TYPE" },
+    "su27.center.targetSmall": { ru: "М", en: "S" },
+    "su27.center.targetMedium": { ru: "С", en: "M" },
+    "su27.center.targetLarge": { ru: "Б", en: "L" },
+    "su27.center.gain": { ru: "УСИЛЕНИЕ HDF", en: "AMPLFCN HDF" },
+    "su27.lever.retract": { ru: "УБР", en: "RETR" },
+    "su27.lever.extend": { ru: "ВЫП", en: "EXT" },
+    "su27.center.hmtdsBrightness": { ru: "ЯРКОСТЬ НСЦ", en: "HMTDS BRIGHT" },
+    "su27.instrument.rpm": { ru: "ОБОРОТЫ", en: "RPM" },
+    "su27.instrument.ramp": { ru: "КЛИН", en: "RAMP" },
+    "su27.clock.time": { ru: "ВРЕМЯ", en: "TIME" },
+    "su27.clock.flight": { ru: "ПОЛЁТ", en: "FLIGHT" },
+    "su27.clock.stopwatch": { ru: "СЕКУНДОМЕР", en: "STOPWATCH" },
+    "su27.clock.start": { ru: "ПУСК", en: "START" },
+    "su27.fuel.title": { ru: "ТОПЛИВО", en: "FUEL" },
+    "su27.fuel.units": { ru: "×1000 кг", en: "×1000 kg" },
+    "su27.fuel.tank1": { ru: "Б1", en: "T1" },
+    "su27.fuel.tank3": { ru: "Б3", en: "T3" },
+    "su27.fuel.tank4": { ru: "Б4", en: "T4" },
+    "su27.fuel.reserve": { ru: "ОСТ", en: "REM" },
+    "su27.hydraulic.title": { ru: "ГИДР", en: "HYD" },
+    "su27.hydraulic.units": { ru: "кгс/см²", en: "kgf/cm²" },
+    "su27.display.heading": { ru: "КУРС", en: "HDG" },
+    "su27.display.barometric": { ru: "БАРО", en: "BARO" },
+    "su27.heater.flash": { ru: "ПРОБЛ", en: "FLASH" },
+    "su27.manualGain": { ru: "РУЧ. УСИЛ.", en: "GAIN MAN" },
+    "su27.pnk.cutoff": { ru: "ОТКЛ", en: "OFF" },
+    "su27.ltc.emergency": { ru: "АВАР ЛТЦ", en: "EMER FLR" },
+    "su27.generator.disconnect": { ru: "ОТКЛ ГЕНЕР", en: "GEN DISC" },
+    "su27.iff.erase": { ru: "СТИРАН", en: "ERASE" },
+    "su27.iff.distress": { ru: "БЕДСТВ", en: "DISTRESS" },
+    "su27.sdu.cover1": { ru: "1" },
+    "su27.sdu.cover2": { ru: "2" },
+    "su27.knob.push": { ru: "НАЖМИ", en: "PUSH" },
+    "su27.knob.turn": { ru: "ПОВЕРНИ", en: "TURN" },
+    "su27.scale.off": { ru: "ОТКЛ", en: "OFF" },
+    "su27.scale.automatic": { ru: "АВТ", en: "AUTO" },
+    "su27.scale.radar": { ru: "РЛС", en: "RDR" },
+    "su27.scale.opticalLocator": { ru: "ОЛС", en: "IRST" },
+    "su27.scale.navigation": { ru: "НАВИГ", en: "NAV" },
+    "su27.scale.vertical": { ru: "ВЕРТ", en: "VERT" },
+    "su27.scale.optical": { ru: "ОПТ", en: "OPT" },
+    "su27.scale.helmet": { ru: "ШЛЕМ", en: "HMS" },
+    "su27.scale.takeoff": { ru: "ВЗЛЕТ", en: "T/O" },
+    "su27.scale.low": { ru: "МАЛ", en: "LOW" },
+    "su27.scale.landing": { ru: "ПОСАД", en: "LDG" },
+    "su27.scale.flight": { ru: "ПОЛЕТ", en: "FLT" },
+    "su27.scale.land": { ru: "ПОС", en: "LDG" },
+    "su27.scale.pair": { ru: "ПАРА", en: "PAIR" },
+    "su27.scale.groundGuidance": { ru: "ГД", en: "GCI" },
+    "su27.scale.commandPost": { ru: "КП", en: "CP" },
+    "su27.scale.leader": { ru: "ВЕДУЩ", en: "LEAD" },
+    "su27.scale.wingman": { ru: "ВОДОМ", en: "WING" },
+    "su27.scale.program": { ru: "ПРОГРАМ", en: "PROG" },
+    "su27.scale.rendezvous": { ru: "ВСТР", en: "RNDV" },
+    "su27.scale.range": { ru: "ИЗМ", en: "RNG" },
+    "su27.scale.relay": { ru: "РЕТР", en: "RLY" },
+    "su27.scale.channels": { ru: "КАНАЛЫ", en: "CH" },
+    "su27.scale.preset": { ru: "ППМ", en: "PRESET" },
+    "su27.scale.altitudeKm": { ru: "Нкм", en: "H km" },
+    "su27.scale.threatP": { ru: "П", en: "P" },
+    "su27.scale.threatZ": { ru: "З", en: "Z" },
+    "su27.scale.chaff": { ru: "ДО", en: "CH" },
+    "su27.scale.flare": { ru: "ЛТЦ", en: "FLR" }
+}
+
+function forLanguage(translations, language, source) {
+    const locale = language.toLowerCase().split(/[-_]/)[0]
+    return (translations && translations[locale]) || source
+}
+
+function legend(key, language) {
+    const translations = legends[key]
+    return translations ? forLanguage(translations, language, translations.ru) : ""
+}

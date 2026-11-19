@@ -21,20 +21,13 @@
         "paths": [
             "Controls/simple/Rotaries/KnurledKnob",
             "Controls/Su27/Su27AnalogKnob",
-            "Controls/Su30/Su30HmtdsBright",
-            "Controls/Other/TpGain"
+            "Controls/Su30/Su30HmtdsBright"
         ]
     },
     {
         "id": "selectors",
         "name": "Селекторы",
-        "paths": [
-            "Controls/simple/Rotaries/ScaledSelectorVisual",
-            "Controls/Su30/Su30TrainSelector",
-            "Controls/Su30/Su30TargetType",
-            "Controls/Su27/Su27Selector",
-            "Controls/Su27/Su27DrumSelector"
-        ]
+        "paths": ["Controls/Su27/Su27Selector"]
     },
     {
         "id": "lamps",
@@ -47,6 +40,7 @@
         "paths": [
             "Controls/simple/Indicators",
             "Controls/Su27/Su27KshIndicator",
+            "Controls/Su27/Su27DrumSelector",
             "Controls/Su27/Su27Readout",
             "Controls/Su27/Su27Voltmeter",
             "Controls/Su30KN/LeftBoard/Su30KNLeftRadioChannel",

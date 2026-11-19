@@ -29,7 +29,11 @@ var entries = {
         "bodyRect": [0, 0, 1, 1],
         "stretch": false,
         "source": "_art/litOrange/body.svg",
-        "preview": "_art/litOrange/preview.svg"
+        "preview": "_art/litOrange/preview.svg",
+        "arcLegends": [
+            { "key": "su27.knob.push", "angle": -90, "direction": 1 },
+            { "key": "su27.knob.turn", "angle": 90, "direction": -1 }
+        ]
     },
     "redHandle": {
         "label": "Red lever",

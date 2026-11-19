@@ -6,7 +6,6 @@
 <path d="M13 49H66V248H13Z" fill="#19282b" stroke="#d6e4df" stroke-width="2"/>
 <path d="M63 48Q79 143 64 249" fill="none" stroke="#e0eee4" stroke-width="7"/>
 <path d="M12 47H68V59H12Z M12 235H68V248H12Z" fill="url(#hatch)"/>
-<g fill="#e1eeeb" font-family="Arial" font-size="15" text-anchor="middle"><text x="41" y="44">УБР</text><text x="41" y="265">ВЫП</text></g>
 <g fill="#bded94" stroke="#7dbaa2"><circle cx="42" cy="17" r="9"/><circle cx="42" cy="282" r="9"/></g>
 <path d="M41 9V25M41 274V290" stroke="#f3ffe8" stroke-width="3"/>
 </svg>

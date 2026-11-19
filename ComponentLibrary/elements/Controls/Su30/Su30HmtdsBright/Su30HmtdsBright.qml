@@ -48,7 +48,18 @@ RotaryAnalog {
         transformOrigin: Item.TopLeft
         x: (root.width - width * scale) / 2
         y: (root.height - height * scale) / 2
-        Text {x:4;y:2;text:"HMTDS BRIGHT";color:"white";font.family:"Arial";font.bold:true;font.pixelSize:8}
+        CockpitLegend {
+            objectName: "brightnessLegend"
+            legendKey: "su27.center.hmtdsBrightness"
+            x: 4
+            y: 2
+            width: 62
+            height: 10
+            horizontalAlignment: Text.AlignLeft
+            font.bold: true
+            font.pixelSize: 8
+            color: "white"
+        }
         RoundControl.CustomRoundSwitch {
             objectName: "brightnessKnob"
             width: 40

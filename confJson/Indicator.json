@@ -1,0 +1,29 @@
+{
+    "__sceneSettings": [
+        {
+            "name": "__sceneSettings",
+            "type": "__sceneSettings",
+            "customProperties": { "documentWidth": 480, "documentHeight": 240, "showGrid": false }
+        }
+    ],
+    "UniversalLamp": [
+        {
+            "name": "Indicator",
+            "type": "UniversalLamp",
+            "subtype": "UniversalLamp",
+            "componentPath": "elements/Controls/simple/Lamps/UniversalLamp/UniversalLamp.qml",
+            "x": 52, "y": 80, "width": 80, "height": 80,
+            "customProperties": { "appearance": "round", "lampColor": "blue", "valuePropertyName": "oN", "oN": 1 }
+        }
+    ],
+    "Visual": [
+        {
+            "name": "Caption",
+            "type": "Visual",
+            "subtype": "TextLabel",
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "x": 156, "y": 80, "width": 280, "height": 80,
+            "customProperties": { "labelText": "Status indicator", "fontSize": 30, "textColor": "#eef5fa", "backgroundEnabled": false }
+        }
+    ]
+}

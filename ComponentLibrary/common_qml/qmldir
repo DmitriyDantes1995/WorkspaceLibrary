@@ -1,6 +1,7 @@
 module common_qml
 BaseSceneComponent 1.0 BaseSceneComponent.qml
 AdaptiveSvgImage 1.0 AdaptiveSvgImage.qml
+CockpitLegend 1.0 CockpitLegend.qml
 ControlState 1.0 ControlState.qml
 MomentaryButton 1.0 MomentaryButton.qml
 Toggle2Position 1.0 Toggle2Position.qml

@@ -63,17 +63,39 @@ BaseSceneComponent {
             color: "#bfd7d0"
         }
         AdaptiveSvgImage { anchors.fill:parent; source:Qt.resolvedUrl("_parts/scale.svg"); fillMode:Image.PreserveAspectFit }
+        CockpitLegend {
+            x: 23; y: 14; width: 72; height: 20
+            legendKey: "su27.fuel.title"
+            color: "#d6e4dc"
+            font.pixelSize: 16
+        }
+        CockpitLegend {
+            x: 42; y: 282; width: 60; height: 13
+            legendKey: "su27.fuel.units"
+            color: "#d6e4dc"
+            font.pixelSize: 9
+        }
         Rectangle {
             x: 10; y: 75; width: 19; height: 26
             color: root.tank1 === 0 ? "#4d0909" : "#e13b25"
             border.color: "#1c2426"
-            Text { anchors.centerIn:parent; text:"T1"; font.pixelSize:7; color:root.tank1 === 0 ? "#986e62" : "#ffe3c1" }
+            CockpitLegend {
+                anchors.fill: parent
+                legendKey: "su27.fuel.tank1"
+                font.pixelSize: 7
+                color: root.tank1 === 0 ? "#986e62" : "#ffe3c1"
+            }
         }
         Rectangle {
             x: 10; y: 110; width: 19; height: 26
             color: root.tank3 === 0 ? "#4d0909" : "#e13b25"
             border.color: "#1c2426"
-            Text { anchors.centerIn:parent; text:"T3"; font.pixelSize:7; color:root.tank3 === 0 ? "#986e62" : "#ffe3c1" }
+            CockpitLegend {
+                anchors.fill: parent
+                legendKey: "su27.fuel.tank3"
+                font.pixelSize: 7
+                color: root.tank3 === 0 ? "#986e62" : "#ffe3c1"
+            }
         }
         Rectangle {
             x: 10; y: 145; width: 19; height: 26
@@ -85,13 +107,23 @@ BaseSceneComponent {
             x: 10; y: 180; width: 19; height: 26
             color: root.tank4 === 0 ? "#4d0909" : "#e13b25"
             border.color: "#1c2426"
-            Text { anchors.centerIn:parent; text:"T4"; font.pixelSize:7; color:root.tank4 === 0 ? "#986e62" : "#ffe3c1" }
+            CockpitLegend {
+                anchors.fill: parent
+                legendKey: "su27.fuel.tank4"
+                font.pixelSize: 7
+                color: root.tank4 === 0 ? "#986e62" : "#ffe3c1"
+            }
         }
         Rectangle {
             x: 10; y: 215; width: 19; height: 26
             color: root.reserve === 0 ? "#4d0909" : "#e13b25"
             border.color: "#1c2426"
-            Text { anchors.centerIn:parent; text:"REM"; font.pixelSize:7; color:root.reserve === 0 ? "#986e62" : "#ffe3c1" }
+            CockpitLegend {
+                anchors.fill: parent
+                legendKey: "su27.fuel.reserve"
+                font.pixelSize: 7
+                color: root.reserve === 0 ? "#986e62" : "#ffe3c1"
+            }
         }
     }
 }

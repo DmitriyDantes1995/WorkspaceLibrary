@@ -14,13 +14,15 @@ RotaryAnalog {
     property string profile: "volume"
     readonly property var catalogVariantProperties: ["profile"]
     readonly property string catalogSection: profileData?.scaleMarks === false ? "bare" : "scaled"
+    readonly property var pressureLabels: [{ ru: "МИН", en: "MIN" }, "", "", "", "", { ru: "МАКС", en: "MAX" }]
     readonly property var profiles: ({
         temperature: { minimum: 15, maximum: 25, labels: ["15", "17", "19", "21", "23", "25"], handle: "arrow" },
-        volume: { minimum: 0, maximum: 65535, labels: ["МЕНЬШЕ", "", "", "", "", "БОЛЬШЕ"], handle: "fluted" },
+        volume: { minimum: 0, maximum: 65535,
+            labels: [{ ru: "МЕНЬШЕ", en: "LESS" }, "", "", "", "", { ru: "БОЛЬШЕ", en: "MORE" }], handle: "fluted" },
         sduKsh: { minimum: 0, maximum: 65535, labels: ["0.5", "1", "1.5", "2", "2.5", "3"], handle: "fluted" },
         lighting: { minimum: 0, maximum: 65535, labels: ["", "", "", "", "", ""], handle: "arrow", taperedScale: true },
-        pressure: { minimum: 0, maximum: 65535, labels: ["МИН", "", "", "", "", "МАКС"], handle: "fluted" },
-        pressureSetting: { minimum: 5255, maximum: 8062, labels: ["МИН", "", "", "", "", "МАКС"], handle: "fluted" },
+        pressure: { minimum: 0, maximum: 65535, labels: pressureLabels, handle: "fluted" },
+        pressureSetting: { minimum: 5255, maximum: 8062, labels: pressureLabels, handle: "fluted" },
         magneticDeclination: { minimum: 0, maximum: 3600, labels: ["0", "60", "120", "180", "240", "300", "360"], handle: "fluted" },
         sduCheck: { minimum: -60, maximum: 60, minimumAngle: -60, maximumAngle: 60,
             labels: ["13", "15", "17", "30", "50"], angles: [-110, -80, -50, 50, 80], handle: "arrow" },
@@ -77,7 +79,9 @@ RotaryAnalog {
     }
 
     component KnobFace: RotaryFace {
+        id: face
         property var definition: null
+        property real visualAngle: 0
         readonly property real startAngle: root.startAngleFor(definition)
         readonly property real endAngle: root.endAngleFor(definition)
 
@@ -90,8 +94,15 @@ RotaryAnalog {
                 result.push(startAngle + i * (endAngle - startAngle) / Math.max(1, labels.length - 1))
             return result
         }
-        handle: definition ? definition.handle : "arrow"
         scaleMarks: !definition || definition.scaleMarks !== false
         taperedScale: !!definition && definition.taperedScale === true
+
+        RotaryHandle {
+            anchors.centerIn: parent
+            width: Math.min(face.width, face.height)
+            height: width
+            handle: face.definition?.handle || "arrow"
+            rotation: face.visualAngle
+        }
     }
 }
