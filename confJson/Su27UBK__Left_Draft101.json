@@ -14,7 +14,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 73,
+            "stackingOrder": 67,
             "subtype": "GuardedControl",
             "type": "GuardedControl",
             "width": 87.91705841840296,
@@ -36,12 +36,55 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 74,
+            "stackingOrder": 68,
             "subtype": "GuardedControl",
             "type": "GuardedControl",
             "width": 88.80534488372089,
-            "x": 1517.9229089534883,
-            "y": 511.409898255814,
+            "x": 1515.597327558139,
+            "y": 508.1540843023257,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/GuardedControl/GuardedControl.qml",
+            "customProperties": {
+                "appearance": "horizontal",
+                "cover": 0,
+                "marking": "conditioning",
+                "value": 0
+            },
+            "height": 52.10026,
+            "locked": true,
+            "name": "GuardedControl_3",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 75,
+            "subtype": "GuardedControl",
+            "type": "GuardedControl",
+            "width": 105.0468,
+            "x": 1302.3603209302323,
+            "y": 499.88349184573485,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/GuardedControl/GuardedControl.qml",
+            "customProperties": {
+                "appearance": "fire",
+                "cover": 0,
+                "value": 0
+            },
+            "height": 88.731045,
+            "locked": false,
+            "name": "GuardedControl_6",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 81,
+            "subtype": "GuardedControl",
+            "type": "GuardedControl",
+            "width": 109.73839,
+            "x": 1200.303218793104,
+            "y": 597.8692319926587,
             "z": 0
         }
     ],
@@ -215,17 +258,17 @@
             },
             "gaugeInstanceOverride": true,
             "height": 137.45192307692304,
-            "locked": false,
+            "locked": true,
             "name": "Su27KshIndicator_2",
             "opacity": 0.98,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 69,
+            "stackingOrder": 63,
             "subtype": "Su27KshIndicator",
             "type": "Su27KshIndicator",
             "width": 97.74358974358972,
-            "x": 1430.2948717948723,
-            "y": 642.4684478086031,
+            "x": 1429.9117300324206,
+            "y": 640.1695972338903,
             "z": 0
         }
     ],
@@ -233,6 +276,7 @@
         {
             "componentPath": "elements/Controls/Su27/Su27Selector/Su27Selector.qml",
             "customProperties": {
+                "handleSize": 0,
                 "profile": "deltaH",
                 "value": 0
             },
@@ -242,7 +286,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 67,
+            "stackingOrder": 61,
             "subtype": "Su27Selector",
             "type": "Su27Selector",
             "width": 97.74358974358972,
@@ -253,61 +297,64 @@
         {
             "componentPath": "elements/Controls/Su27/Su27Selector/Su27Selector.qml",
             "customProperties": {
+                "handleSize": 0,
                 "profile": "radarMode",
                 "value": 0
             },
-            "height": 143.38461538461547,
+            "height": 129.82529335071717,
             "locked": true,
             "name": "Su27Selector_2",
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 68,
+            "stackingOrder": 62,
             "subtype": "Su27Selector",
             "type": "Su27Selector",
-            "width": 143.38461538461547,
-            "x": 1700.3589743589746,
-            "y": 756.1687683214241,
+            "width": 129.82529335071717,
+            "x": 1706.3361339333,
+            "y": 765.2083163440232,
             "z": 0
         },
         {
             "componentPath": "elements/Controls/Su27/Su27Selector/Su27Selector.qml",
             "customProperties": {
+                "handleSize": 0,
                 "profile": "sauIndication",
                 "value": 0
             },
-            "height": 129.99233716475112,
-            "locked": false,
+            "height": 116.99798688226508,
+            "locked": true,
             "name": "Su27Selector_3",
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 77,
+            "stackingOrder": 71,
             "subtype": "Su27Selector",
             "type": "Su27Selector",
-            "width": 129.99233716475112,
-            "x": 1549.9080459770114,
-            "y": 682.593602423594,
+            "width": 116.99798688226508,
+            "x": 1559.2090027345384,
+            "y": 682.5337770379083,
             "z": 0
         },
         {
             "componentPath": "elements/Controls/Su27/Su27Selector/Su27Selector.qml",
             "customProperties": {
+                "handleSize": 0,
                 "profile": "sduMode",
                 "value": 0
             },
-            "height": 121.49313698083785,
+            "height": 116.92203807434247,
             "locked": false,
             "name": "Su27Selector_4",
             "opacity": 1,
             "rotation": 85,
             "scale": 1,
-            "stackingOrder": 78,
+            "stackingOrder": 72,
             "subtype": "Su27Selector",
             "type": "Su27Selector",
-            "width": 121.49313698083785,
-            "x": 1388.4237889650185,
-            "y": 750.8329183357185,
+            "width": 116.92203807434247,
+            "x": 1388.23328741053,
+            "y": 751.0408143015987,
             "z": 0
         }
     ],
@@ -404,8 +451,8 @@
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 1909,
-            "x": 5.663409660003481,
-            "y": 484.6303082478497,
+            "x": -62.06295462713001,
+            "y": 433.06302400538254,
             "z": 0
         },
         {
@@ -451,7 +498,7 @@
             },
             "height": 396,
             "instanceId": "4db89742-32e3-460a-91b4-9977ea9e6d7e",
-            "locked": false,
+            "locked": true,
             "name": "ContourPanel_2",
             "opacity": 0.84,
             "rotation": 0,
@@ -460,8 +507,8 @@
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 145,
-            "x": 1701.4589987906188,
-            "y": 488.71794871794873,
+            "x": 1701.6459552817068,
+            "y": 489.21531104405335,
             "z": 0
         },
         {
@@ -500,6 +547,24 @@
                     }
                 ],
                 "polylines": [
+                    {
+                        "points": [
+                            {
+                                "x": 93.52238314208307,
+                                "y": 232.39239733557162
+                            },
+                            {
+                                "x": 93.52238314208307,
+                                "y": 226.81748444358556
+                            },
+                            {
+                                "x": 86.55374202710016,
+                                "y": 227.16591649933457
+                            }
+                        ],
+                        "strokeColor": "#FFFFFF",
+                        "strokeWidth": 1
+                    }
                 ]
             },
             "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka74747/Podlozhka74747.qml",
@@ -507,7 +572,7 @@
             },
             "height": 395.37888198757764,
             "instanceId": "72776a8b-f33e-40e3-9e11-5811dda87d0f",
-            "locked": true,
+            "locked": false,
             "name": "ContourPanel_3",
             "opacity": 0.67,
             "rotation": 0,
@@ -516,8 +581,8 @@
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 115.80745341614897,
-            "x": 1586.5832223931034,
-            "y": 489.3701226309922,
+            "x": 1585.3168130776678,
+            "y": 490.0647646137388,
             "z": 0
         },
         {
@@ -1314,7 +1379,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 65,
+            "stackingOrder": 59,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 61.494252873563255,
@@ -1378,13 +1443,651 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 66,
+            "stackingOrder": 60,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 61.494252873563255,
             "x": 1321.9540229885058,
             "y": 764.4219184270313,
             "z": 1
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 94,
+                "baseWidth": 115,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka87998",
+                "parameters": {
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 12.311015118790465,
+                        "y": 46.43628509719201
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 35.42116630669534
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 25.05399568034545,
+                        "y": 9.071274298055982
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 25.26997840172794,
+                        "y": 0.21598272138226093
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 35.20518358531308,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 36.28509719222461,
+                        "y": 8.207343412526825
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 43.41252699784013,
+                        "y": 6.695464362850771
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 53.995680345572055,
+                        "y": 6.911447084233259
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 69.97840172786141,
+                        "y": 9.93520518358514
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 76.24190064794834,
+                        "y": 14.902807775377937
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 91.57667386609091,
+                        "y": 15.766738660907095
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 113.39092872570177,
+                        "y": 15.118790496760084
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 113.60691144708449,
+                        "y": 28.50971922246208
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 114.25485961123081,
+                        "y": 93.52051835853115
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 109.72350491552129,
+                        "y": 93.54919781863043
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 80.12958963282904,
+                        "y": 93.73650107991341
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 48.81209503239711,
+                        "y": 92.65658747300199
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 44.276457883369176,
+                        "y": 91.14470842332594
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 36.28509719222461,
+                        "y": 89.63282937365011
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 30.021598272138135,
+                        "y": 86.17710583153348
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 25.70194384449246,
+                        "y": 82.72138228941685
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 20.95032397408204,
+                        "y": 75.80993520518336
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 17.71058315334767,
+                        "y": 70.62634989200842
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 15.550755939524834,
+                        "y": 63.06695464362838
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 16.846652267818854,
+                        "y": 50.32397408207328
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka87998/Podlozhka87998.qml",
+            "customProperties": {
+            },
+            "height": 94,
+            "instanceId": "cfd9f983-98d5-4152-af74-241d81633526",
+            "locked": false,
+            "name": "ContourPanel_19",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 98,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 115,
+            "x": 1724.0172786177106,
+            "y": 770.6263498920086,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 23.25316455696202,
+                "baseWidth": 59.58227848101251,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka98989",
+                "parameters": {
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 23.127017190468408
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 58.841075976993345,
+                        "y": 22.86421017694055
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 58.841075976993345,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.3250888175527901,
+                        "y": 0
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "customProperties": {
+            },
+            "height": 23.25316455696202,
+            "instanceId": "616ca974-cd7f-4655-a02b-3459a3dfd437",
+            "locked": false,
+            "name": "ContourPanel_20",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 102,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 59.58227848101251,
+            "x": 1706.139240506329,
+            "y": 660.5336346190393,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 23.25316455696202,
+                "baseWidth": 59.58227848101251,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka98989",
+                "parameters": {
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 23.127017190468408
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 58.841075976993345,
+                        "y": 22.86421017694055
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 58.841075976993345,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.3250888175527901,
+                        "y": 0
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "customProperties": {
+            },
+            "height": 23.25316455696202,
+            "instanceId": "580f29c2-5934-4d7e-a8df-277377edbc27",
+            "locked": false,
+            "name": "ContourPanel_21",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 103,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 59.58227848101251,
+            "x": 1708.2911392405065,
+            "y": 697.495659935495,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 23.25316455696202,
+                "baseWidth": 59.58227848101251,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka98989",
+                "parameters": {
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 23.127017190468408
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 58.841075976993345,
+                        "y": 22.86421017694055
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 58.841075976993345,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.3250888175527901,
+                        "y": 0
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "customProperties": {
+            },
+            "height": 23.25316455696202,
+            "instanceId": "ffbc8bc8-bb2d-4cdd-aa82-3ad55506cfb3",
+            "locked": false,
+            "name": "ContourPanel_22",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 105,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 59.58227848101251,
+            "x": 1707.9113924050632,
+            "y": 734.7741409481532,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 28.63291139240505,
+                "baseWidth": 59.58227848101251,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka98989",
+                "parameters": {
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 28.477579142536484
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 58.841075976993345,
+                        "y": 28.153970288644263
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 58.841075976993345,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.3250888175527901,
+                        "y": 0
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "customProperties": {
+            },
+            "height": 28.63291139240505,
+            "instanceId": "e4f7e19d-2c77-444a-8101-5055a2350e56",
+            "locked": false,
+            "name": "ContourPanel_23",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 107,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 59.58227848101251,
+            "x": 1774.9367088607596,
+            "y": 736.2931282899253,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 27.050632911392427,
+                "baseWidth": 59.58227848101251,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka98989",
+                "parameters": {
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 26.90388445075179
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 58.841075976993345,
+                        "y": 26.59815849108438
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 58.841075976993345,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.3250888175527901,
+                        "y": 0
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "customProperties": {
+            },
+            "height": 27.050632911392427,
+            "instanceId": "fa28bb81-ed4b-47e4-a232-a9e30d8d7c07",
+            "locked": false,
+            "name": "ContourPanel_24",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 109,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 59.58227848101251,
+            "x": 1775.0000000000005,
+            "y": 703.4450270241024,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 28.949367088607573,
+                "baseWidth": 64.01265822784808,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "Podlozhka98989",
+                "parameters": {
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 28.792318080893423
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 63.21634187713108,
+                        "y": 28.46513264815624
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 63.21634187713108,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0.3492615573325819,
+                        "y": 0
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "customProperties": {
+            },
+            "height": 28.949367088607573,
+            "instanceId": "88c0f992-a27e-4d1e-90d7-a2fb573e1438",
+            "locked": false,
+            "name": "ContourPanel_25",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 110,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 64.01265822784808,
+            "x": 1774.9367088607596,
+            "y": 660.6602168975203,
+            "z": 0
+        },
+        {
+            "backgroundShape": {
+                "baseHeight": 88.60759493670878,
+                "baseWidth": 91.4556962025315,
+                "closed": true,
+                "cornerRadius": 0,
+                "holes": [
+                ],
+                "name": "PodlozhkaKrutilka5757",
+                "parameters": {
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000"
+                },
+                "points": [
+                    {
+                        "cornerRadius": 0,
+                        "x": 52.21518987341756,
+                        "y": 13.291139240506368
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 40.1898734177214,
+                        "y": 12.025316455696156
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 33.86075949367091,
+                        "y": 12.97468354430373
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 32.911392405063225,
+                        "y": 0
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 17.088607594936775,
+                        "y": 0.6329113924050489
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 17.405063291139186,
+                        "y": 13.291139240506368
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 6.962025316455538,
+                        "y": 17.08860759493666
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 1.8987341772151467,
+                        "y": 28.48101265822777
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 0,
+                        "y": 44.936708860759495
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 4.1139240506329315,
+                        "y": 63.29113924050637
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 13.607594936708892,
+                        "y": 79.43037974683546
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 19.62025316455697,
+                        "y": 84.81012658227849
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 37.02531645569616,
+                        "y": 87.97468354430373
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 57.278481012658176,
+                        "y": 88.60759493670878
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 74.05063291139231,
+                        "y": 88.60759493670878
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 91.4556962025315,
+                        "y": 87.97468354430373
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 90.1898734177214,
+                        "y": 42.08860759493666
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 80.69620253164544,
+                        "y": 17.72151898734171
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 69.93670886075938,
+                        "y": 12.97468354430373
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 68.98734177215147,
+                        "y": 0.31645569620252445
+                    },
+                    {
+                        "cornerRadius": 0,
+                        "x": 53.48101265822743,
+                        "y": 0.9493670886075734
+                    }
+                ],
+                "polylines": [
+                ]
+            },
+            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/PodlozhkaKrutilka5757/PodlozhkaKrutilka5757.qml",
+            "customProperties": {
+            },
+            "height": 88.60759493670878,
+            "instanceId": "5b4be791-33b0-4d78-aa1b-000256f98eb9",
+            "locked": false,
+            "name": "ContourPanel_26",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 113,
+            "subtype": "ContourPanel",
+            "type": "Substrate",
+            "width": 91.4556962025315,
+            "x": 1704.177215189873,
+            "y": 520.5696202531644,
+            "z": 0
         }
     ],
     "UniversalLamp": [
@@ -1408,7 +2111,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 79,
+            "stackingOrder": 73,
             "subtype": "UniversalLamp",
             "type": "UniversalLamp",
             "width": 40.450470906976626,
@@ -1436,11 +2139,11 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 80,
+            "stackingOrder": 74,
             "subtype": "UniversalLamp",
             "type": "UniversalLamp",
             "width": 20.310111510513085,
-            "x": 760.0492120403726,
+            "x": 757.9944175198247,
             "y": 555.9672889596275,
             "z": 0
         }
@@ -1889,7 +2592,7 @@
             "opacity": 1,
             "rotation": 180,
             "scale": 1,
-            "stackingOrder": 60,
+            "stackingOrder": 54,
             "subtype": "UniversalLampButton",
             "type": "UniversalLampButton",
             "width": 44.22457176417489,
@@ -1930,7 +2633,7 @@
             "opacity": 1,
             "rotation": 180,
             "scale": 1,
-            "stackingOrder": 70,
+            "stackingOrder": 64,
             "subtype": "UniversalLampButton",
             "type": "UniversalLampButton",
             "width": 44,
@@ -1971,7 +2674,7 @@
             "opacity": 1,
             "rotation": 180,
             "scale": 1,
-            "stackingOrder": 71,
+            "stackingOrder": 65,
             "subtype": "UniversalLampButton",
             "type": "UniversalLampButton",
             "width": 44,
@@ -2012,7 +2715,7 @@
             "opacity": 1,
             "rotation": 180,
             "scale": 1,
-            "stackingOrder": 72,
+            "stackingOrder": 66,
             "subtype": "UniversalLampButton",
             "type": "UniversalLampButton",
             "width": 44,
@@ -2291,7 +2994,7 @@
             "customProperties": {
                 "appearance": "blackHorizontal",
                 "tipColor": "default",
-                "value": 0,
+                "value": 1,
                 "valuePropertyName": "value"
             },
             "height": 28.076006451185258,
@@ -2304,8 +3007,8 @@
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 78.54147973180062,
-            "x": 1599.0434363793102,
-            "y": 817.1880504142539,
+            "x": 1571.865736030878,
+            "y": 789.6619180100729,
             "z": 0
         },
         {
@@ -2355,138 +3058,6 @@
         {
             "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
             "customProperties": {
-                "appearance": "metal",
-                "tipColor": "default",
-                "value": 0,
-                "valuePropertyName": "value"
-            },
-            "height": 50.925542784163504,
-            "locked": true,
-            "name": "UniversalToggleSwitch_4",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 54,
-            "subtype": "UniversalToggleSwitch",
-            "type": "UniversalToggleSwitch",
-            "width": 28.625287356321856,
-            "x": 1725.834489756643,
-            "y": 644.9363783481165,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
-            "customProperties": {
-                "appearance": "metal",
-                "tipColor": "default",
-                "value": 0,
-                "valuePropertyName": "value"
-            },
-            "height": 50.925542784163504,
-            "locked": true,
-            "name": "UniversalToggleSwitch_5",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 55,
-            "subtype": "UniversalToggleSwitch",
-            "type": "UniversalToggleSwitch",
-            "width": 28.625287356321856,
-            "x": 1725.3550377018482,
-            "y": 684.8678851974315,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
-            "customProperties": {
-                "appearance": "metal",
-                "tipColor": "default",
-                "value": 0,
-                "valuePropertyName": "value"
-            },
-            "height": 50.925542784163504,
-            "locked": true,
-            "name": "UniversalToggleSwitch_6",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 56,
-            "subtype": "UniversalToggleSwitch",
-            "type": "UniversalToggleSwitch",
-            "width": 28.625287356321856,
-            "x": 1724.8755856470539,
-            "y": 720.0048714988015,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
-            "customProperties": {
-                "appearance": "metal",
-                "tipColor": "default",
-                "value": 0,
-                "valuePropertyName": "value"
-            },
-            "height": 50.925542784163504,
-            "locked": true,
-            "name": "UniversalToggleSwitch_7",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 57,
-            "subtype": "UniversalToggleSwitch",
-            "type": "UniversalToggleSwitch",
-            "width": 28.625287356321856,
-            "x": 1791.519421263492,
-            "y": 727.7445975261988,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
-            "customProperties": {
-                "appearance": "metal",
-                "tipColor": "default",
-                "value": 0,
-                "valuePropertyName": "value"
-            },
-            "height": 50.925542784163504,
-            "locked": true,
-            "name": "UniversalToggleSwitch_8",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 58,
-            "subtype": "UniversalToggleSwitch",
-            "type": "UniversalToggleSwitch",
-            "width": 28.625287356321856,
-            "x": 1791.724900715547,
-            "y": 688.9089810878427,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
-            "customProperties": {
-                "appearance": "metal",
-                "tipColor": "default",
-                "value": 0,
-                "valuePropertyName": "value"
-            },
-            "height": 50.925542784163504,
-            "locked": true,
-            "name": "UniversalToggleSwitch_9",
-            "opacity": 1,
-            "rotation": 90,
-            "scale": 1,
-            "stackingOrder": 59,
-            "subtype": "UniversalToggleSwitch",
-            "type": "UniversalToggleSwitch",
-            "width": 28.625287356321856,
-            "x": 1790.5605171539032,
-            "y": 649.3884331426372,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
-            "customProperties": {
                 "appearance": "bracket",
                 "tipColor": "default",
                 "value": 0,
@@ -2498,7 +3069,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 61,
+            "stackingOrder": 55,
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 47.22475067510537,
@@ -2520,7 +3091,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 62,
+            "stackingOrder": 56,
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 47.22475067510537,
@@ -2542,7 +3113,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 63,
+            "stackingOrder": 57,
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 51.53693193163477,
@@ -2564,12 +3135,166 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 64,
+            "stackingOrder": 58,
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 51.43439940356479,
             "x": 1324.4258600246899,
             "y": 714.7205905149325,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "metal",
+                "tipColor": "default",
+                "value": 0,
+                "valuePropertyName": "value"
+            },
+            "height": 50.925542784163504,
+            "locked": true,
+            "name": "UniversalToggleSwitch_14",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 76,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 28.625287356321856,
+            "x": 1731.2996060357127,
+            "y": 601.099169045791,
+            "z": 1
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "ring",
+                "tipColor": "yellow",
+                "value": 0,
+                "valuePropertyName": "value"
+            },
+            "height": 22.536599113924154,
+            "locked": false,
+            "name": "UniversalToggleSwitch_4",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 101,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 45.571609596666946,
+            "x": 1715.2526758016875,
+            "y": 660.0275788240657,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "ring",
+                "tipColor": "yellow",
+                "value": 0,
+                "valuePropertyName": "value"
+            },
+            "height": 22.536599113924154,
+            "locked": false,
+            "name": "UniversalToggleSwitch_6",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 104,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 45.571609596666946,
+            "x": 1714.2400175738392,
+            "y": 735.5971990772304,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "ring",
+                "tipColor": "yellow",
+                "value": 0,
+                "valuePropertyName": "value"
+            },
+            "height": 22.536599113924154,
+            "locked": false,
+            "name": "UniversalToggleSwitch_7",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 106,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 45.571609596666946,
+            "x": 1715.4425492194089,
+            "y": 697.559224393686,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "ring",
+                "tipColor": "yellow",
+                "value": 0,
+                "valuePropertyName": "value"
+            },
+            "height": 22.536599113924154,
+            "locked": false,
+            "name": "UniversalToggleSwitch_8",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 108,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 45.571609596666946,
+            "x": 1783.1640682067505,
+            "y": 736.1668193303949,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "ring",
+                "tipColor": "yellow",
+                "value": 0,
+                "valuePropertyName": "value"
+            },
+            "height": 22.536599113924154,
+            "locked": false,
+            "name": "UniversalToggleSwitch_9",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 111,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 45.571609596666946,
+            "x": 1783.7336884599156,
+            "y": 705.0908699633063,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "ring",
+                "tipColor": "yellow",
+                "value": 1,
+                "valuePropertyName": "value"
+            },
+            "height": 22.536599113924154,
+            "locked": false,
+            "name": "UniversalToggleSwitch_15",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 112,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 45.571609596666946,
+            "x": 1783.6703973206747,
+            "y": 661.9896041405217,
             "z": 0
         }
     ],
@@ -2822,7 +3547,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 75,
+            "stackingOrder": 69,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 38.60465116279079,
@@ -2854,12 +3579,716 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 76,
+            "stackingOrder": 70,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 31.627906976744384,
             "x": 1496.2558139534885,
             "y": 532.7674418604649,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10,
+                "horizontalAlignment": 1,
+                "labelText": " ИЗЛУЧ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 13.302325581395394,
+            "locked": true,
+            "name": "TextLabel_10",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 77,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 26.511627906976628,
+            "x": 1818.9740553075144,
+            "y": 670.1950785416129,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10,
+                "horizontalAlignment": 1,
+                "labelText": "    ЛД",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 13.302325581395394,
+            "locked": true,
+            "name": "TextLabel_11",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 78,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 24.651162790697413,
+            "x": 1820.2531250749562,
+            "y": 708.6834506346361,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10,
+                "horizontalAlignment": 1,
+                "labelText": "   ОТКЛ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 11.906976744185956,
+            "locked": true,
+            "name": "TextLabel_12",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 79,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 28.372093023255502,
+            "x": 1766.8810320517005,
+            "y": 669.7299622625427,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10,
+                "horizontalAlignment": 2,
+                "labelText": " ЗАХВАТ АВТ ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 13.302325581395394,
+            "locked": false,
+            "name": "TextLabel_13",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 80,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 47.47082640521785,
+            "x": 1807.7974108645344,
+            "y": 752.7714716158545,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10,
+                "horizontalAlignment": 4,
+                "labelText": "   \nБЛИЖНИЙ БОЙ\n",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 12.737353829982226,
+            "locked": true,
+            "name": "TextLabel_14",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 82,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 61.93929838391773,
+            "x": 1801.2418256399278,
+            "y": 824.700399787179,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 14,
+                "horizontalAlignment": 1,
+                "labelText": "   САУ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 11.906976744185956,
+            "locked": false,
+            "name": "TextLabel_15",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 83,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 34.58678228879228,
+            "x": 1673.8584331816437,
+            "y": 601.5661204546334,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10,
+                "horizontalAlignment": 1,
+                "labelText": "   АПК",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 11.906976744185956,
+            "locked": true,
+            "name": "TextLabel_16",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 84,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 24.41729076336844,
+            "x": 1747.3047608652596,
+            "y": 666.5378718670622,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": " А\n П",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 18.121666009722617,
+            "locked": true,
+            "name": "TextLabel_17",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 85,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 9.163053475232687,
+            "x": 1734.2256648200619,
+            "y": 679.4474763868361,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": "\n ОТКЛ\n ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 10.777033241360755,
+            "locked": true,
+            "name": "TextLabel_18",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 86,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 23.28734726054347,
+            "x": 1699.677642221192,
+            "y": 667.4983238444635,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": "\n ППС\n ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 10.777033241360755,
+            "locked": true,
+            "name": "TextLabel_19",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 87,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 19.33254500065641,
+            "x": 1751.8527834641297,
+            "y": 703.8542560478534,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": "\n ЗПС\n ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 10.777033241360755,
+            "locked": true,
+            "name": "TextLabel_20",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 88,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 19.33254500065641,
+            "x": 1704.8753823341858,
+            "y": 704.8994537879664,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": " А\n В\n Т",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 32.81093154644566,
+            "locked": true,
+            "name": "TextLabel_21",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 89,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 9.163053475232687,
+            "x": 1735.8358343115879,
+            "y": 712.1310922060451,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": "\n  АЗ-Д\n ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 13.60189199842273,
+            "locked": true,
+            "name": "TextLabel_22",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 90,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 23.852319011955956,
+            "x": 1748.0957213172371,
+            "y": 739.6452164998309,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": "\n АЗ-V\n ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 10.212061489948269,
+            "locked": false,
+            "name": "TextLabel_23",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 91,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 19.33254500065641,
+            "x": 1702.8132354415302,
+            "y": 739.560470737119,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": " О\n Б\n Н",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 32.81093154644566,
+            "locked": true,
+            "name": "TextLabel_24",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 92,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 9.163053475232687,
+            "x": 1735.1861167974635,
+            "y": 747.6395667823163,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": " Э\n К\n В",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 32.81093154644566,
+            "locked": true,
+            "name": "TextLabel_25",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 93,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 9.163053475232687,
+            "x": 1800.6380941985938,
+            "y": 677.4983238444629,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10,
+                "horizontalAlignment": 1,
+                "labelText": "   РУЧ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 13.302325581395394,
+            "locked": true,
+            "name": "TextLabel_26",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 94,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 23.53788787995427,
+            "x": 1770.5014210827453,
+            "y": 740.6438531013674,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10,
+                "horizontalAlignment": 1,
+                "labelText": "  НАВЕД ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 11.906976744185956,
+            "locked": true,
+            "name": "TextLabel_27",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 95,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 32.98747763864003,
+            "x": 1761.881032051701,
+            "y": 622.16585969844,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10,
+                "horizontalAlignment": 1,
+                "labelText": "  АВТ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 11.906976744185956,
+            "locked": true,
+            "name": "TextLabel_28",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 96,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 20.166964818127326,
+            "x": 1754.3169294875981,
+            "y": 620.7556032881839,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10,
+                "horizontalAlignment": 1,
+                "labelText": "  РУЧ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 11.906976744185956,
+            "locked": true,
+            "name": "TextLabel_29",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 97,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 20.166964818127326,
+            "x": 1709.573339744008,
+            "y": 620.627398159979,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": "\n  ИНДИКАЦИЯ\n ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 10.212061489948269,
+            "locked": false,
+            "name": "TextLabel_30",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 99,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 53.93170111879999,
+            "x": 1665.1972016862562,
+            "y": 731.8771870144176,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": "\n  МАРШРУТ \n ",
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 10.212061489948269,
+            "locked": false,
+            "name": "TextLabel_31",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 100,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 42.539296055508885,
+            "x": 1658.5938261588299,
+            "y": 727.9618057141179,
             "z": 0
         }
     ],
@@ -2868,13 +4297,13 @@
             "componentPath": "",
             "customProperties": {
                 "backgroundGeometry": {
-                    "height": 441.32620320855614,
+                    "height": 441.23907863383636,
                     "width": 1920,
                     "x": 0,
-                    "y": 479.33689839572196
+                    "y": 479.3804606830818
                 },
                 "backgroundOpacity": 1,
-                "backgroundPath": "blueprints/LEV_PLT_27УБК.jpg",
+                "backgroundPath": "blueprints/LEV_PLT_27УБК.svg",
                 "documentHeight": 1400,
                 "documentWidth": 1920,
                 "gridSize": 5,
