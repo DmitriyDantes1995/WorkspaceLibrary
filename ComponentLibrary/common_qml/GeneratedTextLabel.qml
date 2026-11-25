@@ -9,8 +9,9 @@ BaseSceneComponent {
     property var labelTranslations: ({})
     property bool verticalText: false
     property real fontSize: 18
-    property bool fitText: false
     readonly property string fontFamily: "Arial"
+    // Recognize the retired key when importing an older scene.
+    readonly property bool fitText: false
     // Preserve legacy styling on load and on subsequent saves; its controls
     // remain hidden in propertySchema.
     property string textColor: "#ffffff"
@@ -31,14 +32,7 @@ BaseSceneComponent {
     readonly property int glyphFontSize: 64
     readonly property var textEditor: label
     readonly property rect textInkBounds: measureText(label.text, glyphMetrics.font)
-    readonly property real renderedFontSize: effectiveFontSize * (fitText
-        ? Math.min(1,
-                   textInkBounds.width > 0
-                   ? textViewport.width / (textInkBounds.width * effectiveFontSize / glyphFontSize) : 1,
-                   textInkBounds.height > 0
-                   ? textViewport.height / (textInkBounds.height * effectiveFontSize / glyphFontSize) : 1)
-        : 1)
-    readonly property real textScale: renderedFontSize / glyphFontSize
+    readonly property real textScale: effectiveFontSize / glyphFontSize
 
     // Measure ink relative to the first baseline, including accents and bearings.
     // The font argument keeps the binding current when the font family changes.
@@ -92,8 +86,7 @@ BaseSceneComponent {
     }
 
     function setCustomProperty(name, value) {
-        // Older scenes stored the family. The component now owns the typeface.
-        if (name === "fontFamily")
+        if (name === "fontFamily" || name === "fitText")
             return true
         if (!customProperties.hasOwnProperty(name))
             return false
@@ -128,7 +121,6 @@ BaseSceneComponent {
         "labelTranslations": labelTranslations,
         "verticalText": verticalText,
         "fontSize": fontSize,
-        "fitText": fitText,
         "textColor": textColor,
         "backgroundEnabled": backgroundEnabled,
         "backgroundColor": backgroundColor,
@@ -145,7 +137,6 @@ BaseSceneComponent {
         "labelText": { label: "Текст", type: "string", bindable: true },
         "labelTranslations": { hidden: true, bindable: false },
         "verticalText": { label: "Вертикальный текст", type: "bool", bindable: false },
-        "fitText": { label: "Вписывать текст", type: "bool", bindable: false },
         "backgroundEnabled": { label: "Показывать фон", type: "bool", bindable: false },
         "backgroundColor": { label: "Цвет фона", type: "string", bindable: false },
         "textColor": { label: "Цвет текста", type: "string", bindable: false },
