@@ -7,11 +7,12 @@ BaseSceneComponent {
 
     property string labelText: "TEXT"
     property var labelTranslations: ({})
+    property bool verticalText: false
     property real fontSize: 18
     property bool fitText: false
+    readonly property string fontFamily: "Arial"
     // Preserve legacy styling on load and on subsequent saves; its controls
     // remain hidden in propertySchema.
-    property string fontFamily: ""
     property string textColor: "#ffffff"
     property bool backgroundEnabled: true
     property string backgroundColor: "#000000"
@@ -42,20 +43,40 @@ BaseSceneComponent {
     // Measure ink relative to the first baseline, including accents and bearings.
     // The font argument keeps the binding current when the font family changes.
     function measureText(text, font) {
+        var contentHeight = label.contentHeight
         var lines = text.split("\n")
-        var lineHeight = label.contentHeight / lines.length
+        var wrappedLineY = []
+        if (verticalText) {
+            // Qt's line positions follow the same grapheme boundaries as the editor.
+            lines = []
+            var start = 0
+            var y = 0
+            for (var end = 1; end <= text.length; ++end) {
+                var nextY = label.positionToRectangle(end).y
+                if (nextY !== y) {
+                    lines.push(text.slice(start, end).replace(/\n$/, ""))
+                    wrappedLineY.push(y)
+                    start = end
+                    y = nextY
+                }
+            }
+            lines.push(text.slice(start))
+            wrappedLineY.push(y)
+        }
+        var lineHeight = contentHeight / lines.length
         var position = 0
         var left = Infinity, top = Infinity, right = -Infinity, bottom = -Infinity
         for (var i = 0; i < lines.length; ++i) {
             var bounds = glyphMetrics.tightBoundingRect(lines[i])
-            var lineX = root.horizontalAlignment === Text.AlignLeft
+            var lineX = verticalText || root.horizontalAlignment === Text.AlignLeft
                     ? 0 : label.positionToRectangle(position).x
+            var lineY = verticalText ? wrappedLineY[i] : i * lineHeight
             if (bounds.height === 0)
                 bounds = Qt.rect(0, -glyphMetrics.ascent, 0, glyphMetrics.height)
             left = Math.min(left, lineX + bounds.x)
             right = Math.max(right, lineX + bounds.x + bounds.width)
-            top = Math.min(top, bounds.y + i * lineHeight)
-            bottom = Math.max(bottom, bounds.y + bounds.height + i * lineHeight)
+            top = Math.min(top, bounds.y + lineY)
+            bottom = Math.max(bottom, bounds.y + bounds.height + lineY)
             position += lines[i].length + 1
         }
         return Qt.rect(left, top, right - left, bottom - top)
@@ -71,6 +92,9 @@ BaseSceneComponent {
     }
 
     function setCustomProperty(name, value) {
+        // Older scenes stored the family. The component now owns the typeface.
+        if (name === "fontFamily")
+            return true
         if (!customProperties.hasOwnProperty(name))
             return false
         if (name === "fontSize" || name === "cornerRadius"
@@ -102,6 +126,7 @@ BaseSceneComponent {
     customProperties: ({
         "labelText": labelText,
         "labelTranslations": labelTranslations,
+        "verticalText": verticalText,
         "fontSize": fontSize,
         "fitText": fitText,
         "textColor": textColor,
@@ -110,7 +135,6 @@ BaseSceneComponent {
         "cornerRadius": cornerRadius,
         "horizontalAlignment": horizontalAlignment,
         "verticalAlignment": verticalAlignment,
-        "fontFamily": fontFamily,
         "backgroundOpacity": backgroundOpacity,
         "borderColor": borderColor,
         "borderWidth": borderWidth,
@@ -120,6 +144,7 @@ BaseSceneComponent {
     propertySchema: ({
         "labelText": { label: "Текст", type: "string", bindable: true },
         "labelTranslations": { hidden: true, bindable: false },
+        "verticalText": { label: "Вертикальный текст", type: "bool", bindable: false },
         "fitText": { label: "Вписывать текст", type: "bool", bindable: false },
         "backgroundEnabled": { label: "Показывать фон", type: "bool", bindable: false },
         "backgroundColor": { label: "Цвет фона", type: "string", bindable: false },
@@ -128,7 +153,6 @@ BaseSceneComponent {
                       min: 1, max: 200, step: 0.5, unit: "px" },
         "cornerRadius": { label: "Скругление", type: "number", bindable: false,
                           min: 0, max: 200, step: 1 },
-        "fontFamily": { hidden: true, bindable: false },
         "backgroundOpacity": { hidden: true, bindable: false },
         "borderColor": { hidden: true, bindable: false },
         "borderWidth": { hidden: true, bindable: false },
@@ -219,7 +243,9 @@ BaseSceneComponent {
                 : root.verticalAlignment === Text.AlignVCenter ? 0.5 : 0)
                * (textViewport.height - root.textInkBounds.height * scale)
                - (baselineOffset + root.textInkBounds.y) * scale
-            width: implicitWidth
+            // A narrow layout forces Qt to wrap each grapheme onto its own line.
+            // The parent viewport clips the ink to the label's actual dimensions.
+            width: root.verticalText ? 1 : implicitWidth
             height: implicitHeight
             scale: root.textScale
             transformOrigin: Item.TopLeft
@@ -229,9 +255,9 @@ BaseSceneComponent {
             color: root.textColor
             font.pixelSize: root.glyphFontSize
             font.family: root.fontFamily
-            horizontalAlignment: root.horizontalAlignment
+            horizontalAlignment: root.verticalText ? Text.AlignLeft : root.horizontalAlignment
             verticalAlignment: root.verticalAlignment
-            wrapMode: TextEdit.NoWrap
+            wrapMode: root.verticalText ? TextEdit.WrapAnywhere : TextEdit.NoWrap
             onTextChanged: {
                 if (root.editing && root.labelText !== text)
                     root.setCustomProperty("labelText", text)
