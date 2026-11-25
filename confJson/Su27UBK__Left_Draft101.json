@@ -5,6 +5,7 @@
             "customProperties": {
                 "appearance": "box",
                 "cover": 0,
+                "coverLegendKey": "",
                 "marking": "striped",
                 "value": 1
             },
@@ -27,6 +28,7 @@
             "customProperties": {
                 "appearance": "box",
                 "cover": 0,
+                "coverLegendKey": "su27.manualGain",
                 "marking": "gain",
                 "value": 0
             },
@@ -64,27 +66,6 @@
             "width": 105.0468,
             "x": 1302.3603209302323,
             "y": 499.88349184573485,
-            "z": 0
-        },
-        {
-            "componentPath": "elements/Controls/simple/Tumblers/GuardedControl/GuardedControl.qml",
-            "customProperties": {
-                "appearance": "fire",
-                "cover": 0,
-                "value": 0
-            },
-            "height": 88.731045,
-            "locked": false,
-            "name": "GuardedControl_6",
-            "opacity": 1,
-            "rotation": 0,
-            "scale": 1,
-            "stackingOrder": 81,
-            "subtype": "GuardedControl",
-            "type": "GuardedControl",
-            "width": 109.73839,
-            "x": 1200.303218793104,
-            "y": 597.8692319926587,
             "z": 0
         }
     ],
@@ -277,11 +258,12 @@
             "componentPath": "elements/Controls/Su27/Su27Selector/Su27Selector.qml",
             "customProperties": {
                 "handleSize": 0,
+                "handleStyle": "auto",
                 "profile": "deltaH",
                 "value": 0
             },
             "height": 97.74358974358972,
-            "locked": true,
+            "locked": false,
             "name": "Su27Selector_1",
             "opacity": 1,
             "rotation": 90,
@@ -298,6 +280,7 @@
             "componentPath": "elements/Controls/Su27/Su27Selector/Su27Selector.qml",
             "customProperties": {
                 "handleSize": 0,
+                "handleStyle": "auto",
                 "profile": "radarMode",
                 "value": 0
             },
@@ -319,10 +302,11 @@
             "componentPath": "elements/Controls/Su27/Su27Selector/Su27Selector.qml",
             "customProperties": {
                 "handleSize": 0,
+                "handleStyle": "auto",
                 "profile": "sauIndication",
                 "value": 0
             },
-            "height": 116.99798688226508,
+            "height": 124.17098266285586,
             "locked": true,
             "name": "Su27Selector_3",
             "opacity": 1,
@@ -331,20 +315,21 @@
             "stackingOrder": 71,
             "subtype": "Su27Selector",
             "type": "Su27Selector",
-            "width": 116.99798688226508,
-            "x": 1559.2090027345384,
-            "y": 682.5337770379083,
+            "width": 124.17098266285586,
+            "x": 1554.1457115952978,
+            "y": 682.1118361096381,
             "z": 0
         },
         {
             "componentPath": "elements/Controls/Su27/Su27Selector/Su27Selector.qml",
             "customProperties": {
                 "handleSize": 0,
+                "handleStyle": "auto",
                 "profile": "sduMode",
                 "value": 0
             },
-            "height": 116.92203807434247,
-            "locked": false,
+            "height": 124.30934547473316,
+            "locked": true,
             "name": "Su27Selector_4",
             "opacity": 1,
             "rotation": 85,
@@ -352,9 +337,9 @@
             "stackingOrder": 72,
             "subtype": "Su27Selector",
             "type": "Su27Selector",
-            "width": 116.92203807434247,
-            "x": 1388.23328741053,
-            "y": 751.0408143015987,
+            "width": 124.30934547473316,
+            "x": 1386.4314504333986,
+            "y": 747.7512492045416,
             "z": 0
         }
     ],
@@ -442,7 +427,7 @@
             },
             "height": 430,
             "instanceId": "a008a926-7928-4e3f-b839-4a32c305c2f2",
-            "locked": false,
+            "locked": true,
             "name": "ContourPanel_1",
             "opacity": 0.21,
             "rotation": 0,
@@ -451,8 +436,8 @@
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 1909,
-            "x": -62.06295462713001,
-            "y": 433.06302400538254,
+            "x": 4.888985082641511,
+            "y": 485.1178185259307,
             "z": 0
         },
         {
@@ -507,8 +492,8 @@
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 145,
-            "x": 1701.6459552817068,
-            "y": 489.21531104405335,
+            "x": 1702.1110715607765,
+            "y": 487.81996220684414,
             "z": 0
         },
         {
@@ -550,16 +535,34 @@
                     {
                         "points": [
                             {
-                                "x": 93.52238314208307,
-                                "y": 232.39239733557162
+                                "x": 95.32690268084221,
+                                "y": 224.69424541946142
                             },
                             {
-                                "x": 93.52238314208307,
-                                "y": 226.81748444358556
+                                "x": 95.03954635900314,
+                                "y": 216.93562472980625
                             },
                             {
-                                "x": 86.55374202710016,
-                                "y": 227.16591649933457
+                                "x": 87.3989059732123,
+                                "y": 216.87125781707533
+                            }
+                        ],
+                        "strokeColor": "#FFFFFF",
+                        "strokeWidth": 1
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 95.97033454464054,
+                                "y": 268.2998292456468
+                            },
+                            {
+                                "x": 95.79176311606943,
+                                "y": 275.97840067421816
+                            },
+                            {
+                                "x": 88.29176311606943,
+                                "y": 276.1569721027896
                             }
                         ],
                         "strokeColor": "#FFFFFF",
@@ -581,8 +584,8 @@
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 115.80745341614897,
-            "x": 1585.3168130776678,
-            "y": 490.0647646137388,
+            "x": 1585.2546154548797,
+            "y": 488.5703870060694,
             "z": 0
         },
         {
@@ -693,8 +696,8 @@
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 115.80745341614897,
-            "x": 1298.4465764303704,
-            "y": 488.18999840738974,
+            "x": 1297.5845074648528,
+            "y": 489.3394236947464,
             "z": 0
         },
         {
@@ -1319,7 +1322,7 @@
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 254,
-            "x": 6.580784002986547,
+            "x": 8.635578523534491,
             "y": 488.81987577639745,
             "z": 0
         },
@@ -1594,7 +1597,7 @@
                 "polylines": [
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka87998/Podlozhka87998.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka87998/Podlozhka87998.qml",
             "customProperties": {
             },
             "height": 94,
@@ -1604,7 +1607,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 98,
+            "stackingOrder": 97,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 115,
@@ -1650,7 +1653,7 @@
                 "polylines": [
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
             "customProperties": {
             },
             "height": 23.25316455696202,
@@ -1660,7 +1663,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 102,
+            "stackingOrder": 101,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 59.58227848101251,
@@ -1706,7 +1709,7 @@
                 "polylines": [
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
             "customProperties": {
             },
             "height": 23.25316455696202,
@@ -1716,7 +1719,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 103,
+            "stackingOrder": 102,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 59.58227848101251,
@@ -1762,7 +1765,7 @@
                 "polylines": [
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
             "customProperties": {
             },
             "height": 23.25316455696202,
@@ -1772,7 +1775,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 105,
+            "stackingOrder": 104,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 59.58227848101251,
@@ -1818,7 +1821,7 @@
                 "polylines": [
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
             "customProperties": {
             },
             "height": 28.63291139240505,
@@ -1828,7 +1831,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 107,
+            "stackingOrder": 106,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 59.58227848101251,
@@ -1874,7 +1877,7 @@
                 "polylines": [
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
             "customProperties": {
             },
             "height": 27.050632911392427,
@@ -1884,7 +1887,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 109,
+            "stackingOrder": 108,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 59.58227848101251,
@@ -1930,7 +1933,7 @@
                 "polylines": [
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/Podlozhka98989/Podlozhka98989.qml",
             "customProperties": {
             },
             "height": 28.949367088607573,
@@ -1940,7 +1943,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 110,
+            "stackingOrder": 109,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 64.01265822784808,
@@ -2071,17 +2074,17 @@
                 "polylines": [
                 ]
             },
-            "componentPath": "C:/Users/nap/Documents/Work/Deploy_new/Workspace/WorkspaceLibrary/ComponentLibrary/elements/Visual/SubstrateComponents/Panels/PodlozhkaKrutilka5757/PodlozhkaKrutilka5757.qml",
+            "componentPath": "elements/Visual/SubstrateComponents/Panels/PodlozhkaKrutilka5757/PodlozhkaKrutilka5757.qml",
             "customProperties": {
             },
             "height": 88.60759493670878,
             "instanceId": "5b4be791-33b0-4d78-aa1b-000256f98eb9",
-            "locked": false,
+            "locked": true,
             "name": "ContourPanel_26",
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 113,
+            "stackingOrder": 112,
             "subtype": "ContourPanel",
             "type": "Substrate",
             "width": 91.4556962025315,
@@ -2143,8 +2146,8 @@
             "subtype": "UniversalLamp",
             "type": "UniversalLamp",
             "width": 20.310111510513085,
-            "x": 757.9944175198247,
-            "y": 555.9672889596275,
+            "x": 759.3897663570337,
+            "y": 555.0370564014879,
             "z": 0
         }
     ],
@@ -2164,10 +2167,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "посад",
                 "labelTopFontSize": 0,
                 "labelTopOffsetX": 0,
                 "labelTopOffsetY": 0,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
@@ -2205,10 +2214,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "навед",
                 "labelTopFontSize": 0,
                 "labelTopOffsetX": 0,
                 "labelTopOffsetY": 0,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
@@ -2246,10 +2261,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "навиг",
                 "labelTopFontSize": 0,
                 "labelTopOffsetX": 0,
                 "labelTopOffsetY": 0,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
@@ -2287,10 +2308,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "",
                 "labelTopFontSize": 0,
                 "labelTopOffsetX": 0,
                 "labelTopOffsetY": 0,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
@@ -2328,10 +2355,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "",
                 "labelTopFontSize": 0,
                 "labelTopOffsetX": 0,
                 "labelTopOffsetY": 0,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
@@ -2369,10 +2402,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "",
                 "labelTopFontSize": 0,
                 "labelTopOffsetX": 0,
                 "labelTopOffsetY": 0,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
@@ -2410,10 +2449,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "",
                 "labelTopFontSize": 0,
                 "labelTopOffsetX": 0,
                 "labelTopOffsetY": 0,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": 0,
                 "outlineColor": "#ddb30b",
@@ -2451,10 +2496,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "",
                 "labelTopFontSize": 0,
                 "labelTopOffsetX": 0,
                 "labelTopOffsetY": 0,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": 0,
                 "outlineColor": "#ddb30b",
@@ -2492,10 +2543,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "",
                 "labelTopFontSize": 0,
                 "labelTopOffsetX": 0,
                 "labelTopOffsetY": 0,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": 0,
                 "outlineColor": "#ddb30b",
@@ -2533,10 +2590,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "",
                 "labelTopFontSize": 0,
                 "labelTopOffsetX": 0,
                 "labelTopOffsetY": 0,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": 0,
                 "outlineColor": "#ddb30b",
@@ -2574,10 +2637,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "АВТОМ ",
                 "labelTopFontSize": 0,
                 "labelTopOffsetX": 0,
                 "labelTopOffsetY": 0,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
@@ -2615,10 +2684,16 @@
                 "labelBottomRightFontSize": 0,
                 "labelBottomRightOffsetX": 0,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "Н",
                 "labelTopFontSize": 20,
                 "labelTopOffsetX": -9,
                 "labelTopOffsetY": 8,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
@@ -2638,7 +2713,7 @@
             "type": "UniversalLampButton",
             "width": 44,
             "x": 1600.3191654778357,
-            "y": 607.5456955634955,
+            "y": 606.8488314519972,
             "z": 0
         },
         {
@@ -2656,10 +2731,16 @@
                 "labelBottomRightFontSize": 7,
                 "labelBottomRightOffsetX": 1,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "Н",
                 "labelTopFontSize": 20,
                 "labelTopOffsetX": -9,
                 "labelTopOffsetY": 8,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
@@ -2697,10 +2778,16 @@
                 "labelBottomRightFontSize": 7,
                 "labelBottomRightOffsetX": 1,
                 "labelBottomRightOffsetY": 0,
+                "labelBottomRightTranslations": {
+                },
+                "labelBottomTranslations": {
+                },
                 "labelTop": "Н",
                 "labelTopFontSize": 20,
                 "labelTopOffsetX": -9,
                 "labelTopOffsetY": 8,
+                "labelTopTranslations": {
+                },
                 "lamp": 0,
                 "markingRotation": -90,
                 "outlineColor": "#ddb30b",
@@ -2998,7 +3085,7 @@
                 "valuePropertyName": "value"
             },
             "height": 28.076006451185258,
-            "locked": false,
+            "locked": true,
             "name": "UniversalToggleSwitch_1",
             "opacity": 1,
             "rotation": 0,
@@ -3007,8 +3094,8 @@
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 78.54147973180062,
-            "x": 1571.865736030878,
-            "y": 789.6619180100729,
+            "x": 1599.3075964959944,
+            "y": 818.0340110333286,
             "z": 0
         },
         {
@@ -3031,7 +3118,7 @@
             "width": 28.625287356321856,
             "x": 1518.0947637292463,
             "y": 772.8130906768837,
-            "z": 0
+            "z": 1
         },
         {
             "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
@@ -3179,7 +3266,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 101,
+            "stackingOrder": 100,
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 45.571609596666946,
@@ -3201,7 +3288,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 104,
+            "stackingOrder": 103,
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 45.571609596666946,
@@ -3223,7 +3310,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 106,
+            "stackingOrder": 105,
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 45.571609596666946,
@@ -3245,7 +3332,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 108,
+            "stackingOrder": 107,
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 45.571609596666946,
@@ -3267,7 +3354,7 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 111,
+            "stackingOrder": 110,
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 45.571609596666946,
@@ -3289,12 +3376,34 @@
             "opacity": 1,
             "rotation": 0,
             "scale": 1,
-            "stackingOrder": 112,
+            "stackingOrder": 111,
             "subtype": "UniversalToggleSwitch",
             "type": "UniversalToggleSwitch",
             "width": 45.571609596666946,
             "x": 1783.6703973206747,
             "y": 661.9896041405217,
+            "z": 0
+        },
+        {
+            "componentPath": "elements/Controls/simple/Tumblers/2Position/UniversalToggleSwitch/UniversalToggleSwitch.qml",
+            "customProperties": {
+                "appearance": "twoCaps",
+                "tipColor": "default",
+                "value": 0,
+                "valuePropertyName": "value"
+            },
+            "height": 34.36275069767438,
+            "locked": false,
+            "name": "UniversalToggleSwitch_5",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 130,
+            "subtype": "UniversalToggleSwitch",
+            "type": "UniversalToggleSwitch",
+            "width": 88.94448308373532,
+            "x": 1312.927859302326,
+            "y": 807.9349037209306,
             "z": 0
         }
     ],
@@ -3313,6 +3422,8 @@
                 "fontSize": 11,
                 "horizontalAlignment": 1,
                 "labelText": " САМОЛЕТНЫЕ И СИЛОВЫЕ №1",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3345,6 +3456,8 @@
                 "fontSize": 11,
                 "horizontalAlignment": 1,
                 "labelText": " САМОЛЕТНЫЕ И СИЛОВЫЕ №2",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3377,6 +3490,8 @@
                 "fontSize": 11,
                 "horizontalAlignment": 1,
                 "labelText": "  РАДИО-ЭЛЕКТРОННЫЕ №2",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3409,6 +3524,8 @@
                 "fontSize": 11,
                 "horizontalAlignment": 1,
                 "labelText": "  РАДИО-ЭЛЕКТРОННЫЕ №2",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3441,6 +3558,8 @@
                 "fontSize": 11,
                 "horizontalAlignment": 1,
                 "labelText": "  СПЕЦ.СИСТЕМ №1",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3473,6 +3592,8 @@
                 "fontSize": 11,
                 "horizontalAlignment": 1,
                 "labelText": "  СПЕЦ.СИСТЕМ №2",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3505,6 +3626,8 @@
                 "fontSize": 18,
                 "horizontalAlignment": 1,
                 "labelText": "  РАСПРЕД УСТРОЙСТВА ВКЛЮЧЕНЫ ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3537,6 +3660,8 @@
                 "fontSize": 13,
                 "horizontalAlignment": 1,
                 "labelText": " ЖЕСТК \n СВЯЗЬ ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3569,6 +3694,8 @@
                 "fontSize": 12.5,
                 "horizontalAlignment": 4,
                 "labelText": "  КШ\n РУЧ \n",
+                "labelTranslations": {
+                },
                 "padding": 2.5,
                 "textColor": "#ffffff",
                 "verticalAlignment": 32
@@ -3601,6 +3728,8 @@
                 "fontSize": 10,
                 "horizontalAlignment": 1,
                 "labelText": " ИЗЛУЧ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3633,6 +3762,8 @@
                 "fontSize": 10,
                 "horizontalAlignment": 1,
                 "labelText": "    ЛД",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3665,6 +3796,8 @@
                 "fontSize": 10,
                 "horizontalAlignment": 1,
                 "labelText": "   ОТКЛ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3697,6 +3830,8 @@
                 "fontSize": 10,
                 "horizontalAlignment": 2,
                 "labelText": " ЗАХВАТ АВТ ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3729,6 +3864,8 @@
                 "fontSize": 10,
                 "horizontalAlignment": 4,
                 "labelText": "   \nБЛИЖНИЙ БОЙ\n",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3739,7 +3876,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 82,
+            "stackingOrder": 81,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 61.93929838391773,
@@ -3751,16 +3888,18 @@
             "componentPath": "common_qml/GeneratedTextLabel.qml",
             "customProperties": {
                 "backgroundColor": "#000000",
-                "backgroundEnabled": true,
+                "backgroundEnabled": false,
                 "backgroundOpacity": 1,
                 "borderColor": "#ffffff",
                 "borderWidth": 0,
                 "cornerRadius": 0,
                 "fitText": false,
                 "fontFamily": "",
-                "fontSize": 14,
+                "fontSize": 16,
                 "horizontalAlignment": 1,
                 "labelText": "   САУ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3771,12 +3910,12 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 83,
+            "stackingOrder": 82,
             "subtype": "TextLabel",
             "type": "Visual",
-            "width": 34.58678228879228,
-            "x": 1673.8584331816437,
-            "y": 601.5661204546334,
+            "width": 31.551068003077944,
+            "x": 1675.0191474673577,
+            "y": 597.012549026062,
             "z": 0
         },
         {
@@ -3793,6 +3932,8 @@
                 "fontSize": 10,
                 "horizontalAlignment": 1,
                 "labelText": "   АПК",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3803,7 +3944,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 84,
+            "stackingOrder": 83,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 24.41729076336844,
@@ -3825,6 +3966,8 @@
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
                 "labelText": " А\n П",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3835,7 +3978,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 85,
+            "stackingOrder": 84,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 9.163053475232687,
@@ -3857,6 +4000,8 @@
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
                 "labelText": "\n ОТКЛ\n ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3867,7 +4012,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 86,
+            "stackingOrder": 85,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 23.28734726054347,
@@ -3889,6 +4034,8 @@
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
                 "labelText": "\n ППС\n ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3899,7 +4046,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 87,
+            "stackingOrder": 86,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 19.33254500065641,
@@ -3921,6 +4068,8 @@
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
                 "labelText": "\n ЗПС\n ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3931,7 +4080,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 88,
+            "stackingOrder": 87,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 19.33254500065641,
@@ -3953,6 +4102,8 @@
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
                 "labelText": " А\n В\n Т",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3963,7 +4114,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 89,
+            "stackingOrder": 88,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 9.163053475232687,
@@ -3985,6 +4136,8 @@
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
                 "labelText": "\n  АЗ-Д\n ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -3995,7 +4148,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 90,
+            "stackingOrder": 89,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 23.852319011955956,
@@ -4017,6 +4170,8 @@
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
                 "labelText": "\n АЗ-V\n ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -4027,7 +4182,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 91,
+            "stackingOrder": 90,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 19.33254500065641,
@@ -4049,6 +4204,8 @@
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
                 "labelText": " О\n Б\n Н",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -4059,7 +4216,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 92,
+            "stackingOrder": 91,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 9.163053475232687,
@@ -4081,6 +4238,8 @@
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
                 "labelText": " Э\n К\n В",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -4091,7 +4250,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 93,
+            "stackingOrder": 92,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 9.163053475232687,
@@ -4113,6 +4272,8 @@
                 "fontSize": 10,
                 "horizontalAlignment": 1,
                 "labelText": "   РУЧ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -4123,7 +4284,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 94,
+            "stackingOrder": 93,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 23.53788787995427,
@@ -4145,6 +4306,8 @@
                 "fontSize": 10,
                 "horizontalAlignment": 1,
                 "labelText": "  НАВЕД ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -4155,7 +4318,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 95,
+            "stackingOrder": 94,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 32.98747763864003,
@@ -4177,6 +4340,8 @@
                 "fontSize": 10,
                 "horizontalAlignment": 1,
                 "labelText": "  АВТ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -4187,7 +4352,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 96,
+            "stackingOrder": 95,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 20.166964818127326,
@@ -4209,6 +4374,8 @@
                 "fontSize": 10,
                 "horizontalAlignment": 1,
                 "labelText": "  РУЧ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -4219,7 +4386,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 97,
+            "stackingOrder": 96,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 20.166964818127326,
@@ -4241,6 +4408,8 @@
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
                 "labelText": "\n  ИНДИКАЦИЯ\n ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
@@ -4251,7 +4420,7 @@
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 99,
+            "stackingOrder": 98,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 53.93170111879999,
@@ -4273,22 +4442,772 @@
                 "fontSize": 10.5,
                 "horizontalAlignment": 1,
                 "labelText": "\n  МАРШРУТ \n ",
+                "labelTranslations": {
+                },
                 "padding": 0,
                 "textColor": "#ffffff",
                 "verticalAlignment": 128
             },
             "height": 10.212061489948269,
-            "locked": false,
+            "locked": true,
             "name": "TextLabel_31",
             "opacity": 1,
             "rotation": 90,
             "scale": 1,
-            "stackingOrder": 100,
+            "stackingOrder": 99,
             "subtype": "TextLabel",
             "type": "Visual",
             "width": 42.539296055508885,
-            "x": 1658.5938261588299,
-            "y": 727.9618057141179,
+            "x": 1658.8859893798503,
+            "y": 730.3286148344538,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": false,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 12,
+                "horizontalAlignment": 1,
+                "labelText": "▲H",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 12.82506527415137,
+            "locked": true,
+            "name": "TextLabel_32",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 113,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 14.203655352480496,
+            "x": 1782.9503916449087,
+            "y": 592.7852371615254,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": false,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 18,
+                "horizontalAlignment": 1,
+                "labelText": "☺☻♥♦♣♠•◘○♣☻◙\n",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 64,
+            "locked": false,
+            "name": "TextLabel_33",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "stackingOrder": 114,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 180,
+            "x": 1711.7826344148511,
+            "y": 469.1985175548622,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 14,
+                "horizontalAlignment": 1,
+                "labelText": "  \n  СДУ\n",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 13.594740457266084,
+            "locked": true,
+            "name": "TextLabel_34",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 115,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 30.367373006091952,
+            "x": 1564.5124416204621,
+            "y": 675.3424917626502,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 14,
+                "horizontalAlignment": 1,
+                "labelText": "  \n  КШ\n",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 14.86056324207641,
+            "locked": true,
+            "name": "TextLabel_35",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 116,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 26.99184557993169,
+            "x": 1499.32256820274,
+            "y": 683.5703398639165,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": " ОТКЛ\n КОНДИЦ ",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 22.60465116279056,
+            "locked": false,
+            "name": "TextLabel_36",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 117,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 44.933765086841504,
+            "x": 1373.1079383769984,
+            "y": 527.0643705230107,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": " ОТКЛ\n КОНДИЦ ",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 22.60465116279056,
+            "locked": false,
+            "name": "TextLabel_37",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 118,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 44.933765086841504,
+            "x": 1372.6227063094875,
+            "y": 581.4314591306056,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 1,
+                "labelText": "\n      СВЯЗЬ \n  САУ - СДУ\n ",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 26.46206148994827,
+            "locked": true,
+            "name": "TextLabel_38",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 119,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 45.18170111879999,
+            "x": 1660.0186302576847,
+            "y": 818.4843298715605,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 4,
+                "labelText": "\n\n ДЕМПФ \n  \n",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 18.236090668236443,
+            "locked": true,
+            "name": "TextLabel_39",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 120,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 46.401128280353646,
+            "x": 1549.9386019580147,
+            "y": 799.1188630706672,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 4,
+                "labelText": "\n\n КУРС\n  \n",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 18.236090668236443,
+            "locked": true,
+            "name": "TextLabel_40",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 121,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 27.835727436471984,
+            "x": 1537.6390238989425,
+            "y": 804.118863070667,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 10.5,
+                "horizontalAlignment": 4,
+                "labelText": "\n\n КРЕН\n  \n",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 18.236090668236443,
+            "locked": true,
+            "name": "TextLabel_41",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 122,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 27.83572743647187,
+            "x": 1503.8204584980992,
+            "y": 828.9500866993591,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": "  СЕТКИ\n ВОЗД.ЗАБ ",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 22.60465116279056,
+            "locked": false,
+            "name": "TextLabel_42",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 123,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 48.30929251300188,
+            "x": 1370.449710528897,
+            "y": 642.1276616622513,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": "ОГРАНИЧИТ \n    α , Ny",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 22.60465116279056,
+            "locked": false,
+            "name": "TextLabel_43",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 124,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 48.88400515668002,
+            "x": 1393.7790342391345,
+            "y": 689.7511888968451,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": "  УПР\nКОЛЕСОМ ",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 22.60465116279056,
+            "locked": false,
+            "name": "TextLabel_44",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 125,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 47.02354004040092,
+            "x": 1372.267406332158,
+            "y": 731.4953749433566,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": "ФАРЫ\nПОСАДКА",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 22.60465116279056,
+            "locked": false,
+            "name": "TextLabel_45",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 126,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 47.02354004040092,
+            "x": 1373.0813598205302,
+            "y": 777.425607501496,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": "  УБРАНЫ",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 13.30232558139528,
+            "locked": false,
+            "name": "TextLabel_46",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 127,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 42.83749352877305,
+            "x": 1350.4069412158792,
+            "y": 838.4721191294025,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": "  ЗАКРЫЛКИ",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 13.30232558139528,
+            "locked": false,
+            "name": "TextLabel_47",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 128,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 58.18633073807541,
+            "x": 1328.6627551693675,
+            "y": 832.5418865712631,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": "  Р\n  У\n  Л\n  Е\n  Ж\n",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 64.58974358974376,
+            "locked": true,
+            "name": "TextLabel_48",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 129,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 13.928727875821323,
+            "x": 1341.357746224825,
+            "y": 773.5081954561765,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": " ДУБЛИР ЗАПУСК\n    В ВОЗДУХЕ ",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 27.255813953488317,
+            "locked": false,
+            "name": "TextLabel_49",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 131,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 80.97702841249406,
+            "x": 1244.0115923786707,
+            "y": 747.8907237805656,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": "  ОТКЛ",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 10.511627906976628,
+            "locked": false,
+            "name": "TextLabel_50",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 132,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 34.44154838864188,
+            "x": 1295.9853550501075,
+            "y": 774.5216122719194,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": "  ВЫПУЩ",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 9.717948717948957,
+            "locked": false,
+            "name": "TextLabel_51",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 133,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 44.69795864505227,
+            "x": 1323.280823147901,
+            "y": 840.0466569946386,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": "  ОТКР",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 10.511627906976628,
+            "locked": false,
+            "name": "TextLabel_52",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 134,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 33.92872787582132,
+            "x": 1297.652021716774,
+            "y": 647.4703302206374,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#000000",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderColor": "#ffffff",
+                "borderWidth": 0,
+                "cornerRadius": 0,
+                "fitText": false,
+                "fontFamily": "",
+                "fontSize": 13,
+                "horizontalAlignment": 1,
+                "labelText": "\n  АВТ\n",
+                "labelTranslations": {
+                },
+                "padding": 0,
+                "textColor": "#ffffff",
+                "verticalAlignment": 128
+            },
+            "height": 13.075730471079169,
+            "locked": false,
+            "name": "TextLabel_53",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 135,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 26.2364201835137,
+            "x": 1364.190483255235,
+            "y": 582.7267404770478,
             "z": 0
         }
     ],
