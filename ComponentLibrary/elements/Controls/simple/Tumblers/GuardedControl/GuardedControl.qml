@@ -91,16 +91,19 @@ ControlState {
             visibleWhen: { property: "supportsCoverText", equals: true } },
         coverTranslations: { hidden: true, bindable: false },
         coverTextFontSize: { displayName: "Cover font size (0 = auto)", type: "number", bindable: false,
-            min: 0, max: 200, step: 0.5, unit: "px", order: 2,
+            min: 0, max: coverLabel.item?.maximumFontSize ?? 0, step: 1, wheelEnabled: true,
+            editorValue: coverLabel.item?.fontSize ?? 0, unit: "px", order: 2,
             visibleWhen: { property: "supportsCoverTextLayout", equals: true } },
         coverTextRotation: { displayName: "Cover text rotation", type: "enum", bindable: false, order: 3,
             values: [{ label: "0°", value: 0 }, { label: "90°", value: 90 }, { label: "−90°", value: -90 }],
             visibleWhen: { property: "supportsCoverTextLayout", equals: true } },
         coverTextOffsetX: { displayName: "Cover text offset X", type: "number", bindable: false,
-            min: -200, max: 200, step: 0.5, unit: "px", order: 4,
+            min: coverLabel.item?.offsetX.min ?? 0, max: coverLabel.item?.offsetX.max ?? 0,
+            editorValue: coverLabel.item?.offsetX.value ?? 0, step: 0.5, wheelEnabled: true, unit: "px", order: 4,
             visibleWhen: { property: "supportsCoverTextLayout", equals: true } },
         coverTextOffsetY: { displayName: "Cover text offset Y", type: "number", bindable: false,
-            min: -200, max: 200, step: 0.5, unit: "px", order: 5,
+            min: coverLabel.item?.offsetY.min ?? 0, max: coverLabel.item?.offsetY.max ?? 0,
+            editorValue: coverLabel.item?.offsetY.value ?? 0, step: 0.5, wheelEnabled: true, unit: "px", order: 5,
             visibleWhen: { property: "supportsCoverTextLayout", equals: true } },
         coverPropertyName: { hidden: true, bindable: false },
         positionValues: { hidden: true, bindable: false },
@@ -139,18 +142,65 @@ ControlState {
         Loader {
             id: coverLabel
             readonly property var layout: root.look.legend
-            readonly property real artworkScale: hitSurface.width / root.look.width
-            active: !!layout && root.coverLegendText.length > 0
-            visible: !root.isCoverOpen
-            x: layout ? hitSurface.width * layout.center[0] - width / 2 : 0
-            y: layout ? hitSurface.height * layout.center[1] - height / 2 : 0
-            width: layout ? hitSurface.width * layout.size[0] : 0
-            height: layout ? hitSurface.height * layout.size[1] : 0
+            active: root.supportsCoverTextLayout
+            visible: active && !root.isCoverOpen
+            anchors.centerIn: parent
+            width: root.look.width
+            height: root.look.height
+            scale: Math.min(hitSurface.width / width, hitSurface.height / height)
 
             sourceComponent: Item {
+                id: coverArtwork
+                readonly property var layout: coverLabel.layout
+                // The old item can still be evaluated while the Loader switches to a cover without a legend.
+                readonly property real centerX: width * (layout?.center[0] ?? 0.5)
+                readonly property real centerY: height * (layout?.center[1] ?? 0.5)
+                readonly property real nominalWidth: width * (layout?.size[0] ?? 1)
+                readonly property real nominalHeight: height * (layout?.size[1] ?? 1)
+                // Layout size is expressed in the unrotated label's axes.
+                readonly property bool presetVertical: Math.abs(layout?.rotation || 0) % 180 === 90
+                readonly property real faceWidth: presetVertical ? nominalHeight : nominalWidth
+                readonly property real faceHeight: presetVertical ? nominalWidth : nominalHeight
+                readonly property var bounds: layout?.bounds
+                readonly property real faceLeft: Math.max(0, bounds ? width * bounds[0] : centerX - faceWidth / 2)
+                readonly property real faceTop: Math.max(0, bounds ? height * bounds[1] : centerY - faceHeight / 2)
+                readonly property real faceRight: Math.min(width, bounds ? width * (bounds[0] + bounds[2]) : centerX + faceWidth / 2)
+                readonly property real faceBottom: Math.min(height, bounds ? height * (bounds[1] + bounds[3]) : centerY + faceHeight / 2)
+                readonly property real inset: layout?.plate ? nominalHeight * 0.12 : 0
+                readonly property real roomX: 2 * Math.min(centerX - faceLeft, faceRight - centerX) - 2 * inset
+                readonly property real roomY: 2 * Math.min(centerY - faceTop, faceBottom - centerY) - 2 * inset
+                readonly property real angleRadians: root.coverTextRotation * Math.PI / 180
+                readonly property real cosine: Math.abs(Math.cos(angleRadians))
+                readonly property real sine: Math.abs(Math.sin(angleRadians))
+                readonly property bool vertical: sine > cosine
+                readonly property real lineWidth: vertical ? roomY : roomX
+                readonly property real lineHeight: vertical ? roomX : roomY
+                readonly property real fitScale: Math.min(1, roomX / rotatedWidth(lineWidth, lineHeight),
+                    roomY / rotatedHeight(lineWidth, lineHeight))
+                readonly property int maximumFontSize: Math.max(1, Math.floor(Math.min(roomX, roomY) * fitScale))
+                readonly property real fontSize: Math.max(0, Math.min(maximumFontSize, root.coverTextFontSize))
+                readonly property var offsetX: offsetRange(centerX, faceLeft, faceRight,
+                    rotatedWidth(legend.contentWidth, legend.contentHeight), root.coverTextOffsetX)
+                readonly property var offsetY: offsetRange(centerY, faceTop, faceBottom,
+                    rotatedHeight(legend.contentWidth, legend.contentHeight), root.coverTextOffsetY)
+
+                function rotatedWidth(w, h) { return cosine * w + sine * h }
+                function rotatedHeight(w, h) { return sine * w + cosine * h }
+
+                function offsetRange(center, first, last, textExtent, requestedOffset) {
+                    const halfExtent = textExtent / 2 + inset
+                    const minimum = Math.min(0, Math.ceil(2 * (first + halfExtent - center)) / 2)
+                    const maximum = Math.max(0, Math.floor(2 * (last - halfExtent - center)) / 2)
+                    return { min: minimum, max: maximum,
+                             value: Math.max(minimum, Math.min(maximum, requestedOffset)) }
+                }
+
                 Rectangle {
-                    anchors.fill: parent
-                    visible: coverLabel.layout.plate === true
+                    x: coverArtwork.faceLeft
+                    y: coverArtwork.faceTop
+                    width: coverArtwork.faceRight - x
+                    height: coverArtwork.faceBottom - y
+                    visible: coverArtwork.layout?.plate === true && root.coverLegendText.length > 0
                     radius: height * 0.1
                     gradient: Gradient {
                         GradientStop { position: 0; color: "#d51d11" }
@@ -158,23 +208,28 @@ ControlState {
                     }
                 }
 
-                CockpitLegend {
-                    objectName: "coverLegend"
-                    readonly property real inset: coverLabel.layout.plate ? parent.height * 0.12 : 0
-                    readonly property bool manualSize: root.coverTextFontSize > 0
-                    x: (parent.width - width) / 2 + root.coverTextOffsetX * coverLabel.artworkScale
-                    y: (parent.height - height) / 2 + root.coverTextOffsetY * coverLabel.artworkScale
-                    width: parent.width - 2 * inset
-                    height: parent.height - 2 * inset
-                    rotation: root.coverTextRotation
-                    clip: !manualSize
-                    text: root.coverLegendText
-                    color: coverLabel.layout.color || "#f3ecd5"
-                    font.bold: coverLabel.layout.bold === true
-                    fontSizeMode: manualSize ? Text.FixedSize : Text.Fit
-                    font.pixelSize: Math.max(1, Math.round(manualSize
-                        ? root.coverTextFontSize * coverLabel.artworkScale
-                        : height * (coverLabel.layout.fontScale || 0.72)))
+                Item {
+                    x: coverArtwork.faceLeft + coverArtwork.inset
+                    y: coverArtwork.faceTop + coverArtwork.inset
+                    width: coverArtwork.faceRight - coverArtwork.inset - x
+                    height: coverArtwork.faceBottom - coverArtwork.inset - y
+                    clip: true
+
+                    CockpitLegend {
+                        id: legend
+                        objectName: "coverLegend"
+                        x: coverArtwork.centerX - parent.x - width / 2 + coverArtwork.offsetX.value
+                        y: coverArtwork.centerY - parent.y - height / 2 + coverArtwork.offsetY.value
+                        width: coverArtwork.lineWidth * coverArtwork.fitScale
+                        height: coverArtwork.lineHeight * coverArtwork.fitScale
+                        rotation: root.coverTextRotation
+                        text: root.coverLegendText
+                        color: coverArtwork.layout?.color || "#f3ecd5"
+                        font.bold: coverArtwork.layout?.bold === true
+                        font.pixelSize: Math.max(1, Math.round(coverArtwork.fontSize ||
+                            (coverArtwork.nominalHeight - 2 * coverArtwork.inset)
+                                * (coverArtwork.layout?.fontScale || 0.72)))
+                    }
                 }
             }
         }

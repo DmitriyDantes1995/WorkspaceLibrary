@@ -10,6 +10,7 @@ var entries = {
         "open": ["_art/horizontal-reheat/open_0.svg", "_art/horizontal-reheat/open_1.svg"],
         "legend": {
             "center": [0.3375, 0.445], "size": [0.56, 0.28],
+            "bounds": [0.04, 0.28, 0.59, 0.32],
             "editable": true, "bold": true
         },
         "regions": [
@@ -47,6 +48,7 @@ var entries = {
         "open": ["_art/fire-right/open_0.svg", "_art/fire-right/open_1.svg"],
         "legend": {
             "center": [0.316, 0.274], "size": [0.50, 0.124],
+            "bounds": [0.035, 0.203, 0.55, 0.146],
             "editable": true, "bold": true
         },
         "regions": [

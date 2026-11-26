@@ -13,6 +13,7 @@ BaseSceneComponent {
     property int decimals:0
     property string labelText:""
     property string style:"drum"
+    readonly property bool blueDrum: style === "blueDrum"
     readonly property var catalogVariantProperties: ["style"]
     property bool blankWhenZero:false
     readonly property int digitCount:Math.min(12,Math.max(1,digits))
@@ -25,7 +26,7 @@ BaseSceneComponent {
         decimals:{displayName:"Decimals",type:"number",min:0,max:6,step:1,bindable:false},
         labelText:{displayName:"Window label",type:"string",bindable:false},
         style:{displayName:"Window style",type:"enum",bindable:false,
-            values:[{label:"Mechanical drum",value:"drum"},{label:"Electronic amber",value:"electronic"}]},
+            values:[{label:"Mechanical drum",value:"drum"},{label:"Blue drum glass",value:"blueDrum"},{label:"Electronic amber",value:"electronic"}]},
         blankWhenZero:{displayName:"Blank at zero",type:"bool",bindable:false}
     })
     onValueChanged:synchronizeState("value",value)
@@ -54,7 +55,13 @@ BaseSceneComponent {
             return new Array(digitCount+1).join("#")
         return (negative ? "-" : "")+new Array(digitCount-count+1).join("0")+numberText
     }
-    Rectangle { anchors.fill:parent; radius:3; color:"#242723"; border.color:"#75786c"; border.width:Math.max(1,height*0.035) }
+    Rectangle {
+        anchors.fill: parent
+        radius: root.blueDrum ? height * 0.13 : 3
+        color: root.blueDrum ? "#313e43" : "#242723"
+        border.color: root.blueDrum ? "#afbbc0" : "#75786c"
+        border.width: Math.max(1, height * 0.035)
+    }
     Rectangle {
         x:root.width*0.06
         y:root.labelText.length ? root.height*0.3 : root.height*0.1
@@ -73,12 +80,13 @@ BaseSceneComponent {
                     readonly property bool decimalPoint:root.formattedText.charAt(index) === "."
                     width:(digitRow.width / (root.digitCount + (root.decimalCount > 0 ? 0.3 : 0))) * (decimalPoint ? 0.3 : 1)
                     height:digitRow.height
-                    color:root.style === "electronic" ? "#000000" : (decimalPoint ? "#101610" : (index % 2 ? "#182019" : "#131a15"))
+                    color:root.blueDrum ? (index % 2 ? "#25485b" : "#214153")
+                                        : root.style === "electronic" ? "#000000" : (decimalPoint ? "#101610" : (index % 2 ? "#182019" : "#131a15"))
                     border.color:"#090e0b"; border.width:root.style === "electronic" ? 0 : 0.6
                     Text {
                         anchors.fill:parent
                         text:digitCell.decimalPoint ? "" : root.formattedText.charAt(digitCell.index)
-                        color:root.style === "electronic" ? "#ffb74d" : "#e5ebd5"; font.family:"Consolas"; font.bold:true
+                        color:root.blueDrum ? "#e0f2f5" : root.style === "electronic" ? "#ffb74d" : "#e5ebd5"; font.family:"Consolas"; font.bold:true
                         font.pixelSize:Math.max(1,digitCell.height*0.95)
                         minimumPixelSize:1; fontSizeMode:Text.Fit
                         horizontalAlignment:Text.AlignHCenter; verticalAlignment:Text.AlignVCenter
@@ -95,6 +103,16 @@ BaseSceneComponent {
         }
         Rectangle { visible:root.style === "drum"; anchors.top:parent.top; width:parent.width; height:parent.height*0.12; color:"#000000"; opacity:0.3 }
         Rectangle { visible:root.style === "drum"; anchors.bottom:parent.bottom; width:parent.width; height:parent.height*0.1; color:"#000000"; opacity:0.3 }
+        Rectangle {
+            anchors.fill: parent
+            visible: root.blueDrum
+            gradient: Gradient {
+                GradientStop { position: 0; color: "#9a071520" }
+                GradientStop { position: 0.27; color: "#307ab3c5" }
+                GradientStop { position: 0.55; color: "transparent" }
+                GradientStop { position: 1; color: "#8507141c" }
+            }
+        }
     }
     Text {
         visible:root.labelText.length > 0

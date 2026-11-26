@@ -223,6 +223,29 @@
             "z": 1
         }
     ],
+    "Su27DrumPanel": [
+        {
+            "componentPath": "elements/Controls/Su27/Su27DrumSelector/Su27DrumPanel.qml",
+            "customProperties": {
+                "code": 13,
+                "spacing": 4,
+                "wave": 13
+            },
+            "height": 94.5,
+            "locked": false,
+            "name": "g6_drum_panel",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 136,
+            "subtype": "Su27DrumPanel",
+            "type": "Su27DrumPanel",
+            "width": 202.5,
+            "x": 716.85,
+            "y": 705.15,
+            "z": 0
+        }
+    ],
     "Su27KshIndicator": [
         {
             "componentPath": "elements/Controls/Su27/Su27KshIndicator/Su27KshIndicator.qml",
@@ -3416,6 +3439,146 @@
         }
     ],
     "Visual": [
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#423c35",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderWidth": 0,
+                "fontSize": 10,
+                "horizontalAlignment": 4,
+                "labelText": "ВОЛНА",
+                "padding": 0,
+                "textColor": "#fff4dc",
+                "verticalAlignment": 128
+            },
+            "height": 15,
+            "locked": false,
+            "name": "g6_knob_label_0",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 137,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 37,
+            "x": 862.375,
+            "y": 677.4,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#423c35",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderWidth": 0,
+                "fontSize": 10,
+                "horizontalAlignment": 4,
+                "labelText": "ШИФР",
+                "padding": 0,
+                "textColor": "#fff4dc",
+                "verticalAlignment": 128
+            },
+            "height": 15,
+            "locked": false,
+            "name": "g6_knob_label_1",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 138,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 36,
+            "x": 862.875,
+            "y": 742.6,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#423c35",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderWidth": 0,
+                "fontSize": 10,
+                "horizontalAlignment": 4,
+                "labelText": "РАЗНОС",
+                "padding": 0,
+                "textColor": "#fff4dc",
+                "verticalAlignment": 128
+            },
+            "height": 15,
+            "locked": false,
+            "name": "g6_knob_label_2",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 139,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 42,
+            "x": 859.875,
+            "y": 812.4,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#423c35",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderWidth": 0,
+                "fontSize": 10,
+                "horizontalAlignment": 4,
+                "labelText": "АЗС",
+                "padding": 0,
+                "textColor": "#fff4dc",
+                "verticalAlignment": 128
+            },
+            "height": 15,
+            "locked": false,
+            "name": "g6_knob_label_3",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 140,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 26,
+            "x": 759.2,
+            "y": 725.325,
+            "z": 0
+        },
+        {
+            "componentPath": "common_qml/GeneratedTextLabel.qml",
+            "customProperties": {
+                "backgroundColor": "#423c35",
+                "backgroundEnabled": true,
+                "backgroundOpacity": 1,
+                "borderWidth": 0,
+                "fontSize": 10,
+                "horizontalAlignment": 4,
+                "labelText": "ЗК",
+                "padding": 0,
+                "textColor": "#fff4dc",
+                "verticalAlignment": 128
+            },
+            "height": 15,
+            "locked": false,
+            "name": "g6_knob_label_4",
+            "opacity": 1,
+            "rotation": 90,
+            "scale": 1,
+            "stackingOrder": 141,
+            "subtype": "TextLabel",
+            "type": "Visual",
+            "width": 20,
+            "x": 762.2,
+            "y": 761.775,
+            "z": 0
+        },
         {
             "componentPath": "common_qml/GeneratedTextLabel.qml",
             "customProperties": {
